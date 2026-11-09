@@ -1,0 +1,630 @@
+{
+  "_comment": "Companies to check. 'verified' = board ID confirmed from a live posting; others are best guesses that the first run will confirm (see reports/latest.md, 'Companies that failed').",
+  "filters": {
+    "title_include": "strateg|operations|bizops|biz ops|fp&a|fp & a|financial planning|finance|chief of staff|planning|corporate development|transformation|business development|general manager|insights",
+    "level_include": "director|head of|head,|\\bhead\\b|\\bvp\\b|vice president|principal|\\blead\\b|chief of staff|senior manager|sr\\.? manager|general manager|\\bgm\\b",
+    "manager_ok_companies": [
+      "netflix",
+      "snap",
+      "airbnb"
+    ],
+    "title_exclude": "\\bengineer\\b|engineering manager|software|developer|scientist|accountant|accounting|\\btax\\b|payroll|intern\\b|internship|recruit|counsel|attorney|paralegal|legal|account executive|sales representative|sales development|customer success manager|designer|nurse|clinical|security operations|\\bit operations|data center|warehouse|facilities|technician|people operations|hr operations|payments operations analyst|\\bassociate\\b(?! director| vice president| general counsel)|coordinator|specialist|analyst\\b",
+    "la_terms": "los angeles|santa monica|culver city|burbank|glendale|playa vista|playa del rey|el segundo|hollywood|beverly hills|marina del rey|venice|pasadena|irvine|long beach|universal city|torrance|manhattan beach|\\bla\\b|southern california",
+    "us_remote_terms": "remote|anywhere|united states|\\busa\\b|\\bus\\b|u\\.s\\.|north america|americas|nationwide|distributed",
+    "non_us_terms": "canada|toronto|vancouver|london|united kingdom|\\buk\\b|ireland|dublin|india|bangalore|bengaluru|hyderabad|singapore|japan|tokyo|australia|sydney|germany|berlin|france|paris|netherlands|amsterdam|spain|madrid|poland|brazil|mexico|israel|tel aviv|korea|seoul|philippines|argentina|emea|apac|latam|europe",
+    "min_pay_top": 200000,
+    "target_pay_top": 220000
+  },
+  "search_terms": [
+    "strategy",
+    "operations",
+    "finance",
+    "FP&A",
+    "chief of staff",
+    "planning"
+  ],
+  "companies": [
+    {
+      "name": "Crunchyroll",
+      "ats": "greenhouse",
+      "id": "crunchyroll",
+      "sector": "Media",
+      "verified": true
+    },
+    {
+      "name": "DoorDash",
+      "ats": "greenhouse",
+      "id": "doordashusa",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "2K (Take-Two)",
+      "ats": "greenhouse",
+      "id": "2k",
+      "sector": "Games",
+      "verified": true
+    },
+    {
+      "name": "Affirm",
+      "ats": "greenhouse",
+      "id": "affirm",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Chainguard",
+      "ats": "greenhouse",
+      "id": "chainguard",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Engine",
+      "ats": "greenhouse",
+      "id": "engine",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Ethos",
+      "ats": "greenhouse",
+      "id": "ethoslife",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Fanatics Collectibles",
+      "ats": "greenhouse",
+      "id": "fanaticscollectibles",
+      "sector": "Experiences",
+      "verified": true
+    },
+    {
+      "name": "Figma",
+      "ats": "greenhouse",
+      "id": "figma",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "GitLab",
+      "ats": "greenhouse",
+      "id": "gitlab",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Motive",
+      "ats": "greenhouse",
+      "id": "gomotive",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Grafana Labs",
+      "ats": "greenhouse",
+      "id": "grafanalabs",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Headway",
+      "ats": "greenhouse",
+      "id": "headway",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Mesh",
+      "ats": "greenhouse",
+      "id": "mesh",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Metropolis",
+      "ats": "greenhouse",
+      "id": "metropolis",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Nametag",
+      "ats": "greenhouse",
+      "id": "nametag",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Reddit",
+      "ats": "greenhouse",
+      "id": "reddit",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Coursera",
+      "ats": "greenhouse",
+      "id": "sourcingcour",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Chime",
+      "ats": "greenhouse",
+      "id": "chime",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Cloudflare",
+      "ats": "greenhouse",
+      "id": "cloudflare",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Instacart",
+      "ats": "greenhouse",
+      "id": "instacart",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Pinterest",
+      "ats": "greenhouse",
+      "id": "pinterest",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Coinbase",
+      "ats": "greenhouse",
+      "id": "coinbase",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Block",
+      "ats": "greenhouse",
+      "id": "block",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Airbnb",
+      "ats": "greenhouse",
+      "id": "airbnb",
+      "sector": "Tech / travel",
+      "verified": true
+    },
+    {
+      "name": "Lyft",
+      "ats": "greenhouse",
+      "id": "lyft",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Riot Games",
+      "ats": "greenhouse",
+      "id": "riotgames",
+      "sector": "Games"
+    },
+    {
+      "name": "Roblox",
+      "ats": "greenhouse",
+      "id": "roblox",
+      "sector": "Games"
+    },
+    {
+      "name": "Epic Games",
+      "ats": "greenhouse",
+      "id": "epicgames",
+      "sector": "Games"
+    },
+    {
+      "name": "Discord",
+      "ats": "greenhouse",
+      "id": "discord",
+      "sector": "Tech"
+    },
+    {
+      "name": "Scopely",
+      "ats": "greenhouse",
+      "id": "scopely",
+      "sector": "Games"
+    },
+    {
+      "name": "Jam City",
+      "ats": "greenhouse",
+      "id": "jamcity",
+      "sector": "Games"
+    },
+    {
+      "name": "Niantic",
+      "ats": "greenhouse",
+      "id": "nianticlabs",
+      "sector": "Games"
+    },
+    {
+      "name": "PlayStation (Sony Interactive)",
+      "ats": "greenhouse",
+      "id": "sonyinteractiveentertainmentglobal",
+      "sector": "Games"
+    },
+    {
+      "name": "Sony Music",
+      "ats": "greenhouse",
+      "id": "sonymusicentertainment",
+      "sector": "Media / music"
+    },
+    {
+      "name": "Tubi",
+      "ats": "greenhouse",
+      "id": "tubitv",
+      "sector": "Media"
+    },
+    {
+      "name": "AEG",
+      "ats": "greenhouse",
+      "id": "aegworldwide",
+      "sector": "Experiences"
+    },
+    {
+      "name": "AXS",
+      "ats": "greenhouse",
+      "id": "axs",
+      "sector": "Experiences"
+    },
+    {
+      "name": "LA28",
+      "ats": "greenhouse",
+      "id": "la28careers",
+      "sector": "Experiences"
+    },
+    {
+      "name": "Cosm",
+      "ats": "greenhouse",
+      "id": "cosm",
+      "sector": "Experiences"
+    },
+    {
+      "name": "UTA",
+      "ats": "greenhouse",
+      "id": "uta",
+      "sector": "Media"
+    },
+    {
+      "name": "Legendary Entertainment",
+      "ats": "greenhouse",
+      "id": "legendary",
+      "sector": "Media"
+    },
+    {
+      "name": "Hasbro",
+      "ats": "greenhouse",
+      "id": "hasbro",
+      "sector": "Media / toys"
+    },
+    {
+      "name": "Match Group",
+      "ats": "greenhouse",
+      "id": "matchgroup",
+      "sector": "Tech"
+    },
+    {
+      "name": "StubHub",
+      "ats": "greenhouse",
+      "id": "stubhubinc",
+      "sector": "Experiences"
+    },
+    {
+      "name": "OpenTable",
+      "ats": "greenhouse",
+      "id": "opentable",
+      "sector": "Tech"
+    },
+    {
+      "name": "Stripe",
+      "ats": "greenhouse",
+      "id": "stripe",
+      "sector": "Tech"
+    },
+    {
+      "name": "Robinhood",
+      "ats": "greenhouse",
+      "id": "robinhood",
+      "sector": "Tech"
+    },
+    {
+      "name": "Anthropic",
+      "ats": "greenhouse",
+      "id": "anthropic",
+      "sector": "Tech / AI"
+    },
+    {
+      "name": "Databricks",
+      "ats": "greenhouse",
+      "id": "databricks",
+      "sector": "Tech"
+    },
+    {
+      "name": "Dropbox",
+      "ats": "greenhouse",
+      "id": "dropbox",
+      "sector": "Tech"
+    },
+    {
+      "name": "Duolingo",
+      "ats": "greenhouse",
+      "id": "duolingo",
+      "sector": "Tech"
+    },
+    {
+      "name": "Grammarly",
+      "ats": "greenhouse",
+      "id": "grammarly",
+      "sector": "Tech"
+    },
+    {
+      "name": "Samsara",
+      "ats": "greenhouse",
+      "id": "samsara",
+      "sector": "Tech"
+    },
+    {
+      "name": "Okta",
+      "ats": "greenhouse",
+      "id": "okta",
+      "sector": "Tech"
+    },
+    {
+      "name": "Twilio",
+      "ats": "greenhouse",
+      "id": "twilio",
+      "sector": "Tech"
+    },
+    {
+      "name": "Toast",
+      "ats": "greenhouse",
+      "id": "toast",
+      "sector": "Tech"
+    },
+    {
+      "name": "Gusto",
+      "ats": "greenhouse",
+      "id": "gusto",
+      "sector": "Tech"
+    },
+    {
+      "name": "Webflow",
+      "ats": "greenhouse",
+      "id": "webflow",
+      "sector": "Tech"
+    },
+    {
+      "name": "AppLovin",
+      "ats": "greenhouse",
+      "id": "applovin",
+      "sector": "Tech / games"
+    },
+    {
+      "name": "Hims & Hers",
+      "ats": "greenhouse",
+      "id": "himshers",
+      "sector": "Tech"
+    },
+    {
+      "name": "Waymo",
+      "ats": "greenhouse",
+      "id": "waymo",
+      "sector": "Tech"
+    },
+    {
+      "name": "Skydance",
+      "ats": "lever",
+      "id": "skydance",
+      "sector": "Media / games",
+      "verified": true
+    },
+    {
+      "name": "Spotify",
+      "ats": "lever",
+      "id": "spotify",
+      "sector": "Media / music"
+    },
+    {
+      "name": "Whatnot",
+      "ats": "ashby",
+      "id": "whatnot",
+      "sector": "Tech"
+    },
+    {
+      "name": "Rula",
+      "ats": "ashby",
+      "id": "rula",
+      "sector": "Tech"
+    },
+    {
+      "name": "Nirvana Insurance",
+      "ats": "ashby",
+      "id": "nirvana",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "OpenAI",
+      "ats": "ashby",
+      "id": "openai",
+      "sector": "Tech / AI"
+    },
+    {
+      "name": "Notion",
+      "ats": "ashby",
+      "id": "notion",
+      "sector": "Tech"
+    },
+    {
+      "name": "Ramp",
+      "ats": "ashby",
+      "id": "ramp",
+      "sector": "Tech"
+    },
+    {
+      "name": "ElevenLabs",
+      "ats": "ashby",
+      "id": "elevenlabs",
+      "sector": "Tech / AI"
+    },
+    {
+      "name": "Perplexity",
+      "ats": "ashby",
+      "id": "perplexity",
+      "sector": "Tech / AI"
+    },
+    {
+      "name": "Yahoo",
+      "ats": "workday",
+      "host": "ouryahoo.wd5.myworkdayjobs.com",
+      "tenant": "ouryahoo",
+      "site": "careers",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Universal Music Group",
+      "ats": "workday",
+      "host": "umusic.wd5.myworkdayjobs.com",
+      "tenant": "umusic",
+      "site": "UMGUS",
+      "sector": "Media / music",
+      "verified": true
+    },
+    {
+      "name": "Live Nation",
+      "ats": "workday",
+      "host": "livenation.wd503.myworkdayjobs.com",
+      "tenant": "livenation",
+      "site": "LNExternalSite",
+      "sector": "Experiences",
+      "verified": true
+    },
+    {
+      "name": "Workiva",
+      "ats": "workday",
+      "host": "workiva.wd503.myworkdayjobs.com",
+      "tenant": "workiva",
+      "site": "careers",
+      "sector": "Tech",
+      "verified": true
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "ats": "workday",
+      "host": "warnerbros.wd5.myworkdayjobs.com",
+      "tenant": "warnerbros",
+      "site": "global",
+      "sector": "Media"
+    },
+    {
+      "name": "Snap",
+      "ats": "workday",
+      "host": "snapchat.wd1.myworkdayjobs.com",
+      "tenant": "snapchat",
+      "site": "snap",
+      "sector": "Tech"
+    },
+    {
+      "name": "Sony Pictures",
+      "ats": "workday",
+      "host": "sonypictures.wd1.myworkdayjobs.com",
+      "tenant": "sonypictures",
+      "site": "External",
+      "sector": "Media"
+    },
+    {
+      "name": "WME / Endeavor",
+      "ats": "workday",
+      "host": "wmeimg.wd1.myworkdayjobs.com",
+      "tenant": "wmeimg",
+      "site": "WMEGRP",
+      "sector": "Media / experiences"
+    },
+    {
+      "name": "Zillow",
+      "ats": "workday",
+      "host": "zillow.wd5.myworkdayjobs.com",
+      "tenant": "zillow",
+      "site": "Zillow_Group_External",
+      "sector": "Tech"
+    },
+    {
+      "name": "ServiceTitan",
+      "ats": "workday",
+      "host": "servicetitan.wd1.myworkdayjobs.com",
+      "tenant": "servicetitan",
+      "site": "ServiceTitan",
+      "sector": "Tech"
+    },
+    {
+      "name": "GoodRx",
+      "ats": "workday",
+      "host": "goodrx.wd1.myworkdayjobs.com",
+      "tenant": "goodrx",
+      "site": "careers",
+      "sector": "Tech"
+    },
+    {
+      "name": "Disney",
+      "ats": "workday",
+      "host": "disney.wd5.myworkdayjobs.com",
+      "tenant": "disney",
+      "site": "disneycareer",
+      "sector": "Media / experiences"
+    },
+    {
+      "name": "Adobe",
+      "ats": "workday",
+      "host": "adobe.wd5.myworkdayjobs.com",
+      "tenant": "adobe",
+      "site": "external_experienced",
+      "sector": "Tech"
+    },
+    {
+      "name": "Salesforce",
+      "ats": "workday",
+      "host": "salesforce.wd12.myworkdayjobs.com",
+      "tenant": "salesforce",
+      "site": "External_Career_Site",
+      "sector": "Tech"
+    },
+    {
+      "name": "ServiceNow",
+      "ats": "smartrecruiters",
+      "id": "ServiceNow",
+      "sector": "Tech"
+    },
+    {
+      "name": "Netflix",
+      "ats": "netflix",
+      "sector": "Media",
+      "verified": true
+    }
+  ],
+  "not_covered_yet": [
+    "Google / YouTube",
+    "Apple",
+    "Microsoft",
+    "Amazon",
+    "Meta",
+    "Electronic Arts",
+    "Paramount Skydance",
+    "Fox",
+    "NBCUniversal",
+    "Atlassian",
+    "GoDaddy",
+    "Uber"
+  ]
+}
