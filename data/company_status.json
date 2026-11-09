@@ -1,428 +1,519 @@
 {
  "companies": {
   "2K (Take-Two)": {
-   "jobs_seen": 84,
-   "matches": 1,
+   "board": "greenhouse:2k",
+   "jobs_seen": 86,
+   "matches": 0,
    "ok": true
   },
   "AEG": {
-   "jobs_seen": 151,
+   "board": "greenhouse:aegworldwide",
+   "jobs_seen": 148,
    "matches": 1,
    "ok": true
   },
   "AXS": {
-   "jobs_seen": 29,
+   "board": "greenhouse:axs",
+   "jobs_seen": 27,
    "matches": 1,
    "ok": true
   },
   "Adobe": {
-   "jobs_seen": 199,
+   "board": "workday:adobe/external_experienced",
+   "jobs_seen": 200,
    "matches": 0,
    "ok": true
   },
   "Affirm": {
-   "jobs_seen": 219,
+   "board": "greenhouse:affirm",
+   "jobs_seen": 221,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
+   "board": "greenhouse:airbnb",
    "jobs_seen": 203,
-   "matches": 12,
+   "matches": 0,
    "ok": true
   },
   "Anthropic": {
-   "jobs_seen": 676,
+   "board": "greenhouse:anthropic",
+   "jobs_seen": 674,
    "matches": 0,
    "ok": true
   },
   "AppLovin": {
+   "board": "greenhouse:applovin",
    "jobs_seen": 41,
    "matches": 1,
    "ok": true
   },
   "Block": {
-   "jobs_seen": 198,
-   "matches": 7,
+   "board": "greenhouse:block",
+   "jobs_seen": 201,
+   "matches": 0,
    "ok": true
   },
   "Chainguard": {
-   "jobs_seen": 101,
+   "board": "greenhouse:chainguard",
+   "jobs_seen": 100,
    "matches": 1,
    "ok": true
   },
   "Chime": {
-   "jobs_seen": 71,
-   "matches": 1,
+   "board": "greenhouse:chime",
+   "jobs_seen": 67,
+   "matches": 0,
    "ok": true
   },
   "Cloudflare": {
-   "jobs_seen": 465,
-   "matches": 3,
+   "board": "greenhouse:cloudflare",
+   "jobs_seen": 464,
+   "matches": 1,
    "ok": true
   },
   "Coinbase": {
-   "jobs_seen": 283,
-   "matches": 4,
+   "board": "greenhouse:coinbase",
+   "jobs_seen": 284,
+   "matches": 3,
    "ok": true
   },
   "Cosm": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true",
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true",
    "ok": false
   },
   "Coursera": {
+   "board": "greenhouse:sourcingcour",
    "jobs_seen": 12,
    "matches": 0,
    "ok": true
   },
   "Crunchyroll": {
-   "jobs_seen": 102,
-   "matches": 9,
+   "board": "greenhouse:crunchyroll",
+   "jobs_seen": 104,
+   "matches": 4,
    "ok": true
   },
   "Databricks": {
-   "jobs_seen": 921,
-   "matches": 3,
+   "board": "greenhouse:databricks",
+   "jobs_seen": 918,
+   "matches": 1,
    "ok": true
   },
   "Discord": {
+   "board": "greenhouse:discord",
    "jobs_seen": 27,
    "matches": 0,
    "ok": true
   },
   "Disney": {
-   "jobs_seen": 64,
+   "board": "workday:disney/disneycareer",
+   "jobs_seen": 63,
    "matches": 1,
    "ok": true
   },
   "DoorDash": {
-   "jobs_seen": 439,
-   "matches": 11,
+   "board": "greenhouse:doordashusa",
+   "jobs_seen": 437,
+   "matches": 7,
    "ok": true
   },
   "Dropbox": {
+   "board": "greenhouse:dropbox",
    "jobs_seen": 33,
-   "matches": 1,
+   "matches": 0,
    "ok": true
   },
   "Duolingo": {
-   "jobs_seen": 59,
+   "board": "greenhouse:duolingo",
+   "jobs_seen": 61,
    "matches": 0,
    "ok": true
   },
   "ElevenLabs": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
+   "board": "ashby:elevenlabs",
+   "jobs_seen": 132,
+   "matches": 4,
+   "ok": true
   },
   "Engine": {
-   "jobs_seen": 78,
-   "matches": 7,
+   "board": "greenhouse:engine",
+   "jobs_seen": 77,
+   "matches": 6,
    "ok": true
   },
   "Epic Games": {
-   "jobs_seen": 131,
+   "board": "greenhouse:epicgames",
+   "jobs_seen": 130,
    "matches": 0,
    "ok": true
   },
   "Ethos": {
+   "board": "greenhouse:ethoslife",
    "jobs_seen": 74,
-   "matches": 2,
+   "matches": 1,
    "ok": true
   },
   "Fanatics Collectibles": {
+   "board": "greenhouse:fanaticscollectibles",
    "jobs_seen": 227,
-   "matches": 4,
+   "matches": 1,
    "ok": true
   },
   "Figma": {
+   "board": "greenhouse:figma",
    "jobs_seen": 146,
    "matches": 0,
    "ok": true
   },
   "GitLab": {
-   "jobs_seen": 249,
-   "matches": 3,
+   "board": "greenhouse:gitlab",
+   "jobs_seen": 252,
+   "matches": 1,
    "ok": true
   },
   "GoodRx": {
+   "board": "workday:goodrx/careers",
    "jobs_seen": 6,
    "matches": 0,
    "ok": true
   },
   "Grafana Labs": {
-   "jobs_seen": 132,
+   "board": "greenhouse:grafanalabs",
+   "jobs_seen": 139,
    "matches": 1,
    "ok": true
   },
   "Grammarly": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true",
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby",
    "ok": false
   },
   "Gusto": {
+   "board": "greenhouse:gusto",
    "jobs_seen": 79,
    "matches": 0,
    "ok": true
   },
   "Hasbro": {
-   "jobs_seen": 105,
-   "matches": 3,
+   "board": "greenhouse:hasbro",
+   "jobs_seen": 104,
+   "matches": 0,
    "ok": true
   },
   "Headway": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/headway/jobs?content=true",
-   "ok": false
+   "board": "ashby:headway",
+   "jobs_seen": 96,
+   "matches": 3,
+   "ok": true
   },
   "Hims & Hers": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/himshers/jobs?content=true",
-   "ok": false
+   "board": "ashby:hims-and-hers",
+   "jobs_seen": 147,
+   "matches": 1,
+   "ok": true
   },
   "Instacart": {
-   "jobs_seen": 89,
+   "board": "greenhouse:instacart",
+   "jobs_seen": 88,
    "matches": 2,
    "ok": true
   },
   "Jam City": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/jamcity/jobs?content=true",
-   "ok": false
+   "board": "lever:jamcity",
+   "jobs_seen": 15,
+   "matches": 0,
+   "ok": true
   },
   "LA28": {
+   "board": "greenhouse:la28careers",
    "jobs_seen": 42,
-   "matches": 1,
+   "matches": 0,
    "ok": true
   },
   "Legendary Entertainment": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true",
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap",
    "ok": false
   },
   "Live Nation": {
+   "board": "workday:livenation/LNExternalSite",
    "jobs_seen": 302,
-   "matches": 5,
+   "matches": 1,
    "ok": true
   },
   "Lyft": {
-   "jobs_seen": 160,
+   "board": "greenhouse:lyft",
+   "jobs_seen": 158,
    "matches": 0,
    "ok": true
   },
   "Match Group": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/matchgroup/jobs?content=true",
-   "ok": false
+   "board": "lever:matchgroup",
+   "jobs_seen": 71,
+   "matches": 0,
+   "ok": true
   },
   "Mesh": {
-   "jobs_seen": 25,
+   "board": "greenhouse:mesh",
+   "jobs_seen": 24,
    "matches": 1,
    "ok": true
   },
   "Metropolis": {
-   "jobs_seen": 95,
-   "matches": 4,
+   "board": "greenhouse:metropolis",
+   "jobs_seen": 94,
+   "matches": 1,
    "ok": true
   },
   "Motive": {
-   "jobs_seen": 183,
-   "matches": 8,
+   "board": "greenhouse:gomotive",
+   "jobs_seen": 185,
+   "matches": 2,
    "ok": true
   },
   "Nametag": {
+   "board": "greenhouse:nametag",
    "jobs_seen": 15,
    "matches": 1,
    "ok": true
   },
   "Netflix": {
+   "board": "netflix:/",
    "jobs_seen": 323,
-   "matches": 19,
+   "matches": 10,
    "ok": true
   },
   "Niantic": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true",
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json",
    "ok": false
   },
   "Nirvana Insurance": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
+   "board": "ashby:nirvana",
+   "jobs_seen": 8,
+   "matches": 2,
+   "ok": true
   },
   "Notion": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
+   "board": "ashby:notion",
+   "jobs_seen": 153,
+   "matches": 2,
+   "ok": true
   },
   "Okta": {
-   "jobs_seen": 376,
+   "board": "greenhouse:okta",
+   "jobs_seen": 378,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
+   "board": "ashby:openai",
+   "jobs_seen": 813,
+   "matches": 16,
+   "ok": true
   },
   "OpenTable": {
+   "board": "greenhouse:opentable",
    "jobs_seen": 112,
    "matches": 0,
    "ok": true
   },
   "Perplexity": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
-  },
-  "Pinterest": {
-   "jobs_seen": 167,
+   "board": "ashby:perplexity",
+   "jobs_seen": 136,
    "matches": 4,
    "ok": true
   },
+  "Pinterest": {
+   "board": "greenhouse:pinterest",
+   "jobs_seen": 168,
+   "matches": 3,
+   "ok": true
+  },
   "PlayStation (Sony Interactive)": {
-   "jobs_seen": 225,
-   "matches": 5,
+   "board": "greenhouse:sonyinteractiveentertainmentglobal",
+   "jobs_seen": 227,
+   "matches": 0,
    "ok": true
   },
   "Ramp": {
-   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
-   "ok": false
+   "board": "ashby:ramp",
+   "jobs_seen": 171,
+   "matches": 2,
+   "ok": true
   },
   "Reddit": {
+   "board": "greenhouse:reddit",
    "jobs_seen": 155,
    "matches": 1,
    "ok": true
   },
   "Riot Games": {
-   "jobs_seen": 186,
+   "board": "greenhouse:riotgames",
+   "jobs_seen": 189,
    "matches": 0,
    "ok": true
   },
   "Robinhood": {
-   "jobs_seen": 155,
+   "board": "greenhouse:robinhood",
+   "jobs_seen": 154,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
-   "jobs_seen": 268,
-   "matches": 3,
+   "board": "greenhouse:roblox",
+   "jobs_seen": 270,
+   "matches": 0,
    "ok": true
   },
   "Rula": {
-   "jobs_seen": 29,
-   "matches": 3,
+   "board": "ashby:rula",
+   "jobs_seen": 28,
+   "matches": 2,
    "ok": true
   },
   "Salesforce": {
-   "jobs_seen": 299,
-   "matches": 1,
+   "board": "workday:salesforce/External_Career_Site",
+   "jobs_seen": 302,
+   "matches": 0,
    "ok": true
   },
   "Samsara": {
+   "board": "greenhouse:samsara",
    "jobs_seen": 317,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
+   "board": "greenhouse:scopely",
    "jobs_seen": 173,
-   "matches": 6,
+   "matches": 2,
    "ok": true
   },
   "ServiceNow": {
-   "jobs_seen": 273,
-   "matches": 12,
+   "board": "smartrecruiters:ServiceNow",
+   "jobs_seen": 275,
+   "matches": 1,
    "ok": true
   },
   "ServiceTitan": {
-   "jobs_seen": 71,
+   "board": "workday:servicetitan/ServiceTitan",
+   "jobs_seen": 70,
    "matches": 1,
    "ok": true
   },
   "Skydance": {
+   "board": "lever:skydance",
    "jobs_seen": 8,
    "matches": 1,
    "ok": true
   },
   "Snap": {
-   "jobs_seen": 152,
-   "matches": 5,
+   "board": "workday:snapchat/snap",
+   "jobs_seen": 154,
+   "matches": 2,
    "ok": true
   },
   "Sony Music": {
+   "board": "greenhouse:sonymusicentertainment",
    "jobs_seen": 137,
    "matches": 0,
    "ok": true
   },
   "Sony Pictures": {
-   "error": "HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/External/jobs",
+   "error": "HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/External/jobs | HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/SonyPicturesCareers/jobs | HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/external/jobs | HTTP 42",
    "ok": false
   },
   "Spotify": {
+   "board": "lever:spotify",
    "jobs_seen": 85,
    "matches": 0,
    "ok": true
   },
   "Stripe": {
+   "board": "greenhouse:stripe",
    "jobs_seen": 771,
-   "matches": 1,
+   "matches": 0,
    "ok": true
   },
   "StubHub": {
-   "jobs_seen": 48,
+   "board": "greenhouse:stubhubinc",
+   "jobs_seen": 46,
    "matches": 0,
    "ok": true
   },
   "Toast": {
-   "jobs_seen": 338,
+   "board": "greenhouse:toast",
+   "jobs_seen": 336,
    "matches": 0,
    "ok": true
   },
   "Tubi": {
-   "jobs_seen": 25,
-   "matches": 1,
+   "board": "greenhouse:tubitv",
+   "jobs_seen": 23,
+   "matches": 0,
    "ok": true
   },
   "Twilio": {
+   "board": "greenhouse:twilio",
    "jobs_seen": 129,
-   "matches": 2,
+   "matches": 0,
    "ok": true
   },
   "UTA": {
-   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true",
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?",
    "ok": false
   },
   "Universal Music Group": {
+   "board": "workday:umusic/UMGUS",
    "jobs_seen": 36,
    "matches": 2,
    "ok": true
   },
   "WME / Endeavor": {
+   "board": "workday:wmeimg/WMEGRP",
    "jobs_seen": 23,
-   "matches": 2,
+   "matches": 1,
    "ok": true
   },
   "Warner Bros. Discovery": {
-   "jobs_seen": 163,
+   "board": "workday:warnerbros/global",
+   "jobs_seen": 160,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
-   "jobs_seen": 368,
-   "matches": 4,
-   "ok": true
-  },
-  "Webflow": {
-   "jobs_seen": 0,
+   "board": "greenhouse:waymo",
+   "jobs_seen": 373,
    "matches": 0,
    "ok": true
   },
+  "Webflow": {
+   "board": "ashby:webflow",
+   "jobs_seen": 22,
+   "matches": 1,
+   "ok": true
+  },
   "Whatnot": {
-   "error": "HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true",
+   "error": "HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev",
    "ok": false
   },
   "Workiva": {
+   "board": "workday:workiva/careers",
    "jobs_seen": 99,
-   "matches": 4,
+   "matches": 1,
    "ok": true
   },
   "Yahoo": {
+   "board": "workday:ouryahoo/careers",
    "jobs_seen": 87,
-   "matches": 5,
+   "matches": 2,
    "ok": true
   },
   "Zillow": {
-   "jobs_seen": 179,
-   "matches": 2,
+   "board": "workday:zillow/Zillow_Group_External",
+   "jobs_seen": 181,
+   "matches": 0,
    "ok": true
   }
  },
- "run": "2026-11-09T18:38Z"
+ "run": "2026-11-09T22:05Z"
 }
