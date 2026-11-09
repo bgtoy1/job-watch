@@ -1,0 +1,428 @@
+{
+ "companies": {
+  "2K (Take-Two)": {
+   "jobs_seen": 84,
+   "matches": 1,
+   "ok": true
+  },
+  "AEG": {
+   "jobs_seen": 151,
+   "matches": 1,
+   "ok": true
+  },
+  "AXS": {
+   "jobs_seen": 29,
+   "matches": 1,
+   "ok": true
+  },
+  "Adobe": {
+   "jobs_seen": 199,
+   "matches": 0,
+   "ok": true
+  },
+  "Affirm": {
+   "jobs_seen": 219,
+   "matches": 1,
+   "ok": true
+  },
+  "Airbnb": {
+   "jobs_seen": 203,
+   "matches": 12,
+   "ok": true
+  },
+  "Anthropic": {
+   "jobs_seen": 676,
+   "matches": 0,
+   "ok": true
+  },
+  "AppLovin": {
+   "jobs_seen": 41,
+   "matches": 1,
+   "ok": true
+  },
+  "Block": {
+   "jobs_seen": 198,
+   "matches": 7,
+   "ok": true
+  },
+  "Chainguard": {
+   "jobs_seen": 101,
+   "matches": 1,
+   "ok": true
+  },
+  "Chime": {
+   "jobs_seen": 71,
+   "matches": 1,
+   "ok": true
+  },
+  "Cloudflare": {
+   "jobs_seen": 465,
+   "matches": 3,
+   "ok": true
+  },
+  "Coinbase": {
+   "jobs_seen": 283,
+   "matches": 4,
+   "ok": true
+  },
+  "Cosm": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true",
+   "ok": false
+  },
+  "Coursera": {
+   "jobs_seen": 12,
+   "matches": 0,
+   "ok": true
+  },
+  "Crunchyroll": {
+   "jobs_seen": 102,
+   "matches": 9,
+   "ok": true
+  },
+  "Databricks": {
+   "jobs_seen": 921,
+   "matches": 3,
+   "ok": true
+  },
+  "Discord": {
+   "jobs_seen": 27,
+   "matches": 0,
+   "ok": true
+  },
+  "Disney": {
+   "jobs_seen": 64,
+   "matches": 1,
+   "ok": true
+  },
+  "DoorDash": {
+   "jobs_seen": 439,
+   "matches": 11,
+   "ok": true
+  },
+  "Dropbox": {
+   "jobs_seen": 33,
+   "matches": 1,
+   "ok": true
+  },
+  "Duolingo": {
+   "jobs_seen": 59,
+   "matches": 0,
+   "ok": true
+  },
+  "ElevenLabs": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "Engine": {
+   "jobs_seen": 78,
+   "matches": 7,
+   "ok": true
+  },
+  "Epic Games": {
+   "jobs_seen": 131,
+   "matches": 0,
+   "ok": true
+  },
+  "Ethos": {
+   "jobs_seen": 74,
+   "matches": 2,
+   "ok": true
+  },
+  "Fanatics Collectibles": {
+   "jobs_seen": 227,
+   "matches": 4,
+   "ok": true
+  },
+  "Figma": {
+   "jobs_seen": 146,
+   "matches": 0,
+   "ok": true
+  },
+  "GitLab": {
+   "jobs_seen": 249,
+   "matches": 3,
+   "ok": true
+  },
+  "GoodRx": {
+   "jobs_seen": 6,
+   "matches": 0,
+   "ok": true
+  },
+  "Grafana Labs": {
+   "jobs_seen": 132,
+   "matches": 1,
+   "ok": true
+  },
+  "Grammarly": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true",
+   "ok": false
+  },
+  "Gusto": {
+   "jobs_seen": 79,
+   "matches": 0,
+   "ok": true
+  },
+  "Hasbro": {
+   "jobs_seen": 105,
+   "matches": 3,
+   "ok": true
+  },
+  "Headway": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/headway/jobs?content=true",
+   "ok": false
+  },
+  "Hims & Hers": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/himshers/jobs?content=true",
+   "ok": false
+  },
+  "Instacart": {
+   "jobs_seen": 89,
+   "matches": 2,
+   "ok": true
+  },
+  "Jam City": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/jamcity/jobs?content=true",
+   "ok": false
+  },
+  "LA28": {
+   "jobs_seen": 42,
+   "matches": 1,
+   "ok": true
+  },
+  "Legendary Entertainment": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true",
+   "ok": false
+  },
+  "Live Nation": {
+   "jobs_seen": 302,
+   "matches": 5,
+   "ok": true
+  },
+  "Lyft": {
+   "jobs_seen": 160,
+   "matches": 0,
+   "ok": true
+  },
+  "Match Group": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/matchgroup/jobs?content=true",
+   "ok": false
+  },
+  "Mesh": {
+   "jobs_seen": 25,
+   "matches": 1,
+   "ok": true
+  },
+  "Metropolis": {
+   "jobs_seen": 95,
+   "matches": 4,
+   "ok": true
+  },
+  "Motive": {
+   "jobs_seen": 183,
+   "matches": 8,
+   "ok": true
+  },
+  "Nametag": {
+   "jobs_seen": 15,
+   "matches": 1,
+   "ok": true
+  },
+  "Netflix": {
+   "jobs_seen": 323,
+   "matches": 19,
+   "ok": true
+  },
+  "Niantic": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true",
+   "ok": false
+  },
+  "Nirvana Insurance": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "Notion": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "Okta": {
+   "jobs_seen": 376,
+   "matches": 0,
+   "ok": true
+  },
+  "OpenAI": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "OpenTable": {
+   "jobs_seen": 112,
+   "matches": 0,
+   "ok": true
+  },
+  "Perplexity": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "Pinterest": {
+   "jobs_seen": 167,
+   "matches": 4,
+   "ok": true
+  },
+  "PlayStation (Sony Interactive)": {
+   "jobs_seen": 225,
+   "matches": 5,
+   "ok": true
+  },
+  "Ramp": {
+   "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+   "ok": false
+  },
+  "Reddit": {
+   "jobs_seen": 155,
+   "matches": 1,
+   "ok": true
+  },
+  "Riot Games": {
+   "jobs_seen": 186,
+   "matches": 0,
+   "ok": true
+  },
+  "Robinhood": {
+   "jobs_seen": 155,
+   "matches": 0,
+   "ok": true
+  },
+  "Roblox": {
+   "jobs_seen": 268,
+   "matches": 3,
+   "ok": true
+  },
+  "Rula": {
+   "jobs_seen": 29,
+   "matches": 3,
+   "ok": true
+  },
+  "Salesforce": {
+   "jobs_seen": 299,
+   "matches": 1,
+   "ok": true
+  },
+  "Samsara": {
+   "jobs_seen": 317,
+   "matches": 0,
+   "ok": true
+  },
+  "Scopely": {
+   "jobs_seen": 173,
+   "matches": 6,
+   "ok": true
+  },
+  "ServiceNow": {
+   "jobs_seen": 273,
+   "matches": 12,
+   "ok": true
+  },
+  "ServiceTitan": {
+   "jobs_seen": 71,
+   "matches": 1,
+   "ok": true
+  },
+  "Skydance": {
+   "jobs_seen": 8,
+   "matches": 1,
+   "ok": true
+  },
+  "Snap": {
+   "jobs_seen": 152,
+   "matches": 5,
+   "ok": true
+  },
+  "Sony Music": {
+   "jobs_seen": 137,
+   "matches": 0,
+   "ok": true
+  },
+  "Sony Pictures": {
+   "error": "HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/External/jobs",
+   "ok": false
+  },
+  "Spotify": {
+   "jobs_seen": 85,
+   "matches": 0,
+   "ok": true
+  },
+  "Stripe": {
+   "jobs_seen": 771,
+   "matches": 1,
+   "ok": true
+  },
+  "StubHub": {
+   "jobs_seen": 48,
+   "matches": 0,
+   "ok": true
+  },
+  "Toast": {
+   "jobs_seen": 338,
+   "matches": 0,
+   "ok": true
+  },
+  "Tubi": {
+   "jobs_seen": 25,
+   "matches": 1,
+   "ok": true
+  },
+  "Twilio": {
+   "jobs_seen": 129,
+   "matches": 2,
+   "ok": true
+  },
+  "UTA": {
+   "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true",
+   "ok": false
+  },
+  "Universal Music Group": {
+   "jobs_seen": 36,
+   "matches": 2,
+   "ok": true
+  },
+  "WME / Endeavor": {
+   "jobs_seen": 23,
+   "matches": 2,
+   "ok": true
+  },
+  "Warner Bros. Discovery": {
+   "jobs_seen": 163,
+   "matches": 1,
+   "ok": true
+  },
+  "Waymo": {
+   "jobs_seen": 368,
+   "matches": 4,
+   "ok": true
+  },
+  "Webflow": {
+   "jobs_seen": 0,
+   "matches": 0,
+   "ok": true
+  },
+  "Whatnot": {
+   "error": "HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true",
+   "ok": false
+  },
+  "Workiva": {
+   "jobs_seen": 99,
+   "matches": 4,
+   "ok": true
+  },
+  "Yahoo": {
+   "jobs_seen": 87,
+   "matches": 5,
+   "ok": true
+  },
+  "Zillow": {
+   "jobs_seen": 179,
+   "matches": 2,
+   "ok": true
+  }
+ },
+ "run": "2026-11-09T18:38Z"
+}
