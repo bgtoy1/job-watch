@@ -186,7 +186,7 @@ def fetch_ashby(c, terms):
     for j in d.get("jobs", []):
         if j.get("isListed") is False:
             continue
-        locs = [j.get("location", "")] + [s.get("location", "") for s in j.get("secondaryLocations") or []]
+        locs = [j.get("location") or ""] + [(x.get("location") or "") for x in j.get("secondaryLocations") or []]
         loc = "; ".join(dict.fromkeys(l for l in locs if l))
         if j.get("isRemote") and "remote" not in loc.lower():
             loc = (loc + "; Remote").strip("; ")
@@ -196,7 +196,7 @@ def fetch_ashby(c, terms):
             if comp_part.get("compensationType") == "Salary" and comp_part.get("maxValue"):
                 pay = (int(comp_part.get("minValue") or 0), int(comp_part["maxValue"]))
         text = j.get("descriptionPlain") or ""
-        pay = pay or parse_pay(comp.get("compensationTierSummary", "") + " " + text)
+        pay = pay or parse_pay((comp.get("compensationTierSummary") or "") + " " + text)
         out.append(job(c, "ashby", j["id"], j.get("title"), loc, j.get("jobUrl"),
                        iso_date(j.get("publishedAt")), pay, text))
     return out
@@ -311,7 +311,8 @@ class Filters:
         self.lvl = re.compile(f["level_include"], flag)
         self.exc = re.compile(f["title_exclude"], flag)
         self.la = re.compile(f["la_terms"], flag)
-        self.us = re.compile(f["us_remote_terms"], flag)
+        self.remote = re.compile(f["remote_terms"], flag)
+        self.bare_us = re.compile(r"^\s*(us|u\.s\.|usa|united states( of america)?)\s*$", flag)
         self.non_us = re.compile(f["non_us_terms"], flag)
         self.mgr_ok = {x.lower() for x in f.get("manager_ok_companies", [])}
         self.min_top = f.get("min_pay_top", 0)
@@ -329,12 +330,16 @@ class Filters:
         loc = j["location"]
         if not loc:
             return True  # unknown: keep, the reviewer decides
-        parts = [p.strip() for p in re.split(r";|\|| or |\n", loc) if p.strip()]
+        parts = [p.strip() for p in re.split(r";|\||\bor\b|\n", loc) if p.strip()]
         for p in parts:
+            if self.non_us.search(p) and not self.la.search(p):
+                continue
             if self.la.search(p):
                 return True
-            if self.us.search(p) and not self.non_us.search(p):
-                return True
+            if self.remote.search(p):
+                return True  # remote / distributed, not tied to a non-US country
+            if self.bare_us.match(p):
+                return True  # "United States" with no city usually means remote or flexible
         return False
 
     def pay_ok(self, j):
@@ -385,30 +390,46 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
     terms = wl.get("search_terms", ["strategy"])
     state = load(os.path.join(DATA, "state.json"), {})
     first_run = not state
-    status, matches = {}, {}
+    status, matches, raw_keys = {}, {}, set()
 
     for c in wl["companies"]:
         if only and c["name"] not in only:
             continue
-        fetch = FETCHERS.get(c["ats"])
-        if not fetch:
-            continue
+        tries = [c] + [dict(c, **alt) for alt in c.get("try", [])]
+        jobs, used, errors = None, None, []
+        for t in tries:
+            fetch = FETCHERS.get(t["ats"])
+            if not fetch:
+                continue
+            try:
+                got = fetch(t, terms)
+            except Exception as e:
+                errors.append(str(e)[:200])
+                continue
+            if got or t is tries[-1]:
+                jobs, used = got, t
+                break
+            errors.append(f"{t['ats']}:{t.get('id') or t.get('site')} returned 0 jobs")
         try:
-            jobs = fetch(c, terms)
+            if jobs is None:
+                raise RuntimeError(" | ".join(errors) or "no fetcher")
             kept = []
+            raw_keys.update(j["key"] for j in jobs)
             for j in jobs:
                 if not flt.title_ok(j):
                     continue
                 if j["ats"] == "workday":
                     workday_detail(j)
                     if j.get("_closed"):
+                        raw_keys.discard(j["key"])
                         continue
                 if flt.location_ok(j) and flt.pay_ok(j):
                     kept.append(j)
             for j in kept:
                 j["pay_tag"] = flt.tag(j)
                 matches[j["key"]] = {k: v for k, v in j.items() if not k.startswith("_")}
-            status[c["name"]] = {"ok": True, "jobs_seen": len(jobs), "matches": len(kept)}
+            status[c["name"]] = {"ok": True, "jobs_seen": len(jobs), "matches": len(kept),
+                                 "board": f"{used['ats']}:{used.get('id') or used.get('tenant', '') + '/' + used.get('site', '')}"}
         except Exception as e:
             status[c["name"]] = {"ok": False, "error": str(e)[:300]}
         pause()
@@ -417,10 +438,10 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
     new, closed, events = [], [], []
     for key, j in matches.items():
         prev = state.get(key)
-        if prev is None or prev.get("status") == "closed":
+        if prev is None or prev.get("status") in ("closed", "filtered"):
             j["first_seen"] = ts
             new.append(j)
-            events.append({"ts": ts, "event": "reopened" if prev else "new", **j})
+            events.append({"ts": ts, "event": "reopened" if prev and prev.get("status") == "closed" else "new", **j})
         else:
             j["first_seen"] = prev.get("first_seen", ts)
             if not j.get("posted"):
@@ -430,6 +451,9 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
     ok_companies = {n for n, s in status.items() if s.get("ok")}
     for key, prev in state.items():
         if prev.get("status") == "open" and key not in matches and prev["company"] in ok_companies:
+            if key in raw_keys:
+                prev["status"] = "filtered"  # still posted, but no longer matches the filters
+                continue
             prev["status"], prev["closed_seen"] = "closed", ts
             closed.append(prev)
             events.append({"ts": ts, "event": "closed", **prev})

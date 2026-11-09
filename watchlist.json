@@ -1,19 +1,19 @@
 {
   "_comment": "Companies to check. 'verified' = board ID confirmed from a live posting; others are best guesses that the first run will confirm (see reports/latest.md, 'Companies that failed').",
   "filters": {
-    "title_include": "strateg|operations|bizops|biz ops|fp&a|fp & a|financial planning|finance|chief of staff|planning|corporate development|transformation|business development|general manager|insights",
+    "title_include": "strategy|strategies|strategic (finance|planning|initiatives|development|operations|programs)|business operations|bizops|biz ops|operations|fp&a|fp & a|financial planning|finance|chief of staff|planning|corporate development|transformation|business development|general manager|insights",
     "level_include": "director|head of|head,|\\bhead\\b|\\bvp\\b|vice president|principal|\\blead\\b|chief of staff|senior manager|sr\\.? manager|general manager|\\bgm\\b",
     "manager_ok_companies": [
       "netflix",
       "snap",
       "airbnb"
     ],
-    "title_exclude": "\\bengineer\\b|engineering manager|software|developer|scientist|accountant|accounting|\\btax\\b|payroll|intern\\b|internship|recruit|counsel|attorney|paralegal|legal|account executive|sales representative|sales development|customer success manager|designer|nurse|clinical|security operations|\\bit operations|data center|warehouse|facilities|technician|people operations|hr operations|payments operations analyst|\\bassociate\\b(?! director| vice president| general counsel)|coordinator|specialist|analyst\\b",
+    "title_exclude": "\\bengineer\\b|engineering manager|software|developer|scientist|accountant|accounting|\\btax\\b|payroll|intern\\b|internship|recruit|counsel|attorney|paralegal|legal|account executive|sales representative|sales development|customer success manager|designer|nurse|clinical|security operations|\\bit operations|data center|warehouse|facilities|technician|people operations|hr operations|payments operations analyst|\\bassociate\\b(?! director| vice president| general counsel)|coordinator|specialist|analyst\\b|\\bsales\\b(?! strategy| planning)|client director|account director|strategic accounts|regional vice president|alliances|deal desk|marketing|creative|influencer|\\bbrand\\b|communications|content strategy|campaign|law enforcement|forensic|incident response|fraud|treasury|accounts payable|\\bhr\\b|talent development|regulatory|capacity planning|data science|validation|workforce operations|live operations|manufacturing|retail store|venue|music hall|foundation room|technical director|product support|researcher|price realization|onboarding external|compliance|sortation|\\bevent\\b|user experience|field operations|demand strategy",
     "la_terms": "los angeles|santa monica|culver city|burbank|glendale|playa vista|playa del rey|el segundo|hollywood|beverly hills|marina del rey|venice|pasadena|irvine|long beach|universal city|torrance|manhattan beach|\\bla\\b|southern california",
-    "us_remote_terms": "remote|anywhere|united states|\\busa\\b|\\bus\\b|u\\.s\\.|north america|americas|nationwide|distributed",
     "non_us_terms": "canada|toronto|vancouver|london|united kingdom|\\buk\\b|ireland|dublin|india|bangalore|bengaluru|hyderabad|singapore|japan|tokyo|australia|sydney|germany|berlin|france|paris|netherlands|amsterdam|spain|madrid|poland|brazil|mexico|israel|tel aviv|korea|seoul|philippines|argentina|emea|apac|latam|europe",
-    "min_pay_top": 200000,
-    "target_pay_top": 220000
+    "min_pay_top": 220000,
+    "target_pay_top": 220000,
+    "remote_terms": "remote|anywhere|distributed|nationwide|virtual|work from home|wfh"
   },
   "search_terms": [
     "strategy",
@@ -113,7 +113,17 @@
       "ats": "greenhouse",
       "id": "headway",
       "sector": "Tech",
-      "verified": true
+      "verified": true,
+      "try": [
+        {
+          "ats": "ashby",
+          "id": "headway"
+        },
+        {
+          "ats": "lever",
+          "id": "headway"
+        }
+      ]
     },
     {
       "name": "Mesh",
@@ -240,13 +250,37 @@
       "name": "Jam City",
       "ats": "greenhouse",
       "id": "jamcity",
-      "sector": "Games"
+      "sector": "Games",
+      "try": [
+        {
+          "ats": "lever",
+          "id": "jamcity"
+        },
+        {
+          "ats": "ashby",
+          "id": "jamcity"
+        }
+      ]
     },
     {
       "name": "Niantic",
       "ats": "greenhouse",
       "id": "nianticlabs",
-      "sector": "Games"
+      "sector": "Games",
+      "try": [
+        {
+          "ats": "greenhouse",
+          "id": "niantic"
+        },
+        {
+          "ats": "ashby",
+          "id": "niantic"
+        },
+        {
+          "ats": "lever",
+          "id": "niantic"
+        }
+      ]
     },
     {
       "name": "PlayStation (Sony Interactive)",
@@ -288,19 +322,57 @@
       "name": "Cosm",
       "ats": "greenhouse",
       "id": "cosm",
-      "sector": "Experiences"
+      "sector": "Experiences",
+      "try": [
+        {
+          "ats": "lever",
+          "id": "cosm"
+        },
+        {
+          "ats": "ashby",
+          "id": "cosm"
+        }
+      ]
     },
     {
       "name": "UTA",
       "ats": "greenhouse",
       "id": "uta",
-      "sector": "Media"
+      "sector": "Media",
+      "try": [
+        {
+          "ats": "greenhouse",
+          "id": "unitedtalentagency"
+        },
+        {
+          "ats": "lever",
+          "id": "uta"
+        },
+        {
+          "ats": "ashby",
+          "id": "uta"
+        }
+      ]
     },
     {
       "name": "Legendary Entertainment",
       "ats": "greenhouse",
       "id": "legendary",
-      "sector": "Media"
+      "sector": "Media",
+      "try": [
+        {
+          "ats": "greenhouse",
+          "id": "legendaryentertainment"
+        },
+        {
+          "ats": "lever",
+          "id": "legendary"
+        },
+        {
+          "ats": "ashby",
+          "id": "legendary"
+        }
+      ]
     },
     {
       "name": "Hasbro",
@@ -312,7 +384,17 @@
       "name": "Match Group",
       "ats": "greenhouse",
       "id": "matchgroup",
-      "sector": "Tech"
+      "sector": "Tech",
+      "try": [
+        {
+          "ats": "lever",
+          "id": "matchgroup"
+        },
+        {
+          "ats": "ashby",
+          "id": "matchgroup"
+        }
+      ]
     },
     {
       "name": "StubHub",
@@ -366,7 +448,25 @@
       "name": "Grammarly",
       "ats": "greenhouse",
       "id": "grammarly",
-      "sector": "Tech"
+      "sector": "Tech",
+      "try": [
+        {
+          "ats": "greenhouse",
+          "id": "superhuman"
+        },
+        {
+          "ats": "ashby",
+          "id": "superhuman"
+        },
+        {
+          "ats": "ashby",
+          "id": "grammarly"
+        },
+        {
+          "ats": "lever",
+          "id": "grammarly"
+        }
+      ]
     },
     {
       "name": "Samsara",
@@ -402,7 +502,17 @@
       "name": "Webflow",
       "ats": "greenhouse",
       "id": "webflow",
-      "sector": "Tech"
+      "sector": "Tech",
+      "try": [
+        {
+          "ats": "ashby",
+          "id": "webflow"
+        },
+        {
+          "ats": "lever",
+          "id": "webflow"
+        }
+      ]
     },
     {
       "name": "AppLovin",
@@ -414,7 +524,21 @@
       "name": "Hims & Hers",
       "ats": "greenhouse",
       "id": "himshers",
-      "sector": "Tech"
+      "sector": "Tech",
+      "try": [
+        {
+          "ats": "ashby",
+          "id": "hims-and-hers"
+        },
+        {
+          "ats": "greenhouse",
+          "id": "hims-and-hers"
+        },
+        {
+          "ats": "lever",
+          "id": "hims"
+        }
+      ]
     },
     {
       "name": "Waymo",
@@ -439,7 +563,21 @@
       "name": "Whatnot",
       "ats": "ashby",
       "id": "whatnot",
-      "sector": "Tech"
+      "sector": "Tech",
+      "try": [
+        {
+          "ats": "ashby",
+          "id": "Whatnot"
+        },
+        {
+          "ats": "greenhouse",
+          "id": "whatnot"
+        },
+        {
+          "ats": "lever",
+          "id": "whatnot"
+        }
+      ]
     },
     {
       "name": "Rula",
@@ -542,7 +680,18 @@
       "host": "sonypictures.wd1.myworkdayjobs.com",
       "tenant": "sonypictures",
       "site": "External",
-      "sector": "Media"
+      "sector": "Media",
+      "try": [
+        {
+          "site": "SonyPicturesCareers"
+        },
+        {
+          "site": "external"
+        },
+        {
+          "site": "SPE"
+        }
+      ]
     },
     {
       "name": "WME / Endeavor",
