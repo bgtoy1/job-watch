@@ -677,21 +677,11 @@
     {
       "name": "Sony Pictures",
       "ats": "workday",
-      "host": "sonypictures.wd1.myworkdayjobs.com",
-      "tenant": "sonypictures",
-      "site": "External",
+      "host": "spe.wd1.myworkdayjobs.com",
+      "tenant": "spe",
+      "site": "SonyPicturesEntertainment",
       "sector": "Media",
-      "try": [
-        {
-          "site": "SonyPicturesCareers"
-        },
-        {
-          "site": "external"
-        },
-        {
-          "site": "SPE"
-        }
-      ]
+      "verified": true
     },
     {
       "name": "WME / Endeavor",
