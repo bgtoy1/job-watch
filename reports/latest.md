@@ -1,4 +1,4 @@
-# Job check 2026-11-10T07:38Z
+# Job check 2026-11-10T10:15Z
 
 ## New since last run (0)
 
@@ -15,7 +15,7 @@
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=30&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=0&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - Sony Pictures: HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/External/jobs | HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/SonyPicturesCareers/jobs | HTTP 422 for https://sonypictures.wd1.myworkdayjobs.com/wday/cxs/sonypictures/external/jobs | HTTP 42
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?

@@ -26,13 +26,13 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 219,
+   "jobs_seen": 216,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 205,
+   "jobs_seen": 206,
    "matches": 0,
    "ok": true
   },
@@ -68,7 +68,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 465,
+   "jobs_seen": 466,
    "matches": 1,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 915,
+   "jobs_seen": 920,
    "matches": 1,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 128,
+   "jobs_seen": 129,
    "matches": 3,
    "ok": true
   },
@@ -162,13 +162,13 @@
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 142,
+   "jobs_seen": 143,
    "matches": 0,
    "ok": true
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 253,
+   "jobs_seen": 254,
    "matches": 1,
    "ok": true
   },
@@ -226,7 +226,7 @@
   },
   "LA28": {
    "board": "greenhouse:la28careers",
-   "jobs_seen": 44,
+   "jobs_seen": 43,
    "matches": 0,
    "ok": true
   },
@@ -248,7 +248,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 71,
+   "jobs_seen": 72,
    "matches": 0,
    "ok": true
   },
@@ -277,7 +277,7 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=30&num=50",
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=0&num=50",
    "ok": false
   },
   "Niantic": {
@@ -304,7 +304,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 825,
+   "jobs_seen": 827,
    "matches": 16,
    "ok": true
   },
@@ -328,7 +328,7 @@
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 229,
+   "jobs_seen": 228,
    "matches": 0,
    "ok": true
   },
@@ -370,7 +370,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 303,
+   "jobs_seen": 302,
    "matches": 0,
    "ok": true
   },
@@ -388,7 +388,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 272,
+   "jobs_seen": 271,
    "matches": 2,
    "ok": true
   },
@@ -428,7 +428,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 771,
+   "jobs_seen": 774,
    "matches": 0,
    "ok": true
   },
@@ -452,7 +452,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 129,
+   "jobs_seen": 128,
    "matches": 0,
    "ok": true
   },
@@ -513,5 +513,5 @@
    "ok": true
   }
  },
- "run": "2026-11-10T07:38Z"
+ "run": "2026-11-10T10:15Z"
 }
