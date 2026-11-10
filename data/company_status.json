@@ -56,7 +56,7 @@
   },
   "Chainguard": {
    "board": "greenhouse:chainguard",
-   "jobs_seen": 100,
+   "jobs_seen": 101,
    "matches": 1,
    "ok": true
   },
@@ -68,7 +68,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 466,
+   "jobs_seen": 467,
    "matches": 1,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 920,
+   "jobs_seen": 919,
    "matches": 1,
    "ok": true
   },
@@ -114,7 +114,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 436,
+   "jobs_seen": 437,
    "matches": 7,
    "ok": true
   },
@@ -236,7 +236,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 301,
+   "jobs_seen": 302,
    "matches": 1,
    "ok": true
   },
@@ -266,7 +266,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 184,
+   "jobs_seen": 183,
    "matches": 2,
    "ok": true
   },
@@ -277,8 +277,10 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=0&num=50",
-   "ok": false
+   "board": "netflix:/",
+   "jobs_seen": 333,
+   "matches": 10,
+   "ok": true
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json",
@@ -304,7 +306,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 827,
+   "jobs_seen": 826,
    "matches": 16,
    "ok": true
   },
@@ -322,13 +324,13 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 171,
+   "jobs_seen": 167,
    "matches": 3,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 228,
+   "jobs_seen": 230,
    "matches": 0,
    "ok": true
   },
@@ -376,19 +378,19 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 314,
+   "jobs_seen": 313,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 172,
+   "jobs_seen": 171,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 271,
+   "jobs_seen": 270,
    "matches": 2,
    "ok": true
   },
@@ -406,13 +408,13 @@
   },
   "Snap": {
    "board": "workday:snapchat/snap",
-   "jobs_seen": 153,
+   "jobs_seen": 151,
    "matches": 2,
    "ok": true
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 137,
+   "jobs_seen": 136,
    "matches": 0,
    "ok": true
   },
@@ -428,7 +430,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 774,
+   "jobs_seen": 773,
    "matches": 0,
    "ok": true
   },
@@ -440,7 +442,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 334,
+   "jobs_seen": 331,
    "matches": 0,
    "ok": true
   },
@@ -486,7 +488,7 @@
   },
   "Webflow": {
    "board": "ashby:webflow",
-   "jobs_seen": 21,
+   "jobs_seen": 22,
    "matches": 1,
    "ok": true
   },
@@ -513,5 +515,5 @@
    "ok": true
   }
  },
- "run": "2026-11-10T10:15Z"
+ "run": "2026-11-10T13:29Z"
 }
