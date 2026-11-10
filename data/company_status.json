@@ -26,7 +26,7 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 221,
+   "jobs_seen": 219,
    "matches": 1,
    "ok": true
   },
@@ -50,7 +50,7 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 202,
+   "jobs_seen": 201,
    "matches": 0,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 914,
+   "jobs_seen": 915,
    "matches": 1,
    "ok": true
   },
@@ -108,7 +108,7 @@
   },
   "Disney": {
    "board": "workday:disney/disneycareer",
-   "jobs_seen": 60,
+   "jobs_seen": 59,
    "matches": 1,
    "ok": true
   },
@@ -162,13 +162,13 @@
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 143,
+   "jobs_seen": 142,
    "matches": 0,
    "ok": true
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 252,
+   "jobs_seen": 253,
    "matches": 1,
    "ok": true
   },
@@ -266,7 +266,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 183,
+   "jobs_seen": 184,
    "matches": 2,
    "ok": true
   },
@@ -277,10 +277,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:/",
-   "jobs_seen": 331,
-   "matches": 10,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=30&num=50",
+   "ok": false
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json",
@@ -312,7 +310,7 @@
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 112,
+   "jobs_seen": 114,
    "matches": 0,
    "ok": true
   },
@@ -324,13 +322,13 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 170,
+   "jobs_seen": 171,
    "matches": 3,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 228,
+   "jobs_seen": 229,
    "matches": 0,
    "ok": true
   },
@@ -360,7 +358,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 272,
+   "jobs_seen": 273,
    "matches": 0,
    "ok": true
   },
@@ -372,7 +370,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 304,
+   "jobs_seen": 303,
    "matches": 0,
    "ok": true
   },
@@ -396,7 +394,7 @@
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 71,
+   "jobs_seen": 70,
    "matches": 1,
    "ok": true
   },
@@ -430,7 +428,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 772,
+   "jobs_seen": 771,
    "matches": 0,
    "ok": true
   },
@@ -442,7 +440,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 333,
+   "jobs_seen": 334,
    "matches": 0,
    "ok": true
   },
@@ -476,13 +474,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 160,
+   "jobs_seen": 159,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 379,
+   "jobs_seen": 378,
    "matches": 0,
    "ok": true
   },
@@ -515,5 +513,5 @@
    "ok": true
   }
  },
- "run": "2026-11-10T04:14Z"
+ "run": "2026-11-10T07:38Z"
 }
