@@ -8,7 +8,7 @@
   },
   "AEG": {
    "board": "greenhouse:aegworldwide",
-   "jobs_seen": 148,
+   "jobs_seen": 147,
    "matches": 1,
    "ok": true
   },
@@ -32,13 +32,13 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 203,
+   "jobs_seen": 205,
    "matches": 0,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 672,
+   "jobs_seen": 676,
    "matches": 0,
    "ok": true
   },
@@ -90,13 +90,13 @@
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 104,
+   "jobs_seen": 103,
    "matches": 4,
    "ok": true
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 915,
+   "jobs_seen": 914,
    "matches": 1,
    "ok": true
   },
@@ -162,7 +162,7 @@
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 145,
+   "jobs_seen": 143,
    "matches": 0,
    "ok": true
   },
@@ -196,13 +196,13 @@
   },
   "Hasbro": {
    "board": "greenhouse:hasbro",
-   "jobs_seen": 104,
+   "jobs_seen": 103,
    "matches": 0,
    "ok": true
   },
   "Headway": {
    "board": "ashby:headway",
-   "jobs_seen": 95,
+   "jobs_seen": 94,
    "matches": 3,
    "ok": true
   },
@@ -236,7 +236,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 302,
+   "jobs_seen": 301,
    "matches": 1,
    "ok": true
   },
@@ -266,7 +266,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 184,
+   "jobs_seen": 183,
    "matches": 2,
    "ok": true
   },
@@ -278,7 +278,7 @@
   },
   "Netflix": {
    "board": "netflix:/",
-   "jobs_seen": 330,
+   "jobs_seen": 331,
    "matches": 10,
    "ok": true
   },
@@ -300,19 +300,19 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 378,
+   "jobs_seen": 379,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 822,
+   "jobs_seen": 825,
    "matches": 16,
    "ok": true
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 111,
+   "jobs_seen": 112,
    "matches": 0,
    "ok": true
   },
@@ -336,7 +336,7 @@
   },
   "Ramp": {
    "board": "ashby:ramp",
-   "jobs_seen": 171,
+   "jobs_seen": 172,
    "matches": 2,
    "ok": true
   },
@@ -348,7 +348,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 189,
+   "jobs_seen": 190,
    "matches": 0,
    "ok": true
   },
@@ -372,7 +372,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 303,
+   "jobs_seen": 304,
    "matches": 0,
    "ok": true
   },
@@ -390,7 +390,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 274,
+   "jobs_seen": 272,
    "matches": 2,
    "ok": true
   },
@@ -442,7 +442,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 335,
+   "jobs_seen": 333,
    "matches": 0,
    "ok": true
   },
@@ -464,7 +464,7 @@
   },
   "Universal Music Group": {
    "board": "workday:umusic/UMGUS",
-   "jobs_seen": 36,
+   "jobs_seen": 35,
    "matches": 2,
    "ok": true
   },
@@ -510,10 +510,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 181,
+   "jobs_seen": 182,
    "matches": 0,
    "ok": true
   }
  },
- "run": "2026-11-10T01:28Z"
+ "run": "2026-11-10T04:14Z"
 }

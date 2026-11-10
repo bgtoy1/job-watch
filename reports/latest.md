@@ -1,16 +1,14 @@
-# Job check 2026-11-10T01:28Z
+# Job check 2026-11-10T04:14Z
 
-## New since last run (1)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-09 | ServiceNow | [Sr. Manager, Social Strategy](https://jobs.smartrecruiters.com/ServiceNow/744000160738130) | New York, New York, United States; Remote | — |
-
-## Closed since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-03 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (7)
 
