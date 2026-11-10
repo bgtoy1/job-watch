@@ -1,4 +1,4 @@
-# Job check 2026-11-10T13:29Z
+# Job check 2026-11-10T16:13Z
 
 ## New since last run (0)
 
@@ -24,14 +24,14 @@
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-10 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
+| 2026-11-10 | Snap | [Manager, Finance](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/Manager--Finance_R0047410-1) | Los Angeles, California | $173–259K |
 | 2026-11-09 | ServiceNow | [Sr. Manager, Social Strategy](https://jobs.smartrecruiters.com/ServiceNow/744000160738130) | New York, New York, United States; Remote | — |
 | 2026-11-06 | ServiceTitan | [Senior Manager, Enterprise Strategy & Operations](https://servicetitan.wd1.myworkdayjobs.com/en-US/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967) | Glendale, CA | $180–270K |
 | 2026-11-04 | Rula | [Head of Provider Growth Strategy & Operations](https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c) | Remote - United States | $248–294K |
 | 2026-11-03 | Ramp | [Senior Manager, Customer Experience Strategy & Operations](https://jobs.ashbyhq.com/ramp/fe280d10-4258-420a-b0bb-0dc9021bd803) | New York, NY (HQ); San Francisco, CA; Remote (US) | $175–250K |
 | 2026-11-03 | DoorDash | [Director, Strategy & Operations (DashOS)](https://job-boards.greenhouse.io/doordashusa/jobs/8319022) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $197–290K |
 | 2026-11-02 | Cloudflare | [Principal, GTM Business Operations Manager](https://boards.greenhouse.io/cloudflare/jobs/8328820?gh_jid=8328820) | Distributed; Hybrid | $174–240K |
-| 2026-11-02 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
-| 2026-11-02 | Snap | [Manager, Finance](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/Manager--Finance_R0047410-1) | Los Angeles, California | $173–259K |
 | 2026-11-01 | ElevenLabs | [Finance Systems Lead](https://jobs.ashbyhq.com/ElevenLabs/a435a526-e2b3-4fcf-a732-0e70864178bb) | United Kingdom; Belgium; Poland; France; Remote | — |
 | 2026-10-30 | Webflow | [Director, EPD Operations](https://jobs.ashbyhq.com/webflow/ee79ec93-dc5d-4b28-85d0-1f0555eb552b) | United States; Remote | — |
 | 2026-10-30 | Pinterest | [Business Development Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8119896) | San Francisco, CA, US; Remote, US | $132–272K |

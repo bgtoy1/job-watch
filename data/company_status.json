@@ -26,19 +26,19 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 216,
+   "jobs_seen": 214,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 206,
+   "jobs_seen": 204,
    "matches": 0,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 676,
+   "jobs_seen": 675,
    "matches": 0,
    "ok": true
   },
@@ -50,13 +50,13 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 201,
+   "jobs_seen": 200,
    "matches": 0,
    "ok": true
   },
   "Chainguard": {
    "board": "greenhouse:chainguard",
-   "jobs_seen": 101,
+   "jobs_seen": 104,
    "matches": 1,
    "ok": true
   },
@@ -68,7 +68,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 467,
+   "jobs_seen": 470,
    "matches": 1,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 919,
+   "jobs_seen": 916,
    "matches": 1,
    "ok": true
   },
@@ -114,7 +114,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 437,
+   "jobs_seen": 438,
    "matches": 7,
    "ok": true
   },
@@ -156,7 +156,7 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 227,
+   "jobs_seen": 225,
    "matches": 1,
    "ok": true
   },
@@ -180,7 +180,7 @@
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 138,
+   "jobs_seen": 139,
    "matches": 1,
    "ok": true
   },
@@ -190,13 +190,13 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 80,
+   "jobs_seen": 79,
    "matches": 0,
    "ok": true
   },
   "Hasbro": {
    "board": "greenhouse:hasbro",
-   "jobs_seen": 103,
+   "jobs_seen": 104,
    "matches": 0,
    "ok": true
   },
@@ -214,7 +214,7 @@
   },
   "Instacart": {
    "board": "greenhouse:instacart",
-   "jobs_seen": 90,
+   "jobs_seen": 88,
    "matches": 2,
    "ok": true
   },
@@ -242,19 +242,19 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 156,
+   "jobs_seen": 157,
    "matches": 0,
    "ok": true
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 72,
+   "jobs_seen": 71,
    "matches": 0,
    "ok": true
   },
   "Mesh": {
    "board": "greenhouse:mesh",
-   "jobs_seen": 23,
+   "jobs_seen": 22,
    "matches": 1,
    "ok": true
   },
@@ -294,43 +294,43 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 153,
+   "jobs_seen": 152,
    "matches": 2,
    "ok": true
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 379,
+   "jobs_seen": 377,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 826,
+   "jobs_seen": 827,
    "matches": 16,
    "ok": true
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 114,
+   "jobs_seen": 113,
    "matches": 0,
    "ok": true
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 136,
+   "jobs_seen": 137,
    "matches": 4,
    "ok": true
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 167,
+   "jobs_seen": 166,
    "matches": 3,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 230,
+   "jobs_seen": 233,
    "matches": 0,
    "ok": true
   },
@@ -348,7 +348,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 190,
+   "jobs_seen": 188,
    "matches": 0,
    "ok": true
   },
@@ -384,19 +384,19 @@
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 171,
+   "jobs_seen": 168,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 270,
+   "jobs_seen": 268,
    "matches": 2,
    "ok": true
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 70,
+   "jobs_seen": 71,
    "matches": 1,
    "ok": true
   },
@@ -408,7 +408,7 @@
   },
   "Snap": {
    "board": "workday:snapchat/snap",
-   "jobs_seen": 151,
+   "jobs_seen": 152,
    "matches": 2,
    "ok": true
   },
@@ -424,7 +424,7 @@
   },
   "Spotify": {
    "board": "lever:spotify",
-   "jobs_seen": 85,
+   "jobs_seen": 87,
    "matches": 0,
    "ok": true
   },
@@ -436,13 +436,13 @@
   },
   "StubHub": {
    "board": "greenhouse:stubhubinc",
-   "jobs_seen": 46,
+   "jobs_seen": 47,
    "matches": 0,
    "ok": true
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 331,
+   "jobs_seen": 332,
    "matches": 0,
    "ok": true
   },
@@ -454,7 +454,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 128,
+   "jobs_seen": 126,
    "matches": 0,
    "ok": true
   },
@@ -504,16 +504,16 @@
   },
   "Yahoo": {
    "board": "workday:ouryahoo/careers",
-   "jobs_seen": 85,
+   "jobs_seen": 84,
    "matches": 2,
    "ok": true
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 182,
+   "jobs_seen": 181,
    "matches": 0,
    "ok": true
   }
  },
- "run": "2026-11-10T13:29Z"
+ "run": "2026-11-10T16:13Z"
 }
