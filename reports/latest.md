@@ -1,29 +1,27 @@
-# Job check 2026-11-11T01:28Z
+# Job check 2026-11-11T04:20Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (3)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
-| 2026-10-30 | Pinterest | [Business Development Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8119896) | San Francisco, CA, US; Remote, US | $132–272K |
-| 2026-11-06 | ServiceTitan | [Senior Manager, Enterprise Strategy & Operations](https://servicetitan.wd1.myworkdayjobs.com/en-US/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967) | Glendale, CA | $180–270K |
+| 2026-08-14 | Coinbase | [Chief of Staff](https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316) | Remote - USA | $212–250K |
 
 ## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=chief%20of%20staff&start=10&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=90&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (104)
+## All open matches (103)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -115,7 +113,6 @@
 | 2026-08-28 | Nametag | [VP of Operations](https://job-boards.greenhouse.io/nametag/jobs/4386013009) | Remote | — |
 | 2026-08-27 | Engine | [Senior Director, Client Operations](https://job-boards.greenhouse.io/engine/jobs/7931252003) | Remote - US | $192–266K |
 | 2026-08-19 | OpenAI | [Hardware Finance Sr. Manager](https://jobs.ashbyhq.com/openai/ccd3c68b-5860-40b5-9aff-e99da9aa669c) | San Francisco; Remote | $234–260K |
-| 2026-08-14 | Coinbase | [Chief of Staff](https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316) | Remote - USA | $212–250K |
 | 2026-08-11 | Netflix | [Manager, Studio Finance & Strategy](https://explore.jobs.netflix.net/careers/job/790317761054) | Los Angeles,California,United States of America | — |
 | 2026-08-06 | Instacart | [Chief of Staff, Online Grocery](https://instacart.careers/job/?gh_jid=8112136) | United States - Remote | $239–252K |
 | 2026-08-03 | Netflix | [Head of Production Finance- Ink](https://explore.jobs.netflix.net/careers/job/790317630104) | Los Angeles,California,United States of America | — |

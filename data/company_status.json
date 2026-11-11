@@ -20,25 +20,25 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 199,
+   "jobs_seen": 200,
    "matches": 0,
    "ok": true
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 209,
+   "jobs_seen": 207,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 202,
+   "jobs_seen": 201,
    "matches": 0,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 679,
+   "jobs_seen": 678,
    "matches": 0,
    "ok": true
   },
@@ -75,7 +75,7 @@
   "Coinbase": {
    "board": "greenhouse:coinbase",
    "jobs_seen": 286,
-   "matches": 3,
+   "matches": 2,
    "ok": true
   },
   "Cosm": {
@@ -108,7 +108,7 @@
   },
   "Disney": {
    "board": "workday:disney/disneycareer",
-   "jobs_seen": 53,
+   "jobs_seen": 47,
    "matches": 1,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 131,
+   "jobs_seen": 130,
    "matches": 3,
    "ok": true
   },
@@ -150,7 +150,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 74,
+   "jobs_seen": 75,
    "matches": 1,
    "ok": true
   },
@@ -162,7 +162,7 @@
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 144,
+   "jobs_seen": 142,
    "matches": 0,
    "ok": true
   },
@@ -190,7 +190,7 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 81,
+   "jobs_seen": 80,
    "matches": 0,
    "ok": true
   },
@@ -248,7 +248,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 69,
+   "jobs_seen": 68,
    "matches": 0,
    "ok": true
   },
@@ -277,7 +277,7 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=chief%20of%20staff&start=10&num=50",
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=90&num=50",
    "ok": false
   },
   "Niantic": {
@@ -298,13 +298,13 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 379,
+   "jobs_seen": 380,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 828,
+   "jobs_seen": 827,
    "matches": 16,
    "ok": true
   },
@@ -316,7 +316,7 @@
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 135,
+   "jobs_seen": 136,
    "matches": 4,
    "ok": true
   },
@@ -346,7 +346,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 188,
+   "jobs_seen": 190,
    "matches": 0,
    "ok": true
   },
@@ -358,7 +358,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 278,
+   "jobs_seen": 277,
    "matches": 0,
    "ok": true
   },
@@ -370,13 +370,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 294,
+   "jobs_seen": 295,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 315,
+   "jobs_seen": 316,
    "matches": 0,
    "ok": true
   },
@@ -388,7 +388,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 263,
+   "jobs_seen": 260,
    "matches": 2,
    "ok": true
   },
@@ -430,7 +430,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 778,
+   "jobs_seen": 780,
    "matches": 0,
    "ok": true
   },
@@ -515,5 +515,5 @@
    "ok": true
   }
  },
- "run": "2026-11-11T01:28Z"
+ "run": "2026-11-11T04:20Z"
 }
