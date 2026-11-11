@@ -2,7 +2,7 @@
  "companies": {
   "2K (Take-Two)": {
    "board": "greenhouse:2k",
-   "jobs_seen": 89,
+   "jobs_seen": 90,
    "matches": 0,
    "ok": true
   },
@@ -14,13 +14,13 @@
   },
   "AXS": {
    "board": "greenhouse:axs",
-   "jobs_seen": 27,
+   "jobs_seen": 26,
    "matches": 1,
    "ok": true
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 192,
+   "jobs_seen": 193,
    "matches": 0,
    "ok": true
   },
@@ -38,7 +38,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 675,
+   "jobs_seen": 674,
    "matches": 0,
    "ok": true
   },
@@ -50,7 +50,7 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 196,
+   "jobs_seen": 193,
    "matches": 0,
    "ok": true
   },
@@ -90,7 +90,7 @@
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 103,
+   "jobs_seen": 100,
    "matches": 4,
    "ok": true
   },
@@ -114,7 +114,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 441,
+   "jobs_seen": 439,
    "matches": 7,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 130,
+   "jobs_seen": 129,
    "matches": 3,
    "ok": true
   },
@@ -144,7 +144,7 @@
   },
   "Epic Games": {
    "board": "greenhouse:epicgames",
-   "jobs_seen": 133,
+   "jobs_seen": 134,
    "matches": 0,
    "ok": true
   },
@@ -208,13 +208,13 @@
   },
   "Hims & Hers": {
    "board": "ashby:hims-and-hers",
-   "jobs_seen": 146,
+   "jobs_seen": 145,
    "matches": 1,
    "ok": true
   },
   "Instacart": {
    "board": "greenhouse:instacart",
-   "jobs_seen": 91,
+   "jobs_seen": 89,
    "matches": 2,
    "ok": true
   },
@@ -236,19 +236,19 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 303,
+   "jobs_seen": 304,
    "matches": 1,
    "ok": true
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 154,
+   "jobs_seen": 155,
    "matches": 0,
    "ok": true
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 67,
+   "jobs_seen": 66,
    "matches": 0,
    "ok": true
   },
@@ -266,7 +266,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 182,
+   "jobs_seen": 181,
    "matches": 2,
    "ok": true
   },
@@ -278,7 +278,7 @@
   },
   "Netflix": {
    "board": "netflix:/",
-   "jobs_seen": 334,
+   "jobs_seen": 337,
    "matches": 11,
    "ok": true
   },
@@ -300,13 +300,13 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 378,
+   "jobs_seen": 375,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 822,
+   "jobs_seen": 820,
    "matches": 16,
    "ok": true
   },
@@ -324,7 +324,7 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 163,
+   "jobs_seen": 162,
    "matches": 2,
    "ok": true
   },
@@ -342,25 +342,25 @@
   },
   "Reddit": {
    "board": "greenhouse:reddit",
-   "jobs_seen": 157,
+   "jobs_seen": 153,
    "matches": 1,
    "ok": true
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 196,
+   "jobs_seen": 198,
    "matches": 0,
    "ok": true
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
-   "jobs_seen": 156,
+   "jobs_seen": 155,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 276,
+   "jobs_seen": 275,
    "matches": 0,
    "ok": true
   },
@@ -372,7 +372,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 294,
+   "jobs_seen": 289,
    "matches": 1,
    "ok": true
   },
@@ -414,7 +414,7 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 135,
+   "jobs_seen": 134,
    "matches": 0,
    "ok": true
   },
@@ -432,13 +432,13 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 780,
+   "jobs_seen": 785,
    "matches": 0,
    "ok": true
   },
   "StubHub": {
    "board": "greenhouse:stubhubinc",
-   "jobs_seen": 48,
+   "jobs_seen": 49,
    "matches": 0,
    "ok": true
   },
@@ -450,7 +450,7 @@
   },
   "Tubi": {
    "board": "greenhouse:tubitv",
-   "jobs_seen": 24,
+   "jobs_seen": 23,
    "matches": 0,
    "ok": true
   },
@@ -500,7 +500,7 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 96,
+   "jobs_seen": 97,
    "matches": 1,
    "ok": true
   },
@@ -512,10 +512,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 181,
+   "jobs_seen": 180,
    "matches": 0,
    "ok": true
   }
  },
- "run": "2026-11-11T19:24Z"
+ "run": "2026-11-11T22:36Z"
 }

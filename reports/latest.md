@@ -1,16 +1,14 @@
-# Job check 2026-11-11T19:24Z
+# Job check 2026-11-11T22:36Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (2)
+## Closed since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-09-03 | Skydance | [VP, Head of Strategy & Business Operations](https://jobs.lever.co/skydance/a4d11f5d-8f4b-4d18-b07f-0c131e4fdaa8) | Los Angeles | $250–325K |
-| 2026-10-11 | Disney | [Product Strategy and Operations Director](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/San-Francisco-CA-USA/Director---Strategy---Operations--Product---Technology_10151060-1) | 2 Locations; San Francisco, CA, USA; Glendale, CA, USA | $231–309K |
 
 ## Companies that failed (6)
 
