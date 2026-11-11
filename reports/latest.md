@@ -1,14 +1,16 @@
-# Job check 2026-11-11T16:14Z
+# Job check 2026-11-11T19:24Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-09-03 | Skydance | [VP, Head of Strategy & Business Operations](https://jobs.lever.co/skydance/a4d11f5d-8f4b-4d18-b07f-0c131e4fdaa8) | Los Angeles | $250–325K |
+| 2026-10-11 | Disney | [Product Strategy and Operations Director](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/San-Francisco-CA-USA/Director---Strategy---Operations--Product---Technology_10151060-1) | 2 Locations; San Francisco, CA, USA; Glendale, CA, USA | $231–309K |
 
 ## Companies that failed (6)
 
@@ -19,7 +21,7 @@
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (104)
+## All open matches (102)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -78,7 +80,6 @@
 | 2026-10-12 | Crunchyroll | [Vice President, Commercial Planning](https://boards.greenhouse.io/crunchyroll/jobs/8255544?gh_jid=8255544) | Los Angeles, California, United States | $259–324K |
 | 2026-10-12 | DoorDash | [Senior Manager, Strategy & Operations - Dasher Financial](https://job-boards.greenhouse.io/doordashusa/jobs/8273925) | Austin, TX; Washington D.C.; Seattle, WA; Los Angeles, CA; C | $170–250K |
 | 2026-10-12 | Engine | [VP, Finance](https://job-boards.greenhouse.io/engine/jobs/8017188003) | Remote - US | $300–375K |
-| 2026-10-11 | Disney | [Product Strategy and Operations Director](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/San-Francisco-CA-USA/Director---Strategy---Operations--Product---Technology_10151060-1) | 2 Locations; San Francisco, CA, USA; Glendale, CA, USA | $231–309K |
 | 2026-10-10 | Netflix | [Senior Manager, Strategy and Operations (Games)](https://explore.jobs.netflix.net/careers/job/790318883368) | Los Angeles,California,United States of America | — |
 | 2026-10-09 | ElevenLabs | [Lead Generation Strategy and Operations](https://jobs.ashbyhq.com/ElevenLabs/65f83bd7-70da-4a31-a364-28fd0f361ea9) | United States; United Kingdom; Remote | — |
 | 2026-10-08 | DoorDash | [Director, Finance & Strategy - Ads & Promos](https://job-boards.greenhouse.io/doordashusa/jobs/8265499) | San Francisco, CA; Seattle,  WA; Los Angeles, CA; Austin, TX | $194–285K |
@@ -103,7 +104,6 @@
 | 2026-09-15 | OpenAI | [Business Systems Transformation Lead, Procure-to-Pay](https://jobs.ashbyhq.com/openai/c0e1f65b-4731-48b3-ac60-93a269266494) | San Francisco; Remote | $240–266K |
 | 2026-09-14 | DoorDash | [Senior Manager, New Verticals - Search Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8201605) | New York, NY;  San Francisco, CA; Seattle, WA; Los Angeles,  | $170–250K |
 | 2026-09-09 | OpenAI | [Partnerships Operations Lead, OAI for Government](https://jobs.ashbyhq.com/openai/910b44fb-6af7-4d26-8e25-9ba814fe5fd5) | Washington, DC; Remote | $221–266K |
-| 2026-09-03 | Skydance | [VP, Head of Strategy & Business Operations](https://jobs.lever.co/skydance/a4d11f5d-8f4b-4d18-b07f-0c131e4fdaa8) | Los Angeles | $250–325K |
 | 2026-09-01 | Perplexity | [Strategic Finance Lead - Compute](https://jobs.ashbyhq.com/Perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f) | San Francisco; Remote | $190–240K |
 | 2026-09-01 | Perplexity | [Strategic Finance Lead - AI](https://jobs.ashbyhq.com/Perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9) | San Francisco; Remote | $190–240K |
 | 2026-08-31 | Notion | [GTM Compensation Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/be994bb4-c680-4f57-b3bd-7e689175317f) | San Francisco, California; New York, New York; Remote | $230–257K |
