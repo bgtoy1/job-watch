@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 199,
+   "jobs_seen": 196,
    "matches": 0,
    "ok": true
   },
@@ -32,13 +32,13 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 202,
+   "jobs_seen": 203,
    "matches": 0,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 678,
+   "jobs_seen": 677,
    "matches": 0,
    "ok": true
   },
@@ -68,13 +68,13 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 473,
+   "jobs_seen": 475,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 286,
+   "jobs_seen": 283,
    "matches": 2,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 918,
+   "jobs_seen": 917,
    "matches": 1,
    "ok": true
   },
@@ -108,7 +108,7 @@
   },
   "Disney": {
    "board": "workday:disney/disneycareer",
-   "jobs_seen": 38,
+   "jobs_seen": 20,
    "matches": 1,
    "ok": true
   },
@@ -156,7 +156,7 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 228,
+   "jobs_seen": 227,
    "matches": 1,
    "ok": true
   },
@@ -168,7 +168,7 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 253,
+   "jobs_seen": 256,
    "matches": 1,
    "ok": true
   },
@@ -236,7 +236,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 302,
+   "jobs_seen": 301,
    "matches": 1,
    "ok": true
   },
@@ -278,7 +278,7 @@
   },
   "Netflix": {
    "board": "netflix:/",
-   "jobs_seen": 331,
+   "jobs_seen": 330,
    "matches": 11,
    "ok": true
   },
@@ -300,7 +300,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 381,
+   "jobs_seen": 378,
    "matches": 0,
    "ok": true
   },
@@ -312,7 +312,7 @@
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 116,
+   "jobs_seen": 117,
    "matches": 0,
    "ok": true
   },
@@ -324,7 +324,7 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 164,
+   "jobs_seen": 165,
    "matches": 2,
    "ok": true
   },
@@ -348,7 +348,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 189,
+   "jobs_seen": 192,
    "matches": 0,
    "ok": true
   },
@@ -372,13 +372,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 296,
+   "jobs_seen": 295,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 315,
+   "jobs_seen": 314,
    "matches": 0,
    "ok": true
   },
@@ -390,13 +390,13 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 254,
+   "jobs_seen": 255,
    "matches": 2,
    "ok": true
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 67,
+   "jobs_seen": 68,
    "matches": 0,
    "ok": true
   },
@@ -426,13 +426,13 @@
   },
   "Spotify": {
    "board": "lever:spotify",
-   "jobs_seen": 86,
+   "jobs_seen": 85,
    "matches": 0,
    "ok": true
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 779,
+   "jobs_seen": 782,
    "matches": 0,
    "ok": true
   },
@@ -444,7 +444,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 339,
+   "jobs_seen": 338,
    "matches": 0,
    "ok": true
   },
@@ -472,13 +472,13 @@
   },
   "WME / Endeavor": {
    "board": "workday:wmeimg/WMEGRP",
-   "jobs_seen": 24,
+   "jobs_seen": 25,
    "matches": 1,
    "ok": true
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 152,
+   "jobs_seen": 154,
    "matches": 1,
    "ok": true
   },
@@ -512,10 +512,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 182,
+   "jobs_seen": 181,
    "matches": 0,
    "ok": true
   }
  },
- "run": "2026-11-11T10:21Z"
+ "run": "2026-11-11T13:36Z"
 }

@@ -1,10 +1,9 @@
-# Job check 2026-11-11T10:21Z
+# Job check 2026-11-11T13:36Z
 
-## New since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-03 | Netflix | [Product Operations Lead: Core Discovery](https://explore.jobs.netflix.net/careers/job/790319295260) | Remote, United States | — |
 
 ## Closed since last run (0)
 
