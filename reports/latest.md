@@ -1,50 +1,50 @@
-# Job check 2026-11-10T22:00Z
+# Job check 2026-11-11T01:28Z
 
-## New since last run (1)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
-
-## Closed since last run (0)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+
+## Closed since last run (3)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
+| 2026-10-30 | Pinterest | [Business Development Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8119896) | San Francisco, CA, US; Remote, US | $132–272K |
+| 2026-11-06 | ServiceTitan | [Senior Manager, Enterprise Strategy & Operations](https://servicetitan.wd1.myworkdayjobs.com/en-US/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967) | Glendale, CA | $180–270K |
 
 ## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=140&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=chief%20of%20staff&start=10&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (107)
+## All open matches (104)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-10 | DoorDash | [Senior Manager, New Verticals - Fulfillment Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8374039) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $170–250K |
+| 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
 | 2026-11-10 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
 | 2026-11-10 | Snap | [Manager, Finance](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/Manager--Finance_R0047410-1) | Los Angeles, California | $173–259K |
-| 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
 | 2026-11-09 | ServiceNow | [Sr. Manager, Social Strategy](https://jobs.smartrecruiters.com/ServiceNow/744000160738130) | New York, New York, United States; Remote | — |
-| 2026-11-06 | ServiceTitan | [Senior Manager, Enterprise Strategy & Operations](https://servicetitan.wd1.myworkdayjobs.com/en-US/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967) | Glendale, CA | $180–270K |
 | 2026-11-04 | Rula | [Head of Provider Growth Strategy & Operations](https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c) | Remote - United States | $248–294K |
 | 2026-11-03 | Ramp | [Senior Manager, Customer Experience Strategy & Operations](https://jobs.ashbyhq.com/ramp/fe280d10-4258-420a-b0bb-0dc9021bd803) | New York, NY (HQ); San Francisco, CA; Remote (US) | $175–250K |
 | 2026-11-03 | DoorDash | [Director, Strategy & Operations (DashOS)](https://job-boards.greenhouse.io/doordashusa/jobs/8319022) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $197–290K |
 | 2026-11-02 | Cloudflare | [Principal, GTM Business Operations Manager](https://boards.greenhouse.io/cloudflare/jobs/8328820?gh_jid=8328820) | Distributed; Hybrid | $174–240K |
 | 2026-11-01 | ElevenLabs | [Finance Systems Lead](https://jobs.ashbyhq.com/ElevenLabs/a435a526-e2b3-4fcf-a732-0e70864178bb) | United Kingdom; Belgium; Poland; France; Remote | — |
 | 2026-10-30 | Webflow | [Director, EPD Operations](https://jobs.ashbyhq.com/webflow/ee79ec93-dc5d-4b28-85d0-1f0555eb552b) | United States; Remote | — |
-| 2026-10-30 | Pinterest | [Business Development Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8119896) | San Francisco, CA, US; Remote, US | $132–272K |
 | 2026-10-29 | OpenAI | [Trusted Access Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/500c16b5-26ca-46be-9280-abbfff3b5c2b) | San Francisco; Remote | $252–335K |
 | 2026-10-29 | Workiva | [Senior Director of Strategic Planning and Analysis](https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Senior-Director-of-Strategic-Planning-and-Analysis_R12754-1) | USA - Remote | $185–315K |
 | 2026-10-28 | Yahoo | [Senior Manager, Corporate and Enterprise Business Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-and-Enterprise-Business-Development_JR0027623) | United States of America | $122–255K |
 | 2026-10-27 | Crunchyroll | [Senior Director, Membership Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8328077?gh_jid=8328077) | Los Angeles, California, United States | $228–285K |
 | 2026-10-26 | Headway | [Principal, Commercial Strategy - Care Partnerships](https://jobs.ashbyhq.com/headway/2730294c-aeda-4635-8bfd-83374d3c6f60) | New York City; Remote | $191–240K |
 | 2026-10-26 | Headway | [Director of GTM Finance](https://jobs.ashbyhq.com/headway/f4f2074d-ba04-44c3-802f-2add9fdc6388) | Remote | $169–265K |
-| 2026-10-26 | Chainguard | [Strategy & Operations Senior Manager (Security and Technology)](https://job-boards.greenhouse.io/chainguard/jobs/4708770006) | United States - Remote | $200–235K |
+| 2026-10-26 | Chainguard | [Strategy & Operations Senior Manager, Security and Technology](https://job-boards.greenhouse.io/chainguard/jobs/4708770006) | United States - Remote | $200–235K |
 | 2026-10-26 | Universal Music Group | [Senior Director, Finance Insights and Reporting](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Senior-Director--Global-Insights-and-Reporting_UMG-27895) | Santa Monica, California | $202–265K |
 | 2026-10-25 | Grafana Labs | [Senior Director, Corporate FP&A | United States | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004) | United States (Remote) | $268–322K |
 | 2026-10-23 | Headway | [Principal, Business Development - Payer](https://jobs.ashbyhq.com/headway/52f9fa56-966f-4da4-95ff-7c75a8fc4b78) | Remote | $152–238K |
@@ -67,7 +67,6 @@
 | 2026-10-19 | Netflix | [Manager, Finance & Strategy, Experiences](https://explore.jobs.netflix.net/careers/job/790319019747) | Los Angeles,California,United States of America | — |
 | 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
-| 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
 | 2026-10-16 | Engine | [Director, Sales Strategy & Operations - Groups](https://job-boards.greenhouse.io/engine/jobs/8009405003) | Remote - US | $170–230K |
 | 2026-10-15 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-10-15 | Pinterest | [Director Corporate Strategy, Ads](https://www.pinterestcareers.com/jobs/?gh_jid=8027430) | New York, NY, US; Remote, US | $193–397K |
