@@ -1,32 +1,35 @@
-# Job check 2026-11-12T19:20Z
+# Job check 2026-11-12T22:08Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (2)
+## New since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
-| 2026-10-06 | Engine | [Associate Director, Strategy & Operations](https://job-boards.greenhouse.io/engine/jobs/8003940003) | Remote - US | $179–248K |
+| 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
+| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
+
+## Closed since last run (1)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-10-16 | Engine | [Director, Sales Strategy & Operations - Groups](https://job-boards.greenhouse.io/engine/jobs/8009405003) | Remote - US | $170–230K |
 
 ## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=80&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=40&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (99)
+## All open matches (100)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
+| 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
+| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-10 | DoorDash | [Senior Manager, New Verticals - Fulfillment Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8374039) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $170–250K |
 | 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
 | 2026-11-10 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
@@ -67,7 +70,6 @@
 | 2026-10-19 | Netflix | [Manager, Finance & Strategy, Experiences](https://explore.jobs.netflix.net/careers/job/790319019747) | Los Angeles,California,United States of America | — |
 | 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
-| 2026-10-16 | Engine | [Director, Sales Strategy & Operations - Groups](https://job-boards.greenhouse.io/engine/jobs/8009405003) | Remote - US | $170–230K |
 | 2026-10-15 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-10-15 | Pinterest | [Director Corporate Strategy, Ads](https://www.pinterestcareers.com/jobs/?gh_jid=8027430) | New York, NY, US; Remote, US | $193–397K |
 | 2026-10-14 | OpenAI | [Strategic Finance Lead, OpenAI for Inference](https://jobs.ashbyhq.com/openai/096be63b-69cf-4295-9d29-d2e740058ea4) | San Francisco; Remote | $293–325K |
