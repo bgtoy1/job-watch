@@ -38,13 +38,13 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 674,
+   "jobs_seen": 673,
    "matches": 0,
    "ok": true
   },
   "AppLovin": {
    "board": "greenhouse:applovin",
-   "jobs_seen": 43,
+   "jobs_seen": 44,
    "matches": 1,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 913,
+   "jobs_seen": 912,
    "matches": 1,
    "ok": true
   },
@@ -150,7 +150,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 75,
+   "jobs_seen": 77,
    "matches": 1,
    "ok": true
   },
@@ -242,7 +242,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 155,
+   "jobs_seen": 154,
    "matches": 0,
    "ok": true
   },
@@ -300,13 +300,13 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 374,
+   "jobs_seen": 373,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 821,
+   "jobs_seen": 823,
    "matches": 16,
    "ok": true
   },
@@ -372,13 +372,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 293,
+   "jobs_seen": 292,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 315,
+   "jobs_seen": 314,
    "matches": 0,
    "ok": true
   },
@@ -432,7 +432,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 786,
+   "jobs_seen": 787,
    "matches": 0,
    "ok": true
   },
@@ -444,7 +444,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 354,
+   "jobs_seen": 352,
    "matches": 0,
    "ok": true
   },
@@ -478,7 +478,7 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 148,
+   "jobs_seen": 155,
    "matches": 1,
    "ok": true
   },
@@ -517,5 +517,5 @@
    "ok": true
   }
  },
- "run": "2026-11-12T04:20Z"
+ "run": "2026-11-12T07:43Z"
 }
