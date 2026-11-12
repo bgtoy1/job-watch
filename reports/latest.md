@@ -1,26 +1,28 @@
-# Job check 2026-11-12T16:25Z
+# Job check 2026-11-12T19:20Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (1)
+## Closed since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-08-06 | Instacart | [Chief of Staff, Online Grocery](https://instacart.careers/job/?gh_jid=8112136) | United States - Remote | $239–252K |
+| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
+| 2026-10-06 | Engine | [Associate Director, Strategy & Operations](https://job-boards.greenhouse.io/engine/jobs/8003940003) | Remote - US | $179–248K |
 
-## Companies that failed (6)
+## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=80&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (101)
+## All open matches (99)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -86,7 +88,6 @@
 | 2026-10-08 | Motive | [Senior Manager, GTM Operations](https://job-boards.greenhouse.io/gomotive/jobs/8859354002) | United States - Remote | $206–258K |
 | 2026-10-07 | OpenAI | [Senior Manager, Occupancy Planning & Workplace Strategy](https://jobs.ashbyhq.com/openai/5280c9d2-8090-47d1-a881-1fec37c90e64) | San Francisco; Remote | $203–225K |
 | 2026-10-07 | Universal Music Group | [Vice President, Enterprise Data Governance and Strategy](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Vice-President--Data-Strategy---Partnerships_UMG-23256) | 2 Locations; Santa Monica, California; New York, New York | $274–365K |
-| 2026-10-06 | Engine | [Associate Director, Strategy & Operations](https://job-boards.greenhouse.io/engine/jobs/8003940003) | Remote - US | $179–248K |
 | 2026-10-06 | Netflix | [Senior Portfolio Operations Manager, Games](https://explore.jobs.netflix.net/careers/job/790318808922) | Los Angeles,California,United States of America | — |
 | 2026-10-05 | OpenAI | [Strategy & Operations Lead - Japan](https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca) | Tokyo, Japan; Remote | — |
 | 2026-10-02 | Perplexity | [Global Workplace Business Operations Lead](https://jobs.ashbyhq.com/Perplexity/c5dcc0db-7fdc-4e09-86c7-b6618400df16) | San Francisco; Remote | $185–235K |
@@ -114,7 +115,6 @@
 | 2026-08-11 | Netflix | [Manager, Studio Finance & Strategy](https://explore.jobs.netflix.net/careers/job/790317761054) | Los Angeles,California,United States of America | — |
 | 2026-08-03 | Netflix | [Head of Production Finance- Ink](https://explore.jobs.netflix.net/careers/job/790317630104) | Los Angeles,California,United States of America | — |
 | 2026-07-31 | Notion | [Outcomes Growth Strategy and Programs Lead](https://jobs.ashbyhq.com/notion/a31170a3-a951-4794-a61f-56640dce1aee) | San Francisco, California; Remote | $250–280K |
-| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
 | 2026-07-23 | Affirm | [Chief of Staff Director, Product](https://job-boards.greenhouse.io/affirm/jobs/7808142003) | Remote US | $255–335K |
 | 2026-07-23 | WME / Endeavor | [Senior Manager, Finance](https://wmeimg.wd1.myworkdayjobs.com/en-US/WMEGRP/job/CA-Beverly-Hills---9601-Wilshire/Senior-Manager--Finance_JR28707-1) | CA-Beverly Hills - 9601 Wilshire | — |
 | 2026-07-20 | Netflix | [Finance Program Manager - M&A](https://explore.jobs.netflix.net/careers/job/790316790147) | Los Gatos,California,United States of America; Los Angeles,C | — |
