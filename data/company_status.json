@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 193,
+   "jobs_seen": 192,
    "matches": 0,
    "ok": true
   },
@@ -68,13 +68,13 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 482,
+   "jobs_seen": 483,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 277,
+   "jobs_seen": 271,
    "matches": 2,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 912,
+   "jobs_seen": 913,
    "matches": 1,
    "ok": true
   },
@@ -180,7 +180,7 @@
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 144,
+   "jobs_seen": 142,
    "matches": 1,
    "ok": true
   },
@@ -242,7 +242,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 154,
+   "jobs_seen": 153,
    "matches": 0,
    "ok": true
   },
@@ -294,19 +294,19 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 157,
+   "jobs_seen": 158,
    "matches": 2,
    "ok": true
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 373,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 823,
+   "jobs_seen": 822,
    "matches": 16,
    "ok": true
   },
@@ -372,7 +372,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 292,
+   "jobs_seen": 290,
    "matches": 1,
    "ok": true
   },
@@ -390,7 +390,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 267,
+   "jobs_seen": 269,
    "matches": 2,
    "ok": true
   },
@@ -456,7 +456,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 125,
+   "jobs_seen": 123,
    "matches": 0,
    "ok": true
   },
@@ -478,13 +478,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 155,
+   "jobs_seen": 156,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 378,
+   "jobs_seen": 379,
    "matches": 0,
    "ok": true
   },
@@ -517,5 +517,5 @@
    "ok": true
   }
  },
- "run": "2026-11-12T07:43Z"
+ "run": "2026-11-12T10:24Z"
 }
