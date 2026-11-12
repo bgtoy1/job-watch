@@ -1,25 +1,27 @@
-# Job check 2026-11-11T22:36Z
+# Job check 2026-11-12T01:39Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-03 | DoorDash | [Director, Strategy & Operations (DashOS)](https://job-boards.greenhouse.io/doordashusa/jobs/8319022) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $197–290K |
 
-## Companies that failed (6)
+## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=10&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (102)
+## All open matches (101)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -30,7 +32,6 @@
 | 2026-11-09 | ServiceNow | [Sr. Manager, Social Strategy](https://jobs.smartrecruiters.com/ServiceNow/744000160738130) | New York, New York, United States; Remote | — |
 | 2026-11-04 | Rula | [Head of Provider Growth Strategy & Operations](https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c) | Remote - United States | $248–294K |
 | 2026-11-03 | Ramp | [Senior Manager, Customer Experience Strategy & Operations](https://jobs.ashbyhq.com/ramp/fe280d10-4258-420a-b0bb-0dc9021bd803) | New York, NY (HQ); San Francisco, CA; Remote (US) | $175–250K |
-| 2026-11-03 | DoorDash | [Director, Strategy & Operations (DashOS)](https://job-boards.greenhouse.io/doordashusa/jobs/8319022) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $197–290K |
 | 2026-11-03 | Netflix | [Product Operations Lead: Core Discovery](https://explore.jobs.netflix.net/careers/job/790319295260) | Remote, United States | — |
 | 2026-11-02 | Cloudflare | [Principal, GTM Business Operations Manager](https://boards.greenhouse.io/cloudflare/jobs/8328820?gh_jid=8328820) | Distributed; Hybrid | $174–240K |
 | 2026-11-01 | ElevenLabs | [Finance Systems Lead](https://jobs.ashbyhq.com/ElevenLabs/a435a526-e2b3-4fcf-a732-0e70864178bb) | United Kingdom; Belgium; Poland; France; Remote | — |
