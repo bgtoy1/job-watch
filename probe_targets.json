@@ -1,0 +1,90 @@
+{
+  "_comment": "Discovery list for probe.py (2026-11-13). Change anything in this file to make the next run probe again.",
+  "companies": {
+    "Sphere Entertainment": {
+      "pages": ["https://www.sphereentertainmentco.com/careers/", "https://www.sphereentertainmentco.com/?p=6105"]
+    },
+    "UTA": {
+      "pages": ["https://www.unitedtalent.com/careers/", "https://www.unitedtalent.com/careers/job-openings/"]
+    },
+    "Cosm": {
+      "pages": ["https://www.cosm.com/careers", "https://jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL"]
+    },
+    "Legendary Entertainment": {
+      "pages": ["https://www.legendary.com/careers/", "https://recruiting.paylocity.com/recruiting/jobs/details/4304980"]
+    },
+    "Niantic Spatial": {
+      "pages": ["https://www.nianticspatial.com/careers", "https://nianticlabs.com/careers"]
+    },
+    "Whatnot": {
+      "pages": ["https://www.whatnot.com/careers", "https://job-boards.greenhouse.io/whatnot"],
+      "api": [{"name": "boards-api", "url": "https://boards-api.greenhouse.io/v1/boards/whatnot/jobs"},
+              {"name": "api.greenhouse.io", "url": "https://api.greenhouse.io/v1/boards/whatnot/jobs"}]
+    },
+    "Superhuman (Grammarly)": {
+      "pages": ["https://superhuman.com/careers", "https://job-boards.greenhouse.io/grammarly"],
+      "api": [{"name": "boards-api grammarly", "url": "https://boards-api.greenhouse.io/v1/boards/grammarly/jobs"},
+              {"name": "boards-api superhuman", "url": "https://boards-api.greenhouse.io/v1/boards/superhuman/jobs"}]
+    },
+    "Disney": {
+      "pages": ["https://jobs.disneycareers.com/search-jobs/strategy"],
+      "api": [{"name": "workday disneycareer 'strategy'", "url": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+               "body": {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "strategy"}},
+              {"name": "workday disneycareer all", "url": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+               "body": {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""}}]
+    },
+    "GoDaddy": {
+      "pages": ["https://careers.godaddy/jobs/search?query=strategy"],
+      "api": [{"name": "greenhouse godaddy", "url": "https://boards-api.greenhouse.io/v1/boards/godaddy/jobs"}]
+    },
+    "Fox": {
+      "pages": ["https://www.foxcareers.com/Search/SearchResults?keyword=strategy", "https://www.foxcareers.com/Search/JobDetail/R50030010/director-strategic-growth-fox-corporation"]
+    },
+    "Electronic Arts": {
+      "pages": ["https://jobs.ea.com/en_US/careers/SearchJobs/?keyword=strategy&jobRecordsPerPage=50&jobOffset=0&listFilterMode=1", "https://ea.gr8people.com/jobs"]
+    },
+    "Paramount Skydance": {
+      "pages": ["https://careers.paramount.com/search/?q=strategy"],
+      "api": [{"name": "rss", "url": "https://careers.paramount.com/services/rss/job/?locale=en_US&keywords=(strategy)"}]
+    },
+    "NBCUniversal": {
+      "pages": ["https://www.nbcunicareers.com/find-a-job"],
+      "api": [{"name": "smartrecruiters NBCUniversal3", "url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings?limit=5&q=strategy"}]
+    },
+    "IMAX": {
+      "api": [{"name": "workday", "url": "https://imax.wd10.myworkdayjobs.com/wday/cxs/imax/IMAX-Careers/jobs",
+               "body": {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""}}]
+    },
+    "Microsoft": {
+      "pages": ["https://careers.microsoft.com/v2/global/en/home.html"],
+      "api": [{"name": "eightfold", "url": "https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&query=strategy&location=United%20States&start=0&num=10"},
+              {"name": "gcs", "url": "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=strategy&lc=United%20States&l=en_us&pg=1&pgSz=20&o=Recent"}]
+    },
+    "Amazon": {
+      "api": [{"name": "search.json", "url": "https://www.amazon.jobs/en/search.json?normalized_country_code%5B%5D=USA&base_query=strategy&result_limit=5&offset=0&sort=recent"}]
+    },
+    "Apple": {
+      "pages": ["https://jobs.apple.com/en-us/search?search=strategy&location=united-states-USA"],
+      "api": [{"name": "csrf v1", "url": "https://jobs.apple.com/api/v1/CSRFToken", "show_headers": ["x-apple-csrf-token", "set-cookie"]},
+              {"name": "csrf old", "url": "https://jobs.apple.com/api/csrfToken", "show_headers": ["x-apple-csrf-token", "set-cookie"]}]
+    },
+    "Uber": {
+      "api": [{"name": "loadSearchJobsResults", "url": "https://www.uber.com/api/loadSearchJobsResults?localeCode=en",
+               "body": {"limit": 5, "page": 0, "params": {"query": "strategy", "location": [{"country": "USA"}]}},
+               "headers": {"x-csrf-token": "x"}}]
+    },
+    "Atlassian": {
+      "api": [{"name": "listings", "url": "https://www.atlassian.com/endpoint/careers/listings"}]
+    },
+    "Google / YouTube": {
+      "pages": ["https://www.google.com/about/careers/applications/jobs/results?q=strategy&location=Los%20Angeles%2C%20CA%2C%20USA&target_level=DIRECTOR"]
+    },
+    "Meta": {
+      "pages": ["https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA"]
+    },
+    "Mattel": {"pages": ["https://jobs.mattel.com/"]},
+    "HubSpot": {"pages": ["https://www.hubspot.com/careers/jobs"]},
+    "Lionsgate": {"pages": ["https://www.lionsgate.com/careers"]},
+    "TikTok": {"pages": ["https://lifeattiktok.com/search?keyword=strategy"]}
+  }
+}

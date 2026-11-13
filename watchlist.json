@@ -279,6 +279,18 @@
         {
           "ats": "lever",
           "id": "niantic"
+        },
+        {
+          "ats": "ashby",
+          "id": "nianticspatial"
+        },
+        {
+          "ats": "greenhouse",
+          "id": "nianticspatial"
+        },
+        {
+          "ats": "lever",
+          "id": "nianticspatial"
         }
       ]
     },
@@ -455,18 +467,15 @@
           "id": "superhuman"
         },
         {
+          "ats": "greenhouse_html",
+          "id": "grammarly"
+        },
+        {
           "ats": "ashby",
           "id": "superhuman"
-        },
-        {
-          "ats": "ashby",
-          "id": "grammarly"
-        },
-        {
-          "ats": "lever",
-          "id": "grammarly"
         }
-      ]
+      ],
+      "trial": true
     },
     {
       "name": "Samsara",
@@ -561,23 +570,20 @@
     },
     {
       "name": "Whatnot",
-      "ats": "ashby",
+      "ats": "greenhouse",
       "id": "whatnot",
       "sector": "Tech",
       "try": [
         {
-          "ats": "ashby",
-          "id": "Whatnot"
-        },
-        {
-          "ats": "greenhouse",
+          "ats": "greenhouse_html",
           "id": "whatnot"
         },
         {
-          "ats": "lever",
+          "ats": "ashby",
           "id": "whatnot"
         }
-      ]
+      ],
+      "trial": true
     },
     {
       "name": "Rula",
@@ -750,20 +756,121 @@
       "ats": "netflix",
       "sector": "Media",
       "verified": true
+    },
+    {
+      "name": "NBCUniversal",
+      "ats": "smartrecruiters",
+      "id": "NBCUniversal3",
+      "sector": "Media / experiences",
+      "note": "board ID seen on a live NBCU posting, 2026-11-13"
+    },
+    {
+      "name": "IMAX",
+      "ats": "workday",
+      "host": "imax.wd10.myworkdayjobs.com",
+      "tenant": "imax",
+      "site": "IMAX-Careers",
+      "sector": "Media / experiences",
+      "verified": true
+    },
+    {
+      "name": "Amazon",
+      "ats": "amazon",
+      "sector": "Tech / media",
+      "note": "amazon.jobs covers Prime Video, MGM, Twitch, Audible",
+      "trial": true
+    },
+    {
+      "name": "Microsoft",
+      "ats": "eightfold",
+      "host": "apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "sector": "Tech / games",
+      "try": [
+        {
+          "ats": "microsoft_gcs"
+        }
+      ],
+      "trial": true
+    },
+    {
+      "name": "Apple",
+      "ats": "apple",
+      "sector": "Tech / media",
+      "trial": true
+    },
+    {
+      "name": "Uber",
+      "ats": "uber",
+      "sector": "Tech",
+      "trial": true
+    },
+    {
+      "name": "Atlassian",
+      "ats": "atlassian",
+      "sector": "Tech",
+      "trial": true
+    },
+    {
+      "name": "Google / YouTube",
+      "ats": "google",
+      "locations": [
+        "Los Angeles, CA, USA",
+        "Playa Vista, CA, USA",
+        "Irvine, CA, USA"
+      ],
+      "sector": "Tech / media",
+      "trial": true
+    },
+    {
+      "name": "Meta",
+      "ats": "meta",
+      "offices": [
+        "Los Angeles, CA",
+        "Burbank, CA",
+        "Remote, US"
+      ],
+      "sector": "Tech",
+      "trial": true
+    },
+    {
+      "name": "Paramount Skydance",
+      "ats": "successfactors",
+      "host": "careers.paramount.com",
+      "sector": "Media",
+      "trial": true
+    },
+    {
+      "name": "Electronic Arts",
+      "ats": "avature",
+      "base": "https://jobs.ea.com/en_US/careers",
+      "sector": "Games",
+      "trial": true
+    },
+    {
+      "name": "Fox",
+      "ats": "foxcareers",
+      "sector": "Media",
+      "trial": true
+    },
+    {
+      "name": "GoDaddy",
+      "ats": "greenhouse",
+      "id": "godaddy",
+      "try": [
+        {
+          "ats": "clinch",
+          "host": "careers.godaddy"
+        }
+      ],
+      "sector": "Tech",
+      "trial": true
     }
   ],
   "not_covered_yet": [
-    "Google / YouTube",
-    "Apple",
-    "Microsoft",
-    "Amazon",
-    "Meta",
-    "Electronic Arts",
-    "Paramount Skydance",
-    "Fox",
-    "NBCUniversal",
-    "Atlassian",
-    "GoDaddy",
-    "Uber"
+    "Sphere Entertainment (job system unknown; see probe)",
+    "Legendary Entertainment (Paylocity; company ID needed)",
+    "Cosm (Dayforce)",
+    "UTA (job system unknown; see probe)"
   ]
 }
