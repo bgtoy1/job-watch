@@ -1,41 +1,37 @@
-# Job check 2026-11-13T19:20Z
+# Job check 2026-11-13T22:05Z
 
-## New since last run (4)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-09 | IMAX | [VP, Strategic Planning & Business Development](https://imax.wd10.myworkdayjobs.com/en-US/IMAX-Careers/job/Playa-Vista-California/VP--Strategic-Planning---Business-Development_JR101116) | Playa Vista, California | $256–313K |
-| 2026-10-29 | NBCUniversal | [Director, Sales Planning & Administration](https://jobs.smartrecruiters.com/NBCUniversal3/744000158606017) | Universal City, CALIFORNIA, United States | — |
-| 2026-10-27 | NBCUniversal | [VP, Production Finance - DreamWorks](https://jobs.smartrecruiters.com/NBCUniversal3/744000158135959) | Glendale, CALIFORNIA, United States | — |
-| 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
-
-## Closed since last run (0)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 
-## Companies that failed (6)
+## Closed since last run (1)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-10-02 | Perplexity | [Global Workplace Business Operations Lead](https://jobs.ashbyhq.com/Perplexity/c5dcc0db-7fdc-4e09-86c7-b6618400df16) | San Francisco; Remote | $185–235K |
+
+## Companies that failed (4)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
-- Disney: HTTP 502 for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/legendary?includeCompensation=true
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=finance&start=10&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?includeCompensation=true
 
 ## Trial readers (13; roles not logged until confirmed)
 
-- Amazon: OK via amazon:, 925 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
+- Amazon: OK via amazon:, 936 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
 - Apple: OK via apple:, 0 postings read, 0 match
-- Atlassian: OK via atlassian:, 287 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
+- Atlassian: OK via atlassian:, 260 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
 - Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 20 postings read, 0 match
 - Fox: OK via foxcareers:, 0 postings read, 0 match
-- GoDaddy: OK via greenhouse:godaddy, 29 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
+- GoDaddy: OK via greenhouse:godaddy, 28 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
 - Google / YouTube: OK via google:, 19 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Meta: FAILED: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US
 - Microsoft: FAILED: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50 | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcs
-- Paramount Skydance: OK via successfactors:careers.paramount.com, 71 postings read, 0 match
+- Paramount Skydance: OK via successfactors:careers.paramount.com, 72 postings read, 0 match
 - Uber: FAILED: HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
@@ -45,6 +41,7 @@
 |---|---|---|---|---|
 | 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
+| 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
@@ -61,8 +58,8 @@
 | 2026-11-01 | ElevenLabs | [Finance Systems Lead](https://jobs.ashbyhq.com/ElevenLabs/a435a526-e2b3-4fcf-a732-0e70864178bb) | United Kingdom; Belgium; Poland; France; Remote | — |
 | 2026-10-30 | Webflow | [Director, EPD Operations](https://jobs.ashbyhq.com/webflow/ee79ec93-dc5d-4b28-85d0-1f0555eb552b) | United States; Remote | — |
 | 2026-10-29 | OpenAI | [Trusted Access Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/500c16b5-26ca-46be-9280-abbfff3b5c2b) | San Francisco; Remote | $252–335K |
-| 2026-10-29 | Workiva | [Senior Director of Strategic Planning and Analysis](https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Senior-Director-of-Strategic-Planning-and-Analysis_R12754-1) | USA - Remote | $185–315K |
 | 2026-10-29 | NBCUniversal | [Director, Sales Planning & Administration](https://jobs.smartrecruiters.com/NBCUniversal3/744000158606017) | Universal City, CALIFORNIA, United States | — |
+| 2026-10-29 | Workiva | [Senior Director of Strategic Planning and Analysis](https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Senior-Director-of-Strategic-Planning-and-Analysis_R12754-1) | USA - Remote | $185–315K |
 | 2026-10-28 | Yahoo | [Senior Manager, Corporate and Enterprise Business Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-and-Enterprise-Business-Development_JR0027623) | United States of America | $122–255K |
 | 2026-10-27 | Crunchyroll | [Senior Director, Membership Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8328077?gh_jid=8328077) | Los Angeles, California, United States | $228–285K |
 | 2026-10-27 | NBCUniversal | [VP, Production Finance - DreamWorks](https://jobs.smartrecruiters.com/NBCUniversal3/744000158135959) | Glendale, CALIFORNIA, United States | — |
@@ -113,7 +110,6 @@
 | 2026-10-06 | Netflix | [Senior Portfolio Operations Manager, Games](https://explore.jobs.netflix.net/careers/job/790318808922) | Los Angeles,California,United States of America | — |
 | 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
 | 2026-10-05 | OpenAI | [Strategy & Operations Lead - Japan](https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca) | Tokyo, Japan; Remote | — |
-| 2026-10-02 | Perplexity | [Global Workplace Business Operations Lead](https://jobs.ashbyhq.com/Perplexity/c5dcc0db-7fdc-4e09-86c7-b6618400df16) | San Francisco; Remote | $185–235K |
 | 2026-10-02 | Coinbase | [Corporate Development Senior Manager](https://www.coinbase.com/careers/positions/8238602?gh_jid=8238602) | Remote - USA | $230–271K |
 | 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
 | 2026-10-01 | OpenAI | [Pricing Operations Lead](https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf) | San Francisco; Remote | $284–315K |
