@@ -1,15 +1,14 @@
-# Job check 2026-11-13T10:21Z
+# Job check 2026-11-13T13:34Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (1)
+## Closed since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-09 | ServiceNow | [Sr. Manager, Social Strategy](https://jobs.smartrecruiters.com/ServiceNow/744000160738130) | New York, New York, United States; Remote | — |
 
 ## Companies that failed (6)
 
