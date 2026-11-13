@@ -32,7 +32,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 217,
+   "jobs_seen": 218,
    "matches": 1,
    "ok": true
   },
@@ -50,7 +50,7 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 192,
+   "jobs_seen": 191,
    "matches": 0,
    "ok": true
   },
@@ -190,7 +190,7 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 79,
+   "jobs_seen": 78,
    "matches": 0,
    "ok": true
   },
@@ -277,8 +277,10 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=160&num=50",
-   "ok": false
+   "board": "netflix:/",
+   "jobs_seen": 336,
+   "matches": 12,
+   "ok": true
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json",
@@ -298,13 +300,13 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 370,
+   "jobs_seen": 371,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 826,
+   "jobs_seen": 827,
    "matches": 16,
    "ok": true
   },
@@ -316,13 +318,13 @@
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 141,
+   "jobs_seen": 142,
    "matches": 4,
    "ok": true
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 164,
+   "jobs_seen": 166,
    "matches": 2,
    "ok": true
   },
@@ -370,13 +372,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 272,
+   "jobs_seen": 268,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 310,
+   "jobs_seen": 309,
    "matches": 0,
    "ok": true
   },
@@ -388,7 +390,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 274,
+   "jobs_seen": 275,
    "matches": 2,
    "ok": true
   },
@@ -412,7 +414,7 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 132,
+   "jobs_seen": 133,
    "matches": 0,
    "ok": true
   },
@@ -430,7 +432,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 786,
+   "jobs_seen": 787,
    "matches": 0,
    "ok": true
   },
@@ -476,7 +478,7 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 153,
+   "jobs_seen": 151,
    "matches": 1,
    "ok": true
   },
@@ -515,5 +517,5 @@
    "ok": true
   }
  },
- "run": "2026-11-13T01:33Z"
+ "run": "2026-11-13T04:20Z"
 }
