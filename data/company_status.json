@@ -8,37 +8,37 @@
   },
   "AEG": {
    "board": "greenhouse:aegworldwide",
-   "jobs_seen": 144,
+   "jobs_seen": 145,
    "matches": 1,
    "ok": true
   },
   "AXS": {
    "board": "greenhouse:axs",
-   "jobs_seen": 25,
+   "jobs_seen": 26,
    "matches": 1,
    "ok": true
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 188,
+   "jobs_seen": 189,
    "matches": 0,
    "ok": true
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 218,
+   "jobs_seen": 220,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 216,
+   "jobs_seen": 217,
    "matches": 1,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 672,
+   "jobs_seen": 673,
    "matches": 0,
    "ok": true
   },
@@ -50,7 +50,7 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 191,
+   "jobs_seen": 192,
    "matches": 0,
    "ok": true
   },
@@ -68,13 +68,13 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 481,
+   "jobs_seen": 480,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 272,
+   "jobs_seen": 271,
    "matches": 2,
    "ok": true
   },
@@ -96,7 +96,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 904,
+   "jobs_seen": 906,
    "matches": 1,
    "ok": true
   },
@@ -114,7 +114,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 434,
+   "jobs_seen": 432,
    "matches": 6,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 131,
+   "jobs_seen": 130,
    "matches": 4,
    "ok": true
   },
@@ -150,7 +150,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 75,
+   "jobs_seen": 76,
    "matches": 1,
    "ok": true
   },
@@ -162,7 +162,7 @@
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 142,
+   "jobs_seen": 143,
    "matches": 0,
    "ok": true
   },
@@ -190,7 +190,7 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 80,
+   "jobs_seen": 79,
    "matches": 0,
    "ok": true
   },
@@ -202,8 +202,8 @@
   },
   "Headway": {
    "board": "ashby:headway",
-   "jobs_seen": 93,
-   "matches": 3,
+   "jobs_seen": 91,
+   "matches": 2,
    "ok": true
   },
   "Hims & Hers": {
@@ -214,7 +214,7 @@
   },
   "Instacart": {
    "board": "greenhouse:instacart",
-   "jobs_seen": 88,
+   "jobs_seen": 90,
    "matches": 1,
    "ok": true
   },
@@ -242,7 +242,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 152,
+   "jobs_seen": 151,
    "matches": 0,
    "ok": true
   },
@@ -260,7 +260,7 @@
   },
   "Metropolis": {
    "board": "greenhouse:metropolis",
-   "jobs_seen": 96,
+   "jobs_seen": 97,
    "matches": 1,
    "ok": true
   },
@@ -277,7 +277,7 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=40&num=50",
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=160&num=50",
    "ok": false
   },
   "Niantic": {
@@ -292,55 +292,55 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 161,
+   "jobs_seen": 160,
    "matches": 2,
    "ok": true
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 369,
+   "jobs_seen": 370,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 828,
+   "jobs_seen": 826,
    "matches": 16,
    "ok": true
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 115,
+   "jobs_seen": 116,
    "matches": 0,
    "ok": true
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 135,
+   "jobs_seen": 141,
    "matches": 4,
    "ok": true
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 165,
+   "jobs_seen": 164,
    "matches": 2,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 233,
+   "jobs_seen": 234,
    "matches": 0,
    "ok": true
   },
   "Ramp": {
    "board": "ashby:ramp",
-   "jobs_seen": 178,
+   "jobs_seen": 180,
    "matches": 2,
    "ok": true
   },
   "Reddit": {
    "board": "greenhouse:reddit",
-   "jobs_seen": 149,
+   "jobs_seen": 147,
    "matches": 1,
    "ok": true
   },
@@ -352,13 +352,13 @@
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
-   "jobs_seen": 157,
+   "jobs_seen": 160,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 274,
+   "jobs_seen": 273,
    "matches": 0,
    "ok": true
   },
@@ -376,7 +376,7 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 307,
+   "jobs_seen": 310,
    "matches": 0,
    "ok": true
   },
@@ -394,7 +394,7 @@
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 66,
+   "jobs_seen": 67,
    "matches": 0,
    "ok": true
   },
@@ -430,7 +430,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 784,
+   "jobs_seen": 786,
    "matches": 0,
    "ok": true
   },
@@ -454,7 +454,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 118,
+   "jobs_seen": 117,
    "matches": 0,
    "ok": true
   },
@@ -482,13 +482,13 @@
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 379,
+   "jobs_seen": 378,
    "matches": 0,
    "ok": true
   },
   "Webflow": {
    "board": "ashby:webflow",
-   "jobs_seen": 24,
+   "jobs_seen": 25,
    "matches": 1,
    "ok": true
   },
@@ -498,22 +498,22 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 94,
+   "jobs_seen": 96,
    "matches": 1,
    "ok": true
   },
   "Yahoo": {
    "board": "workday:ouryahoo/careers",
-   "jobs_seen": 80,
+   "jobs_seen": 81,
    "matches": 2,
    "ok": true
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 181,
+   "jobs_seen": 183,
    "matches": 1,
    "ok": true
   }
  },
- "run": "2026-11-12T22:08Z"
+ "run": "2026-11-13T01:33Z"
 }

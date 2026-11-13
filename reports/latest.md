@@ -1,29 +1,27 @@
-# Job check 2026-11-12T22:08Z
+# Job check 2026-11-13T01:33Z
 
-## New since last run (2)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
-| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 
 ## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-10-16 | Engine | [Director, Sales Strategy & Operations - Groups](https://job-boards.greenhouse.io/engine/jobs/8009405003) | Remote - US | $170–230K |
+| 2026-10-26 | Headway | [Principal, Commercial Strategy - Care Partnerships](https://jobs.ashbyhq.com/headway/2730294c-aeda-4635-8bfd-83374d3c6f60) | New York City; Remote | $191–240K |
 
 ## Companies that failed (7)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Grammarly: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true | HTTP 404 for https://api.ashby
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-ap
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=40&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=operations&start=160&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?
 - Whatnot: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/Whatnot?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://api.lev
 
-## All open matches (100)
+## All open matches (99)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -45,7 +43,6 @@
 | 2026-10-29 | Workiva | [Senior Director of Strategic Planning and Analysis](https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Senior-Director-of-Strategic-Planning-and-Analysis_R12754-1) | USA - Remote | $185–315K |
 | 2026-10-28 | Yahoo | [Senior Manager, Corporate and Enterprise Business Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-and-Enterprise-Business-Development_JR0027623) | United States of America | $122–255K |
 | 2026-10-27 | Crunchyroll | [Senior Director, Membership Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8328077?gh_jid=8328077) | Los Angeles, California, United States | $228–285K |
-| 2026-10-26 | Headway | [Principal, Commercial Strategy - Care Partnerships](https://jobs.ashbyhq.com/headway/2730294c-aeda-4635-8bfd-83374d3c6f60) | New York City; Remote | $191–240K |
 | 2026-10-26 | Headway | [Director of GTM Finance](https://jobs.ashbyhq.com/headway/f4f2074d-ba04-44c3-802f-2add9fdc6388) | Remote | $169–265K |
 | 2026-10-26 | Chainguard | [Strategy & Operations Senior Manager, Security and Technology](https://job-boards.greenhouse.io/chainguard/jobs/4708770006) | United States - Remote | $200–235K |
 | 2026-10-26 | Universal Music Group | [Senior Director, Finance Insights and Reporting](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Senior-Director--Global-Insights-and-Reporting_UMG-27895) | Santa Monica, California | $202–265K |
