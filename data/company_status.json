@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 189,
+   "jobs_seen": 188,
    "matches": 0,
    "ok": true
   },
@@ -32,7 +32,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 218,
+   "jobs_seen": 217,
    "matches": 1,
    "ok": true
   },
@@ -68,7 +68,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 480,
+   "jobs_seen": 481,
    "matches": 1,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 130,
+   "jobs_seen": 129,
    "matches": 4,
    "ok": true
   },
@@ -150,7 +150,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 76,
+   "jobs_seen": 77,
    "matches": 1,
    "ok": true
   },
@@ -248,7 +248,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 68,
+   "jobs_seen": 67,
    "matches": 0,
    "ok": true
   },
@@ -266,7 +266,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 181,
+   "jobs_seen": 180,
    "matches": 2,
    "ok": true
   },
@@ -278,7 +278,7 @@
   },
   "Netflix": {
    "board": "netflix:/",
-   "jobs_seen": 336,
+   "jobs_seen": 337,
    "matches": 12,
    "ok": true
   },
@@ -294,13 +294,13 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 160,
+   "jobs_seen": 165,
    "matches": 2,
    "ok": true
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 371,
+   "jobs_seen": 368,
    "matches": 0,
    "ok": true
   },
@@ -372,25 +372,25 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 268,
+   "jobs_seen": 269,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 309,
+   "jobs_seen": 310,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 171,
+   "jobs_seen": 172,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 275,
+   "jobs_seen": 274,
    "matches": 2,
    "ok": true
   },
@@ -414,7 +414,7 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 133,
+   "jobs_seen": 132,
    "matches": 0,
    "ok": true
   },
@@ -478,13 +478,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 151,
+   "jobs_seen": 150,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 378,
+   "jobs_seen": 379,
    "matches": 0,
    "ok": true
   },
@@ -500,7 +500,7 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 96,
+   "jobs_seen": 94,
    "matches": 1,
    "ok": true
   },
@@ -512,10 +512,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 183,
+   "jobs_seen": 184,
    "matches": 1,
    "ok": true
   }
  },
- "run": "2026-11-13T04:20Z"
+ "run": "2026-11-13T07:42Z"
 }

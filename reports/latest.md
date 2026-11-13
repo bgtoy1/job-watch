@@ -1,10 +1,9 @@
-# Job check 2026-11-13T04:20Z
+# Job check 2026-11-13T07:42Z
 
-## New since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
 
 ## Closed since last run (0)
 
@@ -24,10 +23,11 @@
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
-| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
+| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-10 | DoorDash | [Senior Manager, New Verticals - Fulfillment Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8374039) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $170–250K |
 | 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
 | 2026-11-10 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
@@ -67,7 +67,6 @@
 | 2026-10-19 | Netflix | [Manager, Finance & Strategy, Experiences](https://explore.jobs.netflix.net/careers/job/790319019747) | Los Angeles,California,United States of America | — |
 | 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
-| 2026-10-15 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-10-15 | Pinterest | [Director Corporate Strategy, Ads](https://www.pinterestcareers.com/jobs/?gh_jid=8027430) | New York, NY, US; Remote, US | $193–397K |
 | 2026-10-14 | OpenAI | [Strategic Finance Lead, OpenAI for Inference](https://jobs.ashbyhq.com/openai/096be63b-69cf-4295-9d29-d2e740058ea4) | San Francisco; Remote | $293–325K |
 | 2026-10-14 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
