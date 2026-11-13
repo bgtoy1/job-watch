@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "23 */3 * * *"   # every 3 hours (UTC); GitHub may start runs a few minutes late
   workflow_dispatch: {}       # adds a "Run workflow" button on the Actions tab
+  push:                       # also run right after the checker or watchlist changes
+    branches: [main]
+    paths: ["fetch_jobs.py", "watchlist.json", "probe.py", "probe_targets.json"]
 
 permissions:
   contents: write             # lets the run save its results back to the repository
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +28,10 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python fetch_jobs.py
+      - name: Probe new career sites (only when probe_targets.json changed)
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python probe.py
       - name: Save results
         run: |
           git config user.name "job-checker"
@@ -34,5 +41,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "Job check $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin main || true
             git push
           fi
