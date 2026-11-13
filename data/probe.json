@@ -1,0 +1,1055 @@
+{
+ "companies": {
+  "Amazon": {
+   "api": [
+    {
+     "bytes": 48859,
+     "content_type": "application/json; charset=utf-8",
+     "hits": 3228,
+     "keys": [
+      "error",
+      "hits",
+      "facets",
+      "content",
+      "jobs",
+      "job_posting_search_request"
+     ],
+     "name": "search.json",
+     "start": "{\"error\":null,\"hits\":3228,\"facets\":{},\"content\":{\"sidebar\":{},\"search_results\":{}},\"jobs\":[{\"basic_qualifications\":\"- 5+ years of non-internship professional software development experience\\u003cbr/\\u003e- 5+ years of programming with at least one software programming language experience\\u003cbr/\\u003e- 5+ years of leading design or architecture (design patterns, reliability and scaling) of new and existing systems experience\\u003cbr/\\u003e- Experience as a mentor, tech lead or leading an engineering team\",\"business_category\":\"aws\",\"city\":\"Seattle\",\"company_name\":\"Amazon Development Center U.S",
+     "status": 200,
+     "url": "https://www.amazon.jobs/en/search.json?normalized_country_code%5B%5D=USA&base_query=strategy&result_limit=5&offset=0&sort=recent"
+    }
+   ],
+   "pages": []
+  },
+  "Apple": {
+   "api": [
+    {
+     "bytes": 0,
+     "content_type": "",
+     "headers": {
+      "set-cookie": "jssid=s%3AuImIDQ5xJufjIIUC7jbGhFPGVSIWc_PY.A9K33eipOIzxPL2Y3F5pR6llIiXTW%2BkPnZd1qzCOTGU; Path=/; Expires=Fri, 13 Nov 2026 20:04:21 GMT; HttpOnly; Secure; SameSite=Lax",
+      "x-apple-csrf-token": "8672de92c1f02154924cfd92bd044dfd3fc8d56689c3cacb365d1468fc1e749f"
+     },
+     "name": "csrf v1",
+     "start": "",
+     "status": 200,
+     "url": "https://jobs.apple.com/api/v1/CSRFToken"
+    },
+    {
+     "error": "HTTP 404 for https://jobs.apple.com/api/csrfToken",
+     "name": "csrf old",
+     "url": "https://jobs.apple.com/api/csrfToken"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {
+      "phenom": [
+       "phenom"
+      ]
+     },
+     "bytes": 318450,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "ontent-spacebetween mb-15 \"><p role=\"status\" class=\"t-eyebrow-reduced\" id=\"search-result-count\">600+ Result(s)</p><div class=\"sort-job-list \"><button class=\"sort-job-list-button\" id=\"search-sort-list-popover-button\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-controls=\"search-sort-list-popover-menu-list\"><span class=\"sort-job-list-button__label\">Sort by:<!-- --> </span>Newest<img src=\"/public/images/chevron-grey-down.svg\" alt=\"\" width=\"12\" height=\"6\" class=\"icon cursor-pointer ml-5\" aria-hidden=\"true\"/></button></div></div><ul data-core-accordion=\"\" id=\"search-job-list\" role=\"list\" class=\"rc-accordion rc-accordion-compact\" aria-label=\"Job Opportunities\"><li data-core-accordion-item=\"\" role=\"listitem\" class=\"rc-accordion-item\"><div id=\"title-search-job-list-0\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200694569-0836-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Sr. Software Engineer - Distributed Storage 200694569\" href=\"/en-us/details/200694569-0836/sr-software-engineer-distributed-storage?team=SFTWR\" data-discover=\"true\">Sr. Software Engineer - Distributed Storage</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Nov 13, 2026</span></div><div id=\"search-location-search-job-title-200694569-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Sr. Software Engineer - Distributed Storage 200694569-0836\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200694569-0836\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"/></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-title-200694569-0836-applied-role-1\"></span></div></div></div><button id=\"button-search-job-list-0\" class=\"icon rc-accordion-plusicon icon-plus rc-accordion-plus-icon\" aria-expanded=\"false\" aria-label=\"Role description: Sr. Software Engineer - Distributed Storage\" aria-controls=\"content-search-job-list-0\"></button></div><div aria-hidde",
+     "job_links": [
+      "/static/jobsite.main.897561baeec9ee15015c.css",
+      "https://jobs.apple.com/en-us/searchsearch=strategy&amp;location=united-states-USA&amp;page=2",
+      "https://www.apple.com/careers/us",
+      "https://www.apple.com/careers/us/work-at-apple.html",
+      "https://www.apple.com/careers/us/life-at-apple.html",
+      "https://www.apple.com/careers/pdf/EverifyPosterEnglish.pdf",
+      "https://www.apple.com/careers/us/accommodation_drugfree.html",
+      "/careers/us/index.html",
+      "https://www.apple.com/careers/us/",
+      "/careers/choose-country-region.html"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Search Jobs - United States - Jobs - Careers at Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Please enable Javascript in your browser for best experience. Careers at Apple Work at Apple Life at Apple Profile Sign In Search Find your perfect role. To reveal list of choices, type Most corporate roles require English-language skills. Filters Clear all Refine by Location 1 1 Filter(s) Applied Home Office Clear Location(s) To reveal list of choices, type United States Keyword 0 0 Filter(s) Applied Clear Keyword(s) Teams 0 0 Filter(s) Applied Clear Team(s) To reveal list of choices, type View all teams Products and Services 0 0 Filter(s) Ap",
+     "title": "Search Jobs - United States - Jobs - Careers at Apple",
+     "url": "https://jobs.apple.com/en-us/search?search=strategy&location=united-states-USA"
+    }
+   ]
+  },
+  "Atlassian": {
+   "api": [
+    {
+     "bytes": 2022543,
+     "content_type": "application/json; charset=utf-8",
+     "keys": "list[287]",
+     "name": "listings",
+     "start": "[{\"portalJobPost\":{\"portalId\":242,\"portalUrl\":\"https://careers-apac-atlassian.icims.com/jobs/27339/account-executive/job\",\"id\":27339,\"updatedDate\":\"2026-11-09 12:21 PM\"},\"id\":27339,\"portalId\":242,\"title\":\"Account Executive\",\"locations\":[\"Manila - Philippines -   Manila,  1634 Philippines\",\"Remote - APAC - Remote\"],\"category\":\"Sales\",\"overview\":\"<p><strong>Working at Atlassian</strong></p><p>Atlassians can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other prioritie",
+     "status": 200,
+     "url": "https://www.atlassian.com/endpoint/careers/listings"
+    }
+   ],
+   "pages": []
+  },
+  "Cosm": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 36341,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [
+      "https://www.cosm.com/careers"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Careers | Cosm",
+     "title": "Careers | Cosm",
+     "url": "https://www.cosm.com/careers"
+    },
+    {
+     "ats": {},
+     "bytes": 466991,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Job Board | Dayforce Jobs Skip to Content Sign In Search Jobs Search by job title, keywords, req ID Location Distance .ant-select-selector]:border-l-0 [&>.ant-select-selector]:rounded-l-none hover:[&>.ant-select-selector]:border-l focus:[&>.ant-select-selector]:border-l css-1qtun8u ant-select-single ant-select-show-arrow ant-select-show-search\"> Advanced search .ant-collapse-content>.ant-collapse-content-box]:px-0 [&>.ant-collapse-header]:p-0\"> Save Search Clear All Search Jobs Loading ©2009-2026 Dayforce HCM, Inc. All Rights Reserved. Privacy Policy Cookie Preferences",
+     "title": "Job Board | Dayforce Jobs",
+     "url": "https://jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL"
+    }
+   ]
+  },
+  "Disney": {
+   "api": [
+    {
+     "bytes": 2306,
+     "content_type": "application/json",
+     "keys": [
+      "total",
+      "jobPostings",
+      "facets",
+      "userAuthenticated"
+     ],
+     "name": "workday disneycareer 'strategy'",
+     "start": "{\"total\":4,\"jobPostings\":[{\"title\":\"Principal Software Engineer\",\"externalPath\":\"/job/San-Francisco-CA-USA/Principal-Software-Engineer_10149993-2\",\"timeType\":\"Full time\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"10149993\"]},{\"title\":\"Principal Software Engineer\",\"externalPath\":\"/job/San-Francisco-CA-USA/Principal-Software-Engineer_10149987\",\"timeType\":\"Full time\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"10149987\"]},{\"title\":\"Sr Recruiter, Talent Acquisition\",\"externalPath\":\"/job/Bangalore-India/Sr-Recruiter--Talent-Ac",
+     "status": 200,
+     "total": 4,
+     "url": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs"
+    },
+    {
+     "bytes": 6294,
+     "content_type": "application/json",
+     "keys": [
+      "total",
+      "jobPostings",
+      "facets",
+      "userAuthenticated"
+     ],
+     "name": "workday disneycareer all",
+     "start": "{\"total\":15,\"jobPostings\":[{\"title\":\"Product Software Engineer II\",\"externalPath\":\"/job/New-York-NY-USA/Product-Software-Engineer-II_10160173\",\"timeType\":\"Full time\",\"locationsText\":\"New York, NY, USA\",\"postedOn\":\"Posted 4 Days Ago\",\"bulletFields\":[\"10160173\"]},{\"title\":\"DCVI Localization Specialist\",\"externalPath\":\"/job/Bangkok-Thailand/DCVI-Localization-Specialist_10157118\",\"timeType\":\"Full time\",\"locationsText\":\"Bangkok, Thailand\",\"postedOn\":\"Posted 15 Days Ago\",\"bulletFields\":[\"10157118\"]},{\"title\":\"Lead Product Software Engineer\",\"externalPath\":\"/job/Glendale-CA-USA/Lead-Product-Software-",
+     "status": 200,
+     "total": 15,
+     "url": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {
+      "phenom": [
+       "cdn.phenompeople.com",
+       "phenom"
+      ]
+     },
+     "bytes": 205871,
+     "content_type": "text/html; charset=UTF-8",
+     "job_links": [
+      "https://join.disneycareers.com/global/en",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/favicon.ico?v=1780490173769",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/152x152-apple-touch-icon.png?v=1780490118675",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/167x167-apple-touch-icon.png?v=1780490118675",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/180x180-apple-touch-icon.png?v=1780490118675",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/touch-icon-iphone.png?v=1780490118675",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/en_global/desktop/assets/images/apple-touch-icon.png?v=1780490118675",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1786344368936.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css",
+      "https://assets.phenompeople.com/CareerConnectResources/pp/TWNTWDUS/canvas/default/common/fontfaces/fontface-1746782625625.css",
+      "https://assets.phenompeople.com/CareerConnectResources/pp/TWNTWDUS/canvas/master-theme/common/fontfaces/fontface-1770026969046.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/canvas/css/template-theme-1698129135931.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/TWNTWDUS/canvas/assets/css/master-theme/canvas-site-custom-styles-1794400312438.css",
+      "https://assets.phenompeople.com/CareerConnectResources/pp/TWNTWDUS/canvas/default/common/canvas-global-branding1746782625360.css",
+      "https://assets.phenompeople.com/CareerConnectResources/pp/TWNTWDUS/canvas/master-theme/common/canvas-global-branding1793355348475.css"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Careers at Disney | Disney Careers Search results Disney Careers Discover The Possibilities Home to iconic brands recognized by audiences everywhere for entertainment, inspiration, and innovation, Disney has brought exceptional storytelling and experiences to life for more than 100 years in a way that only we can. Imagine being part of this story. Imagine where a career at Disney can take you! Career Areas Students and Recent Graduates On this Page Our Legacy Global Opportunities News & Accolades Our Businesses Our Culture Our legacy in stories Disable Audio Description Enable Audio Description Transcript GLOBAL OPPORTUNITIES The Walt Disney Company entertains, informs and inspires people ar",
+     "title": "Careers at Disney | Disney Careers",
+     "url": "https://jobs.disneycareers.com/search-jobs/strategy"
+    }
+   ]
+  },
+  "Electronic Arts": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 224727,
+     "content_type": "text/html;charset=UTF-8",
+     "html_snippet": "                                                                                                                         \n                                \n                                                                \n                                                                                                    \n                                                                                                                                                                                                \n                                                                                                                                    \n                                <article class=\"article article--result article--non-toggle\" id=\"article--1\">\n                                    <div class=\"article__header\">\n                                        <div class=\"article__header__text\">\n                                                                                            <h3 class=\"article__header__text__title title title--04 \" data-au=\"ag-h3-6\">\n                                                                                                        <a class=\"link link_result\" href=\"https://jobs.ea.com/en_US/careers/JobDetail/Site-Reliability-Engineer-II/216650\" data-au=\"ag-a-10\">\n                                                        Site Reliability Engineer II\n                                                    </a>\n                                                </h3>\n                                                                                        \n                                                                                            <div class=\"article__header__text__subtitle\">\n                                                    \n                                                                                                                                                                \n                                                    \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                    <span class=\"list-item-location\">Hyderabad, India</span> ",
+     "job_links": [
+      "/ASSET/portal/widget/jobsharemethod/styles.css?version=10.87.89-beta",
+      "https://jobs.ea.com/en_US/careers/SearchJobs",
+      "https://jobs.ea.com/en_US/careers/SearchJobs/feed/?listFilterMode=1&amp;jobRecordsPerPage=20&amp;",
+      "https://jobs.ea.com/en_US/careers",
+      "https://www.ea.com/careers",
+      "https://jobs.ea.com/en_US/careers/Login",
+      "https://jobs.ea.com/zh_CN/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/en_US/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/fi_FI/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/fr_CA/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/it_IT/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/ko_KR/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/ms_MY/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/pl_PL/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1",
+      "https://jobs.ea.com/ro_RO/careers/SearchJobs/?keyword=strategy&amp;jobRecordsPerPage=50&amp;jobOffset=0&amp;listFilterMode=1"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Job Search | Electronic Arts Skip to content Electronic Arts Open Roles About EA EA Careers EA News Login English - US Chinese English - US Finnish Français Italian Korean Malay Polish Romanian Spanish Swedish Our Open Roles Home Open Roles Filter roles by Filter roles by Keywords Search keywords related to roles, including location, title, studio, or skills! Country Job Category Worker Type Studio/Department Work Model Search 1-20 of 329 results Filters applied ( Reset ) Sort by Name ID Posted date City State Country Site Reliability Engineer II Hyderabad, India • Role ID 216650 • Regular Employee • EA Mobile - Slingshot Games (India) More Information Share LinkedIn X WhatsApp Email Faceboo",
+     "title": "Job Search | Electronic Arts",
+     "url": "https://jobs.ea.com/en_US/careers/SearchJobs/?keyword=strategy&jobRecordsPerPage=50&jobOffset=0&listFilterMode=1"
+    },
+    {
+     "error": "HTTP 403 for https://ea.gr8people.com/jobs",
+     "url": "https://ea.gr8people.com/jobs"
+    }
+   ]
+  },
+  "Fox": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 60202,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "anguage;\r\n\t\tquerystring = querystring + \"&latitude=\" + lat + \"&longitude=\" + lon;\r\n\r\n\t\treturn querystring;\r\n\t}\r\n\r\n</script>\r\n\r\n\r\n\t\t<div class=\"desktop-only search-sidebar\">\r\n\t\t\t\r\n\r\n\r\n\r\n<div class=\"searchSidebar\">\r\n\t<p class=\"bod large\">Don’t see what you’re looking for?</p>\r\n\t<p>To keep it simple, only locations with current postings are listed. We’re always posting new jobs, so check back often to keep on top of the latest opportunities.</p>\r\n</div>\r\n\r\n\t\t</div>\r\n\t</div>\r\n\t<div id=\"rightSection\">\r\n\t\t<div id=\"searchResults\">\r\n\t\t\t<div id=\"searchResultsHeader\"><h3>Job Search Results</h3></div>\r\n\t\t\t<p class=\"bod\">\r\n\t\t\t\t<span id=\"jobsCount\">75</span> Results Found\r\n\t\t\t\t| <a id=\"newSearchLink\" href=\"/Search\">New Job Search</a>\r\n\t\t\t</p>\r\n\t\t\t<div class=\"spinner-wrapper\">\r\n\t\t\t\t<div class=\"spinner\">\r\n\t\t\t\t\t<div class=\"rect1\"></div>\r\n\t\t\t\t\t<div class=\"rect2\"></div>\r\n\t\t\t\t\t<div class=\"rect3\"></div>\r\n\t\t\t\t\t<div class=\"rect4\"></div>\r\n\t\t\t\t\t<div class=\"rect5\"></div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<input type=\"hidden\" name=\"page\" id=\"pageNum\" value=\"0\" />\r\n\t\t\t\t\t<div id=\"jobsList\">\r\n\t\t\t\t\t\t\r\n\r\n<input id=\"hiddenJobCount\" type=\"hidden\" value=\"75\" />\r\n\r\n\t<div class=\"jobListing\">\r\n\t\t<a class=\"searchResultTitle\" href=\"/Search/JobDetail/R50033241/senior-manager-social-media-strategy-growth-fox-corporation?pageLanguage=en-US\">\r\n\t\t\tSenior Manager, Social Media Strategy &amp; Growth (R50033241)\r\n\t\t</a>\r\n\t\t<br />\r\n\t\t<p class=\"searchResultBrand\">Fox Corporation</p>\r\n        <p class=\"searchResultDetail\">\r\n\t\t\t\t\t\t<span>New York, New York</span>\r\n\t\t\t\t\t\t<span>;</span>\r\n\r\n        </p>\r\n\t\t<p class=\"searchResultDetail\">Job Posting Date: November 10, 2026</p>\r\n\t</div>\r\n\t<div class=\"jobListing\">\r\n\t\t<a class=\"searchResultTitle\" href=\"/Search/JobDetail/R50033908/producer-social-strategy-creative-content-fox-weather?pageLanguage=en-US\">\r\n\t\t\tProducer, Social Strategy &amp; Creative Content (R50033908)\r\n\t\t</a>\r\n\t\t<br />\r\n\t\t<p class=\"searchResultBrand\">Fox Weather</p>\r\n        <p class=\"searchResultDetail\">\r\n\t\t\t\t\t\t<span>New York, New York</span>\r\n\t\t\t\t\t\t<span>;</span>\r\n\r\n        </p>\r\n\t\t<p class=\"searchResultDetail\">Job Posting Date: November 5, 2026</p>\r\n\t</div>\r\n\t<div class=\"jobListing\">\r\n\t\t<a class=\"searchResultTitle\" href=\"/Search/JobDetail/R50034075/associate-manager-strategy-promo-planning-fox-entertainment?pageLanguage=en-US\">\r\n\t\t\tAssociate Manager, Strategy Promo Planning (R50034075)\r\n\t\t</a>\r\n\t\t<br />\r\n\t\t<p class=\"searchResultBrand\">FOX Entertainment</p>\r\n        <p class=\"searchResultDetail\">\r\n\t\t\t\t\t\t<span>Los Angeles, California</span>\r\n\t\t\t\t\t\t<span>;</span>\r\n\r\n        </p>\r\n\t\t<p class=\"searchResultDetail\">Job Posting Date: October 9, 2026</p>\r\n\t</div>\r\n\t<div class=\"jobListing\">\r\n\t\t<a class=\"searc",
+     "job_links": [
+      "https://www.foxcareers.com/Search/SearchResults?keyword=strategy",
+      "/Programs/CareerLaunchProgram",
+      "/Search/JobDetail/R50033241/senior-manager-social-media-strategy-growth-fox-corporation?pageLanguage=en-US",
+      "/Search/JobDetail/R50033908/producer-social-strategy-creative-content-fox-weather?pageLanguage=en-US",
+      "/Search/JobDetail/R50034075/associate-manager-strategy-promo-planning-fox-entertainment?pageLanguage=en-US",
+      "/Search/JobDetail/R50033866/content-sales-assistant-anz-apac-fox-entertainment?pageLanguage=en-US",
+      "/Search/JobDetail/R50034288/svp-litigation-fox-news-media?pageLanguage=en-US",
+      "/Search/JobDetail/R50033970/summer-2027-fox-sports-big-ten-network-internship-program-chicago-il-fox-sports?pageLanguage=en-US",
+      "/Search/JobDetail/R50034245/spring-2027-fox-sports-big-ten-network-internship-program-new-york-ny-fox-sports?pageLanguage=en-US",
+      "/Search/JobDetail/R50033785/director-ad-sales-tmz-fox-entertainment?pageLanguage=en-US",
+      "/Search/JobDetail/R50034278/vice-president-legal-fox-news-media-fox-news-media?pageLanguage=en-US",
+      "/Search/JobDetail/R50034259/manager-inventory-and-yield-fox-corporation?pageLanguage=en-US"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Job Search Results – Job Search | FOX Careers Skip to main content Home Home Our Brands Our Brands Our Brands Our Brands Fox Corporation Fox Corporation FOX News Media FOX News Media FOX Business Network FOX Business Network FOX Sports FOX Sports FOX Entertainment FOX Entertainment FOX TV Stations FOX TV Stations Tubi Tubi Credible Credible OutKick OutKick Life At FOX Life At FOX Life At FOX Our Brands Employee Benefits Employee Benefits Culture & Belonging Culture & Belonging Internships Internships Fox Internship Program Fox Internship Program Programs Programs FOX Entertainment Writers Incubator FOX Entertainment Writers Incubator Big Ten Network Brand Ambassador Big Ten Network Brand Amb",
+     "title": "Job Search Results – Job Search | FOX Careers",
+     "url": "https://www.foxcareers.com/Search/SearchResults?keyword=strategy"
+    },
+    {
+     "ats": {},
+     "bytes": 35591,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "50030010/director-strategic-growth-fox-corporation\" />\r\n\t<meta property=\"og:site_name\" content=\"FOX Careers Website\" />\r\n\t<meta property=\"og:image\" content=\"https://www.foxcareers.com/Content/img2019/JobSearch/BrandImages/Fox-Corporation/img-Fox-Corporation-og.jpg\" />\r\n\t<meta property=\"og:image:secure_url\" content=\"https://www.foxcareers.com/Content/img2019/JobSearch/BrandImages/Fox-Corporation/img-Fox-Corporation-og.jpg\" />\r\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\r\n\t<meta property=\"og:image:width\" content=\"1200\" />\r\n\t<meta property=\"og:image:height\" content=\"630\" />\r\n\r\n\t<meta name=\"twitter:card\" content=\"summary_large_image\">\r\n\t<meta name=\"twitter:title\" content=\"Apply for Director, Strategic Growth in  Los Angeles, California | FOX Careers\">\r\n\t<meta name=\"twitter:description\" content=\"View the job requirements for the Director, Strategic Growth opening in Los Angeles, California| Apply Now at FOX Careers\">\r\n\t<meta name=\"twitter:image\" content=\"https://www.foxcareers.com/Content/img2019/JobSearch/BrandImages/Fox-Corporation/img-Fox-Corporation-og.jpg\">\r\n\r\n\r\n\t<title>Director, Strategic Growth in  Los Angeles, California | FOX Careers</title>\r\n\t<link rel=\"canonical\" href=\"https://www.foxcareers.com/Search/JobDetail/R50030010/director-strategic-growth-fox-corporation\" />\r\n\t<link rel=\"stylesheet\" href=\"https://use.typekit.net/vym6umx.css\">\r\n\t<link rel=\"stylesheet\" href=\"/Content/CSS/Site.css?t=20260826\" type=\"text/css\" />\r\n\t<!--[if lte IE 8]>\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/Content/CSS/IE8.css\" />\r\n\t<![endif]-->\r\n\r\n\r\n\r\n\t<script type=\"text/javascript\" src=\"/Scripts/jquery-3.7.1.min.js\"></script>\r\n\r\n\t<script type=\"text/javascript\" src=\"/Scripts/libs/js-cookie.js\"></script>\r\n\t<script src=\"/Scripts/libs/mediaelement/mediaelement-and-player.min.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"/scripts/cookieBanner.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"/Scripts/accordion.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"/Scripts/libs/lity-2.3.0/dist/lity.min.js\"></script>\r\n\t<link rel=\"stylesheet\" href=\"/Scripts/libs/mediaelement/mediaelementplayer.css\" />\r\n\t<link rel=\"stylesheet\" href=\"/Scripts/libs/lity-2.3.0/dist/lity.min.css\" />\r\n\r\n\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/Content/img2019/Global/favicon/apple-touch-icon.png\">\r\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/Content/img2019/Global/favicon/favicon-32x32.png\">\r\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/Content/img2019/Global/favicon/favicon-16x16.png\">\r\n\t<link rel=\"manifest\" href=\"/Content/img2019/Global/favicon/site.webmanifest\">\r\n\t<link rel=\"mask-icon\" href=\"/Content/img2019/Global/favicon/safari-pinned-tab.s",
+     "job_links": [
+      "https://www.foxcareers.com/Search/JobDetail/R50030010/director-strategic-growth-fox-corporation",
+      "#job-details",
+      "/Programs/CareerLaunchProgram",
+      "/ExitPage/?destinationID=88779438&JobNumber=R50030010",
+      "https://www.foxcareers.com/LifeAtFox/BenefitsAndPerks"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Director, Strategic Growth in Los Angeles, California | FOX Careers Skip to main content Home Home Our Brands Our Brands Our Brands Our Brands Fox Corporation Fox Corporation FOX News Media FOX News Media FOX Business Network FOX Business Network FOX Sports FOX Sports FOX Entertainment FOX Entertainment FOX TV Stations FOX TV Stations Tubi Tubi Credible Credible OutKick OutKick Life At FOX Life At FOX Life At FOX Our Brands Employee Benefits Employee Benefits Culture & Belonging Culture & Belonging Internships Internships Fox Internship Program Fox Internship Program Programs Programs FOX Entertainment Writers Incubator FOX Entertainment Writers Incubator Big Ten Network Brand Ambassador Big",
+     "title": "Director, Strategic Growth in Los Angeles, California | FOX Careers",
+     "url": "https://www.foxcareers.com/Search/JobDetail/R50030010/director-strategic-growth-fox-corporation"
+    }
+   ]
+  },
+  "GoDaddy": {
+   "api": [
+    {
+     "bytes": 122684,
+     "content_type": "application/json",
+     "keys": [
+      "jobs",
+      "meta"
+     ],
+     "name": "greenhouse godaddy",
+     "start": "{\"jobs\":[{\"absolute_url\":\"https://careers.godaddy/jobs?gh_jid=7728168003\",\"data_compliance\":[{\"type\":\"gdpr\",\"requires_consent\":true,\"requires_processing_consent\":true,\"requires_retention_consent\":true,\"retention_period\":365,\"demographic_data_consent_applies\":false}],\"education\":\"education_optional\",\"internal_job_id\":5762018003,\"location\":{\"name\":\"Bulgaria\"},\"metadata\":[{\"id\":4178754003,\"name\":\"Job Posting Department\",\"value\":\"Customer Care \\u0026 Services\",\"value_type\":\"single_select\"},{\"id\":4178755003,\"name\":\"Job Posting Team/Specialty\",\"value\":\"Aftermarket\",\"value_type\":\"single_select\"},{\"id",
+     "status": 200,
+     "url": "https://boards-api.greenhouse.io/v1/boards/godaddy/jobs"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {
+      "clinch": [
+       "clinchtalent.com"
+      ]
+     },
+     "bytes": 122559,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-FHzH/NTTVRH/7KAAaAPV8QPTKHLwpK5K+MrFtd8lGA3JZ3plomnU7gCytCSg6nR2\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/focus_controller-574bf08e.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-a7NcmKvB+Bgdp/NHpfCdrBQv7CCYGZHGUUrH5RMPgZnnJivImzF+43JgdLrpZ8OK\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/frame_loader_controller-1ff12fb5.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-jMpe0XXks9vxZ7EovODbn/YeWtpVVok0OrjmDYkZdctnNbPjodoY2GSm0EZb9vnz\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/index-d3d79060.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-bIfbc77L7UuT99verR3EHN8xujUXrin81aZZ9AODezDXIam5lTYf3bBb3t8lozQq\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/init/explicit_consent_modal_controller-0a0bbc18.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-9DVHCOZSz2l3tShJncYGDbdAyxOqemUtGFb+yl23lg5EE/aLG1xIm+kiN9tXtpyP\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/init/implied_consent_controller-b8a284e9.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-wCM5YDsYrvUWkGi9qa5T/7txWSfCD6HkkvZ3P46W09u22ov/Dd1wcGHFYfRG2F6T\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/jobs/filter_controller-e66637dc.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-nZuylqAAygh0Pz8NfMAYSsXm6ATpD46e3ihnHCGS6cQ6BdIyawsIrr6CFKK6GJPf\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/jobs/search_controller-d5148c87.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-RKvow7vgAqx0PFWWiC6IS+ZTNKLGRnbJDOFEAWP6mHVwx7FPGABLm07KyueROomt\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/jobs/table_results_controller-ee718736.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-B94tqeKgwdNCY2TVxE5bcStVCXr0D84pIrCk1MWNBamAEq/QiIQ/MkMIPhqXE3c8\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/kiosk_controller-d511d8dc.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-5r4TzsvJQJbhuOoJwXRSy5rSr9QgBJ+WsYWEiCfyg9OObzRQQlRPMXpQUpJOz9hr\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/manage_cookies_link_reloader_controller-860dd65a.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-42MFpEtVNTxD0DlkgATP9jgTMxN15t74k3B2PwTgdREnBEJjEnnaE6D3UlV5GgwU\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/page_events_controller-190c2441.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-kxTReg1Mv8y9yZ337o1lDl+iX6LeNXhz/FixXUj+Jh9Fnn8AYA95FBsI4dkOuqF+\">\n<link rel=\"modulepreload\" href=\"/assets/sites/controllers/phone_validator_controller-8c54de77.js\" nonce=\"nbbtQtRuCJB87I04oQQhrQ==\" integrity=\"sha384-MmFKLpPYjjDclIfk8AP8hgrqnP6cokWgyGXLJJ/XKIy/82ha8ktjDKkfphrYrMyC\">\n<link rel=\"modulepre",
+     "job_links": [
+      "/assets/sites/controllers/blocks/job_search_form_controller-b97cd1c3.js",
+      "/assets/sites/controllers/blocks/jobs_controller-046289f4.js",
+      "/assets/sites/controllers/call_to_action/job_alert_field_controller-863fb0e3.js",
+      "/assets/sites/controllers/call_to_action/job_conditional_question_controller-3c2263fa.js",
+      "/assets/sites/controllers/call_to_action/job_questions_controller-06c32d9e.js",
+      "/assets/sites/controllers/jobs/filter_controller-e66637dc.js",
+      "/assets/sites/controllers/jobs/search_controller-d5148c87.js",
+      "/assets/sites/controllers/jobs/table_results_controller-ee718736.js",
+      "https://careers.godaddy/jobs/search",
+      "https://careers.godaddy/blogs/own-outcomes",
+      "https://careers.godaddy/blogs/build-value",
+      "/assets/sites/job_application-479b6a33.css",
+      "/assets/sites/job_questions-5d5df1ac.css",
+      "/assets/sites/job_search-85a81f26.css",
+      "https://careers.godaddy/"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Search Page BEGIN HEADER / NAV Skip to main content --> Home Teams Technical Customer Care Corporate Emerging Talent India Engineering Culture Diversity Candidate Resources Compensation and Total Rewards Candidate Experience AI Expectations Assessments Global Locations GoDaddy Life Blog Engineering Blog Photographer Network About Us Candidate Settings Search Jobs --> See Open Roles Join Our Network See Open Roles Join Our Network Search Jobs --> END HEADER / NAV Kiosk mode Find your perfect role. Skip to jobs search results Clear Filters Search by job title, location, department, category, etc. Search -Departments- -Departments- Aftermarket (1) Corporate (3) Customer Care Sales (0) Customer ",
+     "title": "Search Page",
+     "url": "https://careers.godaddy/jobs/search?query=strategy"
+    }
+   ]
+  },
+  "Google / YouTube": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 1307155,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "Object.prototype)),e=d.next();try{for(;!e.done;e=d.next()){var f=e.value;M.includes(f)||N.includes(f)||c.push(f)}}finally{m(d,e)}e=Object.prototype;d=[];for(f=0;f<c.length;f++){var g=c[f];d[f]={name:g,descriptor:Object.getOwnPropertyDescriptor(Object.prototype,g),type:typeof e[g]}}if(d.length!==0){c=l(d);e=c.next();try{for(;!e.done;e=c.next())N.push(e.value.name)}finally{m(c,e)}var h;t(b,a,{type:\"SEAL\",origin:(h=window.location.origin)!=null?\nh:\"unknown\",report:{blockers:d}})}};var O=Math.random(),P=u(),Q=window.ppConfig;Q&&(Q.disableAllReporting||Q.deleteIsEnforced&&Q.sealIsEnforced||O<Q.heartbeatRate&&t(P,Q.productName,{origin:window.location.origin,type:\"HEARTBEAT\"}));var z=u(),R=window.ppConfig;if(R)if(R.deleteIsEnforced)delete Object.prototype.__proto__;else if(!R.disableAllReporting){var y=R.productName;try{var x,B;Object.defineProperty(Object.prototype,\"__proto__\",{enumerable:!1,get:w(),set:A()})}catch(a){}}\n(function(){var a=u(),b=window.ppConfig;b&&(b.sealIsEnforced?Object.seal(Object.prototype):b.disableAllReporting||(document.readyState!==\"loading\"?C(b,a):document.addEventListener(\"DOMContentLoaded\",function(){C(b,a)})))})();}).call(this);\n</script><link rel=\"canonical\" href=\"https://www.google.com/about/careers/applications/jobs/results\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700\" nonce=\"5ENO2M-OGiwnEN1SBgGpBw\"><script data-id=\"_gd\" nonce=\"68HKn_YtQQVXO1yAA9mzdg\">window.WIZ_global_data = {\"AfY8Hf\":false,\"AriVud\":5,\"CJ2Nkc\":false,\"CKvvqe\":\"AIzaSyBqJIJhCCHRbut6HCuMmtUaf4j8JdC9bug\",\"CxZeif\":5,\"DpimGf\":false,\"EP1ykd\":[\"/_/*\",\"/accounts/*\",\"/extended-workforce/onboarding\",\"/extended-workforce/onboarding/\",\"/extended-workforce/onboarding/*\",\"/onboarding\",\"/onboarding/\",\"/onboarding/*\"],\"FdrFJe\":\"1711957481329800758\",\"HiPsbb\":1,\"Im6cmf\":\"/about/careers/applications/_/HiringCportalFrontendUi\",\"LVIXXb\":1,\"LoQv7e\":false,\"MT7f9b\":[],\"MUE6Ne\":\"corp-hiring-boq-cportal-frontend\",\"Mw1w2b\":\"https://google.com/about/careers/attachmentupload/upload\",\"QNXPu\":2,\"QrtxK\":\"\",\"S06Grb\":\"\",\"S6lZl\":68784202,\"SAQ7sb\":false,\"TSDtV\":\"%.@.[[null,[[45638197,null,null,null,\\\"FoVXCsLS60g3aPa32is0Vk2aj3td\\\",null,\\\"Gnk45b\\\"],[45450297,null,true,null,null,null,\\\"IDV7Lc\\\"],[45679146,null,true,null,null,null,\\\"YBkOxc\\\"],[45719488,null,true,null,null,null,\\\"dcoe4b\\\"],[45656003,null,true,null,null,null,\\\"Swddcb\\\"],[45753853,null,true,null,null,null,\\\"MBUbnc\\\"],[45450311,null,true,null,null,null,\\\"Mj70jb\\\"],[45450301,null,false,null,null,null,\\\"XEmnpf\\\"],[45820132,null,true,null,null,null,\\\"wxNknf\\\"],[45638196,null,null,null,\\\"AIzaSyBqJIJhCCHRbut6HCuMmtUa",
+     "job_links": [
+      "https://www.google.com/about/careers/applications/",
+      "https://www.google.com/about/careers/applications/jobs/results",
+      "https://www.gstatic.com/_/mss/boq-hiring/_/ss/k=boq-hiring.HiringCportalFrontendUi.Eg674dkBWOs.L.B1.O/am=AAAAAJj-_61Zb6EJAmA/d=1/ed=1/rs=AIJKeT7jh1XKr8lMclsvwYpBMnvm2gJekA/m=jobsresultsview,_b,_tp",
+      "/about/careers/applications/",
+      "https://support.google.com/googlecareers",
+      "https://accounts.google.com/ServiceLogin?passive=1209600&amp;continue=https://www.google.com/about/careers/applications/jobs/results?q%3Dstrategy%26location%3DLos%2BAngeles,%2BCA,%2BUSA%26target_level%3DDIRECTOR&amp;followup=https://www.google.com/about/careers/applications/jobs/results?q%3Dstrategy%26location%3DLos%2BAngeles,%2BCA,%2BUSA%26target_level%3DDIRECTOR&amp;ec=GAZA6QE",
+      "https://www.linkedin.com/company/google/jobs/",
+      "https://www.google.com/about/careers/applications/eeo/",
+      "https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf",
+      "https://careers.google.com/how-we-hire/",
+      "https://support.google.com/googlecareers/#topic=6095159",
+      "jobs/results/95891896894661318-strategy-and-operations-senior-associate-gtm-launch?q=strategy&amp;location=Los+Angeles,+CA,+USA&amp;target_level=DIRECTOR",
+      "jobs/results/106999002297180870-strategy-and-operations-principal-lead-global-partnerships-thirdparty-data-and-deepmind?q=strategy&amp;location=Los+Angeles,+CA,+USA&amp;target_level=DIRECTOR",
+      "jobs/results/123067892290724550-strategy-and-operations-senior-associate-retail-performance-search-gtm?q=strategy&amp;location=Los+Angeles,+CA,+USA&amp;target_level=DIRECTOR",
+      "jobs/results/79032543134786246-global-content-strategy-lead-youtube-business?q=strategy&amp;location=Los+Angeles,+CA,+USA&amp;target_level=DIRECTOR"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Search Jobs — Google Careers Careers Careers Skip navigation links home home Home Home work_outline work_outline Jobs Jobs noogler_hat noogler_hat Students Students google google How we work How we work handyman handyman How we hire How we hire person_outline person_outline Your career Your career help_outline Help link feedback Send feedback more_vert Help Send Feedback Sign in Careers Careers home Home work_outline Jobs expand_less Job search Recommended jobs Saved jobs Job alerts AI at Google Google Cloud YouTube noogler_hat Students expand_more google How we work expand_more handyman How we hire expand_more person_outline Your career expand_more Search Jobs Search sidebar 48 jobs matched",
+     "title": "Search Jobs — Google Careers",
+     "url": "https://www.google.com/about/careers/applications/jobs/results?q=strategy&location=Los%20Angeles%2C%20CA%2C%20USA&target_level=DIRECTOR"
+    }
+   ]
+  },
+  "HubSpot": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 497309,
+     "content_type": "text/html; charset=UTF-8",
+     "html_snippet": "ww.hubspot.com/hubfs/hub_generated/template_assets/1/134555644730/1756730547818/template_button.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/template_assets/1/194396003592/1792064510345/template_tooltip.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/module_assets/1/80992206946/1793192607568/module_ctaContentBlock.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/template_assets/1/194395071312/1768385543674/template_ctaGroup.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/template_assets/1/201641145442/1764770669082/template_csol-image.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/template_assets/1/207924262801/1794424127800/template_footer-core-critical.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.hubspot.com/hubfs/hub_generated/template_assets/1/207928094053/1794424127752/template_footer-core-non-critical.min.css\">\n    <script src=\"https://www.hubspot.com/wt-assets/static-files/global-scripts/latest/personalization/index.js\" nonce=\"4UWiXjPVdEFJ4QMnkP3DGg==\"></script>\n\n    \n    <link rel=\"canonical\" href=\"https://www.hubspot.com/careers/jobs/all\">\n\n<!-- Begin Domain Settings Code --> \n<!-- Meta -->\n<meta property=\"twitter:account_id\" content=\"14458280\">\n<meta name=\"msvalidate.01\" content=\"C5553ABFC995043D86E2C15CA3DADD34\">\n<meta name=\"p:domain_verify\" content=\"7f4fa0f1fccc171fd4d5af64f062521c\">\n<meta http-equiv=\"content-language\" content=\"en-US\">\n<meta property=\"fb:pages\" content=\"6039999393\">\n<meta name=\"zoom-domain-verification\" content=\"ZOOM_verify_11b35b16cffa4c4894dae1d52a2ba70d\">\n\n<meta name=\"theme-color\" content=\"#FF7A59\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n  \n\n\n  <script defer src=\"https://www.hubspot.com/wt-assets/static-files/compliance/index.js\" data-gtm-id=\"GTM-N5LT88\" nonce=\"4UWiXjPVdEFJ4QMnkP3DGg==\"></script>\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n      \n      \n      \n\n      \n    \n\n\n      \n\n      \n\n      \n      \n        \n          \n        \n        \n      \n        \n        \n      \n        \n        \n      \n        \n        \n      \n        \n        \n      \n        \n        \n      \n    \n\n\n\n\n\n\n\n\n\n  <!-- [Speech POC - WBZ-9203] active -->\n  <script nonce=\"4UWiXjPVdEFJ4QMnkP3DGg==\">\n    (function() {\n      var isMobile = window.innerWidth < 900;\n\n      if (isMobile) {\n        var script = document.createElement('script');\n        script.src = \"//53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/192656330903/1762786297231/template_speech-poc.min.js\";\n        script.async = true;\n      ",
+     "job_links": [
+      "https://www.hubspot.com/careers/jobs/all",
+      "https://www.hubspot.com/wt-assets/static-files/6.1.6/careers-directory/styles.css",
+      "//www.hubspot.com/careers",
+      "https://www.hubspot.com/careers/belonging",
+      "https://www.hubspot.com/careers/benefits?hubs_signup-cta=careers-nav-benefits",
+      "https://www.hubspot.com/careers/hybrid-work",
+      "https://www.hubspot.com/careers/customer-success",
+      "https://www.hubspot.com/careers/general-administration",
+      "https://www.hubspot.com/careers/marketing",
+      "https://www.hubspot.com/careers/people-team",
+      "https://www.hubspot.com/careers/product-ux-engineering",
+      "https://www.hubspot.com/careers/operations",
+      "https://www.hubspot.com/careers/sales",
+      "https://www.hubspot.com/careers/candidate-experience",
+      "https://www.hubspot.com/careers-blog"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "HubSpot Careers | All Openings Logo - Full (Color) Skip to content English Select a language 日本語 Deutsch English Español Português Français High Contrast Customer Support Contact Sales Close Search Log in About About About Us Careers Contact Us Investor Relations Management Team Back Menu Close Search Products Products The HubSpot Customer Platform All of HubSpot's marketing, sales, and customer service software on one agentic platform. Free HubSpot CRM Overview of all products Marketing Hub Marketing automation software Free and premium plans Sales Hub Sales software Free and premium plans Service Hub Customer service software Free and premium plans Content Hub Content marketing software Fr",
+     "title": "HubSpot Careers | All Openings",
+     "url": "https://www.hubspot.com/careers/jobs"
+    }
+   ]
+  },
+  "IMAX": {
+   "api": [
+    {
+     "bytes": 4829,
+     "content_type": "application/json",
+     "keys": [
+      "total",
+      "jobPostings",
+      "facets",
+      "userAuthenticated"
+     ],
+     "name": "workday",
+     "start": "{\"total\":12,\"jobPostings\":[{\"title\":\"Sr. Specialist, Procurement Project Management\",\"externalPath\":\"/job/Mississauga-Ontario/Sr-Specialist--Procurement-Project-Management_JR101123\",\"timeType\":\"Full time\",\"locationsText\":\"Mississauga, Ontario\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"JR101123\"]},{\"title\":\"Sr. Manager, Tax Audit & Risk\",\"externalPath\":\"/job/Mississauga-Ontario/Sr-Manager--Tax-Audit---Risk_JR101113\",\"timeType\":\"Full time\",\"locationsText\":\"Mississauga, Ontario\",\"postedOn\":\"Posted Yesterday\",\"bulletFields\":[\"JR101113\"]},{\"title\":\"VP, Strategic Planning & Business Development\",\"e",
+     "status": 200,
+     "total": 12,
+     "url": "https://imax.wd10.myworkdayjobs.com/wday/cxs/imax/IMAX-Careers/jobs"
+    }
+   ],
+   "pages": []
+  },
+  "Legendary Entertainment": {
+   "api": [],
+   "pages": [
+    {
+     "error": "HTTP 404 for https://www.legendary.com/careers/",
+     "url": "https://www.legendary.com/careers/"
+    },
+    {
+     "ats": {},
+     "bytes": 4632,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Job Not Found We're sorry, that job does not exist or is not currently active. Powered by Paylocity Privacy Policy | Payroll & HR Software SMS Terms and Conditions and Privacy Policy",
+     "title": "Job Not Found",
+     "url": "https://recruiting.paylocity.com/recruiting/jobs/details/4304980"
+    }
+   ]
+  },
+  "Lionsgate": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {
+      "successfactors": [
+       "career4.successfactors.com"
+      ]
+     },
+     "bytes": 60240,
+     "content_type": "text/html;charset=UTF-8",
+     "html_snippet": "517925e4e3f55f919a8953fea84 fontalign-center linkcolor4fd9b1985fd532cf linkhovercolor3999736203d0f2e7\">\n                                        <a href=\"https://jobs.lionsgate.com/job-invite/20227/\" target=\"_blank\" class=\"fontcolore47410552c85c4d2 threeimagecaption-link\" style=\"font-family:custome4b6bbcbb50e4b6cb3f43; font-size:27px;\">Assistant, TV Business Affairs</a>\n                                </h2>\n                        </div>\n                </div>\n                    <div class=\"bottom linkcolor4fd9b1985fd532cf linkhovercolor3999736203d0f2e7 fontcolor4fd9b1985fd532cf\"><p>Lionsgate has an opening for an Assistant to support two EVPs of Television Business Affairs. This opportunity provides an excellent learning experience for an individual with a strong interest in the business side of television.</p>\n\n                    </div>\n            </div>\n        \n            <div class=\"column column3\">\n                <div class=\"top\">\n                    <div class=\"imagelink\">\n                        <div aria-hidden=\"true\" class=\"bgimage backgroundimageac1c78d6-f73c-41f6-9323-9\" role=\"img\">\n                                    <a tabindex=\"-1\" class=\"threeimagecaption-link\" href=\"https://jobs.lionsgate.com/Lionsgate/job/Santa-Monica-Manager%2C-Domestic-Sales-Strategy-&amp;-Planning-CA-90404/1390310700/\" target=\"_blank\"><span></span></a>\n                        </div>\n                    </div>\n                        <style type=\"text/css\">\n                            .threeimagecaption9ce38e6cbf0d7a72 .column3 .top .bgimage{\n                                height:198px;\n                                min-height:198px;\n                            }\n                        </style>\n                        <div class=\"text\">\n                                <h2 class=\"h1 backgroundcolor1d2db517925e4e3f55f919a8953fea84 fontalign-center linkcolor4fd9b1985fd532cf linkhovercolor3999736203d0f2e7\">\n                                        <a href=\"https://jobs.lionsgate.com/Lionsgate/job/Santa-Monica-Manager%2C-Domestic-Sales-Strategy-&amp;-Planning-CA-90404/1390310700/\" target=\"_blank\" class=\"fontcolore47410552c85c4d2 threeimagecaption-link\" style=\"font-family:custome4b6bbcbb50e4b6cb3f43; font-size:27px;\">Manager, Domestic Sales Strategy &amp; Planning</a>\n                                </h2>\n                        </div>\n                </div>\n                    <div class=\"bottom linkcolor4fd9b1985fd532cf linkhovercolor3999736203d0f2e7 fontcolor4fd9b1985fd532cf\"><p>Lionsgate has an immediate opening for a Manager to join the Worldwide TV &amp; Digital Distribution department, reporting to the Sr. Director, Sales Strategy &amp; Planning. This multi-",
+     "job_links": [
+      "https://jobs.lionsgate.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css",
+      "https://jobs.lionsgate.com/?locale=en_US&amp;previewLink=true&amp;referrerSave=false&amp;token=o6M8mpB4Z6iuiClN%2BoT3pg%3D%3D",
+      "/go/View-All-Openings/8023300/",
+      "https://jobs.lionsgate.com/job-invite/20018/",
+      "https://jobs.lionsgate.com/job-invite/20227/",
+      "https://jobs.lionsgate.com/Lionsgate/job/Santa-Monica-Manager%2C-Domestic-Sales-Strategy-&amp;-Planning-CA-90404/1390310700/",
+      "https://www.facebook.com/LionsgateJobs",
+      "https://www.instagram.com/lionsgatejobs",
+      "https://x.com/lionsgatejobs"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Skip to main content OPENINGS All Lionsgate Lionsgate Canada INTERNSHIPS About Lionsgate Internships Search by Keyword Search by Location OPENINGS All Lionsgate Lionsgate Canada INTERNSHIPS About Lionsgate Internships Login Search by Keyword Search by Location Show More Options Loading... City All State All Featured Jobs Applications Lead, SAP FI/CO Lionsgate is seeking a highly skilled SAP FICO (Financial Accounting and Controlling) specialist to join our dynamic team. This role will play a key role in collaborating between Finance, accounting, controlling and IT teams. The ideal candidate will have deep expertise across key Financial Accounting (FI) and Controlling (CO) modules, including ",
+     "title": "",
+     "url": "https://www.lionsgate.com/careers"
+    }
+   ]
+  },
+  "Mattel": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 1849493,
+     "content_type": "text/html",
+     "job_links": [
+      "https://corporate.mattel.com/careers"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Join Our Team! | Careers | Mattel, Inc. 0&&a[a.length-1])&&(6===o[0]||2===o[0])){s=0;continue}if(3===o[0]&&(!a||o[1]>a[0]&&o[1] 0?r:\\\"https://corporate.mattel.com/search-results?q=\\\".concat(t);\\\"Enter\\\"==n&&(window.location.href=a),e.results.length>0&&(state.searchAutocomplete=!0,state.autocompleteResults=e.results)})).catch((function(e){console.error(\\\"Error:\\\",e)}))};var _virtual_index=main();return _virtual_index\"],\"blocks\":[1,[[0,{\"@type\":[0,\"@builder.io/sdk:Element\"],\"@version\":[0,2],\"layerName\":[0,\"Desktop Nav\"],\"id\":[0,\"builder-93625f355cb64bf986def50a9562371d\"],\"component\":[0,{\"name\":[0,\"Core:Section\"],\"options\":[0,{\"maxWidth\":[0,1200]}],\"isRSC\":[0,null]}],\"children\":[1,[[0,{\"@type\":",
+     "title": "Join Our Team! | Careers | Mattel, Inc.",
+     "url": "https://jobs.mattel.com/"
+    }
+   ]
+  },
+  "Meta": {
+   "api": [],
+   "pages": [
+    {
+     "error": "HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA",
+     "url": "https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA"
+    }
+   ]
+  },
+  "Microsoft": {
+   "api": [
+    {
+     "error": "HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&query=strategy&location=United%20States&start=0&num=10",
+     "name": "eightfold",
+     "url": "https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&query=strategy&location=United%20States&start=0&num=10"
+    },
+    {
+     "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcsservices.careers.microsoft.com'. (_ssl.c:1011)> for https://gcsservices.careers.microsoft.com/search/api/v1/search?q=strategy&lc=United%20States&l=en_us&pg=1&pgSz=",
+     "name": "gcs",
+     "url": "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=strategy&lc=United%20States&l=en_us&pg=1&pgSz=20&o=Recent"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 29411,
+     "content_type": "text/html;charset=utf-8",
+     "job_links": [
+      "https://careers.microsoft.com/content/dam/microsoftcareersvnext/en/images/system-icons-do-not-delete-/fav-icon.png",
+      "/etc.clientlibs/microsoftcareersvnext/clientlibs/clientlib-base.lc-29dd07e5c9aec9ab1a18f04cf73ef695-lc.min.css",
+      "/etc.clientlibs/microsoftcareersvnext/clientlibs/clientlib-header-footer.lc-50ad92da794d0674d3a0ee2c72bc7ede-lc.min.css",
+      "/etc.clientlibs/microsoftcareersvnext/clientlibs/clientlib-fragment.lc-8bf64cad8365369ef08b0801b17417f2-lc.min.css",
+      "https://careers.microsoft.com/v2/global/en/benefits",
+      "https://careers.microsoft.com/v2/global/en/culture",
+      "https://careers.microsoft.com/v2/global/en/diversityandinclusion",
+      "https://careers.microsoft.com/v2/global/en/hiring-tips.html"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Home | Microsoft Careers https://uhf.microsoft.com/en-US/shell/html/MSActionCenter?headerId=GlobalCareersPCSHeaderprod https://careers.microsoft.com/bin/msft/searchheader https://careers.microsoft.com/v2/global/en/sign-in.html https://careers.microsoft.com/v2/ca/fr/connexion.html https://cdn.careers.microsoft.com/aem/asset-manifest.json 654c6aaa25ad4751986d2b4fdcf3da6f-b7d405fc-078f-42fd-99cf-e21de3479349-7421 https://gcssupportuippe.azureedge.net/asset-manifest.json PROD https://uhf.microsoft.com/fr-CA/shell/html/MSActionCenter?headerId=GlobalCareersPCSHeaderprod PROD https://apply.careers.microsoft.com/careers Win and thrive together -->  ✖  ✖ Find jobs Empowered by Purpose. United by Mi",
+     "title": "Home | Microsoft Careers",
+     "url": "https://careers.microsoft.com/v2/global/en/home.html"
+    }
+   ]
+  },
+  "NBCUniversal": {
+   "api": [
+    {
+     "bytes": 16562,
+     "content_type": "application/json; charset=utf-8",
+     "keys": [
+      "offset",
+      "limit",
+      "totalFound",
+      "content"
+     ],
+     "name": "smartrecruiters NBCUniversal3",
+     "start": "{\"offset\":0,\"limit\":5,\"totalFound\":186,\"content\":[{\"id\":\"744000161533619\",\"name\":\"Manager, Design & Development (Toys & HL -  Collectibles)\",\"uuid\":\"fb12071e-c631-4274-83c8-c072f010a79a\",\"jobAdId\":\"02415861-1827-4335-a6ae-2a932f0e79e6\",\"defaultJobAd\":true,\"refNumber\":\"51335518\",\"company\":{\"identifier\":\"NBCUniversal3\",\"name\":\"NBCUniversal\"},\"releasedDate\":\"2026-11-13T16:30:22.479Z\",\"location\":{\"city\":\"Universal City\",\"region\":\"CALIFORNIA\",\"country\":\"us\",\"address\":\"10 Universal City Plaza\",\"postalCode\":\"91608-1009\",\"remote\":false,\"hybrid\":true,\"fullLocation\":\"Universal City, CALIFORNIA, United S",
+     "status": 200,
+     "url": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings?limit=5&q=strategy"
+    }
+   ],
+   "pages": [
+    {
+     "error": "HTTP 403 for https://www.nbcunicareers.com/find-a-job",
+     "url": "https://www.nbcunicareers.com/find-a-job"
+    }
+   ]
+  },
+  "Niantic Spatial": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 61638,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [
+      "https://www.nianticspatial.com/careers",
+      "https://www.nianticspatial.com/en/careers",
+      "/careers",
+      "/careers/jobs"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Careers | Life at Niantic Spatial | Niantic Spatial, Inc. Skip to main content Livestream Hear more about how Niantic Spatial is working with NVIDIA and Flexion to close the Sim-to-Real gap ↗ Watch now ↗ News Research Models Industries Company Ask AI New: ask our AI Questions about VPS, Capture, pricing or our research, answered from our site and docs. What are you trying to do? Pick a question, or ask in your own words. Continue your last conversation Summarize this page How do you use AI and world models to understand and interact with the real world? How do you support public sector and defense missions, especially in GPS-denied environments? How do you help with robotics and autonomous s",
+     "title": "Careers | Life at Niantic Spatial | Niantic Spatial, Inc.",
+     "url": "https://www.nianticspatial.com/careers"
+    },
+    {
+     "ats": {
+      "phenom": [
+       "cdn.phenompeople.com",
+       "phenom"
+      ]
+     },
+     "bytes": 94695,
+     "content_type": "text/html; charset=UTF-8",
+     "job_links": [
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/favicon.ico?v=1761290334721",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/152x152-apple-touch-icon.png?v=1738203675365",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/167x167-apple-touch-icon.png?v=1738203675365",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/180x180-apple-touch-icon.png?v=1738203675365",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/touch-icon-iphone.png?v=1738203675365",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/en_us/desktop/assets/images/apple-touch-icon.png?v=1760098536097",
+      "https://careers.scopely.com/us/en/home",
+      "https://careers.scopely.com/us/en/",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/canvas/default/common/fontfaces/fontface-1738080530277.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1786344368936.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/canvas/default/common/fontfaces/fontface-1778831286134.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/canvas/css/template-theme-1698129135931.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/canvas/assets/css/default/canvas-site-custom-styles-1792083132034.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/canvas/default/common/canvas-global-branding1738080530123.css"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Scopely: Inspire Play, Every Day Search results INSPIRE PLAY, EVERY DAY Joining Scopely means working with creators, dreamers, and pioneers who believe that life is better when we play together. Scopeleans push the boundaries of interactive entertainment to inspire play, every day. Your work could help shape unforgettable experiences for players, bringing joy to millions worldwide. Ready to play? CHOOSE YOUR INTEREST Analytics / Performance Art Business Support Corporate Engineering Game Design and Production Marketing Operations Tech UI / UX OUR AWARDS TIME100 MOST INFLUENTIAL COMPANIES TIME100 TOP 100 BEST WORKPLACES FOR INNOVATORS FAST COMPANY TOP 50 MOBILE GAME MAKERS POCKETGAMER.BIZ PUB",
+     "title": "Scopely: Inspire Play, Every Day",
+     "url": "https://nianticlabs.com/careers"
+    }
+   ]
+  },
+  "Paramount Skydance": {
+   "api": [
+    {
+     "bytes": 208368,
+     "content_type": "application/rss+xml",
+     "name": "rss",
+     "start": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'><channel><atom:link href='https://careers.paramount.com/feeds/(strategy)/?locale=en_US' rel='self' type='application/rss+xml' /><title>Paramount - Custom Search (strategy)</title><link>https://careers.paramount.com/feeds/(strategy)/?locale=en_US</link><description>Custom RSS Feed for Paramount</description><lastBuildDate>Fri, 13 Nov 2026 19:34:12 GMT</lastBuildDate><language>en-us</language><image><url></url><title><![CDATA[Paramount - Custom Search (strategy)]]></title><link>https://careers.para",
+     "status": 200,
+     "url": "https://careers.paramount.com/services/rss/job/?locale=en_US&keywords=(strategy)"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 328094,
+     "content_type": "text/html;charset=UTF-8",
+     "html_snippet": "t.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=275f70e9\" />\n                \n                <script type=\"text/javascript\" src=\"/platform/js/j2w/j2w.fallbacks.js\"></script>\n                \n                \n                <script type=\"text/javascript\" src=\"https://hcm41.sapsf.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js\" onerror=\"loadFallbacks('/platform/js/jquery/jquery-3.5.1.min.js', '/platform/js/jquery/jquery-migrate-3.1.0.min.js')\"></script>\n                <script type=\"text/javascript\" src=\"https://hcm41.sapsf.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js\"></script>\n                    <title>Strategy - Paramount Jobs</title>\n\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n        <meta name=\"keywords\" content=\"strategy, Paramount Jobs\" />\n        <meta name=\"description\" content=\"Find strategy at Paramount\" />\n        <link rel=\"canonical\" href=\"https://careers.paramount.com/search/\" />\n            <link rel=\"alternate\" type=\"application/rss+xml\" title=\"strategy Custom Search\" href=\"https://careers.paramount.com/services/rss/job/?locale=en_US&amp;keywords=(strategy)\" />\n            <meta name=\"robots\" content=\"noindex\" />\n            <meta property=\"og:image\" content=\"https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png\" />\n            <meta property=\"twitter:image\" content=\"https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png\" />\n                <link type=\"text/css\" rel=\"stylesheet\" href=\"//rmkcdn.successfactors.com/44ea18da/0cd735c5-8759-4ad2-b110-4.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/csb/css/customHeader.css?h=275f70e9\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/sitebuilderframework.min.css?h=275f70e9\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/sitebuilderframework.tileSearch.min.css?h=275f70e9\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/BS3ColumnizedSearch.min.css?h=275f70e9\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/fontawesome4.7/css/font-awesome-4.7.0.min.css?h=275f70e9\" /><script type=\"text/javascript\"></script>\n\n        \n        <link rel=\"shortcut icon\" href=\"//rmkcdn.successfactors.com/44ea18da/3fcab5d8-69ab-46c3-8226-7.png\" type=\"image/x-icon\" />\n            <style id=\"antiClickjack\" type=\"text/css\">body{display:none !important;}</style>",
+     "job_links": [
+      "https://careers.paramount.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css",
+      "https://careers.paramount.com/search/",
+      "https://careers.paramount.com/services/rss/job/?locale=en_US&amp;keywords=(strategy)",
+      "https://www.paramount.com/careers",
+      "/go/UK-Jobs/8711800/",
+      "https://www.paramount.com/careers/benefits",
+      "https://www.paramount.com/careers/internships",
+      "https://careers.paramount.com/search/?q=strategy&amp;locale=en_US",
+      "https://www.skydance.com/careers",
+      "https://www.skydance.com/careers/benefits",
+      "https://www.skydance.com/careers/internships",
+      "/job/Pyrmont-Head-of-Commercial-Innovation-NSW-2009/1438538600/",
+      "/job/Los-Angeles-SVP%2C-Corporate-Strategy-CA-90038/1412500700/",
+      "/job/Los-Angeles-Director%2C-Strategy-and-Insights%2C-Paramount-Pictures-CA-90038/1343605500/",
+      "/job/Los-Angeles-Sr-Manager%2C-Corporate-Strategy-CA-90038/1356036400/"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Strategy - Paramount Jobs Skip to main content Jobs BET CBS CBS News and Stations CBS Sports CBS Studios MTV Network 10 Nickelodeon Nickelodeon Animation Paramount Animation Paramount Networks International Paramount Pictures Paramount+ Pluto TV Showtime UK Jobs Benefits & Perks Global Inclusion Internships Language English (United States) View Profile Employee Login Jobs BET CBS CBS News and Stations CBS Sports CBS Studios MTV Network 10 Nickelodeon Nickelodeon Animation Paramount Animation Paramount Networks International Paramount Pictures Paramount+ Pluto TV Showtime UK Jobs Benefits & Perks Global Inclusion Internships Language English (United States) View Profile Employee Login Benefit",
+     "title": "Strategy - Paramount Jobs",
+     "url": "https://careers.paramount.com/search/?q=strategy"
+    }
+   ]
+  },
+  "Sphere Entertainment": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 164989,
+     "content_type": "text/html; charset=UTF-8",
+     "html_snippet": "                                 Merchandise/Retail                                        </li>\n                                                                                <li data-id=\"Productions\">\n                                            Productions                                        </li>\n                                                                                <li data-id=\"Project Management\">\n                                            Project Management                                        </li>\n                                                                                <li data-id=\"Technology\">\n                                            Technology                                        </li>\n                                                                                <li data-id=\"Threat Management/Security\">\n                                            Threat Management/Security                                        </li>\n                                                                        </ul>\n                            </div>\n                        </div>\n                    </div>\n                 \n                <a \n                    href=\"https://www.sphereentertainmentco.com/jobs/\" \n                    id=\"careerSubmit\" \n                    class=\"btn btn-primary\" \n                    target=\"_blank\"\n                >\n                    View Jobs\n                </a>\n            </div>\n        </form>   \n        \t\n        </div>\t\n    </div>\n    <div class=\"page-hero__overlay\"></div>\n</header>\t\t\t\n\t\t<section class=\"entry-content entry-content--template-page-full-width\">\n\t\t\t\n<section class=\"entry-content entry-content--page\">\n\t<section  class=\"block block--media-text\">\n<section class=\"block block--media-text careers-section\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-5\">\n                \n<section  class=\"block block--image\">\n<figure class=\"wp-block-image size-full\"><img fetchpriority=\"high\" decoding=\"async\" width=\"940\" height=\"524\" src=\"https://www.sphereentertainmentco.com/wp-content/uploads/2026/06/CAREER_Starts-With-Us-Opt-1_940x524.png\" alt=\"\" class=\"wp-image-6995\" srcset=\"https://www.sphereentertainmentco.com/wp-content/uploads/2026/06/CAREER_Starts-With-Us-Opt-1_940x524.png 940w, https://www.sphereentertainmentco.com/wp-content/uploads/2026/06/CAREER_Starts-With-Us-Opt-1_940x524-300x167.png 300w, https://www.sphereentertainmentco.com/wp-content/uploads/2026/06/CAREER_Starts-With-Us-Opt-1_940x524-768x428.png 768w\" sizes=\"(max-width: 940px) 100vw, 940px\" /></figure>\n</section>\n\n            </div>\n            <div class=\"col-lg-7\">\n                            ",
+     "job_links": [
+      "https://www.sphereentertainmentco.com/careers/",
+      "https://www.sphereentertainmentco.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sphereentertainmentco.com%2Fcareers%2F",
+      "https://www.sphereentertainmentco.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sphereentertainmentco.com%2Fcareers%2F&#038;format=xml",
+      "https://www.sphereentertainmentco.com/jobs/",
+      "https://www.sphereentertainmentco.com/jobs/join-our-network-burbank-ca-las-vegas-nv-new-york-city-ny/?gh_jid=5013167007&amp;gh_src=2acf955e7us",
+      "https://jobs.msgentertainment.com/entertainment/jobs?tags2=Full%20Time",
+      "https://www.sphereentertainmentco.com/jobs/?locations=Burbank%2C%20CA",
+      "https://www.sphereentertainmentco.com/jobs/?locations=Las%20Vegas%2C%20NV",
+      "https://www.sphereentertainmentco.com/jobs/?locations=New%20York%20City%2C%20NY",
+      "https://msgentertainment.com/careers",
+      "https://msgsports.com/careers"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Careers | Sphere Entertainment Co. Skip to main content Sphere Entertainment Co. Our Company About Leadership Contact Our Community Overview CSR Report Supplier Diversity Company News Investors Press Careers Opportunities Students FAQ Join the Team. All Locations All Locations Burbank, CA Burbank, CA; Las Vegas, NV; New York City, NY Las Vegas, NV New York City, NY All Departments All Departments Accounting Administrative Art, Design Business Operations Construction Creative Development Food & Beverage Human Resources/People Practices Marketing Merchandise/Retail Productions Project Management Technology Threat Management/Security View Jobs It starts with us. We show up ready to win. Prepare",
+     "title": "Careers | Sphere Entertainment Co.",
+     "url": "https://www.sphereentertainmentco.com/careers/"
+    },
+    {
+     "error": "HTTP 404 for https://www.sphereentertainmentco.com/?p=6105",
+     "url": "https://www.sphereentertainmentco.com/?p=6105"
+    }
+   ]
+  },
+  "Superhuman (Grammarly)": {
+   "api": [
+    {
+     "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs",
+     "name": "boards-api grammarly",
+     "url": "https://boards-api.greenhouse.io/v1/boards/grammarly/jobs"
+    },
+    {
+     "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs",
+     "name": "boards-api superhuman",
+     "url": "https://boards-api.greenhouse.io/v1/boards/superhuman/jobs"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {
+      "greenhouse": [
+       "grammarly"
+      ]
+     },
+     "board_tests": {
+      "greenhouse:grammarly": {
+       "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true",
+       "ok": false
+      }
+     },
+     "bytes": 939739,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [
+      "https://superhuman.com/company/careers",
+      "https://superhuman.com/company/careers/jobs",
+      "/company/careers"
+     ],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "Explore career opportunities at Superhuman Products Solutions AI Resources Pricing Love Contact sales Log in Sign up Products Superhuman Go Agents Mail Calendar Docs Databases Superhuman Store Solutions For your team Enterprises Education Marketing teams Sales teams IT teams EPD teams Use cases Work assistant Study assistant Project management Knowledge management Collaborative documents AI Agents Superhuman agents Grammarly Email Assistant Agent Store Connections Connectors Mail MCP Docs MCP Resources What’s new Customer stories Help center Company blog Business resources Trust Partners Pricing Go + Agents Mail Docs Superhuman Suite Love Contact sales Log in Sign up Get in. We’re shaping th",
+     "title": "Explore career opportunities at Superhuman",
+     "url": "https://superhuman.com/careers"
+    },
+    {
+     "error": "HTTP 404 for https://job-boards.greenhouse.io/grammarly",
+     "url": "https://job-boards.greenhouse.io/grammarly"
+    }
+   ]
+  },
+  "TikTok": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 110313,
+     "content_type": "text/html; charset=utf-8",
+     "html_snippet": "Asia Pacific</a><a class=\"flex flex-col py-1 px-0.5  text-nowrap border-2 border-transparent hover:border-b-black text-left\" target=\"_self\" href=\"https://lifeattiktok.com/earlycareers/emea\">Europe, the UK and the Middle East</a><a class=\"flex flex-col py-1 px-0.5  text-nowrap border-2 border-transparent hover:border-b-black text-left\" target=\"_self\" href=\"https://lifeattiktok.com/earlycareers/frontiertechprogram\">Global Frontier Tech Recruitment Program</a><a class=\"flex flex-col py-1 px-0.5  text-nowrap border-2 border-transparent hover:border-b-black text-left\" target=\"_self\" href=\"https://lifeattiktok.com/earlycareers/phd\">PhD Opportunities</a><a class=\"flex flex-col py-1 px-0.5  text-nowrap border-2 border-transparent hover:border-b-black text-left\" target=\"_self\" href=\"https://lifeattiktok.com/earlycareers/faq\">FAQs</a></section></button><div><a class=\"border-transparent border-2 mr-4 hover:border-b-[var(--hover-color)]\" target=\"_self\" href=\"https://lifeattiktok.com/blog\">Blog</a></div><div><a class=\"border-transparent border-2 mr-4 hover:border-b-[var(--hover-color)]\" target=\"_self\" href=\"https://lifeattiktok.com/search\">Jobs</a></div><a target=\"_self\" data-testid=\"app-link\" href=\"https://careers.tiktok.com/position/application\"><button type=\"button\" data-testid=\"button\" style=\"--bg-color:#000000;--border-color:#ffffff;--text-color:#ffffff;--hover-bg-color:#000000;--hover-border-color:#ffffff;--hover-text-color:#ffffff\" class=\"tt-text bg-[var(--bg-color)] border-[var(--border-color)] text-[var(--text-color)] [:where(&amp;)]hover:bg-[var(--hover-bg-color)] [:where(&amp;)]hover:text-[var(--hover-text-color)] [:where(&amp;)]hover:border-[var(--hover-border-color)] text-[18px] button_defaultStyle___p4ax button_small__qigP9  \">Apply</button></a></section><div class=\"fixed top-0 left-0 h-full w-full bg-black transition-all\" style=\"display:none;opacity:0\"></div><div class=\"fixed top-0 left-0 bottom-0 w-[236px] bg-white leading-[32px] overflow-y-auto transition-transform duration-300 ease-in-out px-[20px] py-[36px] -translate-x-full\"><div class=\"flex flex-col gap-[40px]\"><div class=\"flex items-center\"><button type=\"button\" aria-label=\"Close sidebar\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><g clip-path=\"url(#clip0_6169_59595)\"><path d=\"M15.3012 15.2439C15.0781 15.4671 14.7163 15.4671 14.4931 15.2439L0.756034 1.50712C0.532881 1.28397 0.532882 0.922178 0.756035 0.69903L1.05102 0.404046C1.27418 0.180897 1.63598 0.180898 1.85913 0.404046L15.5962 14.1409C15.8194 14.364 15.8194 14.7258 15.5962 14.949L15.3012 15.2439Z\" fill=\"black\"></path><path d=\"M15.3012 15.2439C15.0781 15.4671 14.7163 15.4671 14.4931 15.2",
+     "job_links": [
+      "https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/tt-career-site/public/_next/static/css/9c3a882c0009e06d.css",
+      "https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/tt-career-site/public/_next/static/css/2f71132fe0e31070.css",
+      "https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/tt-career-site/public/_next/static/chunks/webpack-17fcdf80d55ae468.js",
+      "https://lifeattiktok.com/earlycareers",
+      "https://lifeattiktok.com/earlycareers/ams",
+      "https://lifeattiktok.com/earlycareers/apac",
+      "https://lifeattiktok.com/earlycareers/emea",
+      "https://lifeattiktok.com/earlycareers/frontiertechprogram",
+      "https://lifeattiktok.com/earlycareers/phd",
+      "https://lifeattiktok.com/earlycareers/faq",
+      "https://careers.tiktok.com/position/application"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Job Search #LifeAtTikTok #LifeAtTikTok Diversity & Inclusion Our Philosophy Hear From Our Leaders Teams Advertising & Sales Corporate Functions Design E-Commerce Engineering & Technology Global Operations Marketing & Communications Product TikTok USDS Joint Venture How we hire Applying to TikTok Interview tips FAQ Locations Early Careers Early Careers at TikTok Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog Jobs Apply Company About TikTok Newsroom Contact Programs TikTok for Good TikTok for Developers Effect House Advertise on TikTok TikTok Rewards TikTok Browse TikTok Embeds Resources Help center Safety Center Cr",
+     "title": "Job Search",
+     "url": "https://lifeattiktok.com/search?keyword=strategy"
+    }
+   ]
+  },
+  "UTA": {
+   "api": [],
+   "pages": [
+    {
+     "ats": {
+      "ashby": [
+       "united-talent-agency"
+      ]
+     },
+     "board_tests": {
+      "ashby:united-talent-agency": {
+       "jobs": 46,
+       "ok": true,
+       "sample": [
+        "Software Development Engineer - Front End | Los Angeles Office",
+        "Executive Assistant - Technology | Nashville, TN",
+        "Coordinator, Cash Management & Client Payments | London, UK",
+        "Associate, Client Accounting [Future Opportunities] | Los Angeles, CA; New York, NY"
+       ]
+      }
+     },
+     "bytes": 386520,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [],
+     "json_hints": [
+      "title"
+     ],
+     "status": 200,
+     "text_start": "",
+     "title": "",
+     "url": "https://www.unitedtalent.com/careers/"
+    },
+    {
+     "ats": {},
+     "bytes": 369080,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "",
+     "title": "",
+     "url": "https://www.unitedtalent.com/careers/job-openings/"
+    }
+   ]
+  },
+  "Uber": {
+   "api": [
+    {
+     "error": "HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en",
+     "name": "loadSearchJobsResults",
+     "url": "https://www.uber.com/api/loadSearchJobsResults?localeCode=en"
+    }
+   ],
+   "pages": []
+  },
+  "Whatnot": {
+   "api": [
+    {
+     "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs",
+     "name": "boards-api",
+     "url": "https://boards-api.greenhouse.io/v1/boards/whatnot/jobs"
+    },
+    {
+     "error": "HTTP 404 for https://api.greenhouse.io/v1/boards/whatnot/jobs",
+     "name": "api.greenhouse.io",
+     "url": "https://api.greenhouse.io/v1/boards/whatnot/jobs"
+    }
+   ],
+   "pages": [
+    {
+     "ats": {},
+     "bytes": 739790,
+     "content_type": "text/html; charset=utf-8",
+     "job_links": [
+      "https://www.whatnot.com/careers",
+      "https://www.whatnot.com/de-DE/careers",
+      "https://www.whatnot.com/en-AU/careers",
+      "https://www.whatnot.com/en-GB/careers",
+      "https://www.whatnot.com/es-US/careers",
+      "https://www.whatnot.com/fr-FR/careers",
+      "https://www.whatnot.com/ja-JP/careers",
+      "https://www.whatnot.com/nl-NL/careers",
+      "/careers/working-and-whatnot",
+      "/careers/discover",
+      "/careers/discover/1212",
+      "/careers"
+     ],
+     "json_hints": [],
+     "status": 200,
+     "text_start": "Careers · Whatnot: Shop, Sell, Connect Working & Whatnot Discover Jobs Building the future of commerce, together. Watch The Clip Our Mission Enable anyone to turn their passion into a business and bring people together through commerce. $8B live stream sales Whatnot surpassed $8B in live stream sales in 2025. 560k+ hours of live shows hosted per week More than 560,000 hours of live content is hosted every week on Whatnot. 98 minutes spent per day Users spend 98 minutes a day on the app globally, more than most people spend on social media. What drives our mission? Our community. Our founders started Whatnot to give people a place to buy, sell, and connect over the things they love, from spor",
+     "title": "Careers · Whatnot: Shop, Sell, Connect",
+     "url": "https://www.whatnot.com/careers"
+    },
+    {
+     "error": "HTTP 404 for https://job-boards.greenhouse.io/whatnot",
+     "url": "https://job-boards.greenhouse.io/whatnot"
+    }
+   ]
+  }
+ },
+ "run": "2026-11-13T19:33Z",
+ "targets_hash": "d028157b52af55e7",
+ "trial_readers": {
+  "Amazon": [
+   {
+    "jobs": 539,
+    "ok": true,
+    "reader": "amazon:",
+    "sample": [
+     "Sr. Software Development Engineer, Amazon Quick | Seattle, Washington, USA | https://www.amazon.jobs/en/jobs/10604744/sr-software-development-engineer-amazon-quick",
+     "Sr. Manager, Software Development | North Reading, Massachusetts, USA | https://www.amazon.jobs/en/jobs/10604626/sr-manager-software-development",
+     "Transformation Delivery Senior Manager, Accounting Transformation Group | Seattle, Washington, USA | https://www.amazon.jobs/en/jobs/10604651/transformation-delivery-senior-manager-accounting-transformation-group",
+     "Sr. Manager Product Manager - Technical, AWS Billing Product | Seattle, Washington, USA | https://www.amazon.jobs/en/jobs/10603951/sr-manager-product-manager-technical-aws-billing-product",
+     "Robotics Software Development Engineer, Fauna | New York, New York, USA | https://www.amazon.jobs/en/jobs/10603921/robotics-software-development-engineer-fauna"
+    ]
+   }
+  ],
+  "Apple": [
+   {
+    "jobs": 0,
+    "ok": true,
+    "reader": "apple:",
+    "sample": []
+   }
+  ],
+  "Atlassian": [
+   {
+    "jobs": 287,
+    "ok": true,
+    "reader": "atlassian:",
+    "sample": [
+     "Account Executive | Manila - Philippines -   Manila,  1634 Philippines; Remote - APAC - Remote | https://www.atlassian.com/company/careers/details/27339",
+     "Account Executive, Mid Market | Remote - India - Remote; Remote - Remote | https://www.atlassian.com/company/careers/details/25482",
+     "Data Platform Engineer | Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote | https://www.atlassian.com/company/careers/details/27589",
+     "Design Lead - Systems | Sydney - Australia -   Sydney,  2000 Australia; Remote - Remote | https://www.atlassian.com/company/careers/details/28236",
+     "Enterprise Account Manager | Sydney - Australia -   Sydney,  2000 Australia; Remote - Remote | https://www.atlassian.com/company/careers/details/27500"
+    ]
+   }
+  ],
+  "Electronic Arts": [
+   {
+    "jobs": 20,
+    "ok": true,
+    "reader": "avature:https://jobs.ea.com/en_US/careers",
+    "sample": [
+     "Site Reliability Engineer II | Hyderabad, India | https://jobs.ea.com/en_US/careers/JobDetail/Site-Reliability-Engineer-II/216650",
+     "Software Engineer Intern | Kuala Lumpur, Malaysia | https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/215931",
+     "Game Design Intern | Kuala Lumpur, Malaysia | https://jobs.ea.com/en_US/careers/JobDetail/Game-Design-Intern/215951",
+     "Experience Design Intern | Kuala Lumpur, Malaysia | https://jobs.ea.com/en_US/careers/JobDetail/Experience-Design-Intern/215955",
+     "Brand Design Intern - Summer 2027 | Vancouver, Canada | https://jobs.ea.com/en_US/careers/JobDetail/Brand-Design-Intern-Summer-2027/216217"
+    ]
+   }
+  ],
+  "Fox": [
+   {
+    "jobs": 0,
+    "ok": true,
+    "reader": "foxcareers:",
+    "sample": []
+   }
+  ],
+  "GoDaddy": [
+   {
+    "jobs": 29,
+    "ok": true,
+    "reader": "greenhouse:godaddy",
+    "sample": [
+     "Aftermarket - Technical Support I | Bulgaria | https://careers.godaddy/jobs?gh_jid=7728168003",
+     "Corporate Domain Client Success Manager | United States | https://careers.godaddy/jobs?gh_jid=8043862003",
+     "Critical Facilities Engineer | Phoenix, Arizona, United States | https://careers.godaddy/jobs?gh_jid=7987643003",
+     "Director AI Ecosystem Partnerships | United States | https://careers.godaddy/jobs?gh_jid=8036011003",
+     "Director Corporate Development | United States | https://careers.godaddy/jobs?gh_jid=7882531003"
+    ]
+   },
+   {
+    "jobs": 27,
+    "ok": true,
+    "reader": "clinch:godaddy",
+    "sample": [
+     "Senior Director Corporate Strategy | United States | https://careers.godaddy/jobs/senior-director-corporate-strategy-united-states",
+     "Principal Product Manager - GoDaddy Capital | Ontario Canada | https://careers.godaddy/jobs/principal-product-manager-godaddy-capital-ontario-canada",
+     "Director AI Ecosystem Partnerships | United States | https://careers.godaddy/jobs/director-ai-ecosystem-partnerships-united-states",
+     "Senior Technical Product Manager - Identity Platform | India | https://careers.godaddy/jobs/senior-technical-product-manager-identity-platform-india",
+     "Director Corporate Development | United States | https://careers.godaddy/jobs/director-corporate-development-united-states"
+    ]
+   }
+  ],
+  "Google / YouTube": [
+   {
+    "jobs": 18,
+    "ok": true,
+    "reader": "google:",
+    "sample": [
+     "Strategy and Operations Principal Lead, Global Partnerships, Third-Party Data and DeepMind | New York, NY, USA; Chicago, IL, USA | https://www.google.com/about/careers/applications/jobs/results/106999002297180870-strategy-and-operations-principal-lead-global-partnerships-thirdparty-data-and-deepmind",
+     "Global Content Strategy Lead, YouTube Business | San Bruno, CA, USA; Los Angeles, CA, USA | https://www.google.com/about/careers/applications/jobs/results/79032543134786246-global-content-strategy-lead-youtube-business",
+     "Head of Strategic Projects, Go-To-Market, Americas | New York, NY, USA; Chicago, IL, USA | https://www.google.com/about/careers/applications/jobs/results/99856574763147974-head-of-strategic-projects-gotomarket-americas",
+     "Head of Google Trends | Mountain View, CA, USA; New York, NY, USA | https://www.google.com/about/careers/applications/jobs/results/112085010227307206-head-of-google-trends",
+     "Chief of Staff, Search+ | San Francisco, CA, USA; Atlanta, GA, USA | https://www.google.com/about/careers/applications/jobs/results/116714555475665606-chief-of-staff-search"
+    ]
+   }
+  ],
+  "Grammarly": [
+   {
+    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true",
+    "ok": false,
+    "reader": "greenhouse:grammarly",
+    "trace": "8, in trial_runs\n    jobs = fj.FETCHERS[t[\"ats\"]](t, terms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 202, in fetch_greenhouse\n    d = http(f\"https://boards-api.greenhouse.io/v1/boards/{c['id']}/jobs?content=true\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true\n"
+   },
+   {
+    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true",
+    "ok": false,
+    "reader": "greenhouse:superhuman",
+    "trace": ", in trial_runs\n    jobs = fj.FETCHERS[t[\"ats\"]](t, terms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 202, in fetch_greenhouse\n    d = http(f\"https://boards-api.greenhouse.io/v1/boards/{c['id']}/jobs?content=true\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true\n"
+   },
+   {
+    "error": "HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1",
+    "ok": false,
+    "reader": "greenhouse_html:grammarly",
+    "trace": "line 725, in fetch_greenhouse_html\n    page_html = http_text(f\"https://job-boards.greenhouse.io/{c['id']}?page={page}\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 105, in http_text\n    return http_raw(url, body, headers, form=form)[2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 101, in http_raw\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1\n"
+   },
+   {
+    "error": "HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true",
+    "ok": false,
+    "reader": "ashby:superhuman",
+    "trace": "= fj.FETCHERS[t[\"ats\"]](t, terms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 231, in fetch_ashby\n    d = http(f\"https://api.ashbyhq.com/posting-api/job-board/{c['id']}?includeCompensation=true\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/superhuman?includeCompensation=true\n"
+   }
+  ],
+  "Meta": [
+   {
+    "error": "HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US",
+    "ok": false,
+    "reader": "meta:",
+    "trace": "quote(term)}{offices}\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 105, in http_text\n    return http_raw(url, body, headers, form=form)[2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 101, in http_raw\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US\n"
+   }
+  ],
+  "Microsoft": [
+   {
+    "error": "HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50",
+    "ok": false,
+    "reader": "eightfold:apply.careers.microsoft.com",
+    "trace": "ms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 372, in fetch_eightfold\n    d = http(f\"{base}&query={urllib.parse.quote(term)}&start={start}&num=50\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50\n"
+   },
+   {
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcsservices.careers.microsoft.com'. (_ssl.c:1011)> for https://gcsservices.careers.microsoft.com/search/api/v1/search?q=strategy&lc=United%20States&l=en_us&pg=1&pgSz=",
+    "ok": false,
+    "reader": "microsoft_gcs:apply.careers.microsoft.com",
+    "trace": " http(\"https://gcsservices.careers.microsoft.com/search/api/v1/search?\"\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcsservices.careers.microsoft.com'. (_ssl.c:1011)> for https://gcsservices.careers.microsoft.com/search/api/v1/search?q=strategy&lc=United%20States&l=en_us&pg=1&pgSz=20&o=Recent\n"
+   }
+  ],
+  "Paramount Skydance": [
+   {
+    "jobs": 34,
+    "ok": true,
+    "reader": "successfactors:careers.paramount.com",
+    "sample": [
+     "Commercial Growth and Retail Sr Manager | Warsaw, MZ, PL, 00-560 | https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+     "Growth Marketer, The Free Press | New York, NY, US, 10036 | https://careers.paramount.com/job/New-York-Growth-Marketer%2C-The-Free-Press-NY-10036/1430772300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+     "Designer, Toys | Los Angeles, CA, US, 90038 | https://careers.paramount.com/job/Los-Angeles-Designer%2C-Toys-CA-90038/1430786400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+     "Senior Software Engineer (Java) in Test | Burbank, CA, US, 91505 | https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-%28Java%29-in-Test-CA-91505/1385510900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+     "Executive Producer | Atlanta, GA, US, 30345 | https://careers.paramount.com/job/Atlanta-Executive-Producer-GA-30345/1430063100/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    ]
+   }
+  ],
+  "Uber": [
+   {
+    "error": "HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en",
+    "ok": false,
+    "reader": "uber:",
+    "trace": "ads(http_text(\"https://www.uber.com/api/loadSearchJobsResults?localeCode=en\", body, hdr))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 105, in http_text\n    return http_raw(url, body, headers, form=form)[2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 101, in http_raw\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en\n"
+   }
+  ],
+  "Whatnot": [
+   {
+    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true",
+    "ok": false,
+    "reader": "greenhouse:whatnot",
+    "trace": "168, in trial_runs\n    jobs = fj.FETCHERS[t[\"ats\"]](t, terms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 202, in fetch_greenhouse\n    d = http(f\"https://boards-api.greenhouse.io/v1/boards/{c['id']}/jobs?content=true\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true\n"
+   },
+   {
+    "error": "HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1",
+    "ok": false,
+    "reader": "greenhouse_html:whatnot",
+    "trace": ", line 725, in fetch_greenhouse_html\n    page_html = http_text(f\"https://job-boards.greenhouse.io/{c['id']}?page={page}\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 105, in http_text\n    return http_raw(url, body, headers, form=form)[2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 101, in http_raw\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1\n"
+   },
+   {
+    "error": "HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true",
+    "ok": false,
+    "reader": "ashby:whatnot",
+    "trace": "bs = fj.FETCHERS[t[\"ats\"]](t, terms[:2])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 231, in fetch_ashby\n    d = http(f\"https://api.ashbyhq.com/posting-api/job-board/{c['id']}?includeCompensation=true\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/job-watch/job-watch/fetch_jobs.py\", line 64, in http\n    raise RuntimeError(f\"{last} for {url}\")\nRuntimeError: HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true\n"
+   }
+  ]
+ }
+}
