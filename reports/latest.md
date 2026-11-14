@@ -1,4 +1,4 @@
-# Job check 2026-11-14T19:10Z
+# Job check 2026-11-14T21:56Z
 
 ## New since last run (0)
 
@@ -10,10 +10,11 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (4)
+## Companies that failed (5)
 
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/legendary?includeCompensation=true
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=80&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?includeCompensation=true
 
