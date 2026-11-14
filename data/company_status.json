@@ -37,7 +37,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 928,
+   "jobs_seen": 926,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -91,7 +91,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 668,
+   "jobs_seen": 670,
    "matches": 0,
    "ok": true
   },
@@ -237,7 +237,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 428,
+   "jobs_seen": 427,
    "matches": 6,
    "ok": true
   },
@@ -320,7 +320,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 75,
+   "jobs_seen": 74,
    "matches": 1,
    "ok": true
   },
@@ -570,7 +570,7 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 183,
+   "jobs_seen": 182,
    "matches": 2,
    "ok": true
   },
@@ -587,8 +587,10 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=150&num=50",
-   "ok": false
+   "board": "netflix:",
+   "jobs_seen": 343,
+   "matches": 12,
+   "ok": true
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -608,7 +610,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 363,
+   "jobs_seen": 362,
    "matches": 0,
    "ok": true
   },
@@ -733,7 +735,7 @@
   },
   "Spotify": {
    "board": "lever:spotify",
-   "jobs_seen": 85,
+   "jobs_seen": 87,
    "matches": 0,
    "ok": true
   },
@@ -790,7 +792,7 @@
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 374,
+   "jobs_seen": 373,
    "matches": 0,
    "ok": true
   },
@@ -820,5 +822,5 @@
    "ok": false
   }
  },
- "run": "2026-11-14T04:15Z"
+ "run": "2026-11-14T07:29Z"
 }
