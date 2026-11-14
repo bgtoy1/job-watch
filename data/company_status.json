@@ -2,7 +2,7 @@
  "companies": {
   "2K (Take-Two)": {
    "board": "greenhouse:2k",
-   "jobs_seen": 89,
+   "jobs_seen": 91,
    "matches": 0,
    "ok": true
   },
@@ -19,14 +19,12 @@
    "ok": true
   },
   "Adobe": {
-   "board": "workday:adobe/external_experienced",
-   "jobs_seen": 185,
-   "matches": 0,
-   "ok": true
+   "error": "HTTP 521 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+   "ok": false
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 219,
+   "jobs_seen": 217,
    "matches": 1,
    "ok": true
   },
@@ -39,7 +37,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 936,
+   "jobs_seen": 928,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -52,6 +50,12 @@
     }
    ],
    "sample_raw": [
+    {
+     "location": "Seattle, Washington, USA",
+     "posted": "2026-11-13",
+     "title": "Forecasting Manager, Amazon Advertising",
+     "url": "https://www.amazon.jobs/en/jobs/10605083/forecasting-manager-amazon-advertising"
+    },
     {
      "location": "Sunnyvale, California, USA",
      "posted": "2026-11-13",
@@ -71,29 +75,23 @@
      "url": "https://www.amazon.jobs/en/jobs/10604744/sr-software-development-engineer-amazon-quick"
     },
     {
+     "location": "New York, New York, USA",
+     "posted": "2026-11-13",
+     "title": "Principal Enterprise Account Manager, TMEGS Media & Entertainment Sales",
+     "url": "https://www.amazon.jobs/en/jobs/10605052/principal-enterprise-account-manager-tmegs-media-entertainment-sales"
+    },
+    {
      "location": "North Reading, Massachusetts, USA",
      "posted": "2026-11-13",
      "title": "Sr. Manager, Software Development",
      "url": "https://www.amazon.jobs/en/jobs/10604626/sr-manager-software-development"
-    },
-    {
-     "location": "Seattle, Washington, USA",
-     "posted": "2026-11-13",
-     "title": "Transformation Delivery Senior Manager, Accounting Transformation Group",
-     "url": "https://www.amazon.jobs/en/jobs/10604651/transformation-delivery-senior-manager-accounting-transformation-group"
-    },
-    {
-     "location": "Seattle, Washington, USA",
-     "posted": "2026-11-13",
-     "title": "Sr. Manager Product Manager - Technical, AWS Billing Product",
-     "url": "https://www.amazon.jobs/en/jobs/10603951/sr-manager-product-manager-technical-aws-billing-product"
     }
    ],
    "trial": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 673,
+   "jobs_seen": 668,
    "matches": 0,
    "ok": true
   },
@@ -116,7 +114,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 260,
+   "jobs_seen": 261,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -177,7 +175,7 @@
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 189,
+   "jobs_seen": 191,
    "matches": 0,
    "ok": true
   },
@@ -195,7 +193,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 481,
+   "jobs_seen": 479,
    "matches": 1,
    "ok": true
   },
@@ -211,7 +209,7 @@
   },
   "Coursera": {
    "board": "greenhouse:sourcingcour",
-   "jobs_seen": 12,
+   "jobs_seen": 11,
    "matches": 0,
    "ok": true
   },
@@ -223,7 +221,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 893,
+   "jobs_seen": 896,
    "matches": 1,
    "ok": true
   },
@@ -234,14 +232,12 @@
    "ok": true
   },
   "Disney": {
-   "board": "workday:disney/disneycareer",
-   "jobs_seen": 12,
-   "matches": 0,
-   "ok": true
+   "error": "HTTP 521 for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+   "ok": false
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 426,
+   "jobs_seen": 428,
    "matches": 6,
    "ok": true
   },
@@ -306,7 +302,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 129,
+   "jobs_seen": 128,
    "matches": 4,
    "ok": true
   },
@@ -318,7 +314,7 @@
   },
   "Epic Games": {
    "board": "greenhouse:epicgames",
-   "jobs_seen": 144,
+   "jobs_seen": 142,
    "matches": 0,
    "ok": true
   },
@@ -330,7 +326,7 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 228,
+   "jobs_seen": 227,
    "matches": 1,
    "ok": true
   },
@@ -352,7 +348,7 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 250,
+   "jobs_seen": 251,
    "matches": 2,
    "ok": true
   },
@@ -419,10 +415,8 @@
    "trial": true
   },
   "GoodRx": {
-   "board": "workday:goodrx/careers",
-   "jobs_seen": 0,
-   "matches": 0,
-   "ok": true
+   "error": "HTTP 521 for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs",
+   "ok": false
   },
   "Google / YouTube": {
    "board": "google:",
@@ -490,7 +484,7 @@
   },
   "Hasbro": {
    "board": "greenhouse:hasbro",
-   "jobs_seen": 102,
+   "jobs_seen": 101,
    "matches": 0,
    "ok": true
   },
@@ -502,7 +496,7 @@
   },
   "Hims & Hers": {
    "board": "ashby:hims-and-hers",
-   "jobs_seen": 142,
+   "jobs_seen": 144,
    "matches": 1,
    "ok": true
   },
@@ -514,7 +508,7 @@
   },
   "Instacart": {
    "board": "greenhouse:instacart",
-   "jobs_seen": 87,
+   "jobs_seen": 85,
    "matches": 1,
    "ok": true
   },
@@ -526,7 +520,7 @@
   },
   "LA28": {
    "board": "greenhouse:la28careers",
-   "jobs_seen": 41,
+   "jobs_seen": 42,
    "matches": 0,
    "ok": true
   },
@@ -542,7 +536,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 152,
+   "jobs_seen": 150,
    "matches": 0,
    "ok": true
   },
@@ -554,7 +548,7 @@
   },
   "Mesh": {
    "board": "greenhouse:mesh",
-   "jobs_seen": 22,
+   "jobs_seen": 24,
    "matches": 1,
    "ok": true
   },
@@ -576,13 +570,13 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 181,
+   "jobs_seen": 183,
    "matches": 2,
    "ok": true
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 311,
+   "jobs_seen": 310,
    "matches": 3,
    "ok": true
   },
@@ -594,7 +588,7 @@
   },
   "Netflix": {
    "board": "netflix:",
-   "jobs_seen": 343,
+   "jobs_seen": 344,
    "matches": 12,
    "ok": true
   },
@@ -622,30 +616,32 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 837,
+   "jobs_seen": 836,
    "matches": 16,
    "ok": true
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 116,
+   "jobs_seen": 115,
    "matches": 0,
    "ok": true
   },
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
    "errors_before_success": [],
-   "jobs_seen": 72,
-   "matches": 0,
+   "jobs_seen": 71,
+   "matches": 1,
    "ok": true,
-   "sample_matches": [],
-   "sample_raw": [
+   "sample_matches": [
     {
-     "location": "Warsaw, MZ, PL, 00-560",
-     "posted": "2026-11-13",
-     "title": "Commercial Growth and Retail Sr Manager",
-     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
+     "location": "Los Angeles, CA, US, 90038",
+     "pay": "$157–235K",
+     "posted": "2026-10-29",
+     "title": "Director, Finance Leadership Development Program",
+     "url": "https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    }
+   ],
+   "sample_raw": [
     {
      "location": "New York, NY, US, 10036",
      "posted": "2026-11-13",
@@ -665,35 +661,41 @@
      "url": "https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-%28Java%29-in-Test-CA-91505/1385510900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
-     "location": "Atlanta, GA, US, 30345",
-     "posted": "2026-11-12",
-     "title": "Executive Producer",
-     "url": "https://careers.paramount.com/job/Atlanta-Executive-Producer-GA-30345/1430063100/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+     "location": "Warsaw, MZ, PL, 00-560",
+     "posted": "2026-11-13",
+     "title": "Commercial Growth and Retail Sr Manager",
+     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
      "location": "New York, NY, US, 10036",
      "posted": "2026-11-12",
      "title": "Software Engineer, Content Engineering",
      "url": "https://careers.paramount.com/job/New-York-Software-Engineer%2C-Content-Engineering-NY-10036/1385076300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Atlanta, GA, US, 30345",
+     "posted": "2026-11-12",
+     "title": "Executive Producer",
+     "url": "https://careers.paramount.com/job/Atlanta-Executive-Producer-GA-30345/1430063100/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     }
    ],
    "trial": true
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 142,
+   "jobs_seen": 141,
    "matches": 3,
    "ok": true
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 166,
+   "jobs_seen": 163,
    "matches": 2,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 229,
+   "jobs_seen": 228,
    "matches": 0,
    "ok": true
   },
@@ -711,37 +713,37 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 196,
+   "jobs_seen": 195,
    "matches": 0,
    "ok": true
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
-   "jobs_seen": 162,
+   "jobs_seen": 165,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 271,
+   "jobs_seen": 270,
    "matches": 0,
    "ok": true
   },
   "Rula": {
    "board": "ashby:rula",
-   "jobs_seen": 29,
+   "jobs_seen": 31,
    "matches": 2,
    "ok": true
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 262,
+   "jobs_seen": 264,
    "matches": 1,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 314,
+   "jobs_seen": 313,
    "matches": 0,
    "ok": true
   },
@@ -758,10 +760,8 @@
    "ok": true
   },
   "ServiceTitan": {
-   "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 68,
-   "matches": 0,
-   "ok": true
+   "error": "HTTP 521 for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs",
+   "ok": false
   },
   "Skydance": {
    "board": "lever:skydance",
@@ -770,10 +770,8 @@
    "ok": true
   },
   "Snap": {
-   "board": "workday:snapchat/snap",
-   "jobs_seen": 154,
-   "matches": 2,
-   "ok": true
+   "error": "HTTP 521 for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs",
+   "ok": false
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
@@ -782,10 +780,8 @@
    "ok": true
   },
   "Sony Pictures": {
-   "board": "workday:spe/SonyPicturesEntertainment",
-   "jobs_seen": 68,
-   "matches": 0,
-   "ok": true
+   "error": "HTTP 521 for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs",
+   "ok": false
   },
   "Spotify": {
    "board": "lever:spotify",
@@ -795,7 +791,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 785,
+   "jobs_seen": 786,
    "matches": 0,
    "ok": true
   },
@@ -807,7 +803,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 349,
+   "jobs_seen": 353,
    "matches": 0,
    "ok": true
   },
@@ -833,26 +829,20 @@
    "trial": true
   },
   "Universal Music Group": {
-   "board": "workday:umusic/UMGUS",
-   "jobs_seen": 36,
-   "matches": 2,
-   "ok": true
+   "error": "HTTP 521 for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs",
+   "ok": false
   },
   "WME / Endeavor": {
-   "board": "workday:wmeimg/WMEGRP",
-   "jobs_seen": 25,
-   "matches": 1,
-   "ok": true
+   "error": "HTTP 521 for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs",
+   "ok": false
   },
   "Warner Bros. Discovery": {
-   "board": "workday:warnerbros/global",
-   "jobs_seen": 151,
-   "matches": 1,
-   "ok": true
+   "error": "HTTP 521 for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
+   "ok": false
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 376,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true
   },
@@ -874,17 +864,13 @@
    "ok": true
   },
   "Yahoo": {
-   "board": "workday:ouryahoo/careers",
-   "jobs_seen": 80,
-   "matches": 2,
-   "ok": true
+   "error": "HTTP 521 for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs",
+   "ok": false
   },
   "Zillow": {
-   "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 183,
-   "matches": 2,
-   "ok": true
+   "error": "HTTP 521 for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
+   "ok": false
   }
  },
- "run": "2026-11-13T22:05Z"
+ "run": "2026-11-14T01:28Z"
 }
