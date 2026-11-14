@@ -37,7 +37,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 925,
+   "jobs_seen": 924,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -587,8 +587,10 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=160&num=50",
-   "ok": false
+   "board": "netflix:",
+   "jobs_seen": 343,
+   "matches": 12,
+   "ok": true
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -733,7 +735,7 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 313,
+   "jobs_seen": 314,
    "matches": 0,
    "ok": true
   },
@@ -862,5 +864,5 @@
    "ok": false
   }
  },
- "run": "2026-11-14T10:07Z"
+ "run": "2026-11-14T13:16Z"
 }
