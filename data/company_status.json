@@ -19,7 +19,7 @@
    "ok": true
   },
   "Adobe": {
-   "error": "HTTP 521 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
    "ok": false
   },
   "Affirm": {
@@ -37,7 +37,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 926,
+   "jobs_seen": 925,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -114,7 +114,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 261,
+   "jobs_seen": 260,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -232,7 +232,7 @@
    "ok": true
   },
   "Disney": {
-   "error": "HTTP 521 for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
    "ok": false
   },
   "DoorDash": {
@@ -415,7 +415,7 @@
    "trial": true
   },
   "GoodRx": {
-   "error": "HTTP 521 for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs",
    "ok": false
   },
   "Google / YouTube": {
@@ -587,10 +587,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:",
-   "jobs_seen": 343,
-   "matches": 12,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=160&num=50",
+   "ok": false
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -627,8 +625,50 @@
    "ok": true
   },
   "Paramount Skydance": {
-   "error": "HTTP 404 for https://careers.paramount.com/search/?q=strategy&startrow=0",
-   "ok": false,
+   "board": "successfactors:careers.paramount.com",
+   "errors_before_success": [],
+   "jobs_seen": 69,
+   "matches": 0,
+   "ok": true,
+   "sample_matches": [],
+   "sample_raw": [
+    {
+     "location": "New York, NY, US, 10019",
+     "posted": "2026-11-14",
+     "title": "Director, Product Management",
+     "url": "https://careers.paramount.com/job/New-York-Director%2C-Product-Management-NY-10019/1411241400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Los Angeles, CA, US, 90038",
+     "posted": "2026-11-14",
+     "title": "SVP, Finance Innovation",
+     "url": "https://careers.paramount.com/job/Los-Angeles-SVP%2C-Finance-Innovation-CA-90038/1421341200/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "New York, NY, US, 10019",
+     "posted": "2026-11-14",
+     "title": "Director, Digital Video",
+     "url": "https://careers.paramount.com/job/New-York-Director%2C-Digital-Video-NY-10019/1441061400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Burbank, CA, US, 91505",
+     "posted": "2026-11-13",
+     "title": "Senior Software Engineer (Java) in Test",
+     "url": "https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-%28Java%29-in-Test-CA-91505/1385510900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Los Angeles, CA, US, 90038",
+     "posted": "2026-11-13",
+     "title": "Designer, Toys",
+     "url": "https://careers.paramount.com/job/Los-Angeles-Designer%2C-Toys-CA-90038/1430786400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Warsaw, MZ, PL, 00-560",
+     "posted": "2026-11-13",
+     "title": "Commercial Growth and Retail Sr Manager",
+     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    }
+   ],
    "trial": true
   },
   "Perplexity": {
@@ -710,7 +750,7 @@
    "ok": true
   },
   "ServiceTitan": {
-   "error": "HTTP 521 for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs",
    "ok": false
   },
   "Skydance": {
@@ -720,7 +760,7 @@
    "ok": true
   },
   "Snap": {
-   "error": "HTTP 521 for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs",
    "ok": false
   },
   "Sony Music": {
@@ -730,7 +770,7 @@
    "ok": true
   },
   "Sony Pictures": {
-   "error": "HTTP 521 for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs",
    "ok": false
   },
   "Spotify": {
@@ -779,15 +819,15 @@
    "trial": true
   },
   "Universal Music Group": {
-   "error": "HTTP 521 for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs",
    "ok": false
   },
   "WME / Endeavor": {
-   "error": "HTTP 521 for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs",
    "ok": false
   },
   "Warner Bros. Discovery": {
-   "error": "HTTP 521 for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
    "ok": false
   },
   "Waymo": {
@@ -814,13 +854,13 @@
    "ok": true
   },
   "Yahoo": {
-   "error": "HTTP 521 for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs",
    "ok": false
   },
   "Zillow": {
-   "error": "HTTP 521 for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
    "ok": false
   }
  },
- "run": "2026-11-14T07:29Z"
+ "run": "2026-11-14T10:07Z"
 }

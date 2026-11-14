@@ -1,4 +1,4 @@
-# Job check 2026-11-14T07:29Z
+# Job check 2026-11-14T10:07Z
 
 ## New since last run (0)
 
@@ -10,29 +10,30 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (15)
+## Companies that failed (16)
 
-- Adobe: HTTP 521 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
+- Adobe: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
-- Disney: HTTP 521 for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs
-- GoodRx: HTTP 521 for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs
+- Disney: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs
+- GoodRx: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/legendary?includeCompensation=true
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=160&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json
-- ServiceTitan: HTTP 521 for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs
-- Snap: HTTP 521 for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs
-- Sony Pictures: HTTP 521 for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs
+- ServiceTitan: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs
+- Snap: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs
+- Sony Pictures: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?includeCompensation=true
-- Universal Music Group: HTTP 521 for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs
-- WME / Endeavor: HTTP 521 for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs
-- Warner Bros. Discovery: HTTP 521 for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs
-- Yahoo: HTTP 521 for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs
-- Zillow: HTTP 521 for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs
+- Universal Music Group: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs
+- WME / Endeavor: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs
+- Warner Bros. Discovery: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs
+- Yahoo: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs
+- Zillow: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs
 
 ## Trial readers (13; roles not logged until confirmed)
 
-- Amazon: OK via amazon:, 926 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
+- Amazon: OK via amazon:, 925 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
 - Apple: OK via apple:, 0 postings read, 0 match
-- Atlassian: OK via atlassian:, 261 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
+- Atlassian: OK via atlassian:, 260 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
 - Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 20 postings read, 0 match
 - Fox: OK via foxcareers:, 0 postings read, 0 match
 - GoDaddy: OK via greenhouse:godaddy, 28 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
@@ -40,7 +41,7 @@
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Meta: FAILED: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US
 - Microsoft: FAILED: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50 | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcs
-- Paramount Skydance: FAILED: HTTP 404 for https://careers.paramount.com/search/?q=strategy&startrow=0
+- Paramount Skydance: OK via successfactors:careers.paramount.com, 69 postings read, 0 match
 - Uber: FAILED: HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
