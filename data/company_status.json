@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 185,
+   "jobs_seen": 184,
    "matches": 0,
    "ok": true
   },
@@ -39,7 +39,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 924,
+   "jobs_seen": 925,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -234,8 +234,10 @@
    "ok": true
   },
   "Disney": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
-   "ok": false
+   "board": "workday:disney/disneycareer",
+   "jobs_seen": 12,
+   "matches": 0,
+   "ok": true
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
@@ -620,7 +622,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 838,
+   "jobs_seen": 839,
    "matches": 16,
    "ok": true
   },
@@ -739,7 +741,7 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 314,
+   "jobs_seen": 317,
    "matches": 0,
    "ok": true
   },
@@ -884,5 +886,5 @@
    "ok": true
   }
  },
- "run": "2026-11-14T15:58Z"
+ "run": "2026-11-14T19:10Z"
 }
