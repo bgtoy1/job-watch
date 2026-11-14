@@ -30,7 +30,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 215,
+   "jobs_seen": 214,
    "matches": 1,
    "ok": true
   },
@@ -52,6 +52,12 @@
    "sample_raw": [
     {
      "location": "Seattle, Washington, USA",
+     "posted": "2026-11-14",
+     "title": "Sr. Aerospace Hardware Reliability Engineer, Prime Air",
+     "url": "https://www.amazon.jobs/en/jobs/10605146/sr-aerospace-hardware-reliability-engineer-prime-air"
+    },
+    {
+     "location": "Seattle, Washington, USA",
      "posted": "2026-11-13",
      "title": "Forecasting Manager, Amazon Advertising",
      "url": "https://www.amazon.jobs/en/jobs/10605083/forecasting-manager-amazon-advertising"
@@ -70,21 +76,15 @@
     },
     {
      "location": "Seattle, Washington, USA",
+     "posted": "2026-11-14",
+     "title": "Sr. Technical Program Manager, Alexa Shopping",
+     "url": "https://www.amazon.jobs/en/jobs/10605150/sr-technical-program-manager-alexa-shopping"
+    },
+    {
+     "location": "Seattle, Washington, USA",
      "posted": "2026-11-13",
      "title": "Sr. Software Development Engineer, Amazon Quick",
      "url": "https://www.amazon.jobs/en/jobs/10604744/sr-software-development-engineer-amazon-quick"
-    },
-    {
-     "location": "New York, New York, USA",
-     "posted": "2026-11-13",
-     "title": "Principal Enterprise Account Manager, TMEGS Media & Entertainment Sales",
-     "url": "https://www.amazon.jobs/en/jobs/10605052/principal-enterprise-account-manager-tmegs-media-entertainment-sales"
-    },
-    {
-     "location": "North Reading, Massachusetts, USA",
-     "posted": "2026-11-13",
-     "title": "Sr. Manager, Software Development",
-     "url": "https://www.amazon.jobs/en/jobs/10604626/sr-manager-software-development"
     }
    ],
    "trial": true
@@ -308,7 +308,7 @@
   },
   "Engine": {
    "board": "greenhouse:engine",
-   "jobs_seen": 72,
+   "jobs_seen": 73,
    "matches": 3,
    "ok": true
   },
@@ -536,7 +536,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 150,
+   "jobs_seen": 148,
    "matches": 0,
    "ok": true
   },
@@ -576,7 +576,7 @@
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 310,
+   "jobs_seen": 311,
    "matches": 3,
    "ok": true
   },
@@ -587,10 +587,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:",
-   "jobs_seen": 344,
-   "matches": 12,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=150&num=50",
+   "ok": false
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -604,7 +602,7 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 167,
+   "jobs_seen": 166,
    "matches": 2,
    "ok": true
   },
@@ -616,7 +614,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 836,
+   "jobs_seen": 838,
    "matches": 16,
    "ok": true
   },
@@ -627,58 +625,8 @@
    "ok": true
   },
   "Paramount Skydance": {
-   "board": "successfactors:careers.paramount.com",
-   "errors_before_success": [],
-   "jobs_seen": 71,
-   "matches": 1,
-   "ok": true,
-   "sample_matches": [
-    {
-     "location": "Los Angeles, CA, US, 90038",
-     "pay": "$157–235K",
-     "posted": "2026-10-29",
-     "title": "Director, Finance Leadership Development Program",
-     "url": "https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    }
-   ],
-   "sample_raw": [
-    {
-     "location": "New York, NY, US, 10036",
-     "posted": "2026-11-13",
-     "title": "Growth Marketer, The Free Press",
-     "url": "https://careers.paramount.com/job/New-York-Growth-Marketer%2C-The-Free-Press-NY-10036/1430772300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Los Angeles, CA, US, 90038",
-     "posted": "2026-11-13",
-     "title": "Designer, Toys",
-     "url": "https://careers.paramount.com/job/Los-Angeles-Designer%2C-Toys-CA-90038/1430786400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Burbank, CA, US, 91505",
-     "posted": "2026-11-13",
-     "title": "Senior Software Engineer (Java) in Test",
-     "url": "https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-%28Java%29-in-Test-CA-91505/1385510900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Warsaw, MZ, PL, 00-560",
-     "posted": "2026-11-13",
-     "title": "Commercial Growth and Retail Sr Manager",
-     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "New York, NY, US, 10036",
-     "posted": "2026-11-12",
-     "title": "Software Engineer, Content Engineering",
-     "url": "https://careers.paramount.com/job/New-York-Software-Engineer%2C-Content-Engineering-NY-10036/1385076300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Atlanta, GA, US, 30345",
-     "posted": "2026-11-12",
-     "title": "Executive Producer",
-     "url": "https://careers.paramount.com/job/Atlanta-Executive-Producer-GA-30345/1430063100/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    }
-   ],
+   "error": "HTTP 404 for https://careers.paramount.com/search/?q=strategy&startrow=0",
+   "ok": false,
    "trial": true
   },
   "Perplexity": {
@@ -725,7 +673,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 270,
+   "jobs_seen": 271,
    "matches": 0,
    "ok": true
   },
@@ -803,7 +751,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 353,
+   "jobs_seen": 355,
    "matches": 0,
    "ok": true
   },
@@ -872,5 +820,5 @@
    "ok": false
   }
  },
- "run": "2026-11-14T01:28Z"
+ "run": "2026-11-14T04:15Z"
 }

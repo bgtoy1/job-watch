@@ -1,4 +1,4 @@
-# Job check 2026-11-14T01:28Z
+# Job check 2026-11-14T04:15Z
 
 ## New since last run (0)
 
@@ -10,13 +10,14 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (15)
+## Companies that failed (16)
 
 - Adobe: HTTP 521 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Disney: HTTP 521 for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs
 - GoodRx: HTTP 521 for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/legendary?includeCompensation=true
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=150&num=50
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json
 - ServiceTitan: HTTP 521 for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs
 - Snap: HTTP 521 for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs
@@ -40,7 +41,7 @@
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Meta: FAILED: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US
 - Microsoft: FAILED: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50 | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcs
-- Paramount Skydance: OK via successfactors:careers.paramount.com, 71 postings read, 1 match. e.g. Director, Finance Leadership Development Program (Los Angeles, CA, US, 90038)
+- Paramount Skydance: FAILED: HTTP 404 for https://careers.paramount.com/search/?q=strategy&startrow=0
 - Uber: FAILED: HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
