@@ -1,4 +1,4 @@
-# Job check 2026-11-14T13:16Z
+# Job check 2026-11-14T15:58Z
 
 ## New since last run (0)
 
@@ -10,23 +10,13 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (15)
+## Companies that failed (5)
 
-- Adobe: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
 - Cosm: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/cosm/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/cosm?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/cosm?includeCompensation=true
 - Disney: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs
-- GoodRx: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs
 - Legendary Entertainment: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendary/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/legendaryentertainment/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/legendary?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/legendary?includeCompensation=true
 - Niantic: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json
-- ServiceTitan: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs
-- Snap: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs
-- Sony Pictures: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs
 - UTA: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/uta/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/unitedtalentagency/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/uta?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/uta?includeCompensation=true
-- Universal Music Group: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs
-- WME / Endeavor: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs
-- Warner Bros. Discovery: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs
-- Yahoo: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs
-- Zillow: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs
 
 ## Trial readers (13; roles not logged until confirmed)
 

@@ -19,8 +19,10 @@
    "ok": true
   },
   "Adobe": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
-   "ok": false
+   "board": "workday:adobe/external_experienced",
+   "jobs_seen": 185,
+   "matches": 0,
+   "ok": true
   },
   "Affirm": {
    "board": "greenhouse:affirm",
@@ -91,7 +93,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 670,
+   "jobs_seen": 669,
    "matches": 0,
    "ok": true
   },
@@ -415,8 +417,10 @@
    "trial": true
   },
   "GoodRx": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs",
-   "ok": false
+   "board": "workday:goodrx/careers",
+   "jobs_seen": 0,
+   "matches": 0,
+   "ok": true
   },
   "Google / YouTube": {
    "board": "google:",
@@ -752,8 +756,10 @@
    "ok": true
   },
   "ServiceTitan": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs",
-   "ok": false
+   "board": "workday:servicetitan/ServiceTitan",
+   "jobs_seen": 68,
+   "matches": 0,
+   "ok": true
   },
   "Skydance": {
    "board": "lever:skydance",
@@ -762,8 +768,10 @@
    "ok": true
   },
   "Snap": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs",
-   "ok": false
+   "board": "workday:snapchat/snap",
+   "jobs_seen": 153,
+   "matches": 2,
+   "ok": true
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
@@ -772,8 +780,10 @@
    "ok": true
   },
   "Sony Pictures": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs",
-   "ok": false
+   "board": "workday:spe/SonyPicturesEntertainment",
+   "jobs_seen": 68,
+   "matches": 0,
+   "ok": true
   },
   "Spotify": {
    "board": "lever:spotify",
@@ -821,16 +831,22 @@
    "trial": true
   },
   "Universal Music Group": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs",
-   "ok": false
+   "board": "workday:umusic/UMGUS",
+   "jobs_seen": 36,
+   "matches": 2,
+   "ok": true
   },
   "WME / Endeavor": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs",
-   "ok": false
+   "board": "workday:wmeimg/WMEGRP",
+   "jobs_seen": 25,
+   "matches": 1,
+   "ok": true
   },
   "Warner Bros. Discovery": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
-   "ok": false
+   "board": "workday:warnerbros/global",
+   "jobs_seen": 151,
+   "matches": 1,
+   "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
@@ -856,13 +872,17 @@
    "ok": true
   },
   "Yahoo": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs",
-   "ok": false
+   "board": "workday:ouryahoo/careers",
+   "jobs_seen": 80,
+   "matches": 2,
+   "ok": true
   },
   "Zillow": {
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
-   "ok": false
+   "board": "workday:zillow/Zillow_Group_External",
+   "jobs_seen": 183,
+   "matches": 2,
+   "ok": true
   }
  },
- "run": "2026-11-14T13:16Z"
+ "run": "2026-11-14T15:58Z"
 }
