@@ -39,7 +39,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 927,
+   "jobs_seen": 926,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -93,7 +93,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 670,
+   "jobs_seen": 669,
    "matches": 0,
    "ok": true
   },
@@ -610,7 +610,7 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 166,
+   "jobs_seen": 165,
    "matches": 2,
    "ok": true
   },
@@ -795,7 +795,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 786,
+   "jobs_seen": 785,
    "matches": 0,
    "ok": true
   },
@@ -886,5 +886,5 @@
    "ok": true
   }
  },
- "run": "2026-11-15T01:34Z"
+ "run": "2026-11-15T04:17Z"
 }

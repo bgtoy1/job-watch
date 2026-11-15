@@ -1,4 +1,4 @@
-# Job check 2026-11-15T01:34Z
+# Job check 2026-11-15T04:17Z
 
 ## New since last run (0)
 
@@ -19,7 +19,7 @@
 
 ## Trial readers (13; roles not logged until confirmed)
 
-- Amazon: OK via amazon:, 927 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
+- Amazon: OK via amazon:, 926 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
 - Apple: OK via apple:, 0 postings read, 0 match
 - Atlassian: OK via atlassian:, 280 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
 - Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 20 postings read, 0 match
