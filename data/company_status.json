@@ -39,7 +39,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 926,
+   "jobs_seen": 927,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -223,7 +223,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 896,
+   "jobs_seen": 895,
    "matches": 1,
    "ok": true
   },
@@ -427,7 +427,7 @@
   "Google / YouTube": {
    "board": "google:",
    "errors_before_success": [],
-   "jobs_seen": 19,
+   "jobs_seen": 24,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -593,10 +593,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:",
-   "jobs_seen": 346,
-   "matches": 12,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=planning&start=30&num=50",
+   "ok": false
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -622,7 +620,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 839,
+   "jobs_seen": 840,
    "matches": 16,
    "ok": true
   },
@@ -886,5 +884,5 @@
    "ok": true
   }
  },
- "run": "2026-11-15T04:17Z"
+ "run": "2026-11-15T07:31Z"
 }
