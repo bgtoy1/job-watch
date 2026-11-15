@@ -39,7 +39,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 925,
+   "jobs_seen": 927,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 260,
+   "jobs_seen": 280,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -241,7 +241,7 @@
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 427,
+   "jobs_seen": 428,
    "matches": 6,
    "ok": true
   },
@@ -593,8 +593,10 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=80&num=50",
-   "ok": false
+   "board": "netflix:",
+   "jobs_seen": 346,
+   "matches": 12,
+   "ok": true
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -633,17 +635,11 @@
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
    "errors_before_success": [],
-   "jobs_seen": 69,
+   "jobs_seen": 70,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
-    {
-     "location": "New York, NY, US, 10019",
-     "posted": "2026-11-14",
-     "title": "Director, Product Management",
-     "url": "https://careers.paramount.com/job/New-York-Director%2C-Product-Management-NY-10019/1411241400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
     {
      "location": "Los Angeles, CA, US, 90038",
      "posted": "2026-11-14",
@@ -653,8 +649,20 @@
     {
      "location": "New York, NY, US, 10019",
      "posted": "2026-11-14",
+     "title": "Director, Product Management",
+     "url": "https://careers.paramount.com/job/New-York-Director%2C-Product-Management-NY-10019/1411241400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "New York, NY, US, 10019",
+     "posted": "2026-11-14",
      "title": "Director, Digital Video",
      "url": "https://careers.paramount.com/job/New-York-Director%2C-Digital-Video-NY-10019/1441061400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Warsaw, MZ, PL, 00-560",
+     "posted": "2026-11-13",
+     "title": "Commercial Growth and Retail Sr Manager",
+     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
      "location": "Burbank, CA, US, 91505",
@@ -663,16 +671,10 @@
      "url": "https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-%28Java%29-in-Test-CA-91505/1385510900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
-     "location": "Los Angeles, CA, US, 90038",
+     "location": "New York, NY, US, 10036",
      "posted": "2026-11-13",
-     "title": "Designer, Toys",
-     "url": "https://careers.paramount.com/job/Los-Angeles-Designer%2C-Toys-CA-90038/1430786400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Warsaw, MZ, PL, 00-560",
-     "posted": "2026-11-13",
-     "title": "Commercial Growth and Retail Sr Manager",
-     "url": "https://careers.paramount.com/job/Warsaw-Commercial-Growth-and-Retail-Sr-Manager-MZ-00-560/1420459800/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+     "title": "Growth Marketer, The Free Press",
+     "url": "https://careers.paramount.com/job/New-York-Growth-Marketer%2C-The-Free-Press-NY-10036/1430772300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     }
    ],
    "trial": true
@@ -739,7 +741,7 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 318,
+   "jobs_seen": 319,
    "matches": 0,
    "ok": true
   },
@@ -817,7 +819,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 115,
+   "jobs_seen": 114,
    "matches": 0,
    "ok": true
   },
@@ -884,5 +886,5 @@
    "ok": true
   }
  },
- "run": "2026-11-14T21:56Z"
+ "run": "2026-11-15T01:34Z"
 }
