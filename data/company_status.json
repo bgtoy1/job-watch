@@ -39,7 +39,7 @@
   "Amazon": {
    "board": "amazon:",
    "errors_before_success": [],
-   "jobs_seen": 925,
+   "jobs_seen": 927,
    "matches": 1,
    "ok": true,
    "sample_matches": [
@@ -93,7 +93,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 667,
+   "jobs_seen": 666,
    "matches": 0,
    "ok": true
   },
@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 278,
+   "jobs_seen": 306,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -622,7 +622,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 837,
+   "jobs_seen": 838,
    "matches": 16,
    "ok": true
   },
@@ -699,7 +699,7 @@
   },
   "Ramp": {
    "board": "ashby:ramp",
-   "jobs_seen": 180,
+   "jobs_seen": 179,
    "matches": 2,
    "ok": true
   },
@@ -741,7 +741,7 @@
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 318,
+   "jobs_seen": 317,
    "matches": 0,
    "ok": true
   },
@@ -886,5 +886,5 @@
    "ok": true
   }
  },
- "run": "2026-11-15T19:10Z"
+ "run": "2026-11-15T21:57Z"
 }
