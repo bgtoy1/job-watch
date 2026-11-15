@@ -2,7 +2,7 @@
  "companies": {
   "2K (Take-Two)": {
    "board": "greenhouse:2k",
-   "jobs_seen": 91,
+   "jobs_seen": 90,
    "matches": 0,
    "ok": true
   },
@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 184,
+   "jobs_seen": 185,
    "matches": 0,
    "ok": true
   },
@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 279,
+   "jobs_seen": 307,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -593,10 +593,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:",
-   "jobs_seen": 346,
-   "matches": 12,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=finance&start=10&num=50",
+   "ok": false
   },
   "Niantic": {
    "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticlabs/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/niantic/jobs?content=true | ashby:niantic returned 0 jobs | HTTP 404 for https://api.lever.co/v0/postings/niantic?mode=json | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/nianticspatial?includeCompensation=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/nianticspatial/jobs?content=true | HTTP 404 for https://api.lever.co/v0/postings/nianticspatial?mode=json",
@@ -616,7 +614,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 362,
+   "jobs_seen": 361,
    "matches": 0,
    "ok": true
   },
@@ -759,7 +757,7 @@
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 69,
+   "jobs_seen": 70,
    "matches": 0,
    "ok": true
   },
@@ -807,7 +805,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 355,
+   "jobs_seen": 354,
    "matches": 0,
    "ok": true
   },
@@ -886,5 +884,5 @@
    "ok": true
   }
  },
- "run": "2026-11-15T13:19Z"
+ "run": "2026-11-15T16:00Z"
 }
