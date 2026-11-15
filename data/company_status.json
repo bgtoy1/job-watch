@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 308,
+   "jobs_seen": 279,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -330,7 +330,7 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 227,
+   "jobs_seen": 249,
    "matches": 1,
    "ok": true
   },
@@ -759,7 +759,7 @@
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 68,
+   "jobs_seen": 69,
    "matches": 0,
    "ok": true
   },
@@ -886,5 +886,5 @@
    "ok": true
   }
  },
- "run": "2026-11-15T10:08Z"
+ "run": "2026-11-15T13:19Z"
 }
