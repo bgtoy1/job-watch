@@ -348,23 +348,9 @@
     },
     {
       "name": "UTA",
-      "ats": "greenhouse",
-      "id": "uta",
-      "sector": "Media",
-      "try": [
-        {
-          "ats": "greenhouse",
-          "id": "unitedtalentagency"
-        },
-        {
-          "ats": "lever",
-          "id": "uta"
-        },
-        {
-          "ats": "ashby",
-          "id": "uta"
-        }
-      ]
+      "ats": "ashby",
+      "id": "united-talent-agency",
+      "sector": "Media"
     },
     {
       "name": "Legendary Entertainment",
@@ -777,8 +763,7 @@
       "name": "Amazon",
       "ats": "amazon",
       "sector": "Tech / media",
-      "note": "amazon.jobs covers Prime Video, MGM, Twitch, Audible",
-      "trial": true
+      "note": "amazon.jobs covers Prime Video, MGM, Twitch, Audible"
     },
     {
       "name": "Microsoft",
@@ -808,8 +793,7 @@
     {
       "name": "Atlassian",
       "ats": "atlassian",
-      "sector": "Tech",
-      "trial": true
+      "sector": "Tech"
     },
     {
       "name": "Google / YouTube",
@@ -819,8 +803,7 @@
         "Playa Vista, CA, USA",
         "Irvine, CA, USA"
       ],
-      "sector": "Tech / media",
-      "trial": true
+      "sector": "Tech / media"
     },
     {
       "name": "Meta",
@@ -837,8 +820,7 @@
       "name": "Paramount Skydance",
       "ats": "successfactors",
       "host": "careers.paramount.com",
-      "sector": "Media",
-      "trial": true
+      "sector": "Media"
     },
     {
       "name": "Electronic Arts",
@@ -863,14 +845,12 @@
           "host": "careers.godaddy"
         }
       ],
-      "sector": "Tech",
-      "trial": true
+      "sector": "Tech"
     }
   ],
   "not_covered_yet": [
     "Sphere Entertainment (job system unknown; see probe)",
     "Legendary Entertainment (Paylocity; company ID needed)",
-    "Cosm (Dayforce)",
-    "UTA (job system unknown; see probe)"
+    "Cosm (Dayforce)"
   ]
 }
