@@ -1,9 +1,11 @@
-# Job check 2026-11-16T10:50Z
+# Job check 2026-11-16T15:30Z
 
-## New since last run (0)
+## New since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-16 | DoorDash | [Senior Manager, Audience Insights](https://job-boards.greenhouse.io/doordashusa/jobs/8392708) | Seattle, WA; Los Angeles, CA, Chicago, IL; Austin, TX; Denve | $160–235K |
+| 2026-10-05 | Crunchyroll | [Senior Manager, Global Engagement Strategy and Analytics](https://boards.greenhouse.io/crunchyroll/jobs/8255517?gh_jid=8255517) | Los Angeles, California, United States; San Francisco, CA, U | — |
 
 ## Closed since last run (0)
 
@@ -19,12 +21,12 @@
 
 ## Trial readers (13; roles not logged until confirmed)
 
-- Amazon: OK via amazon:, 927 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
+- Amazon: OK via amazon:, 940 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
 - Apple: OK via apple:, 0 postings read, 0 match
-- Atlassian: OK via atlassian:, 278 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
+- Atlassian: OK via atlassian:, 300 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
 - Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 20 postings read, 0 match
 - Fox: OK via foxcareers:, 0 postings read, 0 match
-- GoDaddy: OK via greenhouse:godaddy, 27 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
+- GoDaddy: OK via greenhouse:godaddy, 25 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
 - Google / YouTube: OK via google:, 17 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Meta: FAILED: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US
@@ -33,10 +35,11 @@
 - Uber: FAILED: HTTP 404 for https://www.uber.com/api/loadSearchJobsResults?localeCode=en
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
-## All open matches (105)
+## All open matches (107)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-16 | DoorDash | [Senior Manager, Audience Insights](https://job-boards.greenhouse.io/doordashusa/jobs/8392708) | Seattle, WA; Los Angeles, CA, Chicago, IL; Austin, TX; Denve | $160–235K |
 | 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
@@ -108,6 +111,7 @@
 | 2026-10-06 | Netflix | [Senior Portfolio Operations Manager, Games](https://explore.jobs.netflix.net/careers/job/790318808922) | Los Angeles,California,United States of America | — |
 | 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
 | 2026-10-05 | OpenAI | [Strategy & Operations Lead - Japan](https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca) | Tokyo, Japan; Remote | — |
+| 2026-10-05 | Crunchyroll | [Senior Manager, Global Engagement Strategy and Analytics](https://boards.greenhouse.io/crunchyroll/jobs/8255517?gh_jid=8255517) | Los Angeles, California, United States; San Francisco, CA, U | — |
 | 2026-10-02 | Coinbase | [Corporate Development Senior Manager](https://www.coinbase.com/careers/positions/8238602?gh_jid=8238602) | Remote - USA | $230–271K |
 | 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
 | 2026-10-01 | OpenAI | [Pricing Operations Lead](https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf) | San Francisco; Remote | $284–315K |
