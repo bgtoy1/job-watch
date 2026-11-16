@@ -93,7 +93,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 663,
+   "jobs_seen": 661,
    "matches": 0,
    "ok": true
   },
@@ -195,7 +195,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 479,
+   "jobs_seen": 478,
    "matches": 1,
    "ok": true
   },
@@ -582,7 +582,7 @@
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 311,
+   "jobs_seen": 312,
    "matches": 3,
    "ok": true
   },
@@ -711,7 +711,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 194,
+   "jobs_seen": 193,
    "matches": 0,
    "ok": true
   },
@@ -723,7 +723,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 270,
+   "jobs_seen": 269,
    "matches": 0,
    "ok": true
   },
@@ -735,7 +735,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 267,
+   "jobs_seen": 268,
    "matches": 1,
    "ok": true
   },
@@ -753,7 +753,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 279,
+   "jobs_seen": 278,
    "matches": 1,
    "ok": true
   },
@@ -777,7 +777,7 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 130,
+   "jobs_seen": 129,
    "matches": 0,
    "ok": true
   },
@@ -807,7 +807,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 354,
+   "jobs_seen": 355,
    "matches": 0,
    "ok": true
   },
@@ -819,7 +819,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 114,
+   "jobs_seen": 113,
    "matches": 0,
    "ok": true
   },
@@ -881,10 +881,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 184,
+   "jobs_seen": 179,
    "matches": 2,
    "ok": true
   }
  },
- "run": "2026-11-16T01:49Z"
+ "run": "2026-11-16T04:57Z"
 }
