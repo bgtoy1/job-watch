@@ -32,7 +32,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 211,
+   "jobs_seen": 210,
    "matches": 1,
    "ok": true
   },
@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 276,
+   "jobs_seen": 304,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -195,7 +195,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 478,
+   "jobs_seen": 473,
    "matches": 1,
    "ok": true
   },
@@ -235,13 +235,13 @@
   },
   "Disney": {
    "board": "workday:disney/disneycareer",
-   "jobs_seen": 12,
+   "jobs_seen": 13,
    "matches": 0,
    "ok": true
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 428,
+   "jobs_seen": 425,
    "matches": 6,
    "ok": true
   },
@@ -306,7 +306,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 125,
+   "jobs_seen": 124,
    "matches": 4,
    "ok": true
   },
@@ -324,7 +324,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 74,
+   "jobs_seen": 75,
    "matches": 1,
    "ok": true
   },
@@ -352,14 +352,14 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 254,
+   "jobs_seen": 257,
    "matches": 2,
    "ok": true
   },
   "GoDaddy": {
    "board": "greenhouse:godaddy",
    "errors_before_success": [],
-   "jobs_seen": 28,
+   "jobs_seen": 29,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -427,7 +427,7 @@
   "Google / YouTube": {
    "board": "google:",
    "errors_before_success": [],
-   "jobs_seen": 19,
+   "jobs_seen": 17,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -437,12 +437,6 @@
      "posted": "",
      "title": "Strategy and Operations Principal Lead, Global Partnerships, Third-Party Data and DeepMind",
      "url": "https://www.google.com/about/careers/applications/jobs/results/106999002297180870-strategy-and-operations-principal-lead-global-partnerships-thirdparty-data-and-deepmind"
-    },
-    {
-     "location": "San Bruno, CA, USA; Los Angeles, CA, USA",
-     "posted": "",
-     "title": "Global Content Strategy Lead, YouTube Business",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/79032543134786246-global-content-strategy-lead-youtube-business"
     },
     {
      "location": "New York, NY, USA; Chicago, IL, USA",
@@ -457,16 +451,22 @@
      "url": "https://www.google.com/about/careers/applications/jobs/results/112085010227307206-head-of-google-trends"
     },
     {
-     "location": "San Francisco, CA, USA; Atlanta, GA, USA",
-     "posted": "",
-     "title": "Chief of Staff, Search+",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/116714555475665606-chief-of-staff-search"
-    },
-    {
      "location": "New York, NY, USA; Los Angeles, CA, USA",
      "posted": "",
      "title": "Senior Brand Marketing Manager, Google Pixel",
      "url": "https://www.google.com/about/careers/applications/jobs/results/93783879701144262-senior-brand-marketing-manager-google-pixel"
+    },
+    {
+     "location": "New York, NY, USA; Atlanta, GA, USA",
+     "posted": "",
+     "title": "Global Product Solutions Manager, YouTube Ads GTM",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/130240144077660870-global-product-solutions-manager-youtube-ads-gtm"
+    },
+    {
+     "location": "New York, NY, USA; Atlanta, GA, USA",
+     "posted": "",
+     "title": "Senior Lead, Global Product Solutions, YouTube Performance Business Intelligence",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/127558572656468678-senior-lead-global-product-solutions-youtube-performance-business-intelligence"
     }
    ],
    "trial": true
@@ -548,7 +548,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 69,
+   "jobs_seen": 68,
    "matches": 0,
    "ok": true
   },
@@ -594,7 +594,7 @@
   },
   "Netflix": {
    "board": "netflix:",
-   "jobs_seen": 346,
+   "jobs_seen": 347,
    "matches": 12,
    "ok": true
   },
@@ -616,13 +616,13 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 360,
+   "jobs_seen": 361,
    "matches": 0,
    "ok": true
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 838,
+   "jobs_seen": 839,
    "matches": 16,
    "ok": true
   },
@@ -641,6 +641,24 @@
    "sample_matches": [],
    "sample_raw": [
     {
+     "location": "Burbank, CA, US, 91505",
+     "posted": "2026-11-16",
+     "title": "Technical Product Manager, Content Systems Automation",
+     "url": "https://careers.paramount.com/job/Burbank-Technical-Product-Manager%2C-Content-Systems-Automation-CA-91505/1421962900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "West Sacramento, CA, US, 95605",
+     "posted": "2026-11-16",
+     "title": "Meteorologist",
+     "url": "https://careers.paramount.com/job/West-Sacramento-Meteorologist-CA-95605/1340232200/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "San Francisco, CA, US, 94107",
+     "posted": "2026-11-16",
+     "title": "Lead Software Engineer - Apple",
+     "url": "https://careers.paramount.com/job/San-Francisco-Lead-Software-Engineer-Apple-CA-94107/1385937500/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
      "location": "Los Angeles, CA, US, 90038",
      "posted": "2026-11-15",
      "title": "Sr Manager, Retail Analytics",
@@ -657,24 +675,6 @@
      "posted": "2026-11-15",
      "title": "Account Executive, Programmatic",
      "url": "https://careers.paramount.com/job/Hollywood-Account-Executive%2C-Programmatic-CA-90028/1411676600/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Miami, FL, US, 33172",
-     "posted": "2026-11-15",
-     "title": "Meteorologist",
-     "url": "https://careers.paramount.com/job/Miami-Meteorologist-FL-33172/1421613900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "New York, NY, US, 10019",
-     "posted": "2026-11-14",
-     "title": "Director, Product Management",
-     "url": "https://careers.paramount.com/job/New-York-Director%2C-Product-Management-NY-10019/1411241400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "New York, NY, US, 10019",
-     "posted": "2026-11-14",
-     "title": "Director, Digital Video",
-     "url": "https://careers.paramount.com/job/New-York-Director%2C-Digital-Video-NY-10019/1441061400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     }
    ],
    "trial": true
@@ -735,7 +735,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 268,
+   "jobs_seen": 271,
    "matches": 1,
    "ok": true
   },
@@ -753,7 +753,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 278,
+   "jobs_seen": 280,
    "matches": 1,
    "ok": true
   },
@@ -777,7 +777,7 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 129,
+   "jobs_seen": 127,
    "matches": 0,
    "ok": true
   },
@@ -807,7 +807,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 355,
+   "jobs_seen": 352,
    "matches": 0,
    "ok": true
   },
@@ -881,10 +881,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 179,
+   "jobs_seen": 168,
    "matches": 2,
    "ok": true
   }
  },
- "run": "2026-11-16T04:57Z"
+ "run": "2026-11-16T09:11Z"
 }

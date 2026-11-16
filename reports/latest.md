@@ -1,4 +1,4 @@
-# Job check 2026-11-16T04:57Z
+# Job check 2026-11-16T09:11Z
 
 ## New since last run (0)
 
@@ -21,11 +21,11 @@
 
 - Amazon: OK via amazon:, 927 postings read, 1 match. e.g. Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight (Santa Monica, California, USA)
 - Apple: OK via apple:, 0 postings read, 0 match
-- Atlassian: OK via atlassian:, 276 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
+- Atlassian: OK via atlassian:, 304 postings read, 2 match. e.g. Principal Strategist, Public Sector Strategy (San Francisco - United States -   San Fr); Strategy and Business Operations Principal - Rovo and AI (San Francisco - United States -   San Fr)
 - Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 20 postings read, 0 match
 - Fox: OK via foxcareers:, 0 postings read, 0 match
-- GoDaddy: OK via greenhouse:godaddy, 28 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
-- Google / YouTube: OK via google:, 19 postings read, 0 match
+- GoDaddy: OK via greenhouse:godaddy, 29 postings read, 2 match. e.g. Director Corporate Development (United States); Senior Director Corporate Strategy (United States)
+- Google / YouTube: OK via google:, 17 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Meta: FAILED: HTTP 400 for https://www.metacareers.com/jobs?q=strategy&offices[0]=Los%20Angeles%2C%20CA&offices[1]=Burbank%2C%20CA&offices[2]=Remote%2C%20US
 - Microsoft: FAILED: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&sort_by=timestamp&location=United%20States&query=strategy&start=0&num=50 | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcs
