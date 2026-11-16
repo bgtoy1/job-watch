@@ -1,38 +1,45 @@
-# Job check 2026-11-16T19:23Z
+# Job check 2026-11-16T22:09Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (1)
+## New since last run (4)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-02-16 | Ramp | [Senior Manager, Head of Talent Operations](https://jobs.ashbyhq.com/ramp/bdd28c40-f95b-43df-bebe-3b8a25c8f602) | New York, NY (HQ); San Francisco, CA; Remote (US) | $220–302K |
+| 2026-11-16 | Pinterest | [Sales Strategy & Operations Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8209050) | San Francisco, CA, US; Los Angeles, CA, US | $156–272K |
+| 2026-11-16 | Coinbase | [Chief of Staff, CTO](https://www.coinbase.com/careers/positions/8393768?gh_jid=8393768) | Remote - USA | $212–250K |
+| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
+| 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (1)
 
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=10&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=190&num=50
 
 ## Trial readers (10; roles not logged until confirmed)
 
-- Apple: OK via apple:, 376 postings read, 3 match. e.g. Camera Competitive Intelligence \u0026 Strategy Lead (); Director, People Planning Operations (); Head of Emerging Technology Strategy \u0026 Partnerships ()
+- Apple: OK via apple:, 368 postings read, 3 match. e.g. Camera Competitive Intelligence \u0026 Strategy Lead (); Director, People Planning Operations (); Head of Emerging Technology Strategy \u0026 Partnerships ()
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 466991 bytes
-- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 326 postings read, 2 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Partnerships Strategic Planning (Santa Monica, CA, USA)
-- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 331 postings read, 0 match
+- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 331 postings read, 3 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Partnerships Strategic Planning (Santa Monica, CA, USA); Director, Corporate Development (Mergers & Acquisitions) (Burbank, CA, USA)
+- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 332 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - Meta: FAILED: meta jobsearch page: HTTP 400 | HTTP 400 | old /jobs page: HTTP 400
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=10&sort_by=timestamp
+- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=30&sort_by=timestamp
 - Uber: OK via oracle:iaziqy.fa.ocs.oraclecloud.com, 373 postings read, 0 match
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
-## All open matches (114)
+## All open matches (118)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-16 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $266–370K |
 | 2026-11-16 | DoorDash | [Senior Manager, Audience Insights](https://job-boards.greenhouse.io/doordashusa/jobs/8392708) | Seattle, WA; Los Angeles, CA, Chicago, IL; Austin, TX; Denve | $160–235K |
+| 2026-11-16 | Pinterest | [Sales Strategy & Operations Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8209050) | San Francisco, CA, US; Los Angeles, CA, US | $156–272K |
+| 2026-11-16 | Coinbase | [Chief of Staff, CTO](https://www.coinbase.com/careers/positions/8393768?gh_jid=8393768) | Remote - USA | $212–250K |
+| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 | 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-13 | Atlassian | [Principal Strategist, Public Sector Strategy](https://www.atlassian.com/company/careers/details/25128) | San Francisco - United States -   San Francisco, California  | $183–239K |
 | 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
@@ -85,9 +92,9 @@
 | 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
 | 2026-10-16 | Atlassian | [Strategy and Business Operations Principal - Rovo and AI](https://www.atlassian.com/company/careers/details/27486) | San Francisco - United States -   San Francisco, California  | — |
+| 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
 | 2026-10-15 | Pinterest | [Director Corporate Strategy, Ads](https://www.pinterestcareers.com/jobs/?gh_jid=8027430) | New York, NY, US; Remote, US | $193–397K |
 | 2026-10-14 | OpenAI | [Strategic Finance Lead, OpenAI for Inference](https://jobs.ashbyhq.com/openai/096be63b-69cf-4295-9d29-d2e740058ea4) | San Francisco; Remote | $293–325K |
-| 2026-10-14 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-10-14 | Scopely | [Senior Director, Business Development](https://job-boards.greenhouse.io/scopely/jobs/5451210008?gh_jid=5451210008) | US - Culver City, California, United States | $193–284K |
 | 2026-10-13 | GitLab | [Director, FP&A](https://job-boards.greenhouse.io/gitlab/jobs/8827981002) | Remote, United States | $168–286K |
 | 2026-10-13 | Motive | [Director, Product Strategy & Monetization](https://job-boards.greenhouse.io/gomotive/jobs/8880889002) | United States - Remote | $185–255K |

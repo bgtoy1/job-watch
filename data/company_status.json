@@ -8,7 +8,7 @@
   },
   "AEG": {
    "board": "greenhouse:aegworldwide",
-   "jobs_seen": 141,
+   "jobs_seen": 139,
    "matches": 1,
    "ok": true
   },
@@ -20,31 +20,31 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 187,
+   "jobs_seen": 186,
    "matches": 0,
    "ok": true
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 217,
+   "jobs_seen": 212,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 206,
+   "jobs_seen": 207,
    "matches": 1,
    "ok": true
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 943,
+   "jobs_seen": 939,
    "matches": 1,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 661,
+   "jobs_seen": 660,
    "matches": 0,
    "ok": true
   },
@@ -57,7 +57,7 @@
   "Apple": {
    "board": "apple:",
    "errors_before_success": [],
-   "jobs_seen": 376,
+   "jobs_seen": 368,
    "matches": 3,
    "ok": true,
    "sample_matches": [
@@ -85,22 +85,28 @@
    ],
    "sample_raw": [
     {
-     "location": "Cupertino",
-     "posted": "2026-11-16",
-     "title": "Senior Software Engineer — Streaming Speech Translation Data",
-     "url": "https://jobs.apple.com/en-us/details/200695212-0836/senior-software-engineer-streaming-speech-translation-data"
-    },
-    {
-     "location": "Palm Beach Gardens",
+     "location": "Boylston Street",
      "posted": "2026-11-16",
      "title": "US-Manager",
-     "url": "https://jobs.apple.com/en-us/details/200682662-2198/us-manager"
+     "url": "https://jobs.apple.com/en-us/details/200682660-2480/us-manager"
+    },
+    {
+     "location": "",
+     "posted": "2026-11-16",
+     "title": "Health Sensing PD - Mechanical Engineer (Optics)",
+     "url": "https://jobs.apple.com/en-us/details/200695322-3401/health-sensing-pd-mechanical-engineer-optics"
+    },
+    {
+     "location": "Cupertino",
+     "posted": "2026-11-16",
+     "title": "Director, Growth Marketing - Apple Ads",
+     "url": "https://jobs.apple.com/en-us/details/200693176-0836/director-growth-marketing-apple-ads"
     },
     {
      "location": "Seattle",
      "posted": "2026-11-16",
-     "title": "Software Engineering Manager, AIML — LLM Inference Quality",
-     "url": "https://jobs.apple.com/en-us/details/200694970-3337/software-engineering-manager-aiml-llm-inference-quality"
+     "title": "Senior Research Manager, AI Evaluation Science",
+     "url": "https://jobs.apple.com/en-us/details/200695307-3337/senior-research-manager-ai-evaluation-science"
     },
     {
      "location": "Seattle",
@@ -111,21 +117,15 @@
     {
      "location": "Cupertino",
      "posted": "2026-11-16",
-     "title": "Product Manager, Retail Technology Carrier Programs",
-     "url": "https://jobs.apple.com/en-us/details/200694814-0836/product-manager-retail-technology-carrier-programs"
-    },
-    {
-     "location": "Sunnyvale",
-     "posted": "2026-11-16",
-     "title": "Senior Product Manager, Environmental Systems",
-     "url": "https://jobs.apple.com/en-us/details/200694658-3956/senior-product-manager-environmental-systems"
+     "title": "Event Systems Delivery Lead",
+     "url": "https://jobs.apple.com/en-us/details/200694933-0836/event-systems-delivery-lead"
     }
    ],
    "trial": true
   },
   "Atlassian": {
    "board": "atlassian:",
-   "jobs_seen": 272,
+   "jobs_seen": 271,
    "matches": 2,
    "ok": true
   },
@@ -143,20 +143,20 @@
   },
   "Chime": {
    "board": "greenhouse:chime",
-   "jobs_seen": 71,
+   "jobs_seen": 74,
    "matches": 0,
    "ok": true
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 471,
+   "jobs_seen": 470,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 261,
-   "matches": 2,
+   "jobs_seen": 262,
+   "matches": 3,
    "ok": true
   },
   "Cosm": {
@@ -178,13 +178,13 @@
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 100,
+   "jobs_seen": 101,
    "matches": 6,
    "ok": true
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 889,
+   "jobs_seen": 892,
    "matches": 1,
    "ok": true
   },
@@ -203,8 +203,8 @@
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
    "errors_before_success": [],
-   "jobs_seen": 326,
-   "matches": 2,
+   "jobs_seen": 331,
+   "matches": 3,
    "ok": true,
    "sample_matches": [
     {
@@ -220,57 +220,64 @@
      "posted": "2026-11-11",
      "title": "Director, Partnerships Strategic Planning",
      "url": "https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning"
+    },
+    {
+     "location": "Burbank, CA, USA",
+     "pay": "",
+     "posted": "2026-11-16",
+     "title": "Director, Corporate Development (Mergers & Acquisitions)",
+     "url": "https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions"
     }
    ],
    "sample_raw": [
     {
-     "location": "Palm Desert, CA, USA",
-     "posted": "2026-11-11",
-     "title": "Proprietor, Cotino® Bay Beach, Dining & Shops",
-     "url": "https://join.disneycareers.com/global/en/job/10163028/proprietor-cotino-bay-beach-dining-shops"
-    },
-    {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-10-30",
-     "title": "Senior Manager-Digital Analytics",
-     "url": "https://join.disneycareers.com/global/en/job/10163266/senior-manager-digital-analytics"
-    },
-    {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-11-11",
-     "title": "Manager, Media Planning and Integration",
-     "url": "https://join.disneycareers.com/global/en/job/10164530/manager-media-planning-and-integration"
-    },
-    {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-11-13",
-     "title": "Sr Omni-Channel Analyst",
-     "url": "https://join.disneycareers.com/global/en/job/10163643/sr-omni-channel-analyst"
-    },
-    {
-     "location": "Burbank, CA, USA",
+     "location": "Washington, DC, USA; New York, NY, USA",
      "posted": "2026-10-19",
-     "title": "Manager, Corporate Strategy",
-     "url": "https://join.disneycareers.com/global/en/job/10162239/manager-corporate-strategy"
+     "title": "Head of National Geographic, Consumer Revenue & Growth",
+     "url": "https://join.disneycareers.com/global/en/job/10161505/head-of-national-geographic-consumer-revenue-growth"
+    },
+    {
+     "location": "Washington, DC, USA",
+     "posted": "2026-11-16",
+     "title": "Manager, Social Media (National Geographic)",
+     "url": "https://join.disneycareers.com/global/en/job/10164368/manager-social-media-national-geographic"
+    },
+    {
+     "location": "New York, NY, USA; Bristol, CT, USA; Washington, DC, USA; Philadelphia, PA, USA",
+     "posted": "2026-11-10",
+     "title": "Podcast Marketing & Audience Growth Specialist, ABC News",
+     "url": "https://join.disneycareers.com/global/en/job/10163680/podcast-marketing-audience-growth-specialist-abc-news"
+    },
+    {
+     "location": "Lancaster, Pennsylvania, United States of America",
+     "posted": "2026-10-20",
+     "title": "Disney Store Key Holder Cast Member (PT)",
+     "url": "https://join.disneycareers.com/global/en/job/1350294BR/disney-store-key-holder-cast-member-pt"
     },
     {
      "location": "Burbank, CA, USA; New York, NY, USA",
      "posted": "2026-10-21",
      "title": "Sr. Analyst, Corporate Strategy",
      "url": "https://join.disneycareers.com/global/en/job/10163576/sr-analyst-corporate-strategy"
+    },
+    {
+     "location": "Elizabeth, New Jersey, United States of America",
+     "posted": "2026-10-27",
+     "title": "Disney Store Key Holder Cast Member (PT)",
+     "url": "https://join.disneycareers.com/global/en/job/1378911BR/disney-store-key-holder-cast-member-pt"
     }
    ],
    "trial": true
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
-   "jobs_seen": 424,
-   "matches": 7,
+   "jobs_seen": 426,
+   "matches": 8,
    "ok": true
   },
   "Dropbox": {
    "board": "greenhouse:dropbox",
-   "jobs_seen": 44,
+   "jobs_seen": 41,
    "matches": 0,
    "ok": true
   },
@@ -283,7 +290,7 @@
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
    "errors_before_success": [],
-   "jobs_seen": 331,
+   "jobs_seen": 332,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -293,6 +300,24 @@
      "posted": "",
      "title": "Advanced UI Software Engineer (C++) - EA SPORTS™ F1®",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Advanced-UI-Software-Engineer-C-EA-SPORTS-F1/216506"
+    },
+    {
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "posted": "",
+     "title": "Hard Surface Concept Artist (TFT) - (Apex Legends)",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Hard-Surface-Concept-Artist-TFT-Apex-Legends/216658"
+    },
+    {
+     "location": "Vancouver, Canada",
+     "posted": "",
+     "title": "Associate Character Artist - EA Sports FC",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Character-Artist-EA-Sports-FC/216668"
+    },
+    {
+     "location": "Los Angeles - Del Rey, United States of America",
+     "posted": "",
+     "title": "Director, People Platform & Self-Service Experience",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Director-People-Platform-Self-Service-Experience/216670"
     },
     {
      "location": "Vancouver, Canada",
@@ -305,31 +330,13 @@
      "posted": "",
      "title": "Site Reliability Engineer II",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Site-Reliability-Engineer-II/216650"
-    },
-    {
-     "location": "Kuala Lumpur, Malaysia",
-     "posted": "",
-     "title": "Software Engineer Intern",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/215931"
-    },
-    {
-     "location": "Kuala Lumpur, Malaysia",
-     "posted": "",
-     "title": "Game Design Intern",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Design-Intern/215951"
-    },
-    {
-     "location": "Kuala Lumpur, Malaysia",
-     "posted": "",
-     "title": "Experience Design Intern",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Design-Intern/215955"
     }
    ],
    "trial": true
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 125,
+   "jobs_seen": 123,
    "matches": 4,
    "ok": true
   },
@@ -353,25 +360,25 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 250,
+   "jobs_seen": 251,
    "matches": 1,
    "ok": true
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 139,
+   "jobs_seen": 140,
    "matches": 0,
    "ok": true
   },
   "Fox": {
    "board": "workday:fox/Domestic",
-   "jobs_seen": 215,
+   "jobs_seen": 216,
    "matches": 0,
    "ok": true
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 249,
+   "jobs_seen": 248,
    "matches": 2,
    "ok": true
   },
@@ -395,7 +402,7 @@
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 136,
+   "jobs_seen": 135,
    "matches": 1,
    "ok": true
   },
@@ -412,7 +419,7 @@
   },
   "Hasbro": {
    "board": "greenhouse:hasbro",
-   "jobs_seen": 100,
+   "jobs_seen": 97,
    "matches": 0,
    "ok": true
   },
@@ -424,7 +431,7 @@
   },
   "Hims & Hers": {
    "board": "ashby:hims-and-hers",
-   "jobs_seen": 143,
+   "jobs_seen": 141,
    "matches": 1,
    "ok": true
   },
@@ -464,13 +471,13 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 307,
+   "jobs_seen": 303,
    "matches": 1,
    "ok": true
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 146,
+   "jobs_seen": 145,
    "matches": 0,
    "ok": true
   },
@@ -493,18 +500,18 @@
   },
   "Metropolis": {
    "board": "greenhouse:metropolis",
-   "jobs_seen": 97,
+   "jobs_seen": 98,
    "matches": 1,
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=10&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=30&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 179,
+   "jobs_seen": 181,
    "matches": 2,
    "ok": true
   },
@@ -521,7 +528,7 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=10&num=50",
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=190&num=50",
    "ok": false
   },
   "Niantic": {
@@ -562,7 +569,7 @@
   },
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
-   "jobs_seen": 70,
+   "jobs_seen": 68,
    "matches": 0,
    "ok": true
   },
@@ -574,8 +581,8 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 162,
-   "matches": 2,
+   "jobs_seen": 165,
+   "matches": 3,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
@@ -586,7 +593,7 @@
   },
   "Ramp": {
    "board": "ashby:ramp",
-   "jobs_seen": 178,
+   "jobs_seen": 177,
    "matches": 1,
    "ok": true
   },
@@ -598,49 +605,49 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 195,
+   "jobs_seen": 198,
    "matches": 0,
    "ok": true
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
-   "jobs_seen": 164,
+   "jobs_seen": 166,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 264,
+   "jobs_seen": 266,
    "matches": 0,
    "ok": true
   },
   "Rula": {
    "board": "ashby:rula",
-   "jobs_seen": 31,
+   "jobs_seen": 30,
    "matches": 2,
    "ok": true
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
    "jobs_seen": 270,
-   "matches": 1,
+   "matches": 2,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 317,
+   "jobs_seen": 316,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 178,
+   "jobs_seen": 179,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 280,
+   "jobs_seen": 286,
    "matches": 1,
    "ok": true
   },
@@ -700,7 +707,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 347,
+   "jobs_seen": 345,
    "matches": 0,
    "ok": true
   },
@@ -712,13 +719,13 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 108,
+   "jobs_seen": 110,
    "matches": 0,
    "ok": true
   },
   "UTA": {
    "board": "ashby:united-talent-agency",
-   "jobs_seen": 43,
+   "jobs_seen": 42,
    "matches": 0,
    "ok": true
   },
@@ -777,7 +784,7 @@
   },
   "Universal Music Group": {
    "board": "workday:umusic/UMGUS",
-   "jobs_seen": 36,
+   "jobs_seen": 37,
    "matches": 2,
    "ok": true
   },
@@ -789,13 +796,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 151,
+   "jobs_seen": 150,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 374,
+   "jobs_seen": 370,
    "matches": 0,
    "ok": true
   },
@@ -812,22 +819,22 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 99,
+   "jobs_seen": 98,
    "matches": 1,
    "ok": true
   },
   "Yahoo": {
    "board": "workday:ouryahoo/careers",
-   "jobs_seen": 79,
+   "jobs_seen": 78,
    "matches": 2,
    "ok": true
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 169,
+   "jobs_seen": 170,
    "matches": 2,
    "ok": true
   }
  },
- "run": "2026-11-16T19:23Z"
+ "run": "2026-11-16T22:09Z"
 }
