@@ -32,7 +32,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 213,
+   "jobs_seen": 211,
    "matches": 1,
    "ok": true
   },
@@ -60,6 +60,12 @@
     },
     {
      "location": "Seattle, Washington, USA",
+     "posted": "2026-11-16",
+     "title": "AWS Sr. Account Manager, Commercial SSI",
+     "url": "https://www.amazon.jobs/en/jobs/10605566/aws-sr-account-manager-commercial-ssi"
+    },
+    {
+     "location": "Seattle, Washington, USA",
      "posted": "2026-11-13",
      "title": "Forecasting Manager, Amazon Advertising",
      "url": "https://www.amazon.jobs/en/jobs/10605083/forecasting-manager-amazon-advertising"
@@ -81,19 +87,13 @@
      "posted": "2026-11-14",
      "title": "Sr. Technical Program Manager, Alexa Shopping",
      "url": "https://www.amazon.jobs/en/jobs/10605150/sr-technical-program-manager-alexa-shopping"
-    },
-    {
-     "location": "Seattle, Washington, USA",
-     "posted": "2026-11-13",
-     "title": "Sr. Software Development Engineer, Amazon Quick",
-     "url": "https://www.amazon.jobs/en/jobs/10604744/sr-software-development-engineer-amazon-quick"
     }
    ],
    "trial": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 666,
+   "jobs_seen": 663,
    "matches": 0,
    "ok": true
   },
@@ -116,7 +116,7 @@
   "Atlassian": {
    "board": "atlassian:",
    "errors_before_success": [],
-   "jobs_seen": 306,
+   "jobs_seen": 276,
    "matches": 2,
    "ok": true,
    "sample_matches": [
@@ -306,7 +306,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 127,
+   "jobs_seen": 125,
    "matches": 4,
    "ok": true
   },
@@ -490,7 +490,7 @@
   },
   "Hasbro": {
    "board": "greenhouse:hasbro",
-   "jobs_seen": 101,
+   "jobs_seen": 100,
    "matches": 0,
    "ok": true
   },
@@ -616,7 +616,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 361,
+   "jobs_seen": 360,
    "matches": 0,
    "ok": true
   },
@@ -635,28 +635,16 @@
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
    "errors_before_success": [],
-   "jobs_seen": 71,
+   "jobs_seen": 69,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
     {
-     "location": "Miami, FL, US, 33172",
-     "posted": "2026-11-15",
-     "title": "Meteorologist",
-     "url": "https://careers.paramount.com/job/Miami-Meteorologist-FL-33172/1421613900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
      "location": "Los Angeles, CA, US, 90038",
      "posted": "2026-11-15",
      "title": "Sr Manager, Retail Analytics",
      "url": "https://careers.paramount.com/job/Los-Angeles-Sr-Manager%2C-Retail-Analytics-CA-90038/1431681900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
-    },
-    {
-     "location": "Hollywood, CA, US, 90028",
-     "posted": "2026-11-15",
-     "title": "Account Executive, Programmatic",
-     "url": "https://careers.paramount.com/job/Hollywood-Account-Executive%2C-Programmatic-CA-90028/1411676600/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
      "location": "Los Angeles, CA, US, 90038",
@@ -665,16 +653,28 @@
      "url": "https://careers.paramount.com/job/Los-Angeles-Analyst%2C-Strategy-and-Insights-CA-90038/1431715600/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
-     "location": "New York, NY, US, 10019",
-     "posted": "2026-11-14",
-     "title": "Director, Digital Video",
-     "url": "https://careers.paramount.com/job/New-York-Director%2C-Digital-Video-NY-10019/1441061400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+     "location": "Hollywood, CA, US, 90028",
+     "posted": "2026-11-15",
+     "title": "Account Executive, Programmatic",
+     "url": "https://careers.paramount.com/job/Hollywood-Account-Executive%2C-Programmatic-CA-90028/1411676600/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "Miami, FL, US, 33172",
+     "posted": "2026-11-15",
+     "title": "Meteorologist",
+     "url": "https://careers.paramount.com/job/Miami-Meteorologist-FL-33172/1421613900/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     },
     {
      "location": "New York, NY, US, 10019",
      "posted": "2026-11-14",
      "title": "Director, Product Management",
      "url": "https://careers.paramount.com/job/New-York-Director%2C-Product-Management-NY-10019/1411241400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
+    },
+    {
+     "location": "New York, NY, US, 10019",
+     "posted": "2026-11-14",
+     "title": "Director, Digital Video",
+     "url": "https://careers.paramount.com/job/New-York-Director%2C-Digital-Video-NY-10019/1441061400/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS"
     }
    ],
    "trial": true
@@ -723,7 +723,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 271,
+   "jobs_seen": 270,
    "matches": 0,
    "ok": true
   },
@@ -735,7 +735,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 265,
+   "jobs_seen": 267,
    "matches": 1,
    "ok": true
   },
@@ -777,13 +777,13 @@
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
-   "jobs_seen": 131,
+   "jobs_seen": 130,
    "matches": 0,
    "ok": true
   },
   "Sony Pictures": {
    "board": "workday:spe/SonyPicturesEntertainment",
-   "jobs_seen": 68,
+   "jobs_seen": 67,
    "matches": 0,
    "ok": true
   },
@@ -881,10 +881,10 @@
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 183,
+   "jobs_seen": 184,
    "matches": 2,
    "ok": true
   }
  },
- "run": "2026-11-15T21:57Z"
+ "run": "2026-11-16T01:49Z"
 }
