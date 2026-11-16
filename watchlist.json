@@ -161,6 +161,19 @@
       "verified": true
     },
     {
+      "name": "Coursera (main board)",
+      "ats": "greenhouse",
+      "id": "coursera",
+      "sector": "Tech",
+      "note": "careers.coursera.com draws on several Greenhouse boards"
+    },
+    {
+      "name": "Udemy (Coursera)",
+      "ats": "greenhouse",
+      "id": "udemy",
+      "sector": "Tech"
+    },
+    {
       "name": "Chime",
       "ats": "greenhouse",
       "id": "chime",
@@ -264,35 +277,9 @@
     },
     {
       "name": "Niantic",
-      "ats": "greenhouse",
-      "id": "nianticlabs",
-      "sector": "Games",
-      "try": [
-        {
-          "ats": "greenhouse",
-          "id": "niantic"
-        },
-        {
-          "ats": "ashby",
-          "id": "niantic"
-        },
-        {
-          "ats": "lever",
-          "id": "niantic"
-        },
-        {
-          "ats": "ashby",
-          "id": "nianticspatial"
-        },
-        {
-          "ats": "greenhouse",
-          "id": "nianticspatial"
-        },
-        {
-          "ats": "lever",
-          "id": "nianticspatial"
-        }
-      ]
+      "ats": "ashby",
+      "id": "niantic-spatial",
+      "sector": "Games"
     },
     {
       "name": "PlayStation (Sony Interactive)",
@@ -332,19 +319,11 @@
     },
     {
       "name": "Cosm",
-      "ats": "greenhouse",
+      "ats": "dayforce",
       "id": "cosm",
+      "board": "CANDIDATEPORTAL",
       "sector": "Experiences",
-      "try": [
-        {
-          "ats": "lever",
-          "id": "cosm"
-        },
-        {
-          "ats": "ashby",
-          "id": "cosm"
-        }
-      ]
+      "trial": true
     },
     {
       "name": "UTA",
@@ -354,23 +333,10 @@
     },
     {
       "name": "Legendary Entertainment",
-      "ats": "greenhouse",
-      "id": "legendary",
+      "ats": "paylocity",
+      "id": "07c8d9de-9e8b-43d7-a4ac-acfdf615588a",
       "sector": "Media",
-      "try": [
-        {
-          "ats": "greenhouse",
-          "id": "legendaryentertainment"
-        },
-        {
-          "ats": "lever",
-          "id": "legendary"
-        },
-        {
-          "ats": "ashby",
-          "id": "legendary"
-        }
-      ]
+      "trial": true
     },
     {
       "name": "Hasbro",
@@ -716,6 +682,17 @@
       "sector": "Media / experiences"
     },
     {
+      "name": "Disney (Disney Careers site)",
+      "ats": "phenom",
+      "host": "join.disneycareers.com",
+      "path": "global/en",
+      "lang": "en_global",
+      "country": "global",
+      "sector": "Media / experiences",
+      "note": "Disney's main careers site; the Workday entry above only shows ~15 postings. Remove that entry once this one leaves trial.",
+      "trial": true
+    },
+    {
       "name": "Adobe",
       "ats": "workday",
       "host": "adobe.wd5.myworkdayjobs.com",
@@ -767,15 +744,10 @@
     },
     {
       "name": "Microsoft",
-      "ats": "eightfold",
+      "ats": "eightfold_pcsx",
       "host": "apply.careers.microsoft.com",
       "domain": "microsoft.com",
       "sector": "Tech / games",
-      "try": [
-        {
-          "ats": "microsoft_gcs"
-        }
-      ],
       "trial": true
     },
     {
@@ -786,7 +758,9 @@
     },
     {
       "name": "Uber",
-      "ats": "uber",
+      "ats": "oracle",
+      "host": "iaziqy.fa.ocs.oraclecloud.com",
+      "site": "UberCareers",
       "sector": "Tech",
       "trial": true
     },
@@ -831,9 +805,11 @@
     },
     {
       "name": "Fox",
-      "ats": "foxcareers",
-      "sector": "Media",
-      "trial": true
+      "ats": "workday",
+      "host": "fox.wd1.myworkdayjobs.com",
+      "tenant": "fox",
+      "site": "Domestic",
+      "sector": "Media"
     },
     {
       "name": "GoDaddy",
@@ -846,11 +822,13 @@
         }
       ],
       "sector": "Tech"
+    },
+    {
+      "name": "Sphere Entertainment",
+      "ats": "greenhouse",
+      "id": "sphereentertainment",
+      "sector": "Experiences"
     }
   ],
-  "not_covered_yet": [
-    "Sphere Entertainment (job system unknown; see probe)",
-    "Legendary Entertainment (Paylocity; company ID needed)",
-    "Cosm (Dayforce)"
-  ]
+  "not_covered_yet": []
 }

@@ -4,7 +4,8 @@
 Reads watchlist.json, queries each company's public job-board API
 (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Netflix) or, for companies
 with their own career sites, a site-specific reader (Amazon, Microsoft, Apple,
-Uber, Atlassian, Google, Meta, SuccessFactors, Avature, Fox, Clinch, Paylocity),
+Uber, Atlassian, Google, Meta, SuccessFactors, Avature, Fox, Clinch, Paylocity, Dayforce,
+Oracle Recruiting Cloud, Phenom),
 keeps roles that match the title, level, location and pay filters, and compares
 them with the previous run.
 
@@ -22,6 +23,7 @@ Outputs (committed by the GitHub workflow):
 Standard library only. Set NTFY_TOPIC to get phone alerts for new roles.
 """
 import datetime as dt
+import gzip
 import html
 import json
 import os
@@ -42,6 +44,13 @@ TODAY = NOW.date()
 
 # ---------------------------------------------------------------- HTTP
 
+def _body(r):
+    raw = r.read()
+    if (r.headers.get("Content-Encoding") or "").lower() == "gzip" or raw[:2] == b"\x1f\x8b":
+        raw = gzip.decompress(raw)
+    return raw
+
+
 def http(url, body=None, timeout=30, retries=2):
     """GET (or POST JSON when body is given) and return parsed JSON."""
     data = json.dumps(body).encode() if body is not None else None
@@ -53,7 +62,7 @@ def http(url, body=None, timeout=30, retries=2):
         try:
             req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return json.loads(r.read().decode("utf-8", "replace"))
+                return json.loads(_body(r).decode("utf-8", "replace"))
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}"
             if e.code in (400, 401, 403, 404, 410, 422):
@@ -90,7 +99,7 @@ def http_raw(url, body=None, headers=None, timeout=30, retries=1, form=False):
         try:
             req = urllib.request.Request(url, data=data, headers=h)
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
+                return r.status, dict(r.headers), _body(r).decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}"
             if e.code in (400, 401, 403, 404, 405, 410, 422):
@@ -480,10 +489,23 @@ def fetch_apple(c, terms):
                         add(p)
                     got = len(res)
                 except Exception:
-                    token_hdr = None
+                    pass
+                if not got:
+                    token_hdr = None  # API gave nothing: read the search page instead
             if not token_hdr:
                 page_html = http_text("https://jobs.apple.com/en-us/search?"
                                       f"search={urllib.parse.quote(term)}&location=united-states-USA&sort=newest&page={page}")
+                # Server-rendered result list (site layout seen 2026-11-13)
+                for li in re.split(r'<li data-core-accordion-item', page_html)[1:]:
+                    a = re.search(r'href="/en-us/details/([\d-]+)/([^"?]*)[^"]*"[^>]*>(.*?)</a>', li, re.S)
+                    if not a:
+                        continue
+                    d = re.search(r'class="job-posted-date"[^>]*>(.*?)<', li, re.S)
+                    loc = re.search(r'id="search-store-name-container-\d+"[^>]*>(.*?)</span>', li, re.S)
+                    add({"positionId": a.group(1), "postingTitle": strip_html(a.group(3)),
+                         "transformedPostingTitle": a.group(2), "postingDate": strip_html(d.group(1)) if d else "",
+                         "locations": [{"name": strip_html(loc.group(1))}] if loc else []})
+                    got += 1
                 page_html = page_html.replace('\\"', '"')
                 for m in re.finditer(r'"positionId"\s*:\s*"?(\d+)"?', page_html):
                     seg = page_html[max(0, m.start() - 1500):m.end() + 1500]
@@ -577,21 +599,135 @@ def fetch_google(c, terms):
     return out
 
 
-def fetch_meta(c, terms):
-    """metacareers.com search pages; reads job data embedded in the HTML."""
-    out, seen = [], set()
-    offices = "".join(f"&offices[{i}]={urllib.parse.quote(o)}" for i, o in enumerate(c.get("offices", ["Los Angeles, CA", "Burbank, CA", "Remote, US"])))
-    for term in terms:
-        page_html = http_text(f"https://www.metacareers.com/jobs?q={urllib.parse.quote(term)}{offices}")
-        for m in re.finditer(r'"id"\s*:\s*"(\d{12,})"\s*,\s*"title"\s*:\s*"((?:[^"\\]|\\.)+)"\s*,\s*"locations"\s*:\s*\[((?:[^\]])*)\]', page_html):
-            jid = m.group(1)
-            if jid in seen:
-                continue
-            seen.add(jid)
+META = "https://www.metacareers.com"
+META_SEARCH_VARS = {"search_input": {"q": "", "divisions": [], "offices": [], "roles": [], "leadership_levels": [],
+                                     "saved_jobs": [], "saved_searches": [], "sub_teams": [], "teams": [],
+                                     "is_leadership": False, "is_remote_only": False, "sort_by_new": True,
+                                     "results_per_page": None}}
+
+
+def _meta_url(jid):
+    return f"{META}/profile/job_details/{jid}/"
+
+
+def _meta_walk(obj, found):
+    """Collect dicts that look like Meta postings: a long numeric id plus a title."""
+    if isinstance(obj, dict):
+        jid, title = str(obj.get("id") or ""), obj.get("title")
+        if re.fullmatch(r"\d{12,}", jid) and isinstance(title, str) and title.strip():
+            found.append(obj)
+            return
+        for v in obj.values():
+            _meta_walk(v, found)
+    elif isinstance(obj, list):
+        for v in obj:
+            _meta_walk(v, found)
+
+
+def _meta_loc(p):
+    locs = p.get("locations") or []
+    if isinstance(locs, str):
+        locs = [locs]
+    return "; ".join(x if isinstance(x, str) else (x.get("name") or x.get("location") or "") for x in locs)
+
+
+def _meta_from_html(page):
+    """Postings embedded in a metacareers page (JSON in script tags), plus bare detail links."""
+    flat = page.replace('\\"', '"')
+    found = []
+    for m in re.finditer(r'"id"\s*:\s*"(\d{12,})"\s*,\s*"title"\s*:\s*"((?:[^"\\]|\\.)+)"(?:\s*,\s*"locations"\s*:\s*\[([^\]]*)\])?', flat):
+        try:
             title = json.loads('"' + m.group(2) + '"')
-            loc = "; ".join(re.findall(r'"((?:[^"\\]|\\.)+)"', m.group(3)))
-            out.append(job(c, "meta", jid, title, loc, f"https://www.metacareers.com/jobs/{jid}/"))
+        except ValueError:
+            title = m.group(2)
+        locs = re.findall(r'"((?:[^"\\]|\\.)+)"', m.group(3) or "")
+        found.append({"id": m.group(1), "title": title, "locations": locs})
+    return found
+
+
+def _meta_graphql(terms):
+    """Meta's career site loads search results with a GraphQL query. Find the session token and the
+    query's id in the search page and its scripts, then run the query once per search term."""
+    status, headers, page = http_raw(f"{META}/jobsearch/")
+    lsd = re.search(r'"LSD",\[\],\{"token":"([^"]+)"', page) or re.search(r'name="lsd" value="([^"]+)"', page)
+    if not lsd:
+        raise RuntimeError(f"graphql: no session token on /jobsearch/ ({len(page)} bytes)")
+    lsd = lsd.group(1)
+    rx = re.compile(r'__d\("(Careers\w*Search\w*Query)_facebookRelayOperation",\[\],\(function\([^)]*\)\{e\.exports="(\d+)"')
+    ops = dict(rx.findall(page))
+    if not ops:
+        srcs = [html.unescape(u) for u in re.findall(r'<script[^>]+src="([^"]+)"', page)]
+        for u in list(dict.fromkeys(srcs))[:80]:
+            try:
+                ops.update(rx.findall(http_raw(u, retries=0)[2]))
+            except Exception:
+                continue
+            if ops:
+                break
+    if not ops:
+        raise RuntimeError("graphql: search query id not found in page scripts")
+    name = next((n for n in ops if "Results" in n), next(iter(ops)))
+    cookie = "; ".join(x.split(";")[0] for k, x in headers.items() if k.lower() == "set-cookie")
+    out, seen = [], set()
+    for term in terms:
+        variables = json.loads(json.dumps(META_SEARCH_VARS))
+        variables["search_input"]["q"] = term
+        body = {"av": "0", "__user": "0", "__a": "1", "lsd": lsd, "fb_api_caller_class": "RelayModern",
+                "fb_api_req_friendly_name": name, "variables": json.dumps(variables),
+                "server_timestamps": "true", "doc_id": ops[name]}
+        hdr = {"X-FB-LSD": lsd, "X-FB-Friendly-Name": name, "Origin": META, "Referer": f"{META}/jobsearch/"}
+        if cookie:
+            hdr["Cookie"] = cookie
+        text = http_raw(f"{META}/graphql", body, hdr, form=True)[2]
+        text = text[len("for (;;);"):] if text.startswith("for (;;);") else text
+        d = json.loads(text.splitlines()[0] if text.strip() else "{}")
+        if not isinstance(d, dict) or not d.get("data"):
+            err = (d.get("errors") or [{}])[0].get("message", "") if isinstance(d, dict) else ""
+            raise RuntimeError(f"graphql {name}: no data {err[:120]}")
+        posts = []
+        _meta_walk(d["data"], posts)
+        for p in posts:
+            if str(p["id"]) not in seen:
+                seen.add(str(p["id"]))
+                out.append(p)
         pause()
+    return out
+
+
+def fetch_meta(c, terms):
+    """metacareers.com. Tries (1) job data embedded in the search page, (2) the site's own GraphQL
+    search query, (3) the old /jobs search page. Postings link to /profile/job_details/<id>/."""
+    posts, errors = [], []
+    enc = "".join(f"&offices%5B{i}%5D={urllib.parse.quote(o)}" for i, o in enumerate(c.get("offices", [])))
+    for term in terms:
+        try:
+            posts += _meta_from_html(http_text(f"{META}/jobsearch/?q={urllib.parse.quote(term)}{enc}"))
+        except Exception as e:
+            errors.append(f"jobsearch page: {str(e).split(' for ')[0][:60]}")
+            break
+        pause()
+    if not posts:
+        try:
+            posts = _meta_graphql(terms)
+        except Exception as e:
+            errors.append(str(e).split(" for ")[0][:160])
+    if not posts:
+        for term in terms:
+            try:
+                posts += _meta_from_html(http_text(f"{META}/jobs?q={urllib.parse.quote(term)}{enc}"))
+            except Exception as e:
+                errors.append(f"old /jobs page: {str(e).split(' for ')[0][:60]}")
+                break
+            pause()
+    if not posts:
+        raise RuntimeError("meta " + (" | ".join(errors) or "no postings found on any route"))
+    out, seen = [], set()
+    for p in posts:
+        jid = str(p["id"])
+        if jid in seen:
+            continue
+        seen.add(jid)
+        out.append(job(c, "meta", jid, p["title"], _meta_loc(p), _meta_url(jid)))
     return out
 
 
@@ -641,29 +777,33 @@ def fetch_successfactors(c, terms):
 
 
 def fetch_avature(c, terms):
-    """Avature career sites (e.g. jobs.ea.com): search results HTML."""
+    """Avature career sites (e.g. jobs.ea.com): search results HTML, 20 per page.
+
+    EA's search ignores the keyword and lists every role, so the whole list is paged once."""
     out, seen = [], set()
     base = c["base"].rstrip("/")  # e.g. https://jobs.ea.com/en_US/careers
-    for term in terms:
-        for offset in (0, 50, 100):
-            page_html = http_text(f"{base}/SearchJobs/?keyword={urllib.parse.quote(term)}"
-                                  f"&jobRecordsPerPage=50&jobOffset={offset}&listFilterMode=1")
-            found = 0
-            for m in re.finditer(r'href="([^"]*/careers/JobDetail/([^"/]+)/(\d+))"[^>]*>(.*?)</a>', page_html, re.S):
-                url, slug, jid, label = m.groups()
-                title = strip_html(label) or slug.replace("-", " ")
-                if jid in seen or not title:
-                    continue
-                seen.add(jid)
-                found += 1
-                after = page_html[m.end():m.end() + 2500]
-                loc = strip_html((re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</', after, re.S) or [None, ""])[1])
-                if url.startswith("/"):
-                    url = re.match(r"https://[^/]+", base).group(0) + url
-                out.append(job(c, "avature", jid, title, loc, url))
-            pause()
-            if found < 50:
-                break
+    offset = 0
+    while offset < 1000:
+        page_html = http_text(f"{base}/SearchJobs/?jobRecordsPerPage=20&jobOffset={offset}&listFilterMode=1")
+        found = 0
+        for m in re.finditer(r'href="([^"]*/careers/JobDetail/([^"/]+)/(\d+))"[^>]*>(.*?)</a>', page_html, re.S):
+            url, slug, jid, label = m.groups()
+            title = strip_html(label) or slug.replace("-", " ")
+            if jid in seen or not title:
+                continue
+            seen.add(jid)
+            found += 1
+            after = page_html[m.end():m.end() + 2500]
+            loc = strip_html((re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</', after, re.S)
+                              or re.search(r'class="article__header__text__subtitle"[^>]*>(.*?)</div>', after, re.S)
+                              or [None, ""])[1])
+            if url.startswith("/"):
+                url = re.match(r"https://[^/]+", base).group(0) + url
+            out.append(job(c, "avature", jid, title, loc, url))
+        pause()
+        if found == 0:
+            break
+        offset += 20
     return out
 
 
@@ -774,6 +914,300 @@ def fetch_paylocity(c, terms):
     return out
 
 
+DAYFORCE = "https://jobs.dayforcehcm.com"
+_DF_ID_KEYS = ("jobPostingId", "postingId", "jobReqId")
+_DF_TITLE_KEYS = ("jobTitle", "postingTitle", "title")
+
+
+def _df_walk(obj, found):
+    """Collect dicts that look like job postings (an id key plus a title key)."""
+    if isinstance(obj, dict):
+        has_id = any(obj.get(k) not in (None, "") for k in _DF_ID_KEYS)
+        has_title = any(isinstance(obj.get(k), str) and obj[k].strip() for k in _DF_TITLE_KEYS)
+        if has_id and has_title:
+            found.append(obj)
+            return
+        for v in obj.values():
+            _df_walk(v, found)
+    elif isinstance(obj, list):
+        for v in obj:
+            _df_walk(v, found)
+
+
+def _df_location(p):
+    parts = []
+    for loc in p.get("postingLocations") or p.get("locations") or []:
+        if isinstance(loc, str):
+            parts.append(loc)
+        elif isinstance(loc, dict):
+            s = loc.get("formattedAddress") or ", ".join(
+                str(x) for x in [loc.get("cityName") or loc.get("city"),
+                                 loc.get("stateCode") or loc.get("state"),
+                                 loc.get("countryCode") or loc.get("country")] if x)
+            if s:
+                parts.append(s)
+    for k in ("location", "locationName", "formattedAddress"):
+        if not parts and isinstance(p.get(k), str):
+            parts.append(p[k])
+    if p.get("isVirtualLocation") or p.get("hasVirtualLocation") or p.get("isRemote"):
+        parts.append("Remote")
+    return "; ".join(dict.fromkeys(x.strip() for x in parts if x and x.strip()))
+
+
+def _df_posted(p):
+    for k in ("postingStartTimestampUTC", "postingStartDate", "datePosted", "postedDate", "publishedDate"):
+        v = p.get(k)
+        if isinstance(v, (int, float)) and v > 10**11:
+            return iso_from_ms(v)
+        if isinstance(v, str) and re.match(r"\d{4}-\d{2}-\d{2}", v):
+            return v[:10]
+    return ""
+
+
+def _df_job(c, p, ns, board):
+    jid = next(p[k] for k in _DF_ID_KEYS if p.get(k) not in (None, ""))
+    title = next(p[k] for k in _DF_TITLE_KEYS if isinstance(p.get(k), str) and p[k].strip())
+    text = strip_html(p.get("jobPostingContent") or p.get("description") or p.get("jobDescription") or "")
+    return job(c, "dayforce", jid, title, _df_location(p),
+               f"{DAYFORCE}/en-US/{ns}/{board}/jobs/{jid}", _df_posted(p), parse_pay(text), text)
+
+
+def _df_from_html(page):
+    """Postings embedded in the board page (__NEXT_DATA__ or escaped React server payload)."""
+    found = []
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S)
+    if m:
+        try:
+            _df_walk(json.loads(m.group(1)), found)
+        except ValueError:
+            pass
+    if found:
+        return found
+    flat = page.replace('\\\\"', '"').replace('\\"', '"')
+    for m in re.finditer(r'"jobPostingId"\s*:\s*"?(\d+)', flat):
+        near = flat[max(0, m.start() - 1500):m.end() + 1500]
+        t = re.search(r'"(?:jobTitle|postingTitle)"\s*:\s*"([^"]{3,200})"', near)
+        if not t:
+            continue
+        p = {"jobPostingId": m.group(1), "jobTitle": t.group(1)}
+        loc = re.search(r'"formattedAddress"\s*:\s*"([^"]{2,200})"', near)
+        if loc:
+            p["location"] = loc.group(1)
+        d = re.search(r'"postingStartTimestampUTC"\s*:\s*"(\d{4}-\d{2}-\d{2})', near)
+        if d:
+            p["postingStartDate"] = d.group(1)
+        found.append(p)
+    return found
+
+
+def fetch_dayforce(c, terms):
+    """Dayforce candidate portal (jobs.dayforcehcm.com/<lang>/<id>/<board>), e.g. Cosm.
+
+    Tries the portal's JSON search API, then postings embedded in the board page.
+    All postings are returned; the usual filters decide what matches.
+    """
+    ns, board = c["id"], c.get("board", "CANDIDATEPORTAL")
+    page_url = f"{DAYFORCE}/en-US/{ns}/{board}"
+    hdr = {"Accept": "application/json, text/plain, */*", "Origin": DAYFORCE, "Referer": page_url}
+    errors = []
+    for label, url in (("api/geo search", f"{DAYFORCE}/api/geo/{ns}/jobposting/search"),
+                       ("api search", f"{DAYFORCE}/api/jobposting/search")):
+        out, seen, start = [], set(), 0
+        try:
+            while start < 1000:
+                body = {"clientNamespace": ns, "jobBoardCode": board, "cultureCode": "en-US",
+                        "distanceUnit": 0, "paginationStart": start}
+                d = json.loads(http_raw(url, body, hdr)[2])
+                posts = []
+                _df_walk(d, posts)
+                fresh = [p for p in posts if str(next(p[k] for k in _DF_ID_KEYS if p.get(k) not in (None, ""))) not in seen]
+                for p in fresh:
+                    j = _df_job(c, p, ns, board)
+                    seen.add(j["id"])
+                    out.append(j)
+                total = d.get("maxCount") or d.get("totalCount") or d.get("count") if isinstance(d, dict) else None
+                if not fresh or (isinstance(total, int) and len(out) >= total):
+                    break
+                start += len(fresh)
+                pause()
+        except Exception as e:
+            errors.append(f"{label}: {str(e).split(' for ')[0][:80]}")
+            continue
+        if out:
+            return out
+        errors.append(f"{label}: 0 postings")
+    try:
+        page = http_text(page_url)
+        posts = _df_from_html(page)
+        if posts:
+            uniq = {}
+            for p in posts:
+                j = _df_job(c, p, ns, board)
+                uniq.setdefault(j["id"], j)
+            return list(uniq.values())
+        errors.append(f"board page: no postings in {len(page)} bytes")
+    except Exception as e:
+        errors.append(f"board page: {str(e).split(' for ')[0][:80]}")
+    raise RuntimeError("dayforce " + " | ".join(errors))
+
+
+def fetch_eightfold_pcsx(c, terms):
+    """Eightfold's newer career-site search (apply.careers.microsoft.com/api/pcsx/search)."""
+    out, seen = [], set()
+    loc = urllib.parse.quote(c.get("location", "United States"))
+    host = c["host"]
+    for term in terms:
+        start = 0
+        while start < 300:
+            d = json.loads(http_text(f"https://{host}/api/pcsx/search?domain={c['domain']}&query={urllib.parse.quote(term)}"
+                                     f"&location={loc}&start={start}&sort_by=timestamp",
+                                     headers={"Accept": "application/json"}))
+            data = d.get("data") or {}
+            pos = data.get("positions") or data.get("jobs") or []
+            for p in pos:
+                if p.get("id") in seen:
+                    continue
+                seen.add(p.get("id"))
+                locs = p.get("locations") or p.get("standardizedLocations") or []
+                locs = "; ".join(locs) if isinstance(locs, list) else str(locs)
+                if str(p.get("workLocationOption") or "").lower() == "remote":
+                    locs += "; Remote"
+                url = p.get("positionUrl") or f"/careers/job/{p.get('id')}"
+                out.append(job(c, "eightfold", p.get("id"), p.get("name"), locs,
+                               url if url.startswith("http") else f"https://{host}{url}",
+                               iso_from_s(p.get("postedTs") or p.get("creationTs"))))
+            pause()
+            if not pos or start + len(pos) >= int(data.get("count") or 0):
+                break
+            start += len(pos)
+    return out
+
+
+def fetch_oracle(c, terms):
+    """Oracle Recruiting Cloud career sites (…oraclecloud.com/hcmUI/CandidateExperience/en/sites/<site>), e.g. Uber.
+
+    The REST finder needs the site number (CX_…); it is read from the site page, then the site code is tried."""
+    host, site = c["host"], c["site"]
+    site_url = f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/jobs"
+    numbers, errors = [], []
+    if c.get("site_number"):
+        numbers.append(c["site_number"])
+    try:
+        page = http_text(site_url)
+        numbers += re.findall(r"siteNumber[\"']?\s*[:=]\s*[\"'](CX_?\w*)[\"']", page)
+        numbers += re.findall(r"\b(CX_\d+)\b", page)
+    except Exception as e:
+        errors.append(f"site page: {str(e).split(' for ')[0][:60]}")
+    numbers += [site, "CX_1", "CX_1001", "CX"]
+    api = f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    for num in dict.fromkeys(numbers):
+        out, seen = [], set()
+        try:
+            for term in terms:
+                offset = 0
+                while offset < 200:
+                    finder = (f"findReqs;siteNumber={num},facetsList=LOCATIONS,limit=25,"
+                              f"keyword=\"{term}\",sortBy=POSTING_DATES_DESC,offset={offset}")
+                    d = json.loads(http_text(f"{api}?onlyData=true&expand=requisitionList.secondaryLocations"
+                                             f"&finder={urllib.parse.quote(finder, safe='=;,')}",
+                                             headers={"Accept": "application/json"}))
+                    items = d.get("items") or [{}]
+                    reqs = items[0].get("requisitionList") or []
+                    for r in reqs:
+                        if r.get("Id") in seen:
+                            continue
+                        seen.add(r.get("Id"))
+                        locs = [r.get("PrimaryLocation") or ""] + [x.get("Name", "") for x in r.get("secondaryLocations") or []]
+                        if str(r.get("WorkplaceType") or r.get("WorkplaceTypeCode") or "").lower().find("remote") >= 0:
+                            locs.append("Remote")
+                        text = strip_html(r.get("ShortDescriptionStr") or "")
+                        out.append(job(c, "oracle", r.get("Id"), r.get("Title"), "; ".join(dict.fromkeys(x for x in locs if x)),
+                                       f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{r.get('Id')}",
+                                       iso_date(r.get("PostedDate")), parse_pay(text), text))
+                    pause()
+                    total = int(items[0].get("TotalJobsCount") or 0)
+                    if not reqs or offset + len(reqs) >= total:
+                        break
+                    offset += len(reqs)
+        except Exception as e:
+            errors.append(f"{num}: {str(e).split(' for ')[0][:50]}")
+            continue
+        if out:
+            return out
+        errors.append(f"{num}: 0 jobs")
+    raise RuntimeError("oracle " + " | ".join(errors))
+
+
+def fetch_phenom(c, terms):
+    """Phenom career sites (e.g. join.disneycareers.com): the site's /widgets search, then the
+    search-results page's embedded data (phApp.ddo)."""
+    host, path = c["host"], c.get("path", "global/en").strip("/")
+    lang, country = c.get("lang", "en_global"), c.get("country", "global")
+    out, seen, errors = [], set(), []
+
+    def add(p):
+        jid = str(p.get("jobId") or p.get("reqId") or p.get("jobSeqNo") or "")
+        if not jid or jid in seen or not p.get("title"):
+            return
+        seen.add(jid)
+        locs = p.get("multi_location") or p.get("multiLocation") or []
+        loc = "; ".join(locs) if isinstance(locs, list) and locs else (p.get("location") or p.get("cityStateCountry") or "")
+        if str(p.get("isRemote") or p.get("remote") or "").lower() in ("true", "yes", "remote"):
+            loc += "; Remote"
+        text = strip_html(p.get("descriptionTeaser") or p.get("description") or "")
+        out.append(job(c, "phenom", jid, p.get("title"), loc,
+                       f"https://{host}/{path}/job/{jid}/{_slug_words(p.get('title'))}",
+                       iso_date(p.get("postedDate") or p.get("dateCreated") or ""), parse_pay(text), text))
+
+    def jobs_in(d):
+        d = d.get("refineSearch") or d.get("eagerLoadRefineSearch") or d
+        data = d.get("data") or {}
+        return data.get("jobs") or [], int(d.get("totalHits") or data.get("totalHits") or 0)
+
+    for term in terms:
+        start = 0
+        try:
+            while start < 300:
+                body = {"lang": lang, "deviceType": "desktop", "country": country, "pageName": "search-results",
+                        "ddoKey": "refineSearch", "sortBy": "Most recent", "subsearch": "", "from": start, "jobs": True,
+                        "counts": True, "all_fields": ["category", "country", "state", "city", "type"], "size": 50,
+                        "clearAll": False, "jdsource": "facets", "isSliderEnable": False, "pageId": "page20",
+                        "siteType": "external", "keywords": term, "global": True, "selected_fields": {},
+                        "locationData": {}}
+                d = json.loads(http_text(f"https://{host}/widgets", body,
+                                         {"Accept": "application/json", "Origin": f"https://{host}",
+                                          "Referer": f"https://{host}/{path}/search-results?keywords={urllib.parse.quote(term)}"}))
+                posts, total = jobs_in(d)
+                for p in posts:
+                    add(p)
+                pause()
+                if not posts or start + len(posts) >= total:
+                    break
+                start += len(posts)
+        except Exception as e:
+            errors.append(f"widgets: {str(e).split(' for ')[0][:60]}")
+        if out:
+            continue
+        try:
+            for start in range(0, 100, 10):
+                page = http_text(f"https://{host}/{path}/search-results?keywords={urllib.parse.quote(term)}&from={start}&s=1")
+                m = re.search(r"phApp\.ddo\s*=\s*(\{.*?\});\s*(?:phApp|</script>)", page, re.S)
+                if not m:
+                    errors.append("search page: no phApp.ddo")
+                    break
+                posts, total = jobs_in(json.loads(m.group(1)))
+                for p in posts:
+                    add(p)
+                pause()
+                if not posts or start + len(posts) >= total:
+                    break
+        except Exception as e:
+            errors.append(f"search page: {str(e).split(' for ')[0][:60]}")
+    if not out and errors:
+        raise RuntimeError("phenom " + " | ".join(dict.fromkeys(errors)))
+    return out
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -795,6 +1229,10 @@ FETCHERS = {
     "clinch": fetch_clinch,
     "greenhouse_html": fetch_greenhouse_html,
     "paylocity": fetch_paylocity,
+    "dayforce": fetch_dayforce,
+    "eightfold_pcsx": fetch_eightfold_pcsx,
+    "oracle": fetch_oracle,
+    "phenom": fetch_phenom,
 }
 
 

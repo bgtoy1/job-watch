@@ -41,6 +41,35 @@ CLINCH = """<a href="/jobs/senior-director-corporate-strategy-united-states">Sen
 <a href="/jobs/search">See Open Roles</a>"""
 GH_HTML = '<script>window.__remixContext = {"state":{"loaderData":{"routes/$url_token":{"jobPosts":{"data":[{"id":55,"title":"Director, Strategy & Operations","location":"Los Angeles, CA","absolute_url":"https://job-boards.greenhouse.io/whatnot/jobs/55","published_at":"2026-11-10T00:00:00-08:00"}],"page":1,"total_pages":1}}}}};</script>'
 APPLE_HTML = '<script>window.__x={"searchResults":[{"positionId":"200555001","postingTitle":"Director, Services Strategy","postingDate":"Nov 10, 2026","locations":[{"name":"Culver City"}],"transformedPostingTitle":"director-services-strategy"}]}</script>'
+DF_API = {"maxCount": 2, "jobPostings": [
+    {"jobPostingId": 6229, "jobReqId": 900, "jobTitle": "Director, Venue Operations Strategy",
+     "postingLocations": [{"formattedAddress": "Inglewood, CA, US"}], "postingStartTimestampUTC": "2026-11-12T08:00:00Z",
+     "jobPostingContent": "<p>Base pay $180,000 - $230,000</p>"},
+    {"jobPostingId": 6230, "jobTitle": "Sr. Director, Finance", "postingLocations": [], "isVirtualLocation": True}]}
+DF_HTML = '<script>self.__next_f.push([1,"{\\"jobPostingId\\":6231,\\"jobTitle\\":\\"Head of Strategy\\",\\"formattedAddress\\":\\"Dallas, TX, US\\"}"])</script>'
+META_MODE = {"graphql": False}
+META_SHELL = '<script>require("x",[["LSD",[],{"token":"TOK"},323]])</script><script src="https://static.xx.fbcdn.net/rsrc.php/v4/a.js"></script>'
+META_JS = '__d("CareersJobSearchResultsDataQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="24242424"}),null);'
+META_GQL = {"data": {"job_search_with_featured_jobs": {"all_jobs": [
+    {"id": "1073659205651442", "title": "Director, Product Management - Verification", "locations": ["Menlo Park, CA", "Remote, US"]}]}}}
+APPLE_LI = ('<li data-core-accordion-item="" role="listitem"><h3><a class="link-inline t-intro" href="/en-us/details/200662148-0836/'
+            'business-process-analyst-ww-sales-business-transformation?team=SLDEV">Business Process Analyst, WW Sales Business Transformation</a></h3>'
+            '<span class="job-posted-date" id="search-job-posted-date-1">Nov 13, 2026</span><span class="a11y">Location</span>'
+            '<span id="search-store-name-container-1">Culver City</span></li>')
+PCSX = {"status": 200, "error": {}, "data": {"count": 2, "positions": [
+    {"id": 1970393557007505, "name": "Director, Account Technology Strategy", "locations": ["United States, Illinois, Chicago"],
+     "postedTs": 1790259038, "workLocationOption": "remote", "positionUrl": "/careers/job/1970393557007505"},
+    {"id": 1970393557008757, "name": "Security Channel Strategy Lead", "locations": ["United States, Washington, Redmond"],
+     "postedTs": 1791480875, "positionUrl": "/careers/job/1970393557008757"}]}}
+ORACLE_PAGE = "<script>var CX_CONFIG = {siteNumber: 'CX_2001', siteCode: 'UberCareers'};</script>"
+ORACLE = {"items": [{"TotalJobsCount": 1, "requisitionList": [
+    {"Id": "303393", "Title": "Director, Strategy & Planning", "PrimaryLocation": "Los Angeles, CA, United States",
+     "PostedDate": "2026-11-12", "secondaryLocations": [{"Name": "New York, NY, United States"}],
+     "ShortDescriptionStr": "Base salary $230,000 - $280,000"}]}]}
+PHENOM = {"refineSearch": {"status": 200, "totalHits": 1, "data": {"jobs": [
+    {"jobId": "10164962", "title": "Director, Partnerships Strategic Planning", "location": "Burbank, CA, United States",
+     "multi_location": ["Burbank, CA, United States", "Glendale, CA, United States"], "postedDate": "2026-11-10T00:00:00.000+0000",
+     "jobSeqNo": "TWNTWDUS10164962EXTERNALENGLOBAL"}]}}}
 PAYLOC = {"jobs": [{"jobId": 4304980, "title": "Director, Strategy", "jobLocation": {"city": "Burbank", "state": "CA"}, "publishedDate": "2026-11-01T00:00:00"}]}
 
 
@@ -55,11 +84,29 @@ def fake_http(url, body=None, **kw):
 
 def fake_raw(url, body=None, headers=None, form=False, **kw):
     if "jobs.apple.com/api" in url: raise RuntimeError("HTTP 404 for " + url)  # force HTML fallback
-    if "jobs.apple.com/en-us/search" in url: return 200, {}, APPLE_HTML
+    if "jobs.apple.com/en-us/search" in url: return 200, {}, APPLE_HTML + APPLE_LI
     if "uber.com/api" in url:
         assert headers["x-csrf-token"] == "x"
         return 200, {}, json.dumps(UBER) if body["page"] == 0 else json.dumps({"data": {"results": []}})
     if "google.com/about/careers" in url: return 200, {}, GOOGLE_HTML
+    if "fbcdn.net/rsrc.php" in url: return 200, {}, META_JS
+    if "/api/pcsx/search" in url: return 200, {}, json.dumps(PCSX)
+    if "oraclecloud.com/hcmUI" in url: return 200, {}, ORACLE_PAGE
+    if "oraclecloud.com/hcmRestApi" in url:
+        if "siteNumber%3DCX_2001" in url or "siteNumber=CX_2001" in url: return 200, {}, json.dumps(ORACLE)
+        raise RuntimeError("HTTP 400 for " + url)
+    if "join.disneycareers.com/widgets" in url:
+        assert body["keywords"] in T
+        return 200, {}, json.dumps(PHENOM if body["from"] == 0 else {"refineSearch": {"data": {"jobs": []}}})
+    if "metacareers.com" in url and META_MODE["graphql"]:
+        if url.endswith("/jobsearch/"):
+            return 200, {"Set-Cookie": "datr=abc; path=/"}, META_SHELL
+        if url.endswith("/graphql"):
+            assert body["lsd"] == "TOK" and body["doc_id"] == "24242424" and headers["X-FB-LSD"] == "TOK"
+            assert json.loads(body["variables"])["search_input"]["q"] in T
+            return 200, {}, "for (;;);" + json.dumps(META_GQL)
+        if "/jobsearch/?q=" in url: return 200, {}, "<html>loading</html>"
+        raise AssertionError(url)
     if "metacareers.com" in url: return 200, {}, META_HTML
     if "/services/rss/job" in url: return 200, {}, SF_RSS if "strategy" in url else "<rss></rss>"
     if "careers.paramount.com/search" in url: return 200, {}, SF_HTML
@@ -67,6 +114,10 @@ def fake_raw(url, body=None, headers=None, form=False, **kw):
     if "foxcareers.com" in url: return 200, {}, FOX
     if "careers.godaddy" in url: return 200, {}, CLINCH
     if "job-boards.greenhouse.io" in url: return 200, {}, GH_HTML
+    if "dayforcehcm.com/api/geo/cosm" in url: return 200, {}, json.dumps(DF_API if body["paginationStart"] == 0 else {"jobPostings": []})
+    if "dayforcehcm.com/api/geo/" in url: raise RuntimeError("HTTP 404 for " + url)  # force fallbacks
+    if "dayforcehcm.com/api/jobposting" in url: return 200, {}, "{}"
+    if "dayforcehcm.com/en-US/other/" in url: return 200, {}, DF_HTML
     raise AssertionError(url)
 
 
@@ -86,7 +137,8 @@ assert e[0]["title"] == "Director, Business Strategy"
 g = one(fj.fetch_microsoft_gcs, C())
 assert g[0]["location"].endswith("; Remote") and g[0]["posted"] == "2026-11-11", g[0]
 ap = one(fj.fetch_apple, C())
-assert ap[0]["title"] == "Director, Services Strategy" and ap[0]["location"] == "Culver City" and ap[0]["posted"] == "2026-11-10", ap[0]
+a0 = next(x for x in ap if x["id"] == "200555001")
+assert a0["title"] == "Director, Services Strategy" and a0["location"] == "Culver City" and a0["posted"] == "2026-11-10", a0
 u = one(fj.fetch_uber, C())
 assert "Los Angeles, California" in u[0]["location"] and u[0]["pay"] == "$250–300K", u[0]
 at = one(fj.fetch_atlassian, C())
@@ -95,6 +147,12 @@ go = one(fj.fetch_google, C())
 assert go[0]["title"] == "Director, Strategy and Operations, YouTube" and go[0]["location"] == "Los Angeles, CA, USA", go[0]
 me = one(fj.fetch_meta, C())
 assert me[0]["location"] == "Burbank, CA; Remote, US", me[0]
+assert me[0]["url"] == "https://www.metacareers.com/profile/job_details/1234567890123/", me[0]
+META_MODE["graphql"] = True  # search page has no embedded data -> GraphQL route
+mg = one(fj.fetch_meta, C(offices=["Los Angeles, CA"]))
+assert mg[0]["title"] == "Director, Product Management - Verification" and mg[0]["location"] == "Menlo Park, CA; Remote, US", mg
+assert mg[0]["url"] == "https://www.metacareers.com/profile/job_details/1073659205651442/", mg[0]
+META_MODE["graphql"] = False
 sf = one(fj.fetch_successfactors, C(host="careers.paramount.com"))
 assert sf[0]["title"] == "Director, Strategic Planning" and sf[0]["location"] == "Los Angeles, CA, US, 90038" and sf[0]["id"] == "1234567", sf[0]
 assert sf[0]["pay"] == "$190–240K" and sf[0]["posted"] == "2026-11-11", sf[0]
@@ -108,6 +166,27 @@ cl = one(fj.fetch_clinch, C(host="careers.godaddy"))
 assert len(cl) == 1 and cl[0]["location"] == "United States", cl
 gh = one(fj.fetch_greenhouse_html, C(id="whatnot"))
 assert gh[0]["title"] == "Director, Strategy & Operations" and gh[0]["posted"] == "2026-11-10", gh[0]
+df = one(fj.fetch_dayforce, C(id="cosm", board="CANDIDATEPORTAL"))
+assert len(df) == 2 and df[0]["id"] == "6229" and df[0]["location"] == "Inglewood, CA, US", df
+assert df[0]["pay"] == "$180–230K" and df[0]["posted"] == "2026-11-12", df[0]
+assert df[0]["url"] == "https://jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL/jobs/6229" and df[1]["location"] == "Remote", df
+df2 = one(fj.fetch_dayforce, C(id="other", board="CANDIDATEPORTAL"))  # APIs fail -> board page
+assert df2[0]["title"] == "Head of Strategy" and df2[0]["location"] == "Dallas, TX, US", df2
+assert any(x["id"] == "200662148-0836" and x["location"] == "Culver City" and x["posted"] == "2026-11-13" for x in ap), ap
+pc = one(fj.fetch_eightfold_pcsx, C(host="apply.careers.microsoft.com", domain="microsoft.com"))
+assert len(pc) == 2 and pc[0]["location"].endswith("; Remote") and pc[0]["url"] == "https://apply.careers.microsoft.com/careers/job/1970393557007505", pc
+assert pc[1]["posted"].startswith("2026-"), pc[1]
+orc = one(fj.fetch_oracle, C(host="iaziqy.fa.ocs.oraclecloud.com", site="UberCareers"))
+assert orc[0]["id"] == "303393" and "New York" in orc[0]["location"] and orc[0]["pay"] == "$230–280K", orc
+assert orc[0]["url"] == "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303393", orc[0]
+ph = one(fj.fetch_phenom, C(host="join.disneycareers.com", path="global/en"))
+assert ph[0]["id"] == "10164962" and ph[0]["location"].startswith("Burbank, CA") and ph[0]["posted"] == "2026-11-10", ph
+assert ph[0]["url"].startswith("https://join.disneycareers.com/global/en/job/10164962/"), ph[0]
+import gzip as _gz, io as _io
+class _R:
+    def __init__(s, b, enc): s._b, s.headers = b, {"Content-Encoding": enc}
+    def read(s): return s._b
+assert fj._body(_R(_gz.compress(b'{"a":1}'), "gzip")) == b'{"a":1}' and fj._body(_R(b"x", "")) == b"x"
 pl = one(fj.fetch_paylocity, C(id="abc"))
 assert pl[0]["location"] == "Burbank, CA", pl[0]
 

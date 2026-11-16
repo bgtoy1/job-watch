@@ -15,6 +15,7 @@ probe_targets.json hasn't changed since the last probe (same hash), so leaving i
 in the repo costs nothing. Standard library only.
 """
 import hashlib
+import html
 import json
 import os
 import re
@@ -96,6 +97,9 @@ def test_board(kind, ident):
             jobs = fj.fetch_workday(dict(c, host=f"{tenant}.{wd}.myworkdayjobs.com", tenant=tenant, site=site), ["strategy"])
         elif kind == "paylocity":
             jobs = fj.fetch_paylocity(dict(c, id=ident), [])
+        elif kind == "dayforce":
+            ns, board = ident.split("/")[:2]
+            jobs = fj.fetch_dayforce(dict(c, id=ns, board=board), [])
         else:
             return None
         return {"ok": True, "jobs": len(jobs), "sample": [f"{j['title']} | {j['location']}" for j in jobs[:4]]}
@@ -103,7 +107,27 @@ def test_board(kind, ident):
         return {"ok": False, "error": str(e)[:200]}
 
 
-def probe_page(url):
+def scan_scripts(url, page):
+    """List API paths named in the page's own JavaScript (for sites that load jobs by script)."""
+    base = re.match(r"https?://[^/]+", url).group(0)
+    srcs = [u if u.startswith("http") else base + ("" if u.startswith("/") else "/") + u
+            for u in re.findall(r'<script[^>]+src="([^"]+)"', page)]
+    srcs = [u for u in dict.fromkeys(html.unescape(x) for x in srcs) if u.startswith(base) or "fbcdn.net" in u][:60]
+    paths, hits = set(), {}
+    for u in srcs:
+        try:
+            js = fj.http_raw(u, retries=0)[2]
+        except Exception:
+            continue
+        paths.update(re.findall(r"""["'`](/api/[A-Za-z0-9_/${}.:-]{3,120})""", js))
+        for m in re.finditer(r"jobposting|JobPosting|jobBoard|Careers\w*Query_facebookRelayOperation", js):
+            hits.setdefault(u.rsplit("/", 1)[-1], js[max(0, m.start() - 200):m.end() + 200])
+            if len(hits) >= 6:
+                break
+    return {"scripts": len(srcs), "api_paths": sorted(paths)[:60], "snippets": dict(list(hits.items())[:6])}
+
+
+def probe_page(url, scan_js=False):
     r = {"url": url}
     try:
         status, headers, page = fj.http_raw(url)
@@ -126,7 +150,9 @@ def probe_page(url):
         if m:
             r["html_snippet"] = page[max(0, m.start() - 1200):m.start() + 1500]
         r["text_start"] = body_text(page)[:700]
-        r["json_hints"] = sorted(set(re.findall(r'"(positionId|postingTitle|jobPosts|jobId|requisitionId|job_id|externalPath|jobTitle|title)"\s*:', page)))[:10]
+        if scan_js:
+            r["js_scan"] = scan_scripts(url, page)
+        r["json_hints"] = sorted(set(re.findall(r'\\?"(positionId|postingTitle|jobPosts|jobId|jobPostingId|requisitionId|job_id|externalPath|jobTitle|title)\\?"\s*:', page)))[:10]
     except Exception as e:
         r["error"] = str(e)[:300]
     return r
@@ -189,7 +215,7 @@ def main():
     result = {"run": fj.NOW.strftime("%Y-%m-%dT%H:%MZ"), "targets_hash": h, "companies": {}}
     for name, t in targets.get("companies", {}).items():
         result["companies"][name] = {
-            "pages": [probe_page(u) for u in t.get("pages", [])],
+            "pages": [probe_page(u, t.get("scan_js", False)) for u in t.get("pages", [])],
             "api": [probe_api(a) for a in t.get("api", [])],
         }
         print("probed", name)
@@ -206,6 +232,8 @@ def main():
             lines.append(f"- page {p['url']}: {p['status']}, {p['bytes']} bytes, title '{p['title']}'; job systems: {p['ats'] or 'none found'}")
             for k, v in (p.get("board_tests") or {}).items():
                 lines.append(f"  - {k}: {v}")
+            if p.get("js_scan"):
+                lines.append(f"  - scripts scanned: {p['js_scan']['scripts']}; API paths: {p['js_scan']['api_paths']}")
         for a in r["api"]:
             lines.append(f"- api {a.get('name') or a['url']}: " + (f"ERROR {a['error']}" if "error" in a else
                          f"{a['status']} {a['content_type']} {a['bytes']} bytes keys={a.get('keys')}"))
