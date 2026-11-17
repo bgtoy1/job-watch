@@ -8,6 +8,9 @@
       "snap",
       "airbnb"
     ],
+    "level_optional_companies": [
+      "Stripe"
+    ],
     "title_exclude": "\\bengineer\\b|engineering manager|software|developer|scientist|accountant|accounting|\\btax\\b|payroll|intern\\b|internship|recruit|counsel|attorney|paralegal|legal|account executive|sales representative|sales development|customer success manager|designer|nurse|clinical|security operations|\\bit operations|data center|warehouse|facilities|technician|people operations|hr operations|payments operations analyst|\\bassociate\\b(?! director| vice president| general counsel)|coordinator|specialist|analyst\\b|\\bsales\\b(?! strategy| planning)|client director|account director|strategic accounts|regional vice president|alliances|deal desk|marketing|creative|influencer|\\bbrand\\b|communications|content strategy|campaign|law enforcement|forensic|incident response|fraud|treasury|accounts payable|\\bhr\\b|talent development|regulatory|capacity planning|data science|validation|workforce operations|live operations|manufacturing|retail store|venue|music hall|foundation room|technical director|product support|researcher|price realization|onboarding external|compliance|sortation|\\bevent\\b|user experience|field operations|demand strategy",
     "la_terms": "los angeles|santa monica|culver city|burbank|glendale|playa vista|playa del rey|el segundo|hollywood|beverly hills|marina del rey|venice|pasadena|irvine|long beach|universal city|torrance|manhattan beach|\\bla\\b|southern california",
     "non_us_terms": "canada|toronto|vancouver|london|united kingdom|\\buk\\b|ireland|dublin|india|bangalore|bengaluru|hyderabad|singapore|japan|tokyo|australia|sydney|germany|berlin|france|paris|netherlands|amsterdam|spain|madrid|poland|brazil|mexico|israel|tel aviv|korea|seoul|philippines|argentina|emea|apac|latam|europe",
@@ -370,7 +373,11 @@
       "name": "Stripe",
       "ats": "greenhouse",
       "id": "stripe",
-      "sector": "Tech"
+      "sector": "Tech",
+      "pinned": [
+        "8155580"
+      ],
+      "note": "Stripe titles carry no level, so the level word is not required (filters.level_optional_companies). Pinned: Strategic Business Performance, Central Strategy & Operations (added by Brandon 2026-11-17)"
     },
     {
       "name": "Robinhood",

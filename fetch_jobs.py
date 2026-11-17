@@ -1401,6 +1401,9 @@ class Filters:
         self.bare_us = re.compile(r"^\s*(us|u\.s\.|usa|united states( of america)?)\s*$", flag)
         self.non_us = re.compile(f["non_us_terms"], flag)
         self.mgr_ok = {x.lower() for x in f.get("manager_ok_companies", [])}
+        # Companies whose titles carry no level ("Strategic Business Performance, Central Strategy & Operations"
+        # at Stripe): the title and pay filters still apply, the level word is not required.
+        self.no_level = {x.lower() for x in f.get("level_optional_companies", [])}
         self.min_top = f.get("min_pay_top", 0)
         self.target_top = f.get("target_pay_top", 0)
 
@@ -1408,7 +1411,7 @@ class Filters:
         t = j["title"]
         if not self.inc.search(t) or self.exc.search(t):
             return False
-        if self.lvl.search(t):
+        if self.lvl.search(t) or j["company"].lower() in self.no_level:
             return True
         return j["company"].lower() in self.mgr_ok and re.search(r"\bmanager\b", t, re.I) is not None
 
@@ -1528,7 +1531,11 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
                 raise RuntimeError(" | ".join(errors) or "no fetcher")
             kept = []
             raw_keys.update(j["key"] for j in jobs)
+            pinned = {str(x) for x in c.get("pinned", [])}  # posting IDs to follow whatever the filters say
             for j in jobs:
+                if j["id"] in pinned:
+                    kept.append(j)
+                    continue
                 if not flt.title_ok(j):
                     continue
                 if j["ats"] == "workday":

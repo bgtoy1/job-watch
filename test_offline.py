@@ -55,7 +55,7 @@ tmp = tempfile.mkdtemp()
 fj.DATA, fj.REPORTS = os.path.join(tmp, "data"), os.path.join(tmp, "reports")
 wl = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "watchlist.json")))
 wl["companies"] = [
-    {"name": "GH Co", "ats": "greenhouse", "id": "x"},
+    {"name": "GH Co", "ats": "greenhouse", "id": "x", "pinned": ["2"]},
     {"name": "Lever Co", "ats": "lever", "id": "x"},
     {"name": "Ashby Co", "ats": "ashby", "id": "x"},
     {"name": "WD Co", "ats": "workday", "host": "wd.example", "tenant": "t", "site": "s"},
@@ -71,7 +71,7 @@ print("run1 new:", titles)
 assert "Director, Strategy & Operations" in titles
 assert "Associate Director, Corporate Strategy" in titles
 assert "Strategy Associate" not in titles
-assert "Senior Software Engineer" not in titles
+assert "Senior Software Engineer" in titles  # filtered out normally, but pinned by ID
 assert "Director, Finance" not in titles            # London
 assert "Head of Business Operations" not in titles  # pay top 180K < 200K
 assert "Director, CTO FP&A" in titles
@@ -91,6 +91,9 @@ assert T("Director, Strategy & Operations") and T("Senior Director, Corporate FP
 assert not T("Regional Vice President, Strategic East Sales") and not T("Director of Strategic Accounts, Western U.S.")
 assert not T("Marketing Operations Manager") and not T("Lead Client Director - Strategic Healthcare")
 assert T("Manager, Finance & Strategy", "Netflix") and not T("Manager, Finance & Strategy", "X")
+assert T("Strategic Business Performance, Central Strategy & Operations", "Stripe")  # level not required at Stripe
+assert not T("Strategic Business Performance, Central Strategy & Operations", "X")
+assert not T("Software Engineer, Payments", "Stripe")  # title filter still applies
 gh1 = [j for j in new if j["id"] == "1"][0]
 assert gh1["pay"] == "$197–290K" and gh1["posted"] == "2026-11-08", gh1
 wd = [j for j in new if j["id"] == "JR1"][0]

@@ -9,6 +9,14 @@ Checks target companies' own job boards every 3 hours and records matching roles
 
 Trial readers: companies marked `"trial": true` in `watchlist.json` use new readers. Each run reports what they found (section "Trial readers" in `reports/latest.md`, with sample postings in `data/company_status.json`) but doesn't log their roles until the flag is removed.
 
+Closing rule (2026-11-17): a role is logged as closed only after it is missing from two successful runs in a row (`close_after_misses` in `watchlist.json`), and a run that reads far fewer postings than the last one (under 60%) doesn't count. Search-based readers sometimes return a partial list; Paramount's Finance Leadership Development Program was wrongly logged as closed this way. Tracking parameters (`utm_…`, `feedId`) are stripped from job URLs so a posting keeps the same key. Companies removed from the watchlist have their open roles marked `untracked` rather than closed.
+
+Venture portfolio boards (2026-11-17): `getro` reads venture firms' portfolio job boards (a16z, Upfront Ventures). Roles there belong to many companies, so each title carries the company name in parentheses, e.g. "Director, Business Operations (Luma AI)".
+
+Extra controls in `watchlist.json` (2026-11-17): `filters.level_optional_companies` lists companies whose titles carry no level (Stripe), so the level word isn't required there; a company's `pinned` list holds posting IDs to follow whatever the filters say (Stripe 8155580).
+
+Rate limits: on HTTP 429 or 503 the checker waits (the server's Retry-After, or 15–60 seconds) and retries up to three more times; Netflix and Microsoft requests are spaced 3 seconds apart.
+
 Results after each run:
 
 - `reports/latest.md`: new and closed roles since the last run, companies that failed, all open matches
