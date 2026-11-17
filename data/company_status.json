@@ -2,7 +2,7 @@
  "companies": {
   "2K (Take-Two)": {
    "board": "greenhouse:2k",
-   "jobs_seen": 89,
+   "jobs_seen": 88,
    "matches": 0,
    "ok": true
   },
@@ -44,7 +44,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 661,
+   "jobs_seen": 660,
    "matches": 0,
    "ok": true
   },
@@ -132,7 +132,7 @@
   },
   "Atlassian": {
    "board": "atlassian:",
-   "jobs_seen": 271,
+   "jobs_seen": 266,
    "matches": 2,
    "ok": true
   },
@@ -144,7 +144,7 @@
   },
   "Chainguard": {
    "board": "greenhouse:chainguard",
-   "jobs_seen": 112,
+   "jobs_seen": 111,
    "matches": 1,
    "ok": true
   },
@@ -156,7 +156,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 471,
+   "jobs_seen": 473,
    "matches": 1,
    "ok": true
   },
@@ -210,7 +210,7 @@
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
    "errors_before_success": [],
-   "jobs_seen": 336,
+   "jobs_seen": 338,
    "matches": 3,
    "ok": true,
    "sample_matches": [
@@ -222,56 +222,56 @@
      "url": "https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming"
     },
     {
-     "location": "Burbank, CA, USA",
-     "pay": "",
-     "posted": "2026-11-16",
-     "title": "Director, Corporate Development (Mergers & Acquisitions)",
-     "url": "https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions"
-    },
-    {
      "location": "Santa Monica, CA, USA",
      "pay": "",
      "posted": "2026-11-11",
      "title": "Director, Partnerships Strategic Planning",
      "url": "https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning"
+    },
+    {
+     "location": "Burbank, CA, USA",
+     "pay": "",
+     "posted": "2026-11-16",
+     "title": "Director, Corporate Development (Mergers & Acquisitions)",
+     "url": "https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions"
     }
    ],
    "sample_raw": [
     {
-     "location": "Palm Desert, CA, USA",
-     "posted": "2026-11-11",
-     "title": "Proprietor, Cotino® Bay Beach, Dining & Shops",
-     "url": "https://join.disneycareers.com/global/en/job/10163028/proprietor-cotino-bay-beach-dining-shops"
+     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
+     "posted": "2026-10-29",
+     "title": "Principal Software Engineer",
+     "url": "https://join.disneycareers.com/global/en/job/10149987/principal-software-engineer"
     },
     {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-10-30",
-     "title": "Senior Manager-Digital Analytics",
-     "url": "https://join.disneycareers.com/global/en/job/10163266/senior-manager-digital-analytics"
+     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
+     "posted": "2026-10-29",
+     "title": "Principal Software Engineer",
+     "url": "https://join.disneycareers.com/global/en/job/10149993/principal-software-engineer"
     },
     {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-11-11",
-     "title": "Manager, Media Planning and Integration",
-     "url": "https://join.disneycareers.com/global/en/job/10164530/manager-media-planning-and-integration"
-    },
-    {
-     "location": "Anaheim, CA, USA",
-     "posted": "2026-11-13",
-     "title": "Sr Omni-Channel Analyst",
-     "url": "https://join.disneycareers.com/global/en/job/10163643/sr-omni-channel-analyst"
-    },
-    {
-     "location": "Burbank, CA, USA",
+     "location": "Washington, DC, USA; New York, NY, USA",
      "posted": "2026-10-19",
-     "title": "Manager, Corporate Strategy",
-     "url": "https://join.disneycareers.com/global/en/job/10162239/manager-corporate-strategy"
+     "title": "Head of National Geographic, Consumer Revenue & Growth",
+     "url": "https://join.disneycareers.com/global/en/job/10161505/head-of-national-geographic-consumer-revenue-growth"
     },
     {
-     "location": "Burbank, CA, USA; New York, NY, USA",
-     "posted": "2026-10-21",
-     "title": "Sr. Analyst, Corporate Strategy",
-     "url": "https://join.disneycareers.com/global/en/job/10163576/sr-analyst-corporate-strategy"
+     "location": "Washington, DC, USA",
+     "posted": "2026-11-16",
+     "title": "Manager, Social Media (National Geographic)",
+     "url": "https://join.disneycareers.com/global/en/job/10164368/manager-social-media-national-geographic"
+    },
+    {
+     "location": "New York, NY, USA; Bristol, CT, USA; Washington, DC, USA; Philadelphia, PA, USA",
+     "posted": "2026-11-10",
+     "title": "Podcast Marketing & Audience Growth Specialist, ABC News",
+     "url": "https://join.disneycareers.com/global/en/job/10163680/podcast-marketing-audience-growth-specialist-abc-news"
+    },
+    {
+     "location": "Shipboard",
+     "posted": "2026-09-24",
+     "title": "Human Resources Manager",
+     "url": "https://join.disneycareers.com/global/en/job/1325636BR/human-resources-manager"
     }
    ],
    "trial": true
@@ -297,7 +297,7 @@
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
    "errors_before_success": [],
-   "jobs_seen": 333,
+   "jobs_seen": 335,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -305,8 +305,20 @@
     {
      "location": "Hyderabad, India",
      "posted": "",
-     "title": "Product Analyst",
+     "title": "Product Data Analyst",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Product-Analyst/216652"
+    },
+    {
+     "location": "Hyderabad, India",
+     "posted": "",
+     "title": "Team Lead, PE Shared Services",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Fulfilment-Team-Lead-PE-Shared-Services/216673"
+    },
+    {
+     "location": "Shanghai, China",
+     "posted": "",
+     "title": "Associate Development Manager",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Development-Manager/216723"
     },
     {
      "location": "Southam, United Kingdom",
@@ -325,18 +337,6 @@
      "posted": "",
      "title": "Associate Character Artist - EA Sports FC",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Character-Artist-EA-Sports-FC/216668"
-    },
-    {
-     "location": "Los Angeles - Del Rey, United States of America",
-     "posted": "",
-     "title": "Director, People Platform & Self-Service Experience",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Director-People-Platform-Self-Service-Experience/216670"
-    },
-    {
-     "location": "Vancouver, Canada",
-     "posted": "",
-     "title": "Senior Manager, PE Business Partner - Studios Technology",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Manager-PE-Business-Partner-Studios-Technology/216677"
     }
    ],
    "trial": true
@@ -361,13 +361,13 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 78,
+   "jobs_seen": 77,
    "matches": 1,
    "ok": true
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 249,
+   "jobs_seen": 248,
    "matches": 1,
    "ok": true
   },
@@ -478,7 +478,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 301,
+   "jobs_seen": 300,
    "matches": 1,
    "ok": true
   },
@@ -512,7 +512,7 @@
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=operations&location=United%20States&start=170&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=80&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
@@ -535,10 +535,8 @@
    "ok": true
   },
   "Netflix": {
-   "board": "netflix:",
-   "jobs_seen": 350,
-   "matches": 12,
-   "ok": true
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=0&num=50",
+   "ok": false
   },
   "Niantic": {
    "board": "ashby:niantic-spatial",
@@ -566,7 +564,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 841,
+   "jobs_seen": 840,
    "matches": 16,
    "ok": true
   },
@@ -579,12 +577,12 @@
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
    "jobs_seen": 68,
-   "matches": 1,
+   "matches": 0,
    "ok": true
   },
   "Perplexity": {
    "board": "ashby:perplexity",
-   "jobs_seen": 147,
+   "jobs_seen": 148,
    "matches": 3,
    "ok": true
   },
@@ -638,13 +636,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 269,
+   "jobs_seen": 270,
    "matches": 2,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 315,
+   "jobs_seen": 314,
    "matches": 0,
    "ok": true
   },
@@ -656,7 +654,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 291,
+   "jobs_seen": 296,
    "matches": 1,
    "ok": true
   },
@@ -698,13 +696,13 @@
   },
   "Spotify": {
    "board": "lever:spotify",
-   "jobs_seen": 88,
+   "jobs_seen": 87,
    "matches": 0,
    "ok": true
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 791,
+   "jobs_seen": 793,
    "matches": 0,
    "ok": true
   },
@@ -728,7 +726,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 113,
+   "jobs_seen": 115,
    "matches": 0,
    "ok": true
   },
@@ -741,7 +739,7 @@
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
    "errors_before_success": [],
-   "jobs_seen": 367,
+   "jobs_seen": 370,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -751,6 +749,18 @@
      "posted": "2026-11-17",
      "title": "Strategy & Operations Manager - Rider Growth",
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303744"
+    },
+    {
+     "location": "Paris, Ile-de-France, France",
+     "posted": "2026-11-17",
+     "title": "Head of Earner Strategy & Operations, Uber Delivery, France",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304782"
+    },
+    {
+     "location": "Amsterdam, Noord-Holland, Netherlands",
+     "posted": "2026-11-17",
+     "title": "Director, Head of EMEA Consumer Operations (Delivery)",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304933"
     },
     {
      "location": "San Francisco, CA, United States; New York City, NY, United States",
@@ -769,18 +779,6 @@
      "posted": "2026-11-17",
      "title": "Security Technologist II - Technical Security",
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/302083"
-    },
-    {
-     "location": "San Francisco, CA, United States",
-     "posted": "2026-11-17",
-     "title": "Senior Operations Manager, Road Safety",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303513"
-    },
-    {
-     "location": "Dallas, TX, United States",
-     "posted": "2026-11-17",
-     "title": "AR Analyst, US, Order to Cash",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303691"
     }
    ],
    "trial": true
@@ -805,7 +803,7 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 148,
+   "jobs_seen": 147,
    "matches": 1,
    "ok": true
   },
@@ -834,16 +832,16 @@
   },
   "Yahoo": {
    "board": "workday:ouryahoo/careers",
-   "jobs_seen": 78,
+   "jobs_seen": 77,
    "matches": 2,
    "ok": true
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 170,
+   "jobs_seen": 171,
    "matches": 2,
    "ok": true
   }
  },
- "run": "2026-11-17T07:44Z"
+ "run": "2026-11-17T10:26Z"
 }

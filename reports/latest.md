@@ -1,33 +1,34 @@
-# Job check 2026-11-17T07:44Z
+# Job check 2026-11-17T10:26Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-10-29 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Los Angeles, CA, US, 90038 | $157–235K |
 
-## Companies that failed (0)
+## Companies that failed (1)
 
-- none
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=0&num=50
 
 ## Trial readers (10; roles not logged until confirmed)
 
 - Apple: OK via apple:, 383 postings read, 4 match. e.g. Camera Competitive Intelligence \u0026 Strategy Lead (); Director, People Planning Operations (); Head of Emerging Technology Strategy \u0026 Partnerships ()
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 466991 bytes
-- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 336 postings read, 3 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Corporate Development (Mergers & Acquisitions) (Burbank, CA, USA); Director, Partnerships Strategic Planning (Santa Monica, CA, USA)
-- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 333 postings read, 0 match
+- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 338 postings read, 3 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Partnerships Strategic Planning (Santa Monica, CA, USA); Director, Corporate Development (Mergers & Acquisitions) (Burbank, CA, USA)
+- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 335 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - Meta: FAILED: meta jobsearch page: HTTP 400 | HTTP 400 | old /jobs page: HTTP 400
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=operations&location=United%20States&start=170&sort_by=timestamp
-- Uber: OK via oracle:iaziqy.fa.ocs.oraclecloud.com, 367 postings read, 0 match
+- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=80&sort_by=timestamp
+- Uber: OK via oracle:iaziqy.fa.ocs.oraclecloud.com, 370 postings read, 0 match
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
-## All open matches (118)
+## All open matches (117)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -58,7 +59,6 @@
 | 2026-10-30 | Webflow | [Director, EPD Operations](https://jobs.ashbyhq.com/webflow/ee79ec93-dc5d-4b28-85d0-1f0555eb552b) | United States; Remote | — |
 | 2026-10-29 | OpenAI | [Trusted Access Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/500c16b5-26ca-46be-9280-abbfff3b5c2b) | San Francisco; Remote | $252–335K |
 | 2026-10-29 | NBCUniversal | [Director, Sales Planning & Administration](https://jobs.smartrecruiters.com/NBCUniversal3/744000158606017) | Universal City, CALIFORNIA, United States | — |
-| 2026-10-29 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Los Angeles, CA, US, 90038 | $157–235K |
 | 2026-10-29 | Workiva | [Senior Director of Strategic Planning and Analysis](https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Senior-Director-of-Strategic-Planning-and-Analysis_R12754-1) | USA - Remote | $185–315K |
 | 2026-10-28 | Yahoo | [Senior Manager, Corporate and Enterprise Business Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-and-Enterprise-Business-Development_JR0027623) | United States of America | $122–255K |
 | 2026-10-27 | Crunchyroll | [Senior Director, Membership Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8328077?gh_jid=8328077) | Los Angeles, California, United States | $228–285K |
