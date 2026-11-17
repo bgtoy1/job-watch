@@ -1,4 +1,4 @@
-# Job check 2026-11-17T13:38Z
+# Job check 2026-11-17T16:19Z
 
 ## New since last run (0)
 
@@ -12,19 +12,19 @@
 
 ## Companies that failed (1)
 
-- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=120&num=50
+- Netflix: HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=0&num=50
 
 ## Trial readers (10; roles not logged until confirmed)
 
-- Apple: OK via apple:, 383 postings read, 4 match. e.g. Camera Competitive Intelligence \u0026 Strategy Lead (); Director, People Planning Operations (); Head of Emerging Technology Strategy \u0026 Partnerships ()
+- Apple: OK via apple:, 379 postings read, 4 match. e.g. Camera Competitive Intelligence \u0026 Strategy Lead (); Director, People Planning Operations (); Head of Emerging Technology Strategy \u0026 Partnerships ()
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 466991 bytes
-- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 342 postings read, 3 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Corporate Development (Mergers & Acquisitions) (Burbank, CA, USA); Director, Partnerships Strategic Planning (Santa Monica, CA, USA)
-- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 336 postings read, 0 match
+- Disney (Disney Careers site): OK via phenom:join.disneycareers.com, 347 postings read, 4 match. e.g. Product Strategy and Operations Principal, Streaming (San Francisco, CA, USA; Burbank, CA, USA); Director, Corporate Development (Mergers & Acquisitions) (Burbank, CA, USA); Director, Production & Planning (Burbank, CA, USA)
+- Electronic Arts: OK via avature:https://jobs.ea.com/en_US/careers, 337 postings read, 0 match
 - Grammarly: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true | HTTP 404 for https://boards-api.greenhouse.io/v1/boards/superhuman/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/grammarly?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/sup
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - Meta: FAILED: meta jobsearch page: HTTP 400 | HTTP 400 | old /jobs page: HTTP 400
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=0&sort_by=timestamp
-- Uber: OK via oracle:iaziqy.fa.ocs.oraclecloud.com, 372 postings read, 0 match
+- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=70&sort_by=timestamp
+- Uber: OK via oracle:iaziqy.fa.ocs.oraclecloud.com, 374 postings read, 0 match
 - Whatnot: FAILED: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/whatnot/jobs?content=true | HTTP 404 for https://job-boards.greenhouse.io/whatnot?page=1 | HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/whatnot?includeCompensation=true
 
 ## All open matches (117)
