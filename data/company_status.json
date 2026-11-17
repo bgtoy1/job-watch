@@ -26,13 +26,13 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 211,
+   "jobs_seen": 213,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 209,
+   "jobs_seen": 206,
    "matches": 1,
    "ok": true
   },
@@ -57,7 +57,7 @@
   "Apple": {
    "board": "apple:",
    "errors_before_success": [],
-   "jobs_seen": 376,
+   "jobs_seen": 383,
    "matches": 4,
    "ok": true,
    "sample_matches": [
@@ -162,7 +162,7 @@
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 261,
+   "jobs_seen": 260,
    "matches": 3,
    "ok": true
   },
@@ -191,7 +191,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 892,
+   "jobs_seen": 891,
    "matches": 1,
    "ok": true
   },
@@ -238,40 +238,40 @@
    ],
    "sample_raw": [
     {
-     "location": "Shipboard",
-     "posted": "2026-09-24",
-     "title": "Human Resources Manager",
-     "url": "https://join.disneycareers.com/global/en/job/1325636BR/human-resources-manager"
+     "location": "Palm Desert, CA, USA",
+     "posted": "2026-11-11",
+     "title": "Proprietor, Cotino® Bay Beach, Dining & Shops",
+     "url": "https://join.disneycareers.com/global/en/job/10163028/proprietor-cotino-bay-beach-dining-shops"
     },
     {
-     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
-     "posted": "2026-10-29",
-     "title": "Principal Software Engineer",
-     "url": "https://join.disneycareers.com/global/en/job/10149987/principal-software-engineer"
+     "location": "Anaheim, CA, USA",
+     "posted": "2026-10-30",
+     "title": "Senior Manager-Digital Analytics",
+     "url": "https://join.disneycareers.com/global/en/job/10163266/senior-manager-digital-analytics"
     },
     {
-     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
-     "posted": "2026-10-29",
-     "title": "Principal Software Engineer",
-     "url": "https://join.disneycareers.com/global/en/job/10149993/principal-software-engineer"
+     "location": "Anaheim, CA, USA",
+     "posted": "2026-11-11",
+     "title": "Manager, Media Planning and Integration",
+     "url": "https://join.disneycareers.com/global/en/job/10164530/manager-media-planning-and-integration"
     },
     {
-     "location": "Washington, DC, USA; New York, NY, USA",
+     "location": "Anaheim, CA, USA",
+     "posted": "2026-11-13",
+     "title": "Sr Omni-Channel Analyst",
+     "url": "https://join.disneycareers.com/global/en/job/10163643/sr-omni-channel-analyst"
+    },
+    {
+     "location": "Burbank, CA, USA",
      "posted": "2026-10-19",
-     "title": "Head of National Geographic, Consumer Revenue & Growth",
-     "url": "https://join.disneycareers.com/global/en/job/10161505/head-of-national-geographic-consumer-revenue-growth"
+     "title": "Manager, Corporate Strategy",
+     "url": "https://join.disneycareers.com/global/en/job/10162239/manager-corporate-strategy"
     },
     {
-     "location": "Washington, DC, USA",
-     "posted": "2026-11-16",
-     "title": "Manager, Social Media (National Geographic)",
-     "url": "https://join.disneycareers.com/global/en/job/10164368/manager-social-media-national-geographic"
-    },
-    {
-     "location": "New York, NY, USA; Bristol, CT, USA; Washington, DC, USA; Philadelphia, PA, USA",
-     "posted": "2026-11-10",
-     "title": "Podcast Marketing & Audience Growth Specialist, ABC News",
-     "url": "https://join.disneycareers.com/global/en/job/10163680/podcast-marketing-audience-growth-specialist-abc-news"
+     "location": "Burbank, CA, USA; New York, NY, USA",
+     "posted": "2026-10-21",
+     "title": "Sr. Analyst, Corporate Strategy",
+     "url": "https://join.disneycareers.com/global/en/job/10163576/sr-analyst-corporate-strategy"
     }
    ],
    "trial": true
@@ -297,11 +297,17 @@
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
    "errors_before_success": [],
-   "jobs_seen": 332,
+   "jobs_seen": 333,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
+    {
+     "location": "Hyderabad, India",
+     "posted": "",
+     "title": "Product Analyst",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Product-Analyst/216652"
+    },
     {
      "location": "Southam, United Kingdom",
      "posted": "",
@@ -331,12 +337,6 @@
      "posted": "",
      "title": "Senior Manager, PE Business Partner - Studios Technology",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Manager-PE-Business-Partner-Studios-Technology/216677"
-    },
-    {
-     "location": "Hyderabad, India",
-     "posted": "",
-     "title": "Site Reliability Engineer II",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Site-Reliability-Engineer-II/216650"
     }
    ],
    "trial": true
@@ -361,7 +361,7 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 76,
+   "jobs_seen": 78,
    "matches": 1,
    "ok": true
   },
@@ -403,7 +403,7 @@
   },
   "Google / YouTube": {
    "board": "google:",
-   "jobs_seen": 17,
+   "jobs_seen": 16,
    "matches": 0,
    "ok": true
   },
@@ -512,13 +512,13 @@
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=0&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=operations&location=United%20States&start=170&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 181,
+   "jobs_seen": 182,
    "matches": 2,
    "ok": true
   },
@@ -560,7 +560,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 357,
+   "jobs_seen": 358,
    "matches": 0,
    "ok": true
   },
@@ -614,7 +614,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 200,
+   "jobs_seen": 199,
    "matches": 0,
    "ok": true
   },
@@ -638,7 +638,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 271,
+   "jobs_seen": 269,
    "matches": 2,
    "ok": true
   },
@@ -650,13 +650,13 @@
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 179,
+   "jobs_seen": 178,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 290,
+   "jobs_seen": 291,
    "matches": 1,
    "ok": true
   },
@@ -704,7 +704,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 790,
+   "jobs_seen": 791,
    "matches": 0,
    "ok": true
   },
@@ -716,7 +716,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 332,
+   "jobs_seen": 331,
    "matches": 0,
    "ok": true
   },
@@ -728,7 +728,7 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 111,
+   "jobs_seen": 113,
    "matches": 0,
    "ok": true
   },
@@ -741,11 +741,17 @@
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
    "errors_before_success": [],
-   "jobs_seen": 369,
+   "jobs_seen": 367,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
+    {
+     "location": "Sydney, New South Wales, Australia",
+     "posted": "2026-11-17",
+     "title": "Strategy & Operations Manager - Rider Growth",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303744"
+    },
     {
      "location": "San Francisco, CA, United States; New York City, NY, United States",
      "posted": "2026-11-17",
@@ -759,28 +765,22 @@
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/302592"
     },
     {
+     "location": "Bengaluru, Karnataka, India",
+     "posted": "2026-11-17",
+     "title": "Security Technologist II - Technical Security",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/302083"
+    },
+    {
+     "location": "San Francisco, CA, United States",
+     "posted": "2026-11-17",
+     "title": "Senior Operations Manager, Road Safety",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303513"
+    },
+    {
      "location": "Dallas, TX, United States",
      "posted": "2026-11-17",
      "title": "AR Analyst, US, Order to Cash",
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303691"
-    },
-    {
-     "location": "Sao Paulo, SP, Brazil",
-     "posted": "2026-11-16",
-     "title": "Operations Manager - Safety (BR & SoCo)",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304090"
-    },
-    {
-     "location": "Tokyo, Japan",
-     "posted": "2026-11-16",
-     "title": "Manager I, Customer Success Manager, Global (Annual Plan)",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304241"
-    },
-    {
-     "location": "Istanbul, Türkiye",
-     "posted": "2026-11-16",
-     "title": "Rider Operations Lead, Airports, Türkiye",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304708"
     }
    ],
    "trial": true
@@ -845,5 +845,5 @@
    "ok": true
   }
  },
- "run": "2026-11-17T04:18Z"
+ "run": "2026-11-17T07:44Z"
 }
