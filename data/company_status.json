@@ -20,7 +20,7 @@
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
-   "jobs_seen": 185,
+   "jobs_seen": 187,
    "matches": 0,
    "ok": true
   },
@@ -32,7 +32,7 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 206,
+   "jobs_seen": 205,
    "matches": 1,
    "ok": true
   },
@@ -44,7 +44,7 @@
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 660,
+   "jobs_seen": 661,
    "matches": 0,
    "ok": true
   },
@@ -156,13 +156,13 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 473,
+   "jobs_seen": 475,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 260,
+   "jobs_seen": 259,
    "matches": 3,
    "ok": true
   },
@@ -179,7 +179,7 @@
   },
   "Coursera (main board)": {
    "board": "greenhouse:coursera",
-   "jobs_seen": 38,
+   "jobs_seen": 39,
    "matches": 0,
    "ok": true
   },
@@ -191,7 +191,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 891,
+   "jobs_seen": 892,
    "matches": 1,
    "ok": true
   },
@@ -210,7 +210,7 @@
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
    "errors_before_success": [],
-   "jobs_seen": 338,
+   "jobs_seen": 342,
    "matches": 3,
    "ok": true,
    "sample_matches": [
@@ -222,56 +222,56 @@
      "url": "https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming"
     },
     {
-     "location": "Santa Monica, CA, USA",
-     "pay": "",
-     "posted": "2026-11-11",
-     "title": "Director, Partnerships Strategic Planning",
-     "url": "https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning"
-    },
-    {
      "location": "Burbank, CA, USA",
      "pay": "",
      "posted": "2026-11-16",
      "title": "Director, Corporate Development (Mergers & Acquisitions)",
      "url": "https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions"
+    },
+    {
+     "location": "Santa Monica, CA, USA",
+     "pay": "",
+     "posted": "2026-11-11",
+     "title": "Director, Partnerships Strategic Planning",
+     "url": "https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning"
     }
    ],
    "sample_raw": [
     {
-     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
-     "posted": "2026-10-29",
-     "title": "Principal Software Engineer",
-     "url": "https://join.disneycareers.com/global/en/job/10149987/principal-software-engineer"
+     "location": "Seattle, WA, USA; Santa Monica, CA, USA",
+     "posted": "2026-10-15",
+     "title": "Principal Product Manager, Data Platform Governance",
+     "url": "https://join.disneycareers.com/global/en/job/10161341/principal-product-manager-data-platform-governance"
     },
     {
-     "location": "San Francisco, California, United States of America; Morrisville, North Carolina, United States of America",
-     "posted": "2026-10-29",
-     "title": "Principal Software Engineer",
-     "url": "https://join.disneycareers.com/global/en/job/10149993/principal-software-engineer"
+     "location": "Santa Monica, CA, USA; Seattle, WA, USA",
+     "posted": "2026-11-06",
+     "title": "Data Engineer II",
+     "url": "https://join.disneycareers.com/global/en/job/10164252/data-engineer-ii"
     },
     {
-     "location": "Washington, DC, USA; New York, NY, USA",
-     "posted": "2026-10-19",
-     "title": "Head of National Geographic, Consumer Revenue & Growth",
-     "url": "https://join.disneycareers.com/global/en/job/10161505/head-of-national-geographic-consumer-revenue-growth"
+     "location": "Nicasio, CA, USA",
+     "posted": "2026-11-12",
+     "title": "Staff Data Engineer, Audio Content & Dataset Science (Skywalker Sound)",
+     "url": "https://join.disneycareers.com/global/en/job/10164953/staff-data-engineer-audio-content-dataset-science-skywalker-sound"
     },
     {
-     "location": "Washington, DC, USA",
-     "posted": "2026-11-16",
-     "title": "Manager, Social Media (National Geographic)",
-     "url": "https://join.disneycareers.com/global/en/job/10164368/manager-social-media-national-geographic"
+     "location": "Nicasio, CA, USA",
+     "posted": "2026-11-12",
+     "title": "Senior Staff R&D Engineer (Skywalker Sound)",
+     "url": "https://join.disneycareers.com/global/en/job/10164952/senior-staff-r-d-engineer-skywalker-sound"
     },
     {
-     "location": "New York, NY, USA; Bristol, CT, USA; Washington, DC, USA; Philadelphia, PA, USA",
-     "posted": "2026-11-10",
-     "title": "Podcast Marketing & Audience Growth Specialist, ABC News",
-     "url": "https://join.disneycareers.com/global/en/job/10163680/podcast-marketing-audience-growth-specialist-abc-news"
+     "location": "San Francisco, CA, USA; Burbank, CA, USA",
+     "posted": "2026-11-12",
+     "title": "Product Strategy and Operations Principal, Streaming",
+     "url": "https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming"
     },
     {
-     "location": "Shipboard",
-     "posted": "2026-09-24",
-     "title": "Human Resources Manager",
-     "url": "https://join.disneycareers.com/global/en/job/1325636BR/human-resources-manager"
+     "location": "San Francisco, CA, USA",
+     "posted": "2026-11-17",
+     "title": "Product Strategy and Operations Principal, Advertising Platforms",
+     "url": "https://join.disneycareers.com/global/en/job/10165413/product-strategy-and-operations-principal-advertising-platforms"
     }
    ],
    "trial": true
@@ -297,11 +297,17 @@
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
    "errors_before_success": [],
-   "jobs_seen": 335,
+   "jobs_seen": 336,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
+    {
+     "location": "Manchester, United Kingdom",
+     "posted": "",
+     "title": "Senior Product Manager",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Game-Product-Manager/216485"
+    },
     {
      "location": "Hyderabad, India",
      "posted": "",
@@ -331,12 +337,6 @@
      "posted": "",
      "title": "Hard Surface Concept Artist (TFT) - (Apex Legends)",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Hard-Surface-Concept-Artist-TFT-Apex-Legends/216658"
-    },
-    {
-     "location": "Vancouver, Canada",
-     "posted": "",
-     "title": "Associate Character Artist - EA Sports FC",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Character-Artist-EA-Sports-FC/216668"
     }
    ],
    "trial": true
@@ -385,7 +385,7 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 253,
+   "jobs_seen": 254,
    "matches": 2,
    "ok": true
   },
@@ -409,7 +409,7 @@
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 136,
+   "jobs_seen": 134,
    "matches": 1,
    "ok": true
   },
@@ -478,7 +478,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 300,
+   "jobs_seen": 302,
    "matches": 1,
    "ok": true
   },
@@ -512,13 +512,13 @@
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=80&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=0&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 182,
+   "jobs_seen": 184,
    "matches": 2,
    "ok": true
   },
@@ -535,7 +535,7 @@
    "ok": true
   },
   "Netflix": {
-   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=0&num=50",
+   "error": "HTTP 429 for https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&sort_by=new&query=strategy&start=120&num=50",
    "ok": false
   },
   "Niantic": {
@@ -558,7 +558,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 358,
+   "jobs_seen": 360,
    "matches": 0,
    "ok": true
   },
@@ -594,7 +594,7 @@
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 229,
+   "jobs_seen": 230,
    "matches": 0,
    "ok": true
   },
@@ -612,7 +612,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 199,
+   "jobs_seen": 201,
    "matches": 0,
    "ok": true
   },
@@ -636,25 +636,25 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 270,
+   "jobs_seen": 272,
    "matches": 2,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 314,
+   "jobs_seen": 315,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 178,
+   "jobs_seen": 175,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 296,
+   "jobs_seen": 293,
    "matches": 1,
    "ok": true
   },
@@ -702,7 +702,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 793,
+   "jobs_seen": 794,
    "matches": 0,
    "ok": true
   },
@@ -714,7 +714,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 331,
+   "jobs_seen": 332,
    "matches": 0,
    "ok": true
   },
@@ -739,7 +739,7 @@
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
    "errors_before_success": [],
-   "jobs_seen": 370,
+   "jobs_seen": 372,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -826,7 +826,7 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 99,
+   "jobs_seen": 98,
    "matches": 1,
    "ok": true
   },
@@ -843,5 +843,5 @@
    "ok": true
   }
  },
- "run": "2026-11-17T10:26Z"
+ "run": "2026-11-17T13:38Z"
 }
