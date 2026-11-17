@@ -1,5 +1,5 @@
 {
-  "_comment": "Discovery list for probe.py (2026-11-13; updated 2026-11-16 for Cosm, Meta, Uber, Disney, Microsoft, Legendary, EA). Change anything in this file to make the next run probe again.",
+  "_comment": "Discovery list for probe.py (2026-11-13; updated 2026-11-16 for Cosm, Meta, Uber, Disney, Microsoft, Legendary, EA; 2026-11-17 for the Tech Targets plan: Cast & Crew, Promise Studios, Tixr, Wrapbook, Entertainment Partners, a16z and Upfront Getro boards). Change anything in this file to make the next run probe again.",
   "companies": {
     "Cosm": {
       "pages": [
@@ -273,6 +273,95 @@
       "pages": [
         "https://lifeattiktok.com/search?keyword=strategy"
       ]
+    },
+    "Cast & Crew": {
+      "pages": [
+        "https://www.castandcrew.com/careers",
+        "https://www.castandcrew.com/company/careers"
+      ],
+      "scan_js": true
+    },
+    "Promise Studios": {
+      "pages": [
+        "https://www.promise.studio/careers",
+        "https://jobs.a16z.com/jobs/promise-studios"
+      ],
+      "api": [
+        {
+          "name": "ashby promise",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/promise?includeCompensation=true"
+        },
+        {
+          "name": "ashby promisestudios",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/promisestudios?includeCompensation=true"
+        },
+        {
+          "name": "greenhouse promisestudios",
+          "url": "https://boards-api.greenhouse.io/v1/boards/promisestudios/jobs"
+        },
+        {
+          "name": "lever promise",
+          "url": "https://api.lever.co/v0/postings/promise?mode=json"
+        }
+      ]
+    },
+    "Tixr": {
+      "pages": [
+        "https://ats.rippling.com/tixr/jobs"
+      ],
+      "scan_js": true,
+      "api": [
+        {
+          "name": "rippling board api v2",
+          "url": "https://ats.rippling.com/api/v2/board/tixr/jobs",
+          "headers": {
+            "Accept": "application/json"
+          }
+        },
+        {
+          "name": "rippling platform api",
+          "url": "https://api.rippling.com/platform/api/ats/v1/board/tixr/jobs",
+          "headers": {
+            "Accept": "application/json"
+          }
+        }
+      ]
+    },
+    "Wrapbook": {
+      "pages": [
+        "https://wrapbook.com/careers"
+      ],
+      "scan_js": true,
+      "api": [
+        {
+          "name": "ashby wrapbook",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/wrapbook?includeCompensation=true"
+        },
+        {
+          "name": "ashby wrapbook-inc",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/wrapbook-inc?includeCompensation=true"
+        }
+      ]
+    },
+    "Entertainment Partners": {
+      "pages": [
+        "https://www.ep.com/careers/",
+        "https://eoko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions"
+      ]
+    },
+    "a16z portfolio jobs": {
+      "pages": [
+        "https://jobs.a16z.com/jobs",
+        "https://jobs.a16z.com/jobs?q=strategy"
+      ],
+      "scan_js": true
+    },
+    "Upfront Ventures portfolio jobs": {
+      "pages": [
+        "https://jobs.upfront.com/jobs",
+        "https://jobs.upfront.com/jobs?q=strategy"
+      ],
+      "scan_js": true
     }
   }
 }

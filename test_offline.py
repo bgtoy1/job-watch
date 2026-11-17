@@ -50,7 +50,7 @@ def fake_http(url, body=None, **kw):
     raise AssertionError(url)
 
 fj.http = fake_http
-fj.pause = lambda: None
+fj.pause = lambda *a: None
 tmp = tempfile.mkdtemp()
 fj.DATA, fj.REPORTS = os.path.join(tmp, "data"), os.path.join(tmp, "reports")
 wl = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "watchlist.json")))
@@ -100,7 +100,33 @@ second_run["on"] = True
 new2, closed2, _ = fj.run(wp)
 print("run2 new:", [j["title"] for j in new2], "closed:", [j["title"] for j in closed2])
 assert [j["title"] for j in new2] == ["Chief of Staff, Product"]
-assert [j["title"] for j in closed2] == ["Director, Strategy & Operations"], closed2  # job 5 filtered, not closed
+assert closed2 == [], closed2  # job 1 missing once: not closed yet (needs 2 misses in a row)
+new3, closed3, _ = fj.run(wp)
+print("run3 new:", [j["title"] for j in new3], "closed:", [j["title"] for j in closed3])
+assert new3 == []
+assert [j["title"] for j in closed3] == ["Director, Strategy & Operations"], closed3  # job 5 filtered, not closed
+
+# Tracking parameters are dropped, and a role whose key changed keeps its history
+u = "https://careers.paramount.com/job/LA-Director/1435609300/?feedId=null&utm_source=J2WRSS&utm_medium=rss"
+assert fj.canonical_url(u) == "https://careers.paramount.com/job/LA-Director/1435609300/"
+assert fj.canonical_url("https://gh/jobs/1?gh_jid=1") == "https://gh/jobs/1?gh_jid=1"
+st = {"successfactors:P:" + u: {"company": "P", "url": u, "status": "closed", "first_seen": "2026-11-17T01:39Z"}}
+m = {"successfactors:P:1435609300": {"company": "P", "url": fj.canonical_url(u)}}
+fj.migrate_keys(st, m)
+assert list(st) == ["successfactors:P:1435609300"] and st["successfactors:P:1435609300"]["status"] == "closed"
+
+# A much smaller read than last time does not count as a miss
+assert fj.partial_read({"ok": True, "jobs_seen": 20}, {"ok": True, "jobs_seen": 68})
+assert not fj.partial_read({"ok": True, "jobs_seen": 64}, {"ok": True, "jobs_seen": 68})
+assert not fj.partial_read({"ok": True, "jobs_seen": 5}, None)
+
+# Companies removed from the watchlist: their open roles become "untracked", not closed
+wl2 = json.load(open(wp)); wl2["companies"] = [c for c in wl2["companies"] if c["name"] != "Lever Co"]
+wp2 = os.path.join(tmp, "wl2.json"); json.dump(wl2, open(wp2, "w"))
+_, closed4, _ = fj.run(wp2)
+assert closed4 == []
+state = json.load(open(os.path.join(fj.DATA, "state.json")))
+assert all(v["status"] == "untracked" for v in state.values() if v["company"] == "Lever Co")
 print(open(os.path.join(fj.REPORTS, "latest.md")).read()[:1500])
 shutil.rmtree(tmp)
 print("ALL TESTS PASSED")

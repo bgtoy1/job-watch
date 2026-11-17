@@ -7,7 +7,7 @@ import json, os, shutil, sys, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch_jobs as fj
 
-fj.pause = lambda: None
+fj.pause = lambda *a: None
 C = lambda **kw: dict({"name": "Co", "sector": "Tech"}, **kw)
 T = ["strategy"]
 
@@ -29,7 +29,7 @@ GOOGLE_HTML = """<ul><li><div><h3 class="QJPWVe">Director, Strategy and Operatio
 <span class="r0wTof">Los Angeles, CA, USA</span><a href="jobs/results/123456789012-director-strategy-and-operations-youtube?q=strategy">Learn more</a></div></li></ul>"""
 META_HTML = '<script>{"data":{"job_search":[{"id":"1234567890123","title":"Strategy Director, Reality Labs","locations":["Burbank, CA","Remote, US"],"teams":[]}]}}</script>'
 SF_RSS = """<rss><channel><item><title>Director, Strategic Planning (Los Angeles, CA, US, 90038)</title>
-<link>https://careers.paramount.com/job/Los-Angeles-Director-CA-90038/1234567/</link><pubDate>Tue, 11 Nov 2026 08:00:00 GMT</pubDate>
+<link>https://careers.paramount.com/job/Los-Angeles-Director-CA-90038/1234567/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss</link><pubDate>Tue, 11 Nov 2026 08:00:00 GMT</pubDate>
 <description>&lt;p&gt;$190,000 - $240,000&lt;/p&gt;</description></item></channel></rss>"""
 SF_HTML = """<table><tr class="data-row"><td><span class="jobTitle hidden-phone"><a href="/job/New-York-VP-Strategy/7654321/" class="jobTitle-link">VP, Strategy</a></span></td>
 <td><span class="jobLocation">New York, NY, US</span></td><td><span class="jobDate">Nov 7, 2026</span></td></tr></table>"""
@@ -40,7 +40,7 @@ FOX = """<div class="job"><a href="/Search/JobDetail/R50028389/director-corporat
 CLINCH = """<a href="/jobs/senior-director-corporate-strategy-united-states">Senior Director Corporate Strategy</a>
 <a href="/jobs/search">See Open Roles</a>"""
 GH_HTML = '<script>window.__remixContext = {"state":{"loaderData":{"routes/$url_token":{"jobPosts":{"data":[{"id":55,"title":"Director, Strategy & Operations","location":"Los Angeles, CA","absolute_url":"https://job-boards.greenhouse.io/whatnot/jobs/55","published_at":"2026-11-10T00:00:00-08:00"}],"page":1,"total_pages":1}}}}};</script>'
-APPLE_HTML = '<script>window.__x={"searchResults":[{"positionId":"200555001","postingTitle":"Director, Services Strategy","postingDate":"Nov 10, 2026","locations":[{"name":"Culver City"}],"transformedPostingTitle":"director-services-strategy"}]}</script>'
+APPLE_HTML = '<script>window.__x={"searchResults":[{"positionId":"200555001","postingTitle":"Director, Services Strategy","postingDate":"Nov 10, 2026","locations":[{"name":"Culver City"}],"transformedPostingTitle":"director-services-strategy"},{"positionId":"200662148","postingTitle":"Business Process Analyst, WW Sales Business Transformation","postingDate":"Nov 13, 2026","locations":[],"transformedPostingTitle":"business-process-analyst"}]}</script>'
 DF_API = {"maxCount": 2, "jobPostings": [
     {"jobPostingId": 6229, "jobReqId": 900, "jobTitle": "Director, Venue Operations Strategy",
      "postingLocations": [{"formattedAddress": "Inglewood, CA, US"}], "postingStartTimestampUTC": "2026-11-12T08:00:00Z",
@@ -70,6 +70,14 @@ PHENOM = {"refineSearch": {"status": 200, "totalHits": 1, "data": {"jobs": [
     {"jobId": "10164962", "title": "Director, Partnerships Strategic Planning", "location": "Burbank, CA, United States",
      "multi_location": ["Burbank, CA, United States", "Glendale, CA, United States"], "postedDate": "2026-11-10T00:00:00.000+0000",
      "jobSeqNo": "TWNTWDUS10164962EXTERNALENGLOBAL"}]}}}
+GETRO_PAGE = ('<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"network":{"id":"1234","name":"a16z"},'
+              '"initialState":{"jobs":{"found":[{"id":555,"title":"Head of Strategy & Operations","slug":"head-of-strategy-operations",'
+              '"organization":{"name":"Promise","slug":"promise-studios"},"locations":["Los Angeles, CA, USA"],"created_at":"2026-11-12T00:00:00Z"}]}}}}}</script>')
+GETRO_API = {"results": {"count": 1, "jobs": [{"id": 777, "title": "Director, Business Operations", "url": "https://jobs.lever.co/luma/777",
+             "organization": {"name": "Luma AI", "slug": "luma-ai"}, "locations": [{"name": "Remote, United States"}],
+             "created_at": 1791500000, "compensation_amount_min_cents": 22000000, "compensation_amount_max_cents": 27000000,
+             "compensation_period": "year"}]}}
+GETRO_MODE = {"api": True}
 PAYLOC = {"jobs": [{"jobId": 4304980, "title": "Director, Strategy", "jobLocation": {"city": "Burbank", "state": "CA"}, "publishedDate": "2026-11-01T00:00:00"}]}
 
 
@@ -118,6 +126,11 @@ def fake_raw(url, body=None, headers=None, form=False, **kw):
     if "dayforcehcm.com/api/geo/" in url: raise RuntimeError("HTTP 404 for " + url)  # force fallbacks
     if "dayforcehcm.com/api/jobposting" in url: return 200, {}, "{}"
     if "dayforcehcm.com/en-US/other/" in url: return 200, {}, DF_HTML
+    if "jobs.a16z.com/jobs?q=" in url: return 200, {}, GETRO_PAGE
+    if "api.getro.com/api/v2/collections/1234/search/jobs" in url:
+        if not GETRO_MODE["api"]: raise RuntimeError("HTTP 403 for " + url)
+        assert body["query"] in T
+        return 200, {}, json.dumps(GETRO_API if body["page"] == 0 else {"results": {"jobs": []}})
     raise AssertionError(url)
 
 
@@ -139,6 +152,8 @@ assert g[0]["location"].endswith("; Remote") and g[0]["posted"] == "2026-11-11",
 ap = one(fj.fetch_apple, C())
 a0 = next(x for x in ap if x["id"] == "200555001")
 assert a0["title"] == "Director, Services Strategy" and a0["location"] == "Culver City" and a0["posted"] == "2026-11-10", a0
+dup = [x for x in ap if x["id"].split("-")[0] == "200662148"]  # list entry + embedded copy without location -> one role
+assert len(dup) == 1 and dup[0]["location"] == "Culver City", dup
 u = one(fj.fetch_uber, C())
 assert "Los Angeles, California" in u[0]["location"] and u[0]["pay"] == "$250–300K", u[0]
 at = one(fj.fetch_atlassian, C())
@@ -155,6 +170,7 @@ assert mg[0]["url"] == "https://www.metacareers.com/profile/job_details/10736592
 META_MODE["graphql"] = False
 sf = one(fj.fetch_successfactors, C(host="careers.paramount.com"))
 assert sf[0]["title"] == "Director, Strategic Planning" and sf[0]["location"] == "Los Angeles, CA, US, 90038" and sf[0]["id"] == "1234567", sf[0]
+assert sf[0]["url"] == "https://careers.paramount.com/job/Los-Angeles-Director-CA-90038/1234567/", sf[0]  # tracking params dropped
 assert sf[0]["pay"] == "$190–240K" and sf[0]["posted"] == "2026-11-11", sf[0]
 sf2 = one(fj.fetch_successfactors, C(host="careers.paramount.com"), ["planning"])  # RSS empty -> HTML
 assert sf2[0]["title"] == "VP, Strategy" and sf2[0]["location"] == "New York, NY, US" and sf2[0]["posted"] == "2026-11-07", sf2[0]
@@ -204,4 +220,11 @@ assert [j["company"] for j in new] == ["Atlassian"]
 rep = open(os.path.join(fj.REPORTS, "latest.md")).read()
 assert "Trial readers" in rep and "Amazon: OK via amazon" in rep, rep
 shutil.rmtree(tmp)
+gt = one(fj.fetch_getro, C(board="https://jobs.a16z.com"))
+assert gt[0]["title"] == "Director, Business Operations (Luma AI)" and gt[0]["pay"] == "$220–270K", gt[0]
+assert gt[0]["location"] == "Remote, United States" and gt[0]["url"] == "https://jobs.lever.co/luma/777", gt[0]
+GETRO_MODE["api"] = False  # API refused -> embedded page data
+gp = one(fj.fetch_getro, C(board="https://jobs.a16z.com"))
+assert gp[0]["title"] == "Head of Strategy & Operations (Promise)" and gp[0]["location"] == "Los Angeles, CA, USA", gp[0]
+assert gp[0]["url"] == "https://jobs.a16z.com/companies/promise-studios/jobs/head-of-strategy-operations" and gp[0]["posted"] == "2026-11-12", gp[0]
 print("ALL READER TESTS PASSED")

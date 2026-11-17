@@ -23,6 +23,7 @@
     "chief of staff",
     "planning"
   ],
+  "close_after_misses": 2,
   "companies": [
     {
       "name": "Crunchyroll",
@@ -318,14 +319,6 @@
       "sector": "Experiences"
     },
     {
-      "name": "Cosm",
-      "ats": "dayforce",
-      "id": "cosm",
-      "board": "CANDIDATEPORTAL",
-      "sector": "Experiences",
-      "trial": true
-    },
-    {
       "name": "UTA",
       "ats": "ashby",
       "id": "united-talent-agency",
@@ -336,7 +329,8 @@
       "ats": "paylocity",
       "id": "07c8d9de-9e8b-43d7-a4ac-acfdf615588a",
       "sector": "Media",
-      "trial": true
+      "trial": true,
+      "note": "Trial: Paylocity feed reads but returned 0 postings on Nov 16-17. Check legendary.com/careers; if it lists jobs, this company ID is wrong."
     },
     {
       "name": "Hasbro",
@@ -407,27 +401,6 @@
       "ats": "greenhouse",
       "id": "duolingo",
       "sector": "Tech"
-    },
-    {
-      "name": "Grammarly",
-      "ats": "greenhouse",
-      "id": "grammarly",
-      "sector": "Tech",
-      "try": [
-        {
-          "ats": "greenhouse",
-          "id": "superhuman"
-        },
-        {
-          "ats": "greenhouse_html",
-          "id": "grammarly"
-        },
-        {
-          "ats": "ashby",
-          "id": "superhuman"
-        }
-      ],
-      "trial": true
     },
     {
       "name": "Samsara",
@@ -519,23 +492,6 @@
       "ats": "lever",
       "id": "spotify",
       "sector": "Media / music"
-    },
-    {
-      "name": "Whatnot",
-      "ats": "greenhouse",
-      "id": "whatnot",
-      "sector": "Tech",
-      "try": [
-        {
-          "ats": "greenhouse_html",
-          "id": "whatnot"
-        },
-        {
-          "ats": "ashby",
-          "id": "whatnot"
-        }
-      ],
-      "trial": true
     },
     {
       "name": "Rula",
@@ -674,14 +630,6 @@
       "sector": "Tech"
     },
     {
-      "name": "Disney",
-      "ats": "workday",
-      "host": "disney.wd5.myworkdayjobs.com",
-      "tenant": "disney",
-      "site": "disneycareer",
-      "sector": "Media / experiences"
-    },
-    {
       "name": "Disney (Disney Careers site)",
       "ats": "phenom",
       "host": "join.disneycareers.com",
@@ -689,8 +637,7 @@
       "lang": "en_global",
       "country": "global",
       "sector": "Media / experiences",
-      "note": "Disney's main careers site; the Workday entry above only shows ~15 postings. Remove that entry once this one leaves trial.",
-      "trial": true
+      "note": "Disney's main careers site (Phenom). Went live 2026-11-17 after two good trial runs; replaced the Workday entry, which only showed ~15 postings."
     },
     {
       "name": "Adobe",
@@ -748,13 +695,15 @@
       "host": "apply.careers.microsoft.com",
       "domain": "microsoft.com",
       "sector": "Tech / games",
-      "trial": true
+      "trial": true,
+      "note": "Trial: rate-limited (HTTP 429) on Nov 16-17; reader now waits and retries. Go live after two good runs."
     },
     {
       "name": "Apple",
       "ats": "apple",
       "sector": "Tech / media",
-      "trial": true
+      "trial": true,
+      "note": "Trial: 2026-11-17 fix removes duplicate roles with blank locations; go live after two runs whose sample_matches all show locations."
     },
     {
       "name": "Uber",
@@ -762,7 +711,7 @@
       "host": "iaziqy.fa.ocs.oraclecloud.com",
       "site": "UberCareers",
       "sector": "Tech",
-      "trial": true
+      "note": "Oracle Recruiting Cloud reader went live 2026-11-17 after two good trial runs."
     },
     {
       "name": "Atlassian",
@@ -780,17 +729,6 @@
       "sector": "Tech / media"
     },
     {
-      "name": "Meta",
-      "ats": "meta",
-      "offices": [
-        "Los Angeles, CA",
-        "Burbank, CA",
-        "Remote, US"
-      ],
-      "sector": "Tech",
-      "trial": true
-    },
-    {
       "name": "Paramount Skydance",
       "ats": "successfactors",
       "host": "careers.paramount.com",
@@ -801,7 +739,7 @@
       "ats": "avature",
       "base": "https://jobs.ea.com/en_US/careers",
       "sector": "Games",
-      "trial": true
+      "note": "Avature reader went live 2026-11-17 after two good trial runs."
     },
     {
       "name": "Fox",
@@ -828,7 +766,103 @@
       "ats": "greenhouse",
       "id": "sphereentertainment",
       "sector": "Experiences"
+    },
+    {
+      "name": "Runway",
+      "ats": "greenhouse",
+      "id": "runwayml",
+      "sector": "Tech / AI (media)",
+      "verified": true,
+      "note": "Tech Targets plan 2026-11-16, route 1"
+    },
+    {
+      "name": "VideoAmp",
+      "ats": "greenhouse",
+      "id": "videoamp",
+      "sector": "Ad tech / media measurement",
+      "verified": true,
+      "note": "Tech Targets plan 2026-11-16, route 1"
+    },
+    {
+      "name": "VideoAmp (executive board)",
+      "ats": "greenhouse",
+      "id": "videoampexec",
+      "sector": "Ad tech / media measurement",
+      "verified": true,
+      "note": "VideoAmp's separate board for senior roles"
+    },
+    {
+      "name": "Moonvalley (Asteria)",
+      "ats": "ashby",
+      "id": "moonvalley-ai",
+      "sector": "Tech / AI (media)",
+      "verified": true,
+      "note": "Tech Targets plan 2026-11-16, route 1 (Strong)"
+    },
+    {
+      "name": "Luma AI",
+      "ats": "ashby",
+      "id": "lumaai",
+      "sector": "Tech / AI (media)",
+      "verified": true,
+      "note": "Dream Lab LA roles are the relevant ones; most roles are Redwood City or overseas"
+    },
+    {
+      "name": "Wrapbook",
+      "ats": "ashby",
+      "id": "wrapbook",
+      "try": [
+        {
+          "ats": "ashby",
+          "id": "wrapbook-inc"
+        }
+      ],
+      "sector": "Media tech (production payroll and accounting)",
+      "note": "Tech Targets plan 2026-11-16 (Strong). Ashby slug not confirmed; trial until a run reads real postings",
+      "trial": true
+    },
+    {
+      "name": "Entertainment Partners",
+      "ats": "oracle",
+      "host": "eoko.fa.us2.oraclecloud.com",
+      "site": "CX_1001",
+      "site_number": "CX_1001",
+      "sector": "Media tech (production payroll and accounting)",
+      "note": "Tech Targets plan 2026-11-16 (Strong); Oracle Recruiting Cloud, same reader as Uber",
+      "trial": true
+    },
+    {
+      "name": "Cosm",
+      "ats": "dayforce",
+      "id": "cosm",
+      "board": "CANDIDATEPORTAL",
+      "sector": "Experiences",
+      "note": "Top priority per the Tech Targets plan (Sony Pictures led its Series C). Dayforce answered HTTP 403 on Nov 16-17; check jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL by hand until the reader works",
+      "trial": true
+    },
+    {
+      "name": "a16z portfolio jobs",
+      "ats": "getro",
+      "board": "https://jobs.a16z.com",
+      "sector": "Venture portfolio (tech / AI / media)",
+      "note": "Andreessen Horowitz portfolio job board (Getro); lists Luma AI, Promise Studios and other portfolio companies. Company name is shown in each role title. Trial until two runs return real postings",
+      "trial": true
+    },
+    {
+      "name": "Upfront Ventures portfolio jobs",
+      "ats": "getro",
+      "board": "https://jobs.upfront.com",
+      "sector": "Venture portfolio (LA digital media / consumer)",
+      "note": "Upfront Ventures (LA) portfolio job board (Getro). Company name is shown in each role title. Trial until two runs return real postings",
+      "trial": true
     }
   ],
-  "not_covered_yet": []
+  "not_covered_yet": [
+    "Meta (metacareers.com answers HTTP 400 to scripted requests; check LA/Burbank/remote roles by hand)",
+    "Whatnot (no public Greenhouse or Ashby board found; check whatnot.com/careers)",
+    "Superhuman / Grammarly (Greenhouse and Ashby boards return 404; check superhuman.com/careers)",
+    "Cast & Crew (job system not found yet; in probe_targets.json)",
+    "Promise Studios (job system not found yet; in probe_targets.json)",
+    "Tixr (Rippling board ats.rippling.com/tixr; needs a reader once the probe finds its data feed)"
+  ]
 }

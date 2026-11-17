@@ -5,7 +5,7 @@ Reads watchlist.json, queries each company's public job-board API
 (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Netflix) or, for companies
 with their own career sites, a site-specific reader (Amazon, Microsoft, Apple,
 Uber, Atlassian, Google, Meta, SuccessFactors, Avature, Fox, Clinch, Paylocity, Dayforce,
-Oracle Recruiting Cloud, Phenom),
+Oracle Recruiting Cloud, Phenom) and venture firms' Getro portfolio job boards,
 keeps roles that match the title, level, location and pay filters, and compares
 them with the previous run.
 
@@ -44,6 +44,18 @@ TODAY = NOW.date()
 
 # ---------------------------------------------------------------- HTTP
 
+RATE_LIMIT_EXTRA_RETRIES = 3   # extra tries after HTTP 429/503 (Netflix and Microsoft rate-limit bursts)
+
+
+def _retry_wait(e, attempt):
+    """Seconds to wait after a 429/503: the server's Retry-After when given (capped), else 15s, 30s, 45s..."""
+    try:
+        ra = int((e.headers or {}).get("Retry-After") or 0)
+    except (TypeError, ValueError):
+        ra = 0
+    return min(ra, 90) if ra > 0 else min(15 * (attempt + 1), 60)
+
+
 def _body(r):
     raw = r.read()
     if (r.headers.get("Content-Encoding") or "").lower() == "gzip" or raw[:2] == b"\x1f\x8b":
@@ -57,8 +69,10 @@ def http(url, body=None, timeout=30, retries=2):
     headers = {"User-Agent": UA, "Accept": "application/json"}
     if data is not None:
         headers["Content-Type"] = "application/json"
-    last = None
-    for attempt in range(retries + 1):
+    last, attempt = None, -1
+    limit = retries + RATE_LIMIT_EXTRA_RETRIES
+    while attempt < retries:
+        attempt += 1
         try:
             req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -67,6 +81,10 @@ def http(url, body=None, timeout=30, retries=2):
             last = f"HTTP {e.code}"
             if e.code in (400, 401, 403, 404, 410, 422):
                 break
+            if e.code in (429, 503) and attempt < limit:
+                retries = max(retries, attempt + 1)  # keep going: rate limits clear after a pause
+                time.sleep(_retry_wait(e, attempt))
+                continue
         except Exception as e:  # network, JSON
             last = f"{type(e).__name__}: {e}"
         time.sleep(2 * (attempt + 1))
@@ -94,8 +112,10 @@ def http_raw(url, body=None, headers=None, timeout=30, retries=1, form=False):
             data = json.dumps(body).encode()
             h["Content-Type"] = "application/json"
     h.update(headers or {})
-    last = None
-    for attempt in range(retries + 1):
+    last, attempt = None, -1
+    limit = retries + RATE_LIMIT_EXTRA_RETRIES
+    while attempt < retries:
+        attempt += 1
         try:
             req = urllib.request.Request(url, data=data, headers=h)
             with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -104,6 +124,10 @@ def http_raw(url, body=None, headers=None, timeout=30, retries=1, form=False):
             last = f"HTTP {e.code}"
             if e.code in (400, 401, 403, 404, 405, 410, 422):
                 break
+            if e.code in (429, 503) and attempt < limit:
+                retries = max(retries, attempt + 1)
+                time.sleep(_retry_wait(e, attempt))
+                continue
         except Exception as e:
             last = f"{type(e).__name__}: {e}"
         time.sleep(2 * (attempt + 1))
@@ -114,8 +138,11 @@ def http_text(url, body=None, headers=None, form=False):
     return http_raw(url, body, headers, form=form)[2]
 
 
-def pause():
-    time.sleep(0.6)
+def pause(seconds=0.6):
+    time.sleep(seconds)
+
+
+SLOW_SITE_PAUSE = 3.0  # seconds between requests to sites that rate-limit (Netflix, Microsoft)
 
 
 # ---------------------------------------------------------------- helpers
@@ -186,6 +213,19 @@ def workday_posted(s):
         d = (TODAY - dt.timedelta(days=int(m.group(1)))).isoformat()
         return d + ("+" if "+" in s else "")
     return ""
+
+
+TRACKING_PARAMS = re.compile(r"^(utm_\w+|feedid|source|src|ref|refid|trk|gh_src)$", re.I)
+
+
+def canonical_url(url):
+    """Drop tracking query parameters (utm_*, feedId, …) so the same posting always has the same URL."""
+    if not url or "?" not in url:
+        return url or ""
+    parts = urllib.parse.urlsplit(url)
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+         if not TRACKING_PARAMS.match(k)]
+    return urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(q)))
 
 
 def job(company, ats, jid, title, location, url, posted="", pay=None, text=""):
@@ -341,7 +381,7 @@ def fetch_netflix(c, terms):
                 url = p.get("canonicalPositionUrl") or f"https://explore.jobs.netflix.net/careers/job/{p['id']}"
                 out.append(job(c, "netflix", p["id"], p.get("name"), loc, url,
                                iso_from_s(p.get("t_create"))))
-            pause()
+            pause(SLOW_SITE_PAUSE)
             if not pos or start + len(pos) >= int(d.get("count") or 0):
                 break
             start += len(pos)
@@ -452,10 +492,14 @@ def fetch_apple(c, terms):
 
     def add(p):
         pid = str(p.get("positionId") or p.get("id") or "")
-        if not pid or pid in seen:
+        # The search list shows "200694814-0836" (role + team code); the page's embedded data shows
+        # "200694814" for the same role, without a location. Count them once, by the role number.
+        base_id = pid.split("-")[0]
+        if not pid or base_id in seen:
             return
-        seen.add(pid)
-        locs = "; ".join(x.get("name", "") for x in p.get("locations") or [] if isinstance(x, dict))
+        seen.add(base_id)
+        locs = "; ".join(x.get("name") or x.get("city") or x.get("countryName") or ""
+                         for x in p.get("locations") or [] if isinstance(x, dict))
         if p.get("homeOffice"):
             locs += "; Remote"
         slug = p.get("transformedPostingTitle") or _slug_words(p.get("postingTitle"))
@@ -515,7 +559,9 @@ def fetch_apple(c, terms):
                     if not title:
                         continue
                     locs_m = re.search(r'"locations"\s*:\s*\[(.*?)\]', rel, re.S)
-                    names = re.findall(r'"name"\s*:\s*"([^"]+)"', locs_m.group(1)) if locs_m else []
+                    names = re.findall(r'"(?:name|city)"\s*:\s*"([^"]+)"', locs_m.group(1)) if locs_m else []
+                    if not names:
+                        continue  # no location in the embedded data: the list entry (with location) covers it
                     add({"positionId": m.group(1), "postingTitle": title, "postingDate": get("postingDate"),
                          "transformedPostingTitle": get("transformedPostingTitle"),
                          "locations": [{"name": n} for n in names], "homeOffice": '"homeOffice":true' in rel[:1500]})
@@ -744,7 +790,7 @@ def fetch_successfactors(c, terms):
             items = []
         for it in items:
             g = lambda tag: html.unescape(strip_html((re.search(rf"<{tag}>(.*?)</{tag}>", it, re.S) or [None, ""])[1].replace("<![CDATA[", "").replace("]]>", "")))
-            link = g("link")
+            link = canonical_url(g("link"))  # the feed adds ?feedId=…&utm_… tracking; keep the bare job URL
             jid = (re.search(r"/(\d{6,})/?$", link) or [None, link])[1]
             if not link or jid in seen:
                 continue
@@ -1076,7 +1122,7 @@ def fetch_eightfold_pcsx(c, terms):
                 out.append(job(c, "eightfold", p.get("id"), p.get("name"), locs,
                                url if url.startswith("http") else f"https://{host}{url}",
                                iso_from_s(p.get("postedTs") or p.get("creationTs"))))
-            pause()
+            pause(SLOW_SITE_PAUSE)
             if not pos or start + len(pos) >= int(data.get("count") or 0):
                 break
             start += len(pos)
@@ -1208,6 +1254,111 @@ def fetch_phenom(c, terms):
     return out
 
 
+# ------------------------------------------- venture portfolio job boards (added 2026-11-17)
+
+def _getro_walk(obj, found):
+    """Collect dicts that look like Getro job postings: a title plus an organization (or company) and a link."""
+    if isinstance(obj, dict):
+        org = obj.get("organization") or obj.get("company")
+        if isinstance(obj.get("title"), str) and obj["title"].strip() and org and \
+                (obj.get("url") or obj.get("slug") or obj.get("id")):
+            found.append(obj)
+            return
+        for v in obj.values():
+            _getro_walk(v, found)
+    elif isinstance(obj, list):
+        for v in obj:
+            _getro_walk(v, found)
+
+
+def _getro_loc(p):
+    locs = p.get("locations") or p.get("searchable_locations") or p.get("location") or []
+    if isinstance(locs, str):
+        locs = [locs]
+    out = [x if isinstance(x, str) else (x.get("name") or x.get("display_name") or "") for x in locs]
+    if p.get("work_mode") == "remote" or p.get("remote") is True:
+        out.append("Remote")
+    return "; ".join(x for x in out if x)
+
+
+def _getro_pay(p):
+    lo, hi = p.get("compensation_amount_min_cents"), p.get("compensation_amount_max_cents")
+    period = str(p.get("compensation_period") or "year").lower()
+    if lo and hi and period.startswith("year"):
+        return (int(lo) // 100, int(hi) // 100)
+    return parse_pay(str(p.get("compensation") or ""))
+
+
+def fetch_getro(c, terms):
+    """Getro portfolio job boards run by venture firms (jobs.a16z.com, jobs.upfront.com).
+
+    Reads the board's search API (collection id from the board page), else the page's embedded
+    Next.js data. Roles belong to many portfolio companies, so the company name goes in the title
+    ("Title (Company)") and the board stays the watchlist company, which keeps closing logic working."""
+    base = c["board"].rstrip("/")  # e.g. https://jobs.a16z.com
+    out, seen, errors = [], set(), []
+
+    def add(p):
+        jid = str(p.get("id") or p.get("slug") or p.get("url") or "")
+        if not jid or jid in seen:
+            return
+        seen.add(jid)
+        org = p.get("organization") or p.get("company") or {}
+        org_name = org.get("name", "") if isinstance(org, dict) else str(org)
+        org_slug = org.get("slug", "") if isinstance(org, dict) else _slug_words(org_name)
+        url = p.get("url") or ""
+        if not url.startswith("http"):
+            url = f"{base}/companies/{org_slug}/jobs/{p.get('slug') or jid}" if org_slug else base
+        posted = p.get("created_at") or p.get("posted_at") or ""
+        if isinstance(posted, (int, float)):
+            posted = iso_from_s(posted)
+        title = p["title"].strip() + (f" ({org_name})" if org_name else "")
+        out.append(job(c, "getro", jid, title, _getro_loc(p), url, iso_date(str(posted)), _getro_pay(p)))
+
+    collection = c.get("collection_id")
+    for term in terms:
+        q = urllib.parse.quote(term)
+        page = ""
+        if not collection or not out:
+            try:
+                page = http_text(f"{base}/jobs?q={q}")
+                collection = collection or (re.search(r'"collection(?:Id|_id)"\s*:\s*"?(\d+)', page) or
+                                            re.search(r'"network"\s*:\s*\{\s*"id"\s*:\s*"?(\d+)', page) or [None, None])[1]
+            except Exception as e:
+                errors.append(f"board page: {str(e).split(' for ')[0][:60]}")
+        got = 0
+        if collection:
+            try:
+                for pg in range(0, 5):
+                    d = json.loads(http_text(f"https://api.getro.com/api/v2/collections/{collection}/search/jobs",
+                                             {"hitsPerPage": 50, "page": pg, "filters": {}, "query": term},
+                                             {"Accept": "application/json", "Origin": base, "Referer": base + "/jobs"}))
+                    res = d.get("results") or d
+                    found = []
+                    _getro_walk(res.get("jobs") if isinstance(res, dict) and "jobs" in res else res, found)
+                    for p in found:
+                        add(p)
+                    got += len(found)
+                    pause()
+                    if len(found) < 50:
+                        break
+            except Exception as e:
+                errors.append(f"api: {str(e).split(' for ')[0][:60]}")
+        if not got and page:
+            m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S)
+            if m:
+                found = []
+                _getro_walk(json.loads(m.group(1)), found)
+                for p in found:
+                    add(p)
+            else:
+                errors.append("board page: no __NEXT_DATA__")
+        pause()
+    if not out and errors:
+        raise RuntimeError("getro " + " | ".join(dict.fromkeys(errors)))
+    return out
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -1233,6 +1384,7 @@ FETCHERS = {
     "eightfold_pcsx": fetch_eightfold_pcsx,
     "oracle": fetch_oracle,
     "phenom": fetch_phenom,
+    "getro": fetch_getro,
 }
 
 
@@ -1318,6 +1470,33 @@ def notify(new):
         print("ntfy failed:", e, file=sys.stderr)
 
 
+CLOSE_AFTER_MISSES = 2   # full reads in a row a role must be missing from before it counts as closed
+
+
+def partial_read(now, before):
+    """True when this run saw far fewer postings than the last good run (likely a partial or throttled read)."""
+    if not before or not before.get("ok") or not now.get("ok"):
+        return False
+    prev_n, n = before.get("jobs_seen") or 0, now.get("jobs_seen") or 0
+    return prev_n >= 20 and n < 0.6 * prev_n
+
+
+def migrate_keys(state, matches):
+    """Carry a role's history over when only its key changed (e.g. a reader now strips tracking
+    parameters from URLs), so it is not logged as closed under the old key and new under the new one."""
+    by_url = {}
+    for key, prev in state.items():
+        by_url.setdefault((prev.get("company"), canonical_url(prev.get("url", ""))), []).append(key)
+    for key, j in matches.items():
+        if key in state:
+            continue
+        for old in by_url.get((j["company"], canonical_url(j.get("url", ""))), []):
+            if old != key and old in state:
+                state[key] = state.pop(old)
+                state[key]["key"] = key
+                break
+
+
 def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
     wl = load(watchlist_path, {})
     flt = Filters(wl["filters"])
@@ -1387,6 +1566,7 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
 
     ts = NOW.strftime("%Y-%m-%dT%H:%MZ")
     new, closed, events = [], [], []
+    migrate_keys(state, matches)
     for key, j in matches.items():
         prev = state.get(key)
         if prev is None or prev.get("status") in ("closed", "filtered"):
@@ -1399,15 +1579,33 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
                 j["posted"] = prev.get("posted", "")
         j["last_seen"], j["status"] = ts, "open"
         state[key] = j
-    ok_companies = {n for n, s in status.items() if s.get("ok")}
+    # A role closes only after it is missing from CLOSE_AFTER_MISSES full reads in a row. Search-based
+    # readers (Paramount's RSS feed, Netflix, Apple…) sometimes return a partial list, which used to
+    # close roles that were still open (Paramount Finance Leadership Development Program, 2026-11-17).
+    close_after = int(wl.get("close_after_misses", CLOSE_AFTER_MISSES))
+    prev_status = load(os.path.join(DATA, "company_status.json"), {}).get("companies", {})
+    ok_companies = {n for n, st in status.items() if st.get("ok") and not st.get("trial")
+                    and not partial_read(st, prev_status.get(n))}
+    watched = {c["name"] for c in wl["companies"]}
     for key, prev in state.items():
-        if prev.get("status") == "open" and key not in matches and prev["company"] in ok_companies:
-            if key in raw_keys:
-                prev["status"] = "filtered"  # still posted, but no longer matches the filters
-                continue
-            prev["status"], prev["closed_seen"] = "closed", ts
-            closed.append(prev)
-            events.append({"ts": ts, "event": "closed", **prev})
+        if prev.get("status") != "open" or key in matches:
+            continue
+        if prev["company"] not in watched and not only:
+            prev["status"] = "untracked"  # company removed from the watchlist: stop reporting its roles
+            continue
+        if prev["company"] not in ok_companies:
+            continue
+        if key in raw_keys:
+            prev["status"] = "filtered"  # still posted, but no longer matches the filters
+            prev.pop("misses", None)
+            continue
+        prev["misses"] = prev.get("misses", 0) + 1
+        if prev["misses"] < close_after:
+            continue
+        prev.pop("misses", None)
+        prev["status"], prev["closed_seen"] = "closed", ts
+        closed.append(prev)
+        events.append({"ts": ts, "event": "closed", **prev})
 
     open_now = sorted((v for v in state.values() if v["status"] == "open"),
                       key=lambda v: (v.get("posted") or v.get("first_seen", "")), reverse=True)
