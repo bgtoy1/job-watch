@@ -862,6 +862,40 @@
       "sector": "Venture portfolio (LA digital media / consumer)",
       "note": "Upfront Ventures (LA) portfolio job board (Getro). Company name is shown in each role title. Trial until two runs return real postings",
       "trial": true
+    },
+    {
+      "name": "Sony Corporation of America",
+      "ats": "workday",
+      "host": "sonyglobal.wd1.myworkdayjobs.com",
+      "tenant": "sonyglobal",
+      "site": "SonyGlobalCareers",
+      "sector": "Media / tech",
+      "verified": true,
+      "note": "Sony DX and other SCA roles; separate from Sony Pictures' board. Confirmed 2026-11-17 via the Workday job API (JR-119587)"
+    },
+    {
+      "name": "Updater",
+      "ats": "greenhouse",
+      "id": "updater",
+      "sector": "Tech / commerce",
+      "verified": true,
+      "note": "Tech Targets addendum 2026-11-17 (late-stage)"
+    },
+    {
+      "name": "ChowNow",
+      "ats": "lever",
+      "id": "chownow",
+      "sector": "Tech / restaurants",
+      "verified": true,
+      "note": "Tech Targets addendum 2026-11-17 (late-stage, LA)"
+    },
+    {
+      "name": "True Anomaly",
+      "ats": "greenhouse",
+      "id": "trueanomalyinc",
+      "sector": "Aerospace / defense tech",
+      "verified": true,
+      "note": "Tech Targets addendum 2026-11-17 (late-stage)"
     }
   ],
   "not_covered_yet": [
