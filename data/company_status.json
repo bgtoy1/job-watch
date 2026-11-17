@@ -8,7 +8,7 @@
   },
   "AEG": {
    "board": "greenhouse:aegworldwide",
-   "jobs_seen": 138,
+   "jobs_seen": 136,
    "matches": 1,
    "ok": true
   },
@@ -26,19 +26,19 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 212,
+   "jobs_seen": 211,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 210,
+   "jobs_seen": 209,
    "matches": 1,
    "ok": true
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 941,
+   "jobs_seen": 937,
    "matches": 1,
    "ok": true
   },
@@ -57,7 +57,7 @@
   "Apple": {
    "board": "apple:",
    "errors_before_success": [],
-   "jobs_seen": 378,
+   "jobs_seen": 376,
    "matches": 4,
    "ok": true,
    "sample_matches": [
@@ -156,7 +156,7 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 470,
+   "jobs_seen": 471,
    "matches": 1,
    "ok": true
   },
@@ -179,7 +179,7 @@
   },
   "Coursera (main board)": {
    "board": "greenhouse:coursera",
-   "jobs_seen": 37,
+   "jobs_seen": 38,
    "matches": 0,
    "ok": true
   },
@@ -210,7 +210,7 @@
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
    "errors_before_success": [],
-   "jobs_seen": 334,
+   "jobs_seen": 336,
    "matches": 3,
    "ok": true,
    "sample_matches": [
@@ -420,7 +420,7 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 77,
+   "jobs_seen": 78,
    "matches": 0,
    "ok": true
   },
@@ -444,7 +444,7 @@
   },
   "IMAX": {
    "board": "workday:imax/IMAX-Careers",
-   "jobs_seen": 8,
+   "jobs_seen": 9,
    "matches": 1,
    "ok": true
   },
@@ -484,7 +484,7 @@
   },
   "Lyft": {
    "board": "greenhouse:lyft",
-   "jobs_seen": 145,
+   "jobs_seen": 144,
    "matches": 0,
    "ok": true
   },
@@ -524,7 +524,7 @@
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 310,
+   "jobs_seen": 311,
    "matches": 3,
    "ok": true
   },
@@ -536,7 +536,7 @@
   },
   "Netflix": {
    "board": "netflix:",
-   "jobs_seen": 349,
+   "jobs_seen": 350,
    "matches": 12,
    "ok": true
   },
@@ -554,7 +554,7 @@
   },
   "Notion": {
    "board": "ashby:notion",
-   "jobs_seen": 165,
+   "jobs_seen": 164,
    "matches": 2,
    "ok": true
   },
@@ -566,7 +566,7 @@
   },
   "OpenAI": {
    "board": "ashby:openai",
-   "jobs_seen": 835,
+   "jobs_seen": 841,
    "matches": 16,
    "ok": true
   },
@@ -590,7 +590,7 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 165,
+   "jobs_seen": 167,
    "matches": 3,
    "ok": true
   },
@@ -614,7 +614,7 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 199,
+   "jobs_seen": 200,
    "matches": 0,
    "ok": true
   },
@@ -626,7 +626,7 @@
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 266,
+   "jobs_seen": 265,
    "matches": 0,
    "ok": true
   },
@@ -656,7 +656,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 289,
+   "jobs_seen": 290,
    "matches": 1,
    "ok": true
   },
@@ -704,7 +704,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 789,
+   "jobs_seen": 790,
    "matches": 0,
    "ok": true
   },
@@ -741,7 +741,7 @@
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
    "errors_before_success": [],
-   "jobs_seen": 367,
+   "jobs_seen": 369,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -765,12 +765,6 @@
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303691"
     },
     {
-     "location": "Sydney, New South Wales, Australia",
-     "posted": "2026-11-16",
-     "title": "Strategy Manager - Rider Growth",
-     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303744"
-    },
-    {
      "location": "Sao Paulo, SP, Brazil",
      "posted": "2026-11-16",
      "title": "Operations Manager - Safety (BR & SoCo)",
@@ -781,6 +775,12 @@
      "posted": "2026-11-16",
      "title": "Manager I, Customer Success Manager, Global (Annual Plan)",
      "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304241"
+    },
+    {
+     "location": "Istanbul, Türkiye",
+     "posted": "2026-11-16",
+     "title": "Rider Operations Lead, Airports, Türkiye",
+     "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304708"
     }
    ],
    "trial": true
@@ -805,7 +805,7 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 149,
+   "jobs_seen": 148,
    "matches": 1,
    "ok": true
   },
@@ -845,5 +845,5 @@
    "ok": true
   }
  },
- "run": "2026-11-17T01:39Z"
+ "run": "2026-11-17T04:18Z"
 }
