@@ -1,16 +1,16 @@
-# Job check 2026-11-18T07:42Z
+# Job check 2026-11-18T16:22Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (2)
+## New since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-09-01 | Perplexity | [Strategic Finance Lead - AI](https://jobs.ashbyhq.com/Perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9) | San Francisco; Remote | $190–240K |
-| 2026-09-08 | GoDaddy | [Director Corporate Development](https://careers.godaddy/jobs?gh_jid=7882531003) | United States | $185–278K |
+| 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
+| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (2)
 
@@ -19,21 +19,22 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 156 postings read, 0 match
+- Apple: OK via apple:, 160 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=140&sort_by=timestamp
-- Upfront Ventures portfolio jobs: OK via getro:, 71 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); VP, Strategic Finance & Planning (Reveleer) (glendale, ca, usa)
+- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=60&sort_by=timestamp
+- Upfront Ventures portfolio jobs: OK via getro:, 71 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (140)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
+| 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
 | 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
 | 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
 | 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
@@ -158,6 +159,7 @@
 | 2026-08-11 | Netflix | [Manager, Studio Finance & Strategy](https://explore.jobs.netflix.net/careers/job/790317761054) | Los Angeles,California,United States of America | — |
 | 2026-08-03 | Netflix | [Head of Production Finance - INK](https://explore.jobs.netflix.net/careers/job/790317630104) | Los Angeles,California,United States of America | — |
 | 2026-07-31 | Notion | [Outcomes Growth Strategy and Programs Lead](https://jobs.ashbyhq.com/notion/a31170a3-a951-4794-a61f-56640dce1aee) | San Francisco, California; Remote | $250–280K |
+| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
 | 2026-07-27 | Updater | [Director, Corporate Development](https://job-boards.greenhouse.io/updater/jobs/8089760) | Remote, US | $250–280K |
 | 2026-07-23 | Affirm | [Chief of Staff Director, Product](https://job-boards.greenhouse.io/affirm/jobs/7808142003) | Remote US | $255–335K |
 | 2026-07-23 | WME / Endeavor | [Senior Manager, Finance](https://wmeimg.wd1.myworkdayjobs.com/en-US/WMEGRP/job/CA-Beverly-Hills---9601-Wilshire/Senior-Manager--Finance_JR28707-1) | CA-Beverly Hills - 9601 Wilshire | — |

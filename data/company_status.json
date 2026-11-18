@@ -26,19 +26,19 @@
   },
   "Affirm": {
    "board": "greenhouse:affirm",
-   "jobs_seen": 221,
+   "jobs_seen": 227,
    "matches": 1,
    "ok": true
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 199,
+   "jobs_seen": 201,
    "matches": 1,
    "ok": true
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 930,
+   "jobs_seen": 927,
    "matches": 1,
    "ok": true
   },
@@ -50,18 +50,36 @@
   },
   "AppLovin": {
    "board": "greenhouse:applovin",
-   "jobs_seen": 43,
+   "jobs_seen": 45,
    "matches": 1,
    "ok": true
   },
   "Apple": {
    "board": "apple:",
    "errors_before_success": [],
-   "jobs_seen": 156,
+   "jobs_seen": 160,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
    "sample_raw": [
+    {
+     "location": "Waltham",
+     "posted": "2026-11-18",
+     "title": "Cellular RF Systems Architect - RF Configuration",
+     "url": "https://jobs.apple.com/en-us/details/200695512-6205/cellular-rf-systems-architect-rf-configuration"
+    },
+    {
+     "location": "Austin",
+     "posted": "2026-11-18",
+     "title": "Graphics Software Engineer",
+     "url": "https://jobs.apple.com/en-us/details/200695611-0157/graphics-software-engineer"
+    },
+    {
+     "location": "Cupertino",
+     "posted": "2026-11-18",
+     "title": "Vision Display, Optical Module Engineer",
+     "url": "https://jobs.apple.com/en-us/details/200695459-0836/vision-display-optical-module-engineer"
+    },
     {
      "location": "Cupertino",
      "posted": "2026-11-18",
@@ -79,37 +97,19 @@
      "posted": "2026-11-17",
      "title": "Internal Communications Strategist, Employee Technology Initiatives",
      "url": "https://jobs.apple.com/en-us/details/200695065-0836/internal-communications-strategist-employee-technology-initiatives"
-    },
-    {
-     "location": "Seattle",
-     "posted": "2026-11-17",
-     "title": "Software Developement Manager, Apple Services Engineering",
-     "url": "https://jobs.apple.com/en-us/details/200695567-3337/software-developement-manager-apple-services-engineering"
-    },
-    {
-     "location": "Austin",
-     "posted": "2026-11-17",
-     "title": "Sr. SoC Physical Design Methodology Engineer",
-     "url": "https://jobs.apple.com/en-us/details/200656418-0157/sr-soc-physical-design-methodology-engineer"
-    },
-    {
-     "location": "Sunnyvale",
-     "posted": "2026-11-17",
-     "title": "AI Security Systems Architect, Marcom",
-     "url": "https://jobs.apple.com/en-us/details/200695313-3956/ai-security-systems-architect-marcom"
     }
    ],
    "trial": true
   },
   "Atlassian": {
    "board": "atlassian:",
-   "jobs_seen": 268,
+   "jobs_seen": 266,
    "matches": 2,
    "ok": true
   },
   "Block": {
    "board": "greenhouse:block",
-   "jobs_seen": 187,
+   "jobs_seen": 186,
    "matches": 0,
    "ok": true
   },
@@ -133,13 +133,13 @@
   },
   "Cloudflare": {
    "board": "greenhouse:cloudflare",
-   "jobs_seen": 482,
+   "jobs_seen": 494,
    "matches": 1,
    "ok": true
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 256,
+   "jobs_seen": 255,
    "matches": 3,
    "ok": true
   },
@@ -156,13 +156,13 @@
   },
   "Coursera (main board)": {
    "board": "greenhouse:coursera",
-   "jobs_seen": 38,
+   "jobs_seen": 37,
    "matches": 0,
    "ok": true
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 98,
+   "jobs_seen": 95,
    "matches": 6,
    "ok": true
   },
@@ -180,7 +180,7 @@
   },
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
-   "jobs_seen": 352,
+   "jobs_seen": 354,
    "matches": 4,
    "ok": true
   },
@@ -192,19 +192,19 @@
   },
   "Dropbox": {
    "board": "greenhouse:dropbox",
-   "jobs_seen": 41,
+   "jobs_seen": 40,
    "matches": 0,
    "ok": true
   },
   "Duolingo": {
    "board": "greenhouse:duolingo",
-   "jobs_seen": 58,
+   "jobs_seen": 57,
    "matches": 0,
    "ok": true
   },
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
-   "jobs_seen": 338,
+   "jobs_seen": 341,
    "matches": 0,
    "ok": true
   },
@@ -216,8 +216,8 @@
   },
   "Engine": {
    "board": "greenhouse:engine",
-   "jobs_seen": 74,
-   "matches": 3,
+   "jobs_seen": 76,
+   "matches": 4,
    "ok": true
   },
   "Entertainment Partners": {
@@ -275,19 +275,19 @@
   },
   "Ethos": {
    "board": "greenhouse:ethoslife",
-   "jobs_seen": 76,
+   "jobs_seen": 75,
    "matches": 1,
    "ok": true
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 234,
+   "jobs_seen": 235,
    "matches": 1,
    "ok": true
   },
   "Figma": {
    "board": "greenhouse:figma",
-   "jobs_seen": 140,
+   "jobs_seen": 143,
    "matches": 0,
    "ok": true
   },
@@ -299,13 +299,13 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 251,
+   "jobs_seen": 250,
    "matches": 2,
    "ok": true
   },
   "GoDaddy": {
    "board": "greenhouse:godaddy",
-   "jobs_seen": 24,
+   "jobs_seen": 26,
    "matches": 1,
    "ok": true
   },
@@ -317,19 +317,19 @@
   },
   "Google / YouTube": {
    "board": "google:",
-   "jobs_seen": 15,
+   "jobs_seen": 16,
    "matches": 0,
    "ok": true
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 135,
+   "jobs_seen": 138,
    "matches": 1,
    "ok": true
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 78,
+   "jobs_seen": 77,
    "matches": 0,
    "ok": true
   },
@@ -347,7 +347,7 @@
   },
   "Hims & Hers": {
    "board": "ashby:hims-and-hers",
-   "jobs_seen": 144,
+   "jobs_seen": 145,
    "matches": 1,
    "ok": true
   },
@@ -387,7 +387,7 @@
   },
   "Live Nation": {
    "board": "workday:livenation/LNExternalSite",
-   "jobs_seen": 302,
+   "jobs_seen": 301,
    "matches": 1,
    "ok": true
   },
@@ -405,7 +405,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 69,
+   "jobs_seen": 68,
    "matches": 0,
    "ok": true
   },
@@ -417,12 +417,12 @@
   },
   "Metropolis": {
    "board": "greenhouse:metropolis",
-   "jobs_seen": 97,
+   "jobs_seen": 98,
    "matches": 1,
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=140&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=60&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
@@ -432,13 +432,13 @@
   },
   "Motive": {
    "board": "greenhouse:gomotive",
-   "jobs_seen": 181,
+   "jobs_seen": 183,
    "matches": 3,
    "ok": true
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 313,
+   "jobs_seen": 312,
    "matches": 4,
    "ok": true
   },
@@ -450,8 +450,8 @@
   },
   "Netflix": {
    "board": "netflix:",
-   "jobs_seen": 355,
-   "matches": 12,
+   "jobs_seen": 359,
+   "matches": 13,
    "ok": true
   },
   "Niantic": {
@@ -462,7 +462,7 @@
   },
   "Nirvana Insurance": {
    "board": "ashby:nirvana",
-   "jobs_seen": 8,
+   "jobs_seen": 9,
    "matches": 2,
    "ok": true
   },
@@ -481,18 +481,18 @@
   "OpenAI": {
    "board": "ashby:openai",
    "jobs_seen": 837,
-   "matches": 17,
+   "matches": 16,
    "ok": true
   },
   "OpenTable": {
    "board": "greenhouse:opentable",
-   "jobs_seen": 114,
+   "jobs_seen": 113,
    "matches": 0,
    "ok": true
   },
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
-   "jobs_seen": 66,
+   "jobs_seen": 64,
    "matches": 0,
    "ok": true
   },
@@ -504,13 +504,13 @@
   },
   "Pinterest": {
    "board": "greenhouse:pinterest",
-   "jobs_seen": 174,
-   "matches": 3,
+   "jobs_seen": 175,
+   "matches": 2,
    "ok": true
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 228,
+   "jobs_seen": 229,
    "matches": 0,
    "ok": true
   },
@@ -556,25 +556,25 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 282,
+   "jobs_seen": 284,
    "matches": 2,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 312,
+   "jobs_seen": 313,
    "matches": 0,
    "ok": true
   },
   "Scopely": {
    "board": "greenhouse:scopely",
-   "jobs_seen": 172,
+   "jobs_seen": 171,
    "matches": 2,
    "ok": true
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 305,
+   "jobs_seen": 300,
    "matches": 1,
    "ok": true
   },
@@ -598,7 +598,7 @@
   },
   "Sony Corporation of America": {
    "board": "workday:sonyglobal/SonyGlobalCareers",
-   "jobs_seen": 114,
+   "jobs_seen": 115,
    "matches": 1,
    "ok": true
   },
@@ -622,25 +622,25 @@
   },
   "Spotify": {
    "board": "lever:spotify",
-   "jobs_seen": 88,
+   "jobs_seen": 91,
    "matches": 0,
    "ok": true
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 790,
+   "jobs_seen": 792,
    "matches": 9,
    "ok": true
   },
   "StubHub": {
    "board": "greenhouse:stubhubinc",
-   "jobs_seen": 51,
+   "jobs_seen": 53,
    "matches": 0,
    "ok": true
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 331,
+   "jobs_seen": 330,
    "matches": 0,
    "ok": true
   },
@@ -658,19 +658,19 @@
   },
   "Twilio": {
    "board": "greenhouse:twilio",
-   "jobs_seen": 110,
+   "jobs_seen": 111,
    "matches": 0,
    "ok": true
   },
   "UTA": {
    "board": "ashby:united-talent-agency",
-   "jobs_seen": 45,
+   "jobs_seen": 46,
    "matches": 0,
    "ok": true
   },
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
-   "jobs_seen": 372,
+   "jobs_seen": 371,
    "matches": 0,
    "ok": true
   },
@@ -714,18 +714,18 @@
      "url": "https://jobs.ashbyhq.com/anysignal/06632450-4f11-4324-8bf6-f7a8bd4f9ec2"
     },
     {
-     "location": "glendale, ca, usa",
-     "pay": "",
-     "posted": "2026-11-17",
-     "title": "VP, Strategic Finance & Planning (Reveleer)",
-     "url": "https://reveleer.breezy.hr/p/0a14e4270d31-vp-strategic-finance-planning"
-    },
-    {
      "location": "Canada; Remote; Europe; North America; Remote",
      "pay": "",
      "posted": "2026-11-07",
      "title": "Managed Services Lead, Community & Player Operations (Pragma)",
      "url": "https://ats.rippling.com/pragma/jobs/1c0c5aec-2651-4ca0-83eb-8d7bdab651e4"
+    },
+    {
+     "location": "glendale, ca, usa",
+     "pay": "",
+     "posted": "2026-11-17",
+     "title": "VP, Strategic Finance & Planning (Reveleer)",
+     "url": "https://reveleer.breezy.hr/p/0a14e4270d31-vp-strategic-finance-planning"
     },
     {
      "location": "United States; Remote; Remote",
@@ -803,7 +803,7 @@
   },
   "WME / Endeavor": {
    "board": "workday:wmeimg/WMEGRP",
-   "jobs_seen": 27,
+   "jobs_seen": 26,
    "matches": 1,
    "ok": true
   },
@@ -815,7 +815,7 @@
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 374,
+   "jobs_seen": 373,
    "matches": 0,
    "ok": true
   },
@@ -827,7 +827,7 @@
   },
   "Workiva": {
    "board": "workday:workiva/careers",
-   "jobs_seen": 98,
+   "jobs_seen": 97,
    "matches": 1,
    "ok": true
   },
@@ -880,13 +880,13 @@
   },
   "Yahoo": {
    "board": "workday:ouryahoo/careers",
-   "jobs_seen": 75,
+   "jobs_seen": 76,
    "matches": 2,
    "ok": true
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
-   "jobs_seen": 169,
+   "jobs_seen": 170,
    "matches": 2,
    "ok": true
   },
@@ -896,5 +896,5 @@
    "trial": true
   }
  },
- "run": "2026-11-18T07:42Z"
+ "run": "2026-11-18T16:22Z"
 }
