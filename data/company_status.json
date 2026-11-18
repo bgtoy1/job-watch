@@ -32,19 +32,19 @@
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
-   "jobs_seen": 200,
+   "jobs_seen": 199,
    "matches": 1,
    "ok": true
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 932,
+   "jobs_seen": 930,
    "matches": 1,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 657,
+   "jobs_seen": 656,
    "matches": 0,
    "ok": true
   },
@@ -57,7 +57,7 @@
   "Apple": {
    "board": "apple:",
    "errors_before_success": [],
-   "jobs_seen": 155,
+   "jobs_seen": 156,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -139,7 +139,7 @@
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 257,
+   "jobs_seen": 256,
    "matches": 3,
    "ok": true
   },
@@ -156,19 +156,19 @@
   },
   "Coursera (main board)": {
    "board": "greenhouse:coursera",
-   "jobs_seen": 39,
+   "jobs_seen": 38,
    "matches": 0,
    "ok": true
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 99,
+   "jobs_seen": 98,
    "matches": 6,
    "ok": true
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 901,
+   "jobs_seen": 897,
    "matches": 1,
    "ok": true
   },
@@ -180,7 +180,7 @@
   },
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
-   "jobs_seen": 362,
+   "jobs_seen": 352,
    "matches": 4,
    "ok": true
   },
@@ -204,7 +204,7 @@
   },
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
-   "jobs_seen": 337,
+   "jobs_seen": 338,
    "matches": 0,
    "ok": true
   },
@@ -281,7 +281,7 @@
   },
   "Fanatics Collectibles": {
    "board": "greenhouse:fanaticscollectibles",
-   "jobs_seen": 233,
+   "jobs_seen": 234,
    "matches": 1,
    "ok": true
   },
@@ -299,7 +299,7 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 253,
+   "jobs_seen": 251,
    "matches": 2,
    "ok": true
   },
@@ -329,7 +329,7 @@
   },
   "Gusto": {
    "board": "greenhouse:gusto",
-   "jobs_seen": 79,
+   "jobs_seen": 78,
    "matches": 0,
    "ok": true
   },
@@ -422,7 +422,7 @@
    "ok": true
   },
   "Microsoft": {
-   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=50&sort_by=timestamp",
+   "error": "HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=140&sort_by=timestamp",
    "ok": false,
    "trial": true
   },
@@ -438,7 +438,7 @@
   },
   "NBCUniversal": {
    "board": "smartrecruiters:NBCUniversal3",
-   "jobs_seen": 312,
+   "jobs_seen": 313,
    "matches": 4,
    "ok": true
   },
@@ -474,7 +474,7 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 358,
+   "jobs_seen": 359,
    "matches": 0,
    "ok": true
   },
@@ -528,19 +528,19 @@
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
-   "jobs_seen": 201,
+   "jobs_seen": 202,
    "matches": 0,
    "ok": true
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
-   "jobs_seen": 165,
+   "jobs_seen": 166,
    "matches": 0,
    "ok": true
   },
   "Roblox": {
    "board": "greenhouse:roblox",
-   "jobs_seen": 266,
+   "jobs_seen": 265,
    "matches": 0,
    "ok": true
   },
@@ -556,7 +556,7 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 280,
+   "jobs_seen": 282,
    "matches": 2,
    "ok": true
   },
@@ -574,7 +574,7 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 303,
+   "jobs_seen": 305,
    "matches": 1,
    "ok": true
   },
@@ -628,7 +628,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 789,
+   "jobs_seen": 790,
    "matches": 9,
    "ok": true
   },
@@ -809,13 +809,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 149,
+   "jobs_seen": 148,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 375,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true
   },
@@ -896,5 +896,5 @@
    "trial": true
   }
  },
- "run": "2026-11-18T04:19Z"
+ "run": "2026-11-18T07:42Z"
 }

@@ -1,37 +1,16 @@
-# Job check 2026-11-18T04:19Z
+# Job check 2026-11-18T07:42Z
 
-## New since last run (23)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
-| 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
-| 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
-| 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
-| 2026-11-16 | Stripe | [Product Manager, Finance Operations](https://stripe.com/jobs/search?gh_jid=8393939) | US-Remote | — |
-| 2026-11-16 | Disney (Disney Careers site) | [Director, Corporate Development (Mergers & Acquisitions)](https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions) | Burbank, CA, USA | — |
-| 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
-| 2026-11-12 | Disney (Disney Careers site) | [Product Strategy and Operations Principal, Streaming](https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming) | San Francisco, CA, USA; Burbank, CA, USA | — |
-| 2026-11-11 | Disney (Disney Careers site) | [Director, Partnerships Strategic Planning](https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning) | Santa Monica, CA, USA | — |
-| 2026-11-11 | Updater | [VP, Strategic Finance & Business Operations](https://job-boards.greenhouse.io/updater/jobs/8379091) | Remote, US | $260–300K |
-| 2026-11-09 | Stripe | [Product Operations Manager](https://stripe.com/jobs/search?gh_jid=8315943) | US Remote | — |
-| 2026-10-30 | Stripe | [Startup Products Strategy & Operations, Insights & Analytics](https://stripe.com/jobs/search?gh_jid=8234710) | Remote US | — |
-| 2026-10-30 | Stripe | [Startup Products Strategy & Operations, Product Strategy](https://stripe.com/jobs/search?gh_jid=8248415) | US-Remote | — |
-| 2026-10-23 | True Anomaly | [VP, FP&A and Program Finance](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5265137007) | Denver, CO; Long Beach, CA | $300–360K |
-| 2026-10-13 | ChowNow | [Vice President, Finance](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote | — |
-| 2026-09-25 | Stripe | [Program Manager, Deal Operations](https://stripe.com/jobs/search?gh_jid=8209633) | US-Remote | — |
-| 2026-09-18 | True Anomaly | [Lead, Development Planning, Production](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5217948007) | Long Beach, CA | $150–240K |
-| 2026-09-15 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
-| 2026-09-14 | Stripe | [Strategy & Operations, Infrastructure](https://stripe.com/jobs/search?gh_jid=8171095) | Remote US | — |
-| 2026-09-01 | Stripe | [Design Program Manager, Research Operations](https://stripe.com/jobs/search?gh_jid=8155390) | US | — |
-| 2026-08-27 | Stripe | [Strategic Business Performance, Central Strategy & Operations](https://stripe.com/jobs/search?gh_jid=8155580) | US-Chicago, US-Remote, US-Seattle, US-San Francisco | — |
-| 2026-08-25 | Stripe | [Program Manager, Risk Operations](https://stripe.com/jobs/search?gh_jid=8158082) | United States | — |
-| 2026-07-27 | Updater | [Director, Corporate Development](https://job-boards.greenhouse.io/updater/jobs/8089760) | Remote, US | $250–280K |
-
-## Closed since last run (0)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+
+## Closed since last run (2)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-09-01 | Perplexity | [Strategic Finance Lead - AI](https://jobs.ashbyhq.com/Perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9) | San Francisco; Remote | $190–240K |
+| 2026-09-08 | GoDaddy | [Director Corporate Development](https://careers.godaddy/jobs?gh_jid=7882531003) | United States | $185–278K |
 
 ## Companies that failed (2)
 
@@ -40,31 +19,31 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 155 postings read, 0 match
+- Apple: OK via apple:, 156 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=50&sort_by=timestamp
+- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=140&sort_by=timestamp
 - Upfront Ventures portfolio jobs: OK via getro:, 71 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); VP, Strategic Finance & Planning (Reveleer) (glendale, ca, usa)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: getro board page: no __NEXT_DATA__
 
-## All open matches (140)
+## All open matches (138)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
-| 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
-| 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
 | 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
+| 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
+| 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
 | 2026-11-16 | Coinbase | [Chief of Staff, CTO](https://www.coinbase.com/careers/positions/8393768?gh_jid=8393768) | Remote - USA | $212–250K |
 | 2026-11-16 | DoorDash | [Senior Manager, Audience Insights](https://job-boards.greenhouse.io/doordashusa/jobs/8392708) | Seattle, WA; Los Angeles, CA, Chicago, IL; Austin, TX; Denve | $160–235K |
 | 2026-11-16 | Pinterest | [Sales Strategy & Operations Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8209050) | San Francisco, CA, US; Los Angeles, CA, US | $156–272K |
-| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 | 2026-11-16 | Stripe | [Product Manager, Finance Operations](https://stripe.com/jobs/search?gh_jid=8393939) | US-Remote | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Corporate Development (Mergers & Acquisitions)](https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions) | Burbank, CA, USA | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
+| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 | 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-13 | Atlassian | [Principal Strategist, Public Sector Strategy](https://www.atlassian.com/company/careers/details/25128) | San Francisco - United States -   San Francisco, California  | $183–239K |
 | 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
@@ -72,17 +51,17 @@
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
-| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-12 | Disney (Disney Careers site) | [Product Strategy and Operations Principal, Streaming](https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming) | San Francisco, CA, USA; Burbank, CA, USA | — |
-| 2026-11-11 | Disney (Disney Careers site) | [Director, Partnerships Strategic Planning](https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning) | Santa Monica, CA, USA | — |
+| 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-11 | Updater | [VP, Strategic Finance & Business Operations](https://job-boards.greenhouse.io/updater/jobs/8379091) | Remote, US | $260–300K |
+| 2026-11-11 | Disney (Disney Careers site) | [Director, Partnerships Strategic Planning](https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning) | Santa Monica, CA, USA | — |
 | 2026-11-10 | Amazon | [Enterprise Strategy & Ops Lead, Amazon Supply Chain Services, Amazon Freight](https://www.amazon.jobs/en/jobs/10601539/enterprise-strategy-ops-lead-amazon-supply-chain-services-amazon-freight) | Santa Monica, California, USA | — |
 | 2026-11-10 | DoorDash | [Senior Manager, New Verticals - Fulfillment Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8374039) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, C | $170–250K |
 | 2026-11-10 | Salesforce | [Senior Manager, GTM Growth Strategy](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015) | 9 Locations; California - San Francisco; Illinois - Chicago; | $180–248K |
 | 2026-11-10 | Snap | [Senior Manager, Global Ads GTM Strategy & Operations](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
 | 2026-11-10 | Snap | [Manager, Finance](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/Manager--Finance_R0047410-1) | Los Angeles, California | $173–259K |
-| 2026-11-09 | IMAX | [VP, Strategic Planning & Business Development](https://imax.wd10.myworkdayjobs.com/en-US/IMAX-Careers/job/Playa-Vista-California/VP--Strategic-Planning---Business-Development_JR101116) | Playa Vista, California | $256–313K |
 | 2026-11-09 | Stripe | [Product Operations Manager](https://stripe.com/jobs/search?gh_jid=8315943) | US Remote | — |
+| 2026-11-09 | IMAX | [VP, Strategic Planning & Business Development](https://imax.wd10.myworkdayjobs.com/en-US/IMAX-Careers/job/Playa-Vista-California/VP--Strategic-Planning---Business-Development_JR101116) | Playa Vista, California | $256–313K |
 | 2026-11-04 | Rula | [Head of Provider Growth Strategy & Operations](https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c) | Remote - United States | $248–294K |
 | 2026-11-03 | Ramp | [Senior Manager, Customer Experience Strategy & Operations](https://jobs.ashbyhq.com/ramp/fe280d10-4258-420a-b0bb-0dc9021bd803) | New York, NY (HQ); San Francisco, CA; Remote (US) | $175–250K |
 | 2026-11-03 | Netflix | [Product Operations Lead: Core Discovery](https://explore.jobs.netflix.net/careers/job/790319295260) | Remote, United States | — |
@@ -102,8 +81,8 @@
 | 2026-10-26 | Universal Music Group | [Senior Director, Finance Insights and Reporting](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Senior-Director--Global-Insights-and-Reporting_UMG-27895) | Santa Monica, California | $202–265K |
 | 2026-10-25 | Grafana Labs | [Senior Director, Corporate FP&A | United States | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004) | United States (Remote) | $268–322K |
 | 2026-10-23 | Pinterest | [Retail Transformation Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8287192) | Remote, US | $132–272K |
-| 2026-10-23 | Netflix | [Director, FP&A, Content](https://explore.jobs.netflix.net/careers/job/790319098004) | Los Angeles,California,United States of America | — |
 | 2026-10-23 | True Anomaly | [VP, FP&A and Program Finance](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5265137007) | Denver, CO; Long Beach, CA | $300–360K |
+| 2026-10-23 | Netflix | [Director, FP&A, Content](https://explore.jobs.netflix.net/careers/job/790319098004) | Los Angeles,California,United States of America | — |
 | 2026-10-22 | Crunchyroll | [Strategic Initiatives Director](https://boards.greenhouse.io/crunchyroll/jobs/8286617?gh_jid=8286617) | Los Angeles, California, United States | $196–245K |
 | 2026-10-21 | AEG | [Sr. Director, Business Development - AXS](https://job-boards.greenhouse.io/aegworldwide/jobs/8906432002) | Los Angeles, CA | — |
 | 2026-10-21 | AXS | [Sr. Director, Business Development](https://job-boards.greenhouse.io/axs/jobs/8861853002) | Los Angeles, CA | — |
@@ -129,9 +108,9 @@
 | 2026-10-14 | Scopely | [Senior Director, Business Development](https://job-boards.greenhouse.io/scopely/jobs/5451210008?gh_jid=5451210008) | US - Culver City, California, United States | $193–284K |
 | 2026-10-13 | GitLab | [Director, FP&A](https://job-boards.greenhouse.io/gitlab/jobs/8827981002) | Remote, United States | $168–286K |
 | 2026-10-13 | Motive | [Director, Product Strategy & Monetization](https://job-boards.greenhouse.io/gomotive/jobs/8880889002) | United States - Remote | $185–255K |
+| 2026-10-13 | ChowNow | [Vice President, Finance](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote | — |
 | 2026-10-13 | ServiceNow | [AI Product Strategy & Operations Senior Manager](https://jobs.smartrecruiters.com/ServiceNow/744000155345180) | Santa Clara, California, United States; Remote | — |
 | 2026-10-13 | Live Nation | [LN Concerts, Sr. Director of Operations – VIP Nation](https://livenation.wd503.myworkdayjobs.com/en-US/LNExternalSite/job/Beverly-Hills-CA-USA/LN-Concerts--Sr-Director-of-Operations---VIP-Nation_JR-93737) | Beverly Hills, CA, USA | $216–270K |
-| 2026-10-13 | ChowNow | [Vice President, Finance](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote | — |
 | 2026-10-12 | Perplexity | [Strategic Finance Lead - GTM](https://jobs.ashbyhq.com/Perplexity/f3c7ce0d-026e-4b5d-b22d-8b6041746c3d) | San Francisco; New York City; Remote | $190–240K |
 | 2026-10-12 | Crunchyroll | [Vice President, Commercial Planning](https://boards.greenhouse.io/crunchyroll/jobs/8255544?gh_jid=8255544) | Los Angeles, California, United States | $259–324K |
 | 2026-10-12 | DoorDash | [Senior Manager, Strategy & Operations - Dasher Financial](https://job-boards.greenhouse.io/doordashusa/jobs/8273925) | Austin, TX; Washington D.C.; Seattle, WA; Los Angeles, CA; C | $170–250K |
@@ -165,10 +144,8 @@
 | 2026-09-14 | DoorDash | [Senior Manager, New Verticals - Search Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8201605) | New York, NY;  San Francisco, CA; Seattle, WA; Los Angeles,  | $170–250K |
 | 2026-09-14 | Stripe | [Strategy & Operations, Infrastructure](https://stripe.com/jobs/search?gh_jid=8171095) | Remote US | — |
 | 2026-09-09 | OpenAI | [Partnerships Operations Lead, OAI for Government](https://jobs.ashbyhq.com/openai/910b44fb-6af7-4d26-8e25-9ba814fe5fd5) | Washington, DC; Remote | $221–266K |
-| 2026-09-08 | GoDaddy | [Director Corporate Development](https://careers.godaddy/jobs?gh_jid=7882531003) | United States | $185–278K |
 | 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
 | 2026-09-01 | Perplexity | [Strategic Finance Lead - Compute](https://jobs.ashbyhq.com/Perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f) | San Francisco; Remote | $190–240K |
-| 2026-09-01 | Perplexity | [Strategic Finance Lead - AI](https://jobs.ashbyhq.com/Perplexity/f4d81f6b-958c-4bc0-a9aa-9850c3508ca9) | San Francisco; Remote | $190–240K |
 | 2026-09-01 | Stripe | [Design Program Manager, Research Operations](https://stripe.com/jobs/search?gh_jid=8155390) | US | — |
 | 2026-08-31 | Notion | [GTM Compensation Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/be994bb4-c680-4f57-b3bd-7e689175317f) | San Francisco, California; New York, New York; Remote | $230–257K |
 | 2026-08-31 | OpenAI | [Cyber Operations Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/60089c12-762c-4369-9a7c-94f8959343a3) | San Francisco; Remote | $252–335K |
