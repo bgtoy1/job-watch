@@ -1,40 +1,44 @@
-# Job check 2026-11-18T16:22Z
+# Job check 2026-11-19T01:11Z
 
-## New since last run (2)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
-| 2026-07-31 | Engine | [Director, Sales Strategy and Operations - Travel & Spend](https://job-boards.greenhouse.io/engine/jobs/7822159003) | Remote - US | $170–230K |
-
-## Closed since last run (0)
+## New since last run (3)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-18 | Riot Games | [Director, Insights - Central Product Insights](https://www.riotgames.com/en/work-with-us/job/8394524?gh_jid=8394524) | Los Angeles, USA | — |
+| 2026-11-18 | NBCUniversal | [Director, Content Finance Delivery & Portfolio Management](https://jobs.smartrecruiters.com/NBCUniversal3/744000162395579) | Universal City, CALIFORNIA, United States | — |
+| 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
 
-## Companies that failed (2)
+## Closed since last run (2)
 
-- Moonvalley (Asteria): HTTP 404 for https://api.ashbyhq.com/posting-api/job-board/moonvalley-ai?includeCompensation=true
-- Runway: HTTP 404 for https://boards-api.greenhouse.io/v1/boards/runwayml/jobs?content=true
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-10-01 | OpenAI | [Pricing Operations Lead](https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf) | San Francisco; Remote | $284–315K |
+| 2026-10-23 | Pinterest | [Retail Transformation Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8287192) | Remote, US | $132–272K |
+
+## Companies that failed (1)
+
+- Moonvalley (Asteria): HTTP 404 for https://jobs.ashbyhq.com/moonvalley-ai
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 160 postings read, 0 match
+- Apple: OK via apple:, 164 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: FAILED: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=60&sort_by=timestamp
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 206 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 71 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
-- a16z portfolio jobs: FAILED: getro board page: no __NEXT_DATA__
+- a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (140)
+## All open matches (141)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
-| 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
 | 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
+| 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
+| 2026-11-18 | Riot Games | [Director, Insights - Central Product Insights](https://www.riotgames.com/en/work-with-us/job/8394524?gh_jid=8394524) | Los Angeles, USA | — |
+| 2026-11-18 | NBCUniversal | [Director, Content Finance Delivery & Portfolio Management](https://jobs.smartrecruiters.com/NBCUniversal3/744000162395579) | Universal City, CALIFORNIA, United States | — |
 | 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
 | 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
 | 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
@@ -49,6 +53,7 @@
 | 2026-11-13 | Atlassian | [Principal Strategist, Public Sector Strategy](https://www.atlassian.com/company/careers/details/25128) | San Francisco - United States -   San Francisco, California  | $183–239K |
 | 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
+| 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Airbnb | [Consumer Insights Lead](https://careers.airbnb.com/positions/8356835?gh_jid=8356835) | United States | $180–224K |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
@@ -81,7 +86,6 @@
 | 2026-10-26 | Chainguard | [Strategy & Operations Senior Manager, Security and Technology](https://job-boards.greenhouse.io/chainguard/jobs/4708770006) | United States - Remote | $200–235K |
 | 2026-10-26 | Universal Music Group | [Senior Director, Finance Insights and Reporting](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Senior-Director--Global-Insights-and-Reporting_UMG-27895) | Santa Monica, California | $202–265K |
 | 2026-10-25 | Grafana Labs | [Senior Director, Corporate FP&A | United States | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004) | United States (Remote) | $268–322K |
-| 2026-10-23 | Pinterest | [Retail Transformation Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8287192) | Remote, US | $132–272K |
 | 2026-10-23 | True Anomaly | [VP, FP&A and Program Finance](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5265137007) | Denver, CO; Long Beach, CA | $300–360K |
 | 2026-10-23 | Netflix | [Director, FP&A, Content](https://explore.jobs.netflix.net/careers/job/790319098004) | Los Angeles,California,United States of America | — |
 | 2026-10-22 | Crunchyroll | [Strategic Initiatives Director](https://boards.greenhouse.io/crunchyroll/jobs/8286617?gh_jid=8286617) | Los Angeles, California, United States | $196–245K |
@@ -129,7 +133,6 @@
 | 2026-10-05 | Crunchyroll | [Senior Manager, Global Engagement Strategy and Analytics](https://boards.greenhouse.io/crunchyroll/jobs/8255517?gh_jid=8255517) | Los Angeles, California, United States; San Francisco, CA, U | — |
 | 2026-10-02 | Coinbase | [Corporate Development Senior Manager](https://www.coinbase.com/careers/positions/8238602?gh_jid=8238602) | Remote - USA | $230–271K |
 | 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
-| 2026-10-01 | OpenAI | [Pricing Operations Lead](https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf) | San Francisco; Remote | $284–315K |
 | 2026-10-01 | Crunchyroll | [Vice President, FP&A - GTM](https://boards.greenhouse.io/crunchyroll/jobs/8244816?gh_jid=8244816) | Los Angeles, California, United States | $236–295K |
 | 2026-10-01 | Fanatics Collectibles | [Director, Product Strategy and Operations](https://job-boards.greenhouse.io/fanaticscollectibles/jobs/4414184009) | Dallas, TX, United States; Los Angeles, CA, United States; N | $220–275K |
 | 2026-09-25 | Engine | [Senior Director, Workforce Transformation](https://job-boards.greenhouse.io/engine/jobs/7990038003) | Remote - US | $225–270K |
