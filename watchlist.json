@@ -703,7 +703,13 @@
       "domain": "microsoft.com",
       "sector": "Tech / games",
       "trial": true,
-      "note": "Trial: rate-limited (HTTP 429) on Nov 16-17; reader now waits and retries. Go live after two good runs."
+      "note": "Trial: rate-limited (HTTP 429) on Nov 16-18 while paging to start=140+. 2026-11-18: 3 terms, first 100 results each (newest first), and a late 429 keeps what was read. Go live after two good runs.",
+      "terms": [
+        "strategy",
+        "finance",
+        "planning"
+      ],
+      "max_start": 100
     },
     {
       "name": "Apple",
@@ -739,7 +745,8 @@
       "name": "Paramount Skydance",
       "ats": "successfactors",
       "host": "careers.paramount.com",
-      "sector": "Media"
+      "sector": "Media",
+      "note": "2026-11-18: reader now pages the full HTML search for every term as well as the RSS feed (the feed is a short recent slice and dropped the Finance Leadership Development Program)."
     },
     {
       "name": "Electronic Arts",
@@ -776,11 +783,11 @@
     },
     {
       "name": "Runway",
-      "ats": "greenhouse",
-      "id": "runwayml",
+      "ats": "ashby",
+      "id": "runway-ml",
       "sector": "Tech / AI (media)",
       "verified": true,
-      "note": "Tech Targets plan 2026-11-16, route 1"
+      "note": "Tech Targets plan 2026-11-16, route 1. 2026-11-18: moved from Greenhouse \"runwayml\" (404) to Ashby \"runway-ml\" (board confirmed by Brandon from a live listing)"
     },
     {
       "name": "VideoAmp",
@@ -804,7 +811,7 @@
       "id": "moonvalley-ai",
       "sector": "Tech / AI (media)",
       "verified": true,
-      "note": "Tech Targets plan 2026-11-16, route 1 (Strong)"
+      "note": "Tech Targets plan 2026-11-16, route 1 (Strong). 2026-11-18: board jobs.ashbyhq.com/moonvalley-ai confirmed by Brandon, no open roles. The posting API answered 404, so the reader now falls back to the board page; an empty board reads as 0 jobs, not a failure"
     },
     {
       "name": "Luma AI",
@@ -849,11 +856,20 @@
     },
     {
       "name": "a16z portfolio jobs",
-      "ats": "getro",
+      "ats": "consider",
       "board": "https://jobs.a16z.com",
       "sector": "Venture portfolio (tech / AI / media)",
-      "note": "Andreessen Horowitz portfolio job board (Getro); lists Luma AI, Promise Studios and other portfolio companies. Company name is shown in each role title. Trial until two runs return real postings",
-      "trial": true
+      "note": "Andreessen Horowitz portfolio job board. 2026-11-18: links look like /jobs/<company>/<id>--<title>, which is the Consider board format, not Getro; new Consider reader (board id read from the board page, then \"andreessen-horowitz\", then the old Getro reader). Company name is shown in each role title. Trial until two good runs",
+      "trial": true,
+      "try": [
+        {
+          "ats": "consider",
+          "board_id": "andreessen-horowitz"
+        },
+        {
+          "ats": "getro"
+        }
+      ]
     },
     {
       "name": "Upfront Ventures portfolio jobs",

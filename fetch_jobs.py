@@ -276,8 +276,36 @@ def fetch_lever(c, terms):
     return out
 
 
+def _ashby_board_page(c):
+    """Fallback when Ashby's posting API answers 404 for a board that exists (Moonvalley's
+    jobs.ashbyhq.com/moonvalley-ai, 2026-11-18): read the postings embedded in the board page."""
+    page = http_text(f"https://jobs.ashbyhq.com/{c['id']}")
+    m = re.search(r"window\.__appData\s*=\s*(\{.*?\});\s*</script>", page, re.S)
+    if not m:
+        raise RuntimeError("ashby board page: no __appData")
+    app = json.loads(m.group(1))
+    board = app.get("jobBoard") or {}
+    if not board and not app.get("organization"):
+        raise RuntimeError("ashby board page: board not found")
+    jobs = []
+    for p in board.get("jobPostings") or []:
+        locs = [p.get("locationName") or ""] + [(x.get("locationName") or "") for x in p.get("secondaryLocations") or []]
+        if p.get("workplaceType") == "Remote" or p.get("isRemote"):
+            locs.append("Remote")
+        jobs.append({"id": p.get("id"), "title": p.get("title"), "location": "; ".join(dict.fromkeys(l for l in locs if l)),
+                     "jobUrl": f"https://jobs.ashbyhq.com/{c['id']}/{p.get('id')}",
+                     "publishedAt": p.get("publishedDate") or "",
+                     "compensation": {"compensationTierSummary": p.get("compensationTierSummary") or ""}})
+    return {"jobs": jobs}
+
+
 def fetch_ashby(c, terms):
-    d = http(f"https://api.ashbyhq.com/posting-api/job-board/{c['id']}?includeCompensation=true")
+    try:
+        d = http(f"https://api.ashbyhq.com/posting-api/job-board/{c['id']}?includeCompensation=true")
+    except RuntimeError as e:
+        if "HTTP 404" not in str(e):
+            raise
+        d = _ashby_board_page(c)
     out = []
     for j in d.get("jobs", []):
         if j.get("isListed") is False:
@@ -778,9 +806,15 @@ def fetch_meta(c, terms):
 
 
 def fetch_successfactors(c, terms):
-    """SAP SuccessFactors career sites (e.g. careers.paramount.com): RSS feed, then HTML."""
-    out, seen = [], set()
+    """SAP SuccessFactors career sites (e.g. careers.paramount.com): RSS feed plus the paged HTML search.
+
+    The RSS feed returns only a short, recent slice of each keyword search, so older postings drop out
+    of it while still open (Paramount Finance Leadership Development Program, posted Oct 29, vanished
+    from the feed on 2026-11-17 and was logged closed). The HTML search is paged in full for every term;
+    the RSS feed is still read first because it carries pay and the description."""
+    out, by_id = [], {}
     host = c["host"]
+    max_rows = int(c.get("max_rows", 500))
     for term in terms:
         q = urllib.parse.quote(term)
         try:
@@ -792,33 +826,39 @@ def fetch_successfactors(c, terms):
             g = lambda tag: html.unescape(strip_html((re.search(rf"<{tag}>(.*?)</{tag}>", it, re.S) or [None, ""])[1].replace("<![CDATA[", "").replace("]]>", "")))
             link = canonical_url(g("link"))  # the feed adds ?feedId=…&utm_… tracking; keep the bare job URL
             jid = (re.search(r"/(\d{6,})/?$", link) or [None, link])[1]
-            if not link or jid in seen:
+            if not link or jid in by_id:
                 continue
-            seen.add(jid)
             title = g("title")
             m = re.match(r"(.*?)\s*\(([^()]*)\)\s*$", title)
             title, loc = (m.group(1), m.group(2)) if m else (title, "")
             desc = g("description")
-            out.append(job(c, "successfactors", jid, title, loc, link, _date_text(g("pubDate")), parse_pay(desc), desc))
+            by_id[jid] = job(c, "successfactors", jid, title, loc, link, _date_text(g("pubDate")), parse_pay(desc), desc)
+            out.append(by_id[jid])
         if items:
             pause()
-            continue
-        for start in (0, 25, 50, 75):
-            page_html = http_text(f"https://{host}/search/?q={q}&startrow={start}")
+        start = 0
+        while start < max_rows:
+            try:
+                page_html = http_text(f"https://{host}/search/?q={q}&startrow={start}")
+            except Exception:
+                if out:  # keep what the feed and earlier pages gave
+                    break
+                raise
             rows = re.findall(r'<tr class="data-row.*?</tr>', page_html, re.S)
             for r in rows:
                 a = re.search(r'href="(/job/[^"]+?/(\d+)/?)"[^>]*class="jobTitle-link[^"]*"[^>]*>(.*?)</a>', r, re.S) \
                     or re.search(r'class="jobTitle-link[^"]*"[^>]*href="(/job/[^"]+?/(\d+)/?)"[^>]*>(.*?)</a>', r, re.S)
-                if not a or a.group(2) in seen:
+                if not a or a.group(2) in by_id:
                     continue
-                seen.add(a.group(2))
                 loc = strip_html((re.search(r'class="jobLocation"[^>]*>(.*?)</span>', r, re.S) or [None, ""])[1])
                 date = strip_html((re.search(r'class="jobDate"[^>]*>(.*?)</span>', r, re.S) or [None, ""])[1])
-                out.append(job(c, "successfactors", a.group(2), strip_html(a.group(3)), loc,
-                               f"https://{host}{a.group(1)}", _date_text(date)))
+                by_id[a.group(2)] = job(c, "successfactors", a.group(2), strip_html(a.group(3)), loc,
+                                        f"https://{host}{a.group(1)}", _date_text(date))
+                out.append(by_id[a.group(2)])
             pause()
             if len(rows) < 25:
                 break
+            start += len(rows)
     return out
 
 
@@ -1102,12 +1142,20 @@ def fetch_eightfold_pcsx(c, terms):
     out, seen = [], set()
     loc = urllib.parse.quote(c.get("location", "United States"))
     host = c["host"]
-    for term in terms:
+    # Newest first, so the first pages hold the roles that matter; deep paging (start=140+) is what
+    # tripped Microsoft's rate limit (HTTP 429) on Nov 16-18. A 429 after some pages keeps what was read.
+    max_start = int(c.get("max_start", 100))
+    for term in c.get("terms") or terms:
         start = 0
-        while start < 300:
-            d = json.loads(http_text(f"https://{host}/api/pcsx/search?domain={c['domain']}&query={urllib.parse.quote(term)}"
-                                     f"&location={loc}&start={start}&sort_by=timestamp",
-                                     headers={"Accept": "application/json"}))
+        while start < max_start:
+            try:
+                d = json.loads(http_text(f"https://{host}/api/pcsx/search?domain={c['domain']}&query={urllib.parse.quote(term)}"
+                                         f"&location={loc}&start={start}&sort_by=timestamp",
+                                         headers={"Accept": "application/json"}))
+            except RuntimeError as e:
+                if "HTTP 429" in str(e) and out:
+                    break
+                raise
             data = d.get("data") or {}
             pos = data.get("positions") or data.get("jobs") or []
             for p in pos:
@@ -1359,10 +1407,63 @@ def fetch_getro(c, terms):
     return out
 
 
+def fetch_consider(c, terms):
+    """Consider portfolio job boards run by venture firms (jobs.a16z.com: job links look like
+    /jobs/<company>/<id>--<title>). Reads the board's search API, newest first, a page at a time;
+    the company name goes in the title ("Title (Company)") as with the Getro reader.
+    The board id comes from the watchlist ("board_id") or the board page."""
+    base = c["board"].rstrip("/")
+    board_id = c.get("board_id")
+    if not board_id:
+        page = http_text(base + "/jobs")
+        board_id = (re.search(r'"board"\s*:\s*\{\s*"id"\s*:\s*"([^"]+)"', page) or
+                    re.search(r'"boardId"\s*:\s*"([^"]+)"', page) or [None, None])[1]
+        if not board_id:
+            raise RuntimeError("consider board page: no board id")
+    out, seen, sequence = [], set(), None
+    for _ in range(int(c.get("max_pages", 15))):
+        meta = {"size": 100}
+        if sequence:
+            meta["sequence"] = sequence
+        d = json.loads(http_text(base + "/api-boards/search-jobs",
+                                 {"meta": meta, "board": {"id": board_id, "isParent": True},
+                                  "query": {"promoteFeatured": False}, "grouped": False},
+                                 {"Accept": "application/json", "Origin": base, "Referer": base + "/jobs"}))
+        jobs = d.get("jobs") or []
+        for p in jobs:
+            jid = str(p.get("jobId") or p.get("id") or p.get("url") or "")
+            if not jid or jid in seen or not p.get("title"):
+                continue
+            seen.add(jid)
+            comp = p.get("company")
+            org = p.get("companyName") or (comp.get("name", "") if isinstance(comp, dict) else str(comp or ""))
+            org_slug = p.get("companySlug") or _slug_words(org)
+            locs = p.get("locations") or p.get("normalizedLocations") or []
+            locs = [x if isinstance(x, str) else (x.get("label") or x.get("value") or "") for x in locs] if isinstance(locs, list) else [str(locs)]
+            if p.get("remote") is True or str(p.get("workplaceType") or "").lower() == "remote":
+                locs.append("Remote")
+            url = p.get("url") if str(p.get("url") or "").startswith(base) else \
+                f"{base}/jobs/{org_slug}/{jid}--{_slug_words(p['title'])}"
+            sal = p.get("salary") or {}
+            pay = None
+            if isinstance(sal, dict) and sal.get("maxValue") and "year" in json.dumps(sal.get("period") or "year").lower():
+                pay = (int(sal.get("minValue") or 0), int(sal["maxValue"]))
+            ts = p.get("timeStamp") or p.get("postedAt") or ""
+            posted = iso_from_s(ts) if isinstance(ts, (int, float)) else iso_date(str(ts))
+            out.append(job(c, "consider", jid, p["title"].strip() + (f" ({org})" if org else ""),
+                           "; ".join(x for x in locs if x), url, posted, pay))
+        sequence = (d.get("meta") or {}).get("sequence")
+        pause()
+        if len(jobs) < 100 or not sequence:
+            break
+    return out
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
     "ashby": fetch_ashby,
+    "consider": fetch_consider,
     "workday": fetch_workday,
     "smartrecruiters": fetch_smartrecruiters,
     "netflix": fetch_netflix,

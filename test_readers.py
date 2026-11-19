@@ -82,6 +82,8 @@ PAYLOC = {"jobs": [{"jobId": 4304980, "title": "Director, Strategy", "jobLocatio
 
 
 def fake_http(url, body=None, **kw):
+    if "api.ashbyhq.com/posting-api/job-board/" in url and ("moonvalley-ai" in url or "empty-board" in url):
+        raise RuntimeError("HTTP 404 for " + url)  # API 404 -> board page
     if "amazon.jobs" in url: return AMAZON if "offset=0" in url else {"jobs": []}
     if "apply.careers.microsoft.com" in url: return EIGHTFOLD
     if "gcsservices" in url: return GCS
@@ -126,6 +128,21 @@ def fake_raw(url, body=None, headers=None, form=False, **kw):
     if "dayforcehcm.com/api/geo/" in url: raise RuntimeError("HTTP 404 for " + url)  # force fallbacks
     if "dayforcehcm.com/api/jobposting" in url: return 200, {}, "{}"
     if "dayforcehcm.com/en-US/other/" in url: return 200, {}, DF_HTML
+    if "jobs.ashbyhq.com/moonvalley-ai" in url:
+        return 200, {}, ('<script>window.__appData = {"organization":{"name":"Moonvalley"},"jobBoard":{"jobPostings":['
+                         '{"id":"m1","title":"Head of Strategy","locationName":"Los Angeles","workplaceType":"Hybrid",'
+                         '"publishedDate":"2026-11-15","compensationTierSummary":"$200K – $260K"}]}};</script>')
+    if "jobs.ashbyhq.com/empty-board" in url:
+        return 200, {}, '<script>window.__appData = {"organization":{"name":"E"},"jobBoard":{"jobPostings":[]}};</script>'
+    if "jobs.a16z.com/api-boards/search-jobs" in url:
+        assert body["board"] == {"id": "andreessen-horowitz", "isParent": True}, body
+        if body["meta"].get("sequence"):
+            return 200, {}, json.dumps({"jobs": [], "meta": {}})
+        return 200, {}, json.dumps({"jobs": [
+            {"jobId": "8022979", "title": "Senior Product Designer", "companyName": "Okta", "companySlug": "okta",
+             "locations": ["San Francisco, CA, USA"], "remote": True, "timeStamp": "2026-11-16T00:00:00Z",
+             "salary": {"minValue": 180000, "maxValue": 240000, "period": {"label": "Yearly", "value": "year"}}}],
+            "meta": {"sequence": "abc"}})
     if "jobs.a16z.com/jobs?q=" in url: return 200, {}, GETRO_PAGE
     if "api.getro.com/api/v2/collections/1234/search/jobs" in url:
         if not GETRO_MODE["api"]: raise RuntimeError("HTTP 403 for " + url)
@@ -174,6 +191,19 @@ assert sf[0]["url"] == "https://careers.paramount.com/job/Los-Angeles-Director-C
 assert sf[0]["pay"] == "$190–240K" and sf[0]["posted"] == "2026-11-11", sf[0]
 sf2 = one(fj.fetch_successfactors, C(host="careers.paramount.com"), ["planning"])  # RSS empty -> HTML
 assert sf2[0]["title"] == "VP, Strategy" and sf2[0]["location"] == "New York, NY, US" and sf2[0]["posted"] == "2026-11-07", sf2[0]
+# The RSS feed is a short recent slice; older roles still on the HTML search must be read too
+# (Paramount Finance Leadership Development Program was logged closed on 2026-11-17 this way).
+assert {j["id"] for j in sf} == {"1234567", "7654321"}, sf
+# Ashby: posting API 404 -> board page (Moonvalley, 2026-11-18); an empty board is 0 jobs, not a failure
+mv = one(fj.fetch_ashby, C(id="moonvalley-ai"))
+assert mv[0]["title"] == "Head of Strategy" and mv[0]["url"] == "https://jobs.ashbyhq.com/moonvalley-ai/m1", mv[0]
+assert mv[0]["pay"] == "$200–260K" and mv[0]["posted"] == "2026-11-15", mv[0]
+assert fj.fetch_ashby(C(id="empty-board"), T) == []
+# Consider portfolio board (jobs.a16z.com/jobs/okta/8022979--senior-product-designer)
+cs = one(fj.fetch_consider, C(board="https://jobs.a16z.com", board_id="andreessen-horowitz"))
+assert cs[0]["title"] == "Senior Product Designer (Okta)" and cs[0]["location"] == "San Francisco, CA, USA; Remote", cs[0]
+assert cs[0]["url"] == "https://jobs.a16z.com/jobs/okta/8022979--senior-product-designer", cs[0]
+assert cs[0]["pay"] == "$180–240K" and cs[0]["posted"] == "2026-11-16", cs[0]
 av = one(fj.fetch_avature, C(base="https://jobs.ea.com/en_US/careers"))
 assert av[0]["id"] == "212771" and "Redwood City" in av[0]["location"], av[0]
 fx = one(fj.fetch_foxcareers, C())
