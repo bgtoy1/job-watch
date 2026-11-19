@@ -809,8 +809,8 @@ def fetch_successfactors(c, terms):
     """SAP SuccessFactors career sites (e.g. careers.paramount.com): RSS feed plus the paged HTML search.
 
     The RSS feed returns only a short, recent slice of each keyword search, so older postings drop out
-    of it while still open (Paramount Finance Leadership Development Program, posted Oct 29, vanished
-    from the feed on 2026-11-17 and was logged closed). The HTML search is paged in full for every term;
+    of it while still open (an older Paramount posting dropped out of the feed on 2026-11-17
+    and was logged closed). The HTML search is paged in full for every term;
     the RSS feed is still read first because it carries pay and the description."""
     out, by_id = [], {}
     host = c["host"]
@@ -1689,7 +1689,7 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
         state[key] = j
     # A role closes only after it is missing from CLOSE_AFTER_MISSES full reads in a row. Search-based
     # readers (Paramount's RSS feed, Netflix, Apple…) sometimes return a partial list, which used to
-    # close roles that were still open (Paramount Finance Leadership Development Program, 2026-11-17).
+    # close roles that were still open (a Paramount posting, 2026-11-17).
     close_after = int(wl.get("close_after_misses", CLOSE_AFTER_MISSES))
     prev_status = load(os.path.join(DATA, "company_status.json"), {}).get("companies", {})
     ok_companies = {n for n, st in status.items() if st.get("ok") and not st.get("trial")

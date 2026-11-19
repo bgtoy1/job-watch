@@ -192,7 +192,7 @@ assert sf[0]["pay"] == "$190–240K" and sf[0]["posted"] == "2026-11-11", sf[0]
 sf2 = one(fj.fetch_successfactors, C(host="careers.paramount.com"), ["planning"])  # RSS empty -> HTML
 assert sf2[0]["title"] == "VP, Strategy" and sf2[0]["location"] == "New York, NY, US" and sf2[0]["posted"] == "2026-11-07", sf2[0]
 # The RSS feed is a short recent slice; older roles still on the HTML search must be read too
-# (Paramount Finance Leadership Development Program was logged closed on 2026-11-17 this way).
+# (an older Paramount posting was logged closed on 2026-11-17 this way).
 assert {j["id"] for j in sf} == {"1234567", "7654321"}, sf
 # Ashby: posting API 404 -> board page (Moonvalley, 2026-11-18); an empty board is 0 jobs, not a failure
 mv = one(fj.fetch_ashby, C(id="moonvalley-ai"))

@@ -377,7 +377,7 @@
       "pinned": [
         "8155580"
       ],
-      "note": "Stripe titles carry no level, so the level word is not required (filters.level_optional_companies). Pinned: Strategic Business Performance, Central Strategy & Operations (added by Brandon 2026-11-17)"
+      "note": "Stripe titles carry no level, so the level word is not required (filters.level_optional_companies). Pinned posting IDs are followed whatever the filters say"
     },
     {
       "name": "Robinhood",
@@ -746,7 +746,7 @@
       "ats": "successfactors",
       "host": "careers.paramount.com",
       "sector": "Media",
-      "note": "2026-11-18: reader now pages the full HTML search for every term as well as the RSS feed (the feed is a short recent slice and dropped the Finance Leadership Development Program)."
+      "note": "Reader pages the full HTML search for every term as well as the RSS feed (the feed is a short recent slice and drops older postings that are still open)."
     },
     {
       "name": "Electronic Arts",
@@ -787,15 +787,14 @@
       "id": "runway-ml",
       "sector": "Tech / AI (media)",
       "verified": true,
-      "note": "Tech Targets plan 2026-11-16, route 1. 2026-11-18: moved from Greenhouse \"runwayml\" (404) to Ashby \"runway-ml\" (board confirmed by Brandon from a live listing)"
+      "note": "Ashby board runway-ml (Greenhouse \"runwayml\" answered 404 until 2026-11-18)"
     },
     {
       "name": "VideoAmp",
       "ats": "greenhouse",
       "id": "videoamp",
       "sector": "Ad tech / media measurement",
-      "verified": true,
-      "note": "Tech Targets plan 2026-11-16, route 1"
+      "verified": true
     },
     {
       "name": "VideoAmp (executive board)",
@@ -811,7 +810,7 @@
       "id": "moonvalley-ai",
       "sector": "Tech / AI (media)",
       "verified": true,
-      "note": "Tech Targets plan 2026-11-16, route 1 (Strong). 2026-11-18: board jobs.ashbyhq.com/moonvalley-ai confirmed by Brandon, no open roles. The posting API answered 404, so the reader now falls back to the board page; an empty board reads as 0 jobs, not a failure"
+      "note": "Ashby board moonvalley-ai (no open roles on 2026-11-18). The posting API answered 404, so the reader falls back to the board page; an empty board reads as 0 jobs, not a failure"
     },
     {
       "name": "Luma AI",
@@ -832,7 +831,7 @@
         }
       ],
       "sector": "Media tech (production payroll and accounting)",
-      "note": "Tech Targets plan 2026-11-16 (Strong). Ashby slug not confirmed; trial until a run reads real postings",
+      "note": "Ashby slug not confirmed; trial until a run reads real postings",
       "trial": true
     },
     {
@@ -842,7 +841,7 @@
       "site": "CX_1001",
       "site_number": "CX_1001",
       "sector": "Media tech (production payroll and accounting)",
-      "note": "Tech Targets plan 2026-11-16 (Strong); Oracle Recruiting Cloud, same reader as Uber",
+      "note": "Oracle Recruiting Cloud, same reader as Uber",
       "trial": true
     },
     {
@@ -851,7 +850,7 @@
       "id": "cosm",
       "board": "CANDIDATEPORTAL",
       "sector": "Experiences",
-      "note": "Top priority per the Tech Targets plan (Sony Pictures led its Series C). Dayforce answered HTTP 403 on Nov 16-17; check jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL by hand until the reader works",
+      "note": "Dayforce answered HTTP 403 on Nov 16-18; check jobs.dayforcehcm.com/en-US/cosm/CANDIDATEPORTAL by hand until the reader works",
       "trial": true
     },
     {
@@ -887,31 +886,28 @@
       "site": "SonyGlobalCareers",
       "sector": "Media / tech",
       "verified": true,
-      "note": "Sony DX and other SCA roles; separate from Sony Pictures' board. Confirmed 2026-11-17 via the Workday job API (JR-119587)"
+      "note": "SCA roles; separate from Sony Pictures' board (Workday)"
     },
     {
       "name": "Updater",
       "ats": "greenhouse",
       "id": "updater",
       "sector": "Tech / commerce",
-      "verified": true,
-      "note": "Tech Targets addendum 2026-11-17 (late-stage)"
+      "verified": true
     },
     {
       "name": "ChowNow",
       "ats": "lever",
       "id": "chownow",
       "sector": "Tech / restaurants",
-      "verified": true,
-      "note": "Tech Targets addendum 2026-11-17 (late-stage, LA)"
+      "verified": true
     },
     {
       "name": "True Anomaly",
       "ats": "greenhouse",
       "id": "trueanomalyinc",
       "sector": "Aerospace / defense tech",
-      "verified": true,
-      "note": "Tech Targets addendum 2026-11-17 (late-stage)"
+      "verified": true
     }
   ],
   "not_covered_yet": [
