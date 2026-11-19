@@ -38,7 +38,7 @@
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 944,
+   "jobs_seen": 943,
    "matches": 1,
    "ok": true
   },
@@ -103,7 +103,7 @@
   },
   "Atlassian": {
    "board": "atlassian:",
-   "jobs_seen": 262,
+   "jobs_seen": 261,
    "matches": 1,
    "ok": true
   },
@@ -139,7 +139,7 @@
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 254,
+   "jobs_seen": 255,
    "matches": 3,
    "ok": true
   },
@@ -168,7 +168,7 @@
   },
   "Databricks": {
    "board": "greenhouse:databricks",
-   "jobs_seen": 900,
+   "jobs_seen": 906,
    "matches": 1,
    "ok": true
   },
@@ -180,7 +180,7 @@
   },
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
-   "jobs_seen": 366,
+   "jobs_seen": 368,
    "matches": 4,
    "ok": true
   },
@@ -204,7 +204,7 @@
   },
   "Electronic Arts": {
    "board": "avature:https://jobs.ea.com/en_US/careers",
-   "jobs_seen": 344,
+   "jobs_seen": 350,
    "matches": 0,
    "ok": true
   },
@@ -299,13 +299,13 @@
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
-   "jobs_seen": 248,
+   "jobs_seen": 249,
    "matches": 2,
    "ok": true
   },
   "GoDaddy": {
    "board": "greenhouse:godaddy",
-   "jobs_seen": 26,
+   "jobs_seen": 22,
    "matches": 1,
    "ok": true
   },
@@ -323,7 +323,7 @@
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
-   "jobs_seen": 138,
+   "jobs_seen": 135,
    "matches": 1,
    "ok": true
   },
@@ -405,7 +405,7 @@
   },
   "Match Group": {
    "board": "lever:matchgroup",
-   "jobs_seen": 68,
+   "jobs_seen": 69,
    "matches": 0,
    "ok": true
   },
@@ -424,7 +424,7 @@
   "Microsoft": {
    "board": "eightfold_pcsx:apply.careers.microsoft.com",
    "errors_before_success": [],
-   "jobs_seen": 201,
+   "jobs_seen": 174,
    "matches": 0,
    "ok": true,
    "sample_matches": [],
@@ -618,13 +618,13 @@
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
-   "jobs_seen": 303,
+   "jobs_seen": 301,
    "matches": 0,
    "ok": true
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
-   "jobs_seen": 74,
+   "jobs_seen": 75,
    "matches": 0,
    "ok": true
   },
@@ -672,7 +672,7 @@
   },
   "Stripe": {
    "board": "greenhouse:stripe",
-   "jobs_seen": 784,
+   "jobs_seen": 782,
    "matches": 9,
    "ok": true
   },
@@ -684,7 +684,7 @@
   },
   "Toast": {
    "board": "greenhouse:toast",
-   "jobs_seen": 327,
+   "jobs_seen": 329,
    "matches": 0,
    "ok": true
   },
@@ -739,13 +739,13 @@
   "Upfront Ventures portfolio jobs": {
    "board": "getro:",
    "errors_before_success": [],
-   "jobs_seen": 71,
+   "jobs_seen": 70,
    "matches": 7,
    "ok": true,
    "sample_matches": [
     {
      "location": "United States; Remote; Remote",
-     "pay": "",
+     "pay": "$248–294K",
      "posted": "2026-11-05",
      "title": "Head of Provider Growth Strategy & Operations (Rula)",
      "url": "https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c"
@@ -773,7 +773,7 @@
     },
     {
      "location": "United States; Remote; Remote",
-     "pay": "",
+     "pay": "$189–245K",
      "posted": "2026-10-18",
      "title": "Director of Finance Systems (Rula)",
      "url": "https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b"
@@ -865,7 +865,7 @@
   },
   "Webflow": {
    "board": "ashby:webflow",
-   "jobs_seen": 29,
+   "jobs_seen": 30,
    "matches": 1,
    "ok": true
   },
@@ -940,5 +940,5 @@
    "trial": true
   }
  },
- "run": "2026-11-19T07:44Z"
+ "run": "2026-11-19T10:27Z"
 }
