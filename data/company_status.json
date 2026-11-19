@@ -38,13 +38,13 @@
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 936,
+   "jobs_seen": 937,
    "matches": 1,
    "ok": true
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
-   "jobs_seen": 644,
+   "jobs_seen": 643,
    "matches": 0,
    "ok": true
   },
@@ -103,7 +103,7 @@
   },
   "Atlassian": {
    "board": "atlassian:",
-   "jobs_seen": 262,
+   "jobs_seen": 261,
    "matches": 1,
    "ok": true
   },
@@ -139,7 +139,7 @@
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
-   "jobs_seen": 256,
+   "jobs_seen": 255,
    "matches": 3,
    "ok": true
   },
@@ -162,7 +162,7 @@
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
-   "jobs_seen": 99,
+   "jobs_seen": 100,
    "matches": 6,
    "ok": true
   },
@@ -210,7 +210,7 @@
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 130,
+   "jobs_seen": 129,
    "matches": 4,
    "ok": true
   },
@@ -411,7 +411,7 @@
   },
   "Mesh": {
    "board": "greenhouse:mesh",
-   "jobs_seen": 23,
+   "jobs_seen": 22,
    "matches": 1,
    "ok": true
   },
@@ -552,7 +552,7 @@
   },
   "PlayStation (Sony Interactive)": {
    "board": "greenhouse:sonyinteractiveentertainmentglobal",
-   "jobs_seen": 230,
+   "jobs_seen": 229,
    "matches": 0,
    "ok": true
   },
@@ -600,13 +600,13 @@
   },
   "Salesforce": {
    "board": "workday:salesforce/External_Career_Site",
-   "jobs_seen": 285,
+   "jobs_seen": 286,
    "matches": 2,
    "ok": true
   },
   "Samsara": {
    "board": "greenhouse:samsara",
-   "jobs_seen": 309,
+   "jobs_seen": 310,
    "matches": 0,
    "ok": true
   },
@@ -714,7 +714,7 @@
   },
   "Uber": {
    "board": "oracle:iaziqy.fa.ocs.oraclecloud.com",
-   "jobs_seen": 375,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true
   },
@@ -853,13 +853,13 @@
   },
   "Warner Bros. Discovery": {
    "board": "workday:warnerbros/global",
-   "jobs_seen": 145,
+   "jobs_seen": 147,
    "matches": 1,
    "ok": true
   },
   "Waymo": {
    "board": "greenhouse:waymo",
-   "jobs_seen": 372,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true
   },
@@ -940,5 +940,5 @@
    "trial": true
   }
  },
- "run": "2026-11-19T01:11Z"
+ "run": "2026-11-19T02:01Z"
 }
