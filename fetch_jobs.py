@@ -1612,6 +1612,7 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
     for c in wl["companies"]:
         if only and c["name"] not in only:
             continue
+        started = time.time()  # per-company timing, saved in company_status.json ("seconds")
         tries = [c] + [dict(c, **alt) for alt in c.get("try", [])]
         jobs, used, errors = None, None, []
         for t in tries:
@@ -1670,6 +1671,7 @@ def run(watchlist_path=os.path.join(ROOT, "watchlist.json"), only=None):
             status[c["name"]] = {"ok": False, "error": str(e)[:600]}
             if c.get("trial"):
                 status[c["name"]]["trial"] = True
+        status[c["name"]]["seconds"] = round(time.time() - started, 1)
         pause()
 
     ts = NOW.strftime("%Y-%m-%dT%H:%MZ")

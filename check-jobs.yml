@@ -1,0 +1,63 @@
+name: Check jobs
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"   # every 3 hours (UTC); GitHub may start runs a few minutes late
+  workflow_dispatch: {}       # adds a "Run workflow" button on the Actions tab
+  push:                       # also run right after the checker or watchlist changes
+    branches: [main]
+    paths: ["fetch_jobs.py", "watchlist.json", "probe.py", "probe_targets.json"]
+
+permissions:
+  contents: write             # lets the run save its results back to the repository
+
+concurrency:
+  group: check-jobs
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75          # full runs now take 24-38 min; leaves headroom under the limit
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check company job boards
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python fetch_jobs.py
+      - name: Probe new career sites (only when probe_targets.json changed)
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python probe.py
+      - name: Save results
+        run: |
+          git config user.name "job-checker"
+          git config user.email "job-checker@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Job check $(date -u '+%Y-%m-%d %H:%M') UTC"
+            # Retry the push. If main moved during the run (a file upload, another run), rebase onto it;
+            # on a conflict in data/ or reports/ keep this run's results (-X theirs = the commit being replayed).
+            # A failed rebase is aborted so git is never left mid-rebase (that is what made push exit 128).
+            for i in 1 2 3; do
+              git fetch origin main
+              if ! git rebase -X theirs origin/main; then
+                git rebase --abort || true
+                echo "Rebase failed (attempt $i); retrying"
+                sleep 10
+                continue
+              fi
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push failed (attempt $i); retrying"
+              sleep 10
+            done
+            echo "Could not save results after 3 attempts"
+            exit 1
+          fi
