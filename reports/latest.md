@@ -1,15 +1,16 @@
-# Job check 2026-11-20T01:34Z
+# Job check 2026-11-20T04:18Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (1)
+## New since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-13 | Crunchyroll | [Director, Enterprise Strategy](https://boards.greenhouse.io/crunchyroll/jobs/8331692?gh_jid=8331692) | Los Angeles, California, United States | $196–240K |
+| 2026-11-20 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/1566f1cb-dd46-4753-a8e3-7890c55882a3) | San Francisco; New York City; Remote | $221–295K |
+| 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (1)
 
@@ -17,7 +18,7 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: FAILED: TimeoutError: The read operation timed out for https://jobs.apple.com/en-us/search?search=strategy&location=united-states-USA&sort=newest&page=1
+- Apple: OK via apple:, 158 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
@@ -26,10 +27,12 @@
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (140)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-20 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/1566f1cb-dd46-4753-a8e3-7890c55882a3) | San Francisco; New York City; Remote | $221–295K |
+| 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
 | 2026-11-19 | DoorDash | [Senior Manager, Dasher & Logistics Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8402171) | New York City, NY; San Francisco, CA; Los Angeles, CA; Chica | $170–250K |
 | 2026-11-19 | Disney (Disney Careers site) | [Senior Manager, Finance Transformation AI Lead](https://join.disneycareers.com/global/en/job/10165336/senior-manager-finance-transformation-ai-lead) | Burbank, CA, USA | — |
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
