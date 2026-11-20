@@ -1,4 +1,4 @@
-# Job check 2026-11-20T16:18Z
+# Job check 2026-11-20T19:27Z
 
 ## New since last run (0)
 
@@ -16,21 +16,21 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 165 postings read, 0 match
+- Apple: OK via apple:, 169 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
-- Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
+- Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 5 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 197 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 195 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 71 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (137)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
-| 2026-11-20 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/1566f1cb-dd46-4753-a8e3-7890c55882a3) | San Francisco; New York City; Remote | $221–295K |
+| 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
 | 2026-11-19 | DoorDash | [Senior Manager, Dasher & Logistics Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8402171) | New York City, NY; San Francisco, CA; Los Angeles, CA; Chica | $170–250K |
 | 2026-11-19 | Disney (Disney Careers site) | [Senior Manager, Finance Transformation AI Lead](https://join.disneycareers.com/global/en/job/10165336/senior-manager-finance-transformation-ai-lead) | Burbank, CA, USA | — |
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
@@ -137,7 +137,6 @@
 | 2026-09-18 | True Anomaly | [Lead, Development Planning, Production](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5217948007) | Long Beach, CA | $150–240K |
 | 2026-09-17 | Netflix | [Product Manager, Ads (Billing and Finance)](https://explore.jobs.netflix.net/careers/job/790318527356) | Los Angeles,California,United States of America; Seattle,Was | — |
 | 2026-09-15 | OpenAI | [Business Systems Transformation Lead, Procure-to-Pay](https://jobs.ashbyhq.com/openai/c0e1f65b-4731-48b3-ac60-93a269266494) | San Francisco; Remote | $240–266K |
-| 2026-09-15 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
 | 2026-09-14 | DoorDash | [Senior Manager, New Verticals - Search Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8201605) | New York, NY;  San Francisco, CA; Seattle, WA; Los Angeles,  | $170–250K |
 | 2026-09-14 | Stripe | [Strategy & Operations, Infrastructure](https://stripe.com/jobs/search?gh_jid=8171095) | Remote US | — |
 | 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
