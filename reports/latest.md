@@ -1,10 +1,9 @@
-# Job check 2026-11-21T01:39Z
+# Job check 2026-11-21T04:15Z
 
-## New since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-20 | Ethos | [Director, Sales Strategy & Operations](https://job-boards.greenhouse.io/ethoslife/jobs/8922155002) | Remote US | $162–287K |
 
 ## Closed since last run (0)
 
@@ -21,7 +20,7 @@
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 189 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 188 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 70 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
@@ -31,8 +30,8 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
-| 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
 | 2026-11-20 | Ethos | [Director, Sales Strategy & Operations](https://job-boards.greenhouse.io/ethoslife/jobs/8922155002) | Remote US | $162–287K |
+| 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
 | 2026-11-19 | DoorDash | [Senior Manager, Dasher & Logistics Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8402171) | New York City, NY; San Francisco, CA; Los Angeles, CA; Chica | $170–250K |
 | 2026-11-19 | Disney (Disney Careers site) | [Senior Manager, Finance Transformation AI Lead](https://join.disneycareers.com/global/en/job/10165336/senior-manager-finance-transformation-ai-lead) | Burbank, CA, USA | — |
 | 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
