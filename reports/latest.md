@@ -1,4 +1,4 @@
-# Job check 2026-11-21T07:37Z
+# Job check 2026-11-21T10:09Z
 
 ## New since last run (0)
 
@@ -10,21 +10,9 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (13)
+## Companies that failed (1)
 
-- Adobe: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
-- Fox: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://fox.wd1.myworkdayjobs.com/wday/cxs/fox/Domestic/jobs
-- GoodRx: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs
 - Moonvalley (Asteria): HTTP 404 for https://jobs.ashbyhq.com/moonvalley-ai
-- ServiceTitan: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs
-- Snap: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://snapchat.wd1.myworkdayjobs.com/wday/cxs/snapchat/snap/jobs
-- Sony Corporation of America: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs
-- Sony Pictures: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/SonyPicturesEntertainment/jobs
-- Universal Music Group: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://umusic.wd5.myworkdayjobs.com/wday/cxs/umusic/UMGUS/jobs
-- WME / Endeavor: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://wmeimg.wd1.myworkdayjobs.com/wday/cxs/wmeimg/WMEGRP/jobs
-- Warner Bros. Discovery: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs
-- Yahoo: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs
-- Zillow: JSONDecodeError: Expecting value: line 1 column 1 (char 0) for https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs
 
 ## Trial readers (8; roles not logged until confirmed)
 
