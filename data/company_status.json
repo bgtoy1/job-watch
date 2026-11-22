@@ -19,21 +19,21 @@
    "jobs_seen": 19,
    "matches": 1,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   "Adobe": {
    "board": "workday:adobe/external_experienced",
    "jobs_seen": 189,
    "matches": 0,
    "ok": true,
-   "seconds": 31.7
+   "seconds": 32.7
   },
   "Affirm": {
    "board": "greenhouse:affirm",
    "jobs_seen": 222,
    "matches": 1,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "Airbnb": {
    "board": "greenhouse:airbnb",
@@ -44,24 +44,24 @@
   },
   "Amazon": {
    "board": "amazon:",
-   "jobs_seen": 959,
+   "jobs_seen": 957,
    "matches": 2,
    "ok": true,
-   "seconds": 24.8
+   "seconds": 24.0
   },
   "Anthropic": {
    "board": "greenhouse:anthropic",
    "jobs_seen": 635,
    "matches": 0,
    "ok": true,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   "AppLovin": {
    "board": "greenhouse:applovin",
    "jobs_seen": 44,
    "matches": 1,
    "ok": true,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "Apple": {
    "board": "apple:",
@@ -108,7 +108,7 @@
      "url": "https://jobs.apple.com/en-us/details/200691097-0836/technical-program-manager-optical-components"
     }
    ],
-   "seconds": 20.4,
+   "seconds": 18.5,
    "trial": true
   },
   "Atlassian": {
@@ -116,14 +116,14 @@
    "jobs_seen": 234,
    "matches": 1,
    "ok": true,
-   "seconds": 0.5
+   "seconds": 0.3
   },
   "Block": {
    "board": "greenhouse:block",
    "jobs_seen": 184,
    "matches": 0,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "Chainguard": {
    "board": "greenhouse:chainguard",
@@ -137,7 +137,7 @@
    "jobs_seen": 80,
    "matches": 0,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "ChowNow": {
    "board": "lever:chownow",
@@ -151,19 +151,19 @@
    "jobs_seen": 504,
    "matches": 1,
    "ok": true,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   "Coinbase": {
    "board": "greenhouse:coinbase",
    "jobs_seen": 252,
    "matches": 3,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "Cosm": {
    "error": "dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes",
    "ok": false,
-   "seconds": 0.5,
+   "seconds": 0.4,
    "trial": true
   },
   "Coursera": {
@@ -178,7 +178,7 @@
    "jobs_seen": 34,
    "matches": 0,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   "Crunchyroll": {
    "board": "greenhouse:crunchyroll",
@@ -192,21 +192,21 @@
    "jobs_seen": 895,
    "matches": 1,
    "ok": true,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   "Discord": {
    "board": "greenhouse:discord",
    "jobs_seen": 29,
    "matches": 0,
    "ok": true,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "Disney (Disney Careers site)": {
    "board": "phenom:join.disneycareers.com",
-   "jobs_seen": 373,
+   "jobs_seen": 372,
    "matches": 5,
    "ok": true,
-   "seconds": 13.0
+   "seconds": 13.2
   },
   "DoorDash": {
    "board": "greenhouse:doordashusa",
@@ -234,11 +234,11 @@
    "jobs_seen": 339,
    "matches": 0,
    "ok": true,
-   "seconds": 41.3
+   "seconds": 40.8
   },
   "ElevenLabs": {
    "board": "ashby:elevenlabs",
-   "jobs_seen": 121,
+   "jobs_seen": 122,
    "matches": 4,
    "ok": true,
    "seconds": 0.1
@@ -317,7 +317,7 @@
    "jobs_seen": 230,
    "matches": 1,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   "Figma": {
    "board": "greenhouse:figma",
@@ -331,7 +331,7 @@
    "jobs_seen": 209,
    "matches": 0,
    "ok": true,
-   "seconds": 34.1
+   "seconds": 32.2
   },
   "GitLab": {
    "board": "greenhouse:gitlab",
@@ -345,28 +345,28 @@
    "jobs_seen": 19,
    "matches": 1,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "GoodRx": {
    "board": "workday:goodrx/careers",
    "jobs_seen": 0,
    "matches": 0,
    "ok": true,
-   "seconds": 6.9
+   "seconds": 6.5
   },
   "Google / YouTube": {
    "board": "google:",
    "jobs_seen": 17,
    "matches": 0,
    "ok": true,
-   "seconds": 6.2
+   "seconds": 6.5
   },
   "Grafana Labs": {
    "board": "greenhouse:grafanalabs",
    "jobs_seen": 140,
    "matches": 1,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "Gusto": {
    "board": "greenhouse:gusto",
@@ -401,7 +401,7 @@
    "jobs_seen": 10,
    "matches": 1,
    "ok": true,
-   "seconds": 5.9
+   "seconds": 6.0
   },
   "Instacart": {
    "board": "greenhouse:instacart",
@@ -415,7 +415,7 @@
    "jobs_seen": 15,
    "matches": 0,
    "ok": true,
-   "seconds": 1.3
+   "seconds": 3.0
   },
   "LA28": {
    "board": "greenhouse:la28careers",
@@ -440,7 +440,7 @@
    "jobs_seen": 302,
    "matches": 1,
    "ok": true,
-   "seconds": 26.4
+   "seconds": 26.5
   },
   "Luma AI": {
    "board": "ashby:lumaai",
@@ -522,13 +522,13 @@
      "url": "https://apply.careers.microsoft.com/careers/job/1970393557002623"
     }
    ],
-   "seconds": 328.8,
+   "seconds": 360.9,
    "trial": true
   },
   "Moonvalley (Asteria)": {
    "error": "HTTP 404 for https://jobs.ashbyhq.com/moonvalley-ai",
    "ok": false,
-   "seconds": 0.5
+   "seconds": 0.2
   },
   "Motive": {
    "board": "greenhouse:gomotive",
@@ -549,14 +549,14 @@
    "jobs_seen": 15,
    "matches": 1,
    "ok": true,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "Netflix": {
    "board": "netflix:",
    "jobs_seen": 357,
    "matches": 13,
    "ok": true,
-   "seconds": 283.0
+   "seconds": 299.6
   },
   "Niantic": {
    "board": "ashby:niantic-spatial",
@@ -581,10 +581,10 @@
   },
   "Okta": {
    "board": "greenhouse:okta",
-   "jobs_seen": 372,
+   "jobs_seen": 374,
    "matches": 0,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.5
   },
   "OpenAI": {
    "board": "ashby:openai",
@@ -602,7 +602,7 @@
   },
   "Paramount Skydance": {
    "board": "successfactors:careers.paramount.com",
-   "jobs_seen": 63,
+   "jobs_seen": 64,
    "matches": 0,
    "ok": true,
    "seconds": 12.0
@@ -640,21 +640,21 @@
    "jobs_seen": 148,
    "matches": 2,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "Riot Games": {
    "board": "greenhouse:riotgames",
    "jobs_seen": 202,
    "matches": 1,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "Robinhood": {
    "board": "greenhouse:robinhood",
    "jobs_seen": 163,
    "matches": 0,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "Roblox": {
    "board": "greenhouse:roblox",
@@ -682,70 +682,70 @@
    "jobs_seen": 283,
    "matches": 1,
    "ok": true,
-   "seconds": 41.6
+   "seconds": 41.4
   },
   "Samsara": {
    "board": "greenhouse:samsara",
    "jobs_seen": 299,
    "matches": 0,
    "ok": true,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   "Scopely": {
    "board": "greenhouse:scopely",
    "jobs_seen": 172,
    "matches": 2,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "ServiceNow": {
    "board": "smartrecruiters:ServiceNow",
    "jobs_seen": 342,
    "matches": 0,
    "ok": true,
-   "seconds": 6.6
+   "seconds": 6.2
   },
   "ServiceTitan": {
    "board": "workday:servicetitan/ServiceTitan",
    "jobs_seen": 79,
    "matches": 0,
    "ok": true,
-   "seconds": 20.3
+   "seconds": 19.4
   },
   "Skydance": {
    "board": "lever:skydance",
    "jobs_seen": 6,
    "matches": 0,
    "ok": true,
-   "seconds": 0.4
+   "seconds": 0.5
   },
   "Snap": {
    "board": "workday:snapchat/snap",
    "jobs_seen": 148,
    "matches": 2,
    "ok": true,
-   "seconds": 26.3
+   "seconds": 26.4
   },
   "Sony Corporation of America": {
    "board": "workday:sonyglobal/SonyGlobalCareers",
    "jobs_seen": 116,
    "matches": 1,
    "ok": true,
-   "seconds": 23.6
+   "seconds": 24.1
   },
   "Sony Music": {
    "board": "greenhouse:sonymusicentertainment",
    "jobs_seen": 126,
    "matches": 0,
    "ok": true,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   "Sony Pictures": {
    "board": "workday:spe/SonyPicturesEntertainment",
    "jobs_seen": 71,
    "matches": 0,
    "ok": true,
-   "seconds": 13.2
+   "seconds": 12.9
   },
   "Sphere Entertainment": {
    "board": "greenhouse:sphereentertainment",
@@ -787,7 +787,7 @@
    "jobs_seen": 214,
    "matches": 2,
    "ok": true,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   "Tubi": {
    "board": "greenhouse:tubitv",
@@ -815,7 +815,7 @@
    "jobs_seen": 380,
    "matches": 0,
    "ok": true,
-   "seconds": 38.9
+   "seconds": 39.9
   },
   "Udemy (Coursera)": {
    "board": "greenhouse:udemy",
@@ -829,14 +829,14 @@
    "jobs_seen": 41,
    "matches": 2,
    "ok": true,
-   "seconds": 11.0
+   "seconds": 10.8
   },
   "Updater": {
    "board": "greenhouse:updater",
    "jobs_seen": 4,
    "matches": 2,
    "ok": true,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   "Upfront Ventures portfolio jobs": {
    "board": "getro:",
@@ -933,7 +933,7 @@
      "url": "https://jobs.ashbyhq.com/Arlo/84e6e109-83e7-45e1-99c3-8a1ca578681d"
     }
    ],
-   "seconds": 9.1,
+   "seconds": 8.9,
    "trial": true
   },
   "VideoAmp": {
@@ -941,14 +941,14 @@
    "jobs_seen": 1,
    "matches": 0,
    "ok": true,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "VideoAmp (executive board)": {
    "board": "greenhouse:videoampexec",
    "jobs_seen": 0,
    "matches": 0,
    "ok": true,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "WME / Endeavor": {
    "board": "workday:wmeimg/WMEGRP",
@@ -962,7 +962,7 @@
    "jobs_seen": 148,
    "matches": 1,
    "ok": true,
-   "seconds": 25.9
+   "seconds": 28.7
   },
   "Waymo": {
    "board": "greenhouse:waymo",
@@ -983,7 +983,7 @@
    "jobs_seen": 96,
    "matches": 1,
    "ok": true,
-   "seconds": 19.5
+   "seconds": 21.6
   },
   "Wrapbook": {
    "board": "ashby:wrapbook",
@@ -1030,7 +1030,7 @@
      "url": "https://jobs.ashbyhq.com/wrapbook/2755bf98-87a0-46ee-8e86-18c307b0e4ad"
     }
    ],
-   "seconds": 0.0,
+   "seconds": 0.1,
    "trial": true
   },
   "Yahoo": {
@@ -1038,7 +1038,7 @@
    "jobs_seen": 78,
    "matches": 2,
    "ok": true,
-   "seconds": 21.5
+   "seconds": 22.1
   },
   "Zillow": {
    "board": "workday:zillow/Zillow_Group_External",
@@ -1050,9 +1050,9 @@
   "a16z portfolio jobs": {
    "error": "consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__",
    "ok": false,
-   "seconds": 7.4,
+   "seconds": 7.0,
    "trial": true
   }
  },
- "run": "2026-11-22T07:37Z"
+ "run": "2026-11-22T10:07Z"
 }
