@@ -1,4 +1,4 @@
-# Job check 2026-11-22T16:05Z
+# Job check 2026-11-22T19:15Z
 
 ## New since last run (0)
 
@@ -16,7 +16,7 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 161 postings read, 0 match
+- Apple: OK via apple:, 162 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
