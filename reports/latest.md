@@ -1,15 +1,16 @@
-# Job check 2026-11-23T16:25Z
+# Job check 2026-11-23T19:26Z
 
-## New since last run (1)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
-
-## Closed since last run (0)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+
+## Closed since last run (2)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-06-29 | AppLovin | [Director of Business Development](https://boards.greenhouse.io/applovin/jobs/4692974006?gh_jid=4692974006) | Los Angeles/Santa Monica, CA | $225–250K |
+| 2026-05-26 | Reddit | [Principal, Consumer Insights](https://job-boards.greenhouse.io/reddit/jobs/7957771) | Remote - United States | $195–272K |
 
 ## Companies that failed (1)
 
@@ -17,16 +18,16 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 164 postings read, 0 match
+- Apple: OK via apple:, 165 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 191 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 190 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 12 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (136)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -161,10 +162,8 @@
 | 2026-07-23 | WME / Endeavor | [Senior Manager, Finance](https://wmeimg.wd1.myworkdayjobs.com/en-US/WMEGRP/job/CA-Beverly-Hills---9601-Wilshire/Senior-Manager--Finance_JR28707-1) | CA-Beverly Hills - 9601 Wilshire | — |
 | 2026-07-20 | Netflix | [Finance Program Manager - M&A](https://explore.jobs.netflix.net/careers/job/790316790147) | Los Gatos,California,United States of America; Los Angeles,C | — |
 | 2026-07-02 | Yahoo | [Senior Manager, Corporate Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-Development_JR0027300) | United States of America | $122–255K |
-| 2026-06-29 | AppLovin | [Director of Business Development](https://boards.greenhouse.io/applovin/jobs/4692974006?gh_jid=4692974006) | Los Angeles/Santa Monica, CA | $225–250K |
 | 2026-06-09 | Coinbase | [Senior Manager, Finance & Strategy](https://www.coinbase.com/careers/positions/7948222?gh_jid=7948222) | Remote - USA | $201–237K |
 | 2026-06-08 | Sphere Entertainment | [VP Audio Technology Operations](https://www.sphereentertainmentco.com/job/5154557007?gh_jid=5154557007) | Burbank, CA; Las Vegas, NV; New York City, NY | $300–375K |
-| 2026-05-26 | Reddit | [Principal, Consumer Insights](https://job-boards.greenhouse.io/reddit/jobs/7957771) | Remote - United States | $195–272K |
 | 2026-05-16 | OpenAI | [Tech Lead, Deployment & Operations — Custom Infrastructure](https://jobs.ashbyhq.com/openai/7b05d54f-c4ef-4677-bb05-f69288f585d8) | San Francisco; Remote | $342–445K |
 | 2026-03-11 | Databricks | [Sr. Strategy & Operations Program Lead, Accenture Business Group](https://databricks.com/company/careers/open-positions/job?gh_jid=8439170002) | United States | $181–249K |
 | 2025-12-19 | Ethos | [Director, Strategy & Operations, Consumer](https://job-boards.greenhouse.io/ethoslife/jobs/8328817002) | Remote US | $169–298K |
