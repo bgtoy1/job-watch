@@ -1,16 +1,18 @@
-# Job check 2026-11-23T19:26Z
+# Job check 2026-11-23T22:13Z
 
-## New since last run (0)
+## New since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-23 | OpenAI | [Sr Structured Finance Execution Lead](https://jobs.ashbyhq.com/openai/b57d8763-c8aa-47db-b8c5-9f1807499372) | San Francisco; Remote | $325–405K |
+| 2026-11-23 | Snap | [Senior Manager, Corporate Development](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Corporate-Development_R0047576-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
 
 ## Closed since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-06-29 | AppLovin | [Director of Business Development](https://boards.greenhouse.io/applovin/jobs/4692974006?gh_jid=4692974006) | Los Angeles/Santa Monica, CA | $225–250K |
-| 2026-05-26 | Reddit | [Principal, Consumer Insights](https://job-boards.greenhouse.io/reddit/jobs/7957771) | Remote - United States | $195–272K |
+| 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
+| 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
 
 ## Companies that failed (1)
 
@@ -18,13 +20,13 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 165 postings read, 0 match
+- Apple: OK via apple:, 166 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
-- Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
+- Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 7 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 190 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 142 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
-- Wrapbook: OK via ashby:wrapbook, 12 postings read, 0 match
+- Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
 ## All open matches (136)
@@ -32,6 +34,8 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
+| 2026-11-23 | OpenAI | [Sr Structured Finance Execution Lead](https://jobs.ashbyhq.com/openai/b57d8763-c8aa-47db-b8c5-9f1807499372) | San Francisco; Remote | $325–405K |
+| 2026-11-23 | Snap | [Senior Manager, Corporate Development](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Corporate-Development_R0047576-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
 | 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
 | 2026-11-20 | Ethos | [Director, Sales Strategy & Operations](https://job-boards.greenhouse.io/ethoslife/jobs/8922155002) | Remote US | $162–287K |
 | 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
@@ -126,11 +130,9 @@
 | 2026-10-07 | OpenAI | [Senior Manager, Occupancy Planning & Workplace Strategy](https://jobs.ashbyhq.com/openai/5280c9d2-8090-47d1-a881-1fec37c90e64) | San Francisco; Remote | $203–225K |
 | 2026-10-07 | Universal Music Group | [Vice President, Enterprise Data Governance and Strategy](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Vice-President--Data-Strategy---Partnerships_UMG-23256) | 2 Locations; Santa Monica, California; New York, New York | $274–365K |
 | 2026-10-06 | Netflix | [Senior Portfolio Operations Manager, Games](https://explore.jobs.netflix.net/careers/job/790318808922) | Los Angeles,California,United States of America | — |
-| 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
 | 2026-10-05 | OpenAI | [Strategy & Operations Lead - Japan](https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca) | Tokyo, Japan; Remote | — |
 | 2026-10-05 | Crunchyroll | [Senior Manager, Global Engagement Strategy and Analytics](https://boards.greenhouse.io/crunchyroll/jobs/8255517?gh_jid=8255517) | Los Angeles, California, United States; San Francisco, CA, U | — |
 | 2026-10-02 | Coinbase | [Corporate Development Senior Manager](https://www.coinbase.com/careers/positions/8238602?gh_jid=8238602) | Remote - USA | $230–271K |
-| 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
 | 2026-10-01 | Crunchyroll | [Vice President, FP&A - GTM](https://boards.greenhouse.io/crunchyroll/jobs/8244816?gh_jid=8244816) | Los Angeles, California, United States | $236–295K |
 | 2026-10-01 | Fanatics Collectibles | [Director, Product Strategy and Operations](https://job-boards.greenhouse.io/fanaticscollectibles/jobs/4414184009) | Dallas, TX, United States; Los Angeles, CA, United States; N | $220–275K |
 | 2026-09-25 | Engine | [Senior Director, Workforce Transformation](https://job-boards.greenhouse.io/engine/jobs/7990038003) | Remote - US | $225–270K |
