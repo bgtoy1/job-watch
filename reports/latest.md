@@ -1,15 +1,15 @@
-# Job check 2026-11-23T13:46Z
+# Job check 2026-11-23T16:25Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (1)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-09-01 | Stripe | [Design Program Manager, Research Operations](https://stripe.com/jobs/search?gh_jid=8155390) | US | — |
+| 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (1)
 
@@ -17,19 +17,20 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 163 postings read, 0 match
+- Apple: OK via apple:, 164 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 168 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 191 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
-- Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
+- Wrapbook: OK via ashby:wrapbook, 12 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (137)
+## All open matches (138)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
 | 2026-11-20 | Amazon | [Scheduling Strategy Sr Manager, Prime Video Global/US Scheduling Strategy](https://www.amazon.jobs/en/jobs/10610071/scheduling-strategy-sr-manager-prime-video-global-us-scheduling-strategy) | Culver City, California, USA | — |
 | 2026-11-20 | Ethos | [Director, Sales Strategy & Operations](https://job-boards.greenhouse.io/ethoslife/jobs/8922155002) | Remote US | $162–287K |
 | 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
