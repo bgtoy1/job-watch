@@ -1,14 +1,15 @@
-# Job check 2026-11-23T10:33Z
+# Job check 2026-11-23T13:46Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-09-01 | Stripe | [Design Program Manager, Research Operations](https://stripe.com/jobs/search?gh_jid=8155390) | US | — |
 
 ## Companies that failed (1)
 
@@ -16,16 +17,16 @@
 
 ## Trial readers (8; roles not logged until confirmed)
 
-- Apple: OK via apple:, 162 postings read, 0 match
+- Apple: OK via apple:, 163 postings read, 0 match
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 6 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 191 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 168 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (137)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -142,7 +143,6 @@
 | 2026-09-14 | Stripe | [Strategy & Operations, Infrastructure](https://stripe.com/jobs/search?gh_jid=8171095) | Remote US | — |
 | 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
 | 2026-09-01 | Perplexity | [Strategic Finance Lead - Compute](https://jobs.ashbyhq.com/Perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f) | San Francisco; Remote | $190–240K |
-| 2026-09-01 | Stripe | [Design Program Manager, Research Operations](https://stripe.com/jobs/search?gh_jid=8155390) | US | — |
 | 2026-08-31 | Notion | [GTM Compensation Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/be994bb4-c680-4f57-b3bd-7e689175317f) | San Francisco, California; New York, New York; Remote | $230–257K |
 | 2026-08-31 | OpenAI | [Cyber Operations Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/60089c12-762c-4369-9a7c-94f8959343a3) | San Francisco; Remote | $252–335K |
 | 2026-08-28 | OpenAI | [Safety Response Operations Lead](https://jobs.ashbyhq.com/openai/91653d95-27fc-44bd-bbb3-7078fd6a5718) | San Francisco; Remote | $252–280K |
