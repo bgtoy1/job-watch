@@ -1,15 +1,15 @@
-# Job check 2026-11-24T01:41Z
+# Job check 2026-11-24T04:25Z
 
-## New since last run (0)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-
-## Closed since last run (1)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
+| 2026-11-24 | NBCUniversal | [Director, Comms Strategy & Performance](https://jobs.smartrecruiters.com/NBCUniversal3/744000163375769) | Universal City, CALIFORNIA, United States | — |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (1)
 
@@ -21,15 +21,17 @@
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 7 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 192 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 195 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (135)
+## All open matches (136)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-24 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
+| 2026-11-24 | NBCUniversal | [Director, Comms Strategy & Performance](https://jobs.smartrecruiters.com/NBCUniversal3/744000163375769) | Universal City, CALIFORNIA, United States | — |
 | 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
 | 2026-11-23 | OpenAI | [Sr Structured Finance Execution Lead](https://jobs.ashbyhq.com/openai/b57d8763-c8aa-47db-b8c5-9f1807499372) | San Francisco; Remote | $325–405K |
 | 2026-11-23 | Snap | [Senior Manager, Corporate Development](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Corporate-Development_R0047576-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
@@ -38,7 +40,6 @@
 | 2026-11-20 | Sony Corporation of America | [Director, Strategy, Planning & Analysis](https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Culver-City/Director--Strategy--Planning---Analysis_JR-119587) | Culver City | $185–220K |
 | 2026-11-19 | DoorDash | [Senior Manager, Dasher & Logistics Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8402171) | New York City, NY; San Francisco, CA; Los Angeles, CA; Chica | $170–250K |
 | 2026-11-19 | Disney (Disney Careers site) | [Senior Manager, Finance Transformation AI Lead](https://join.disneycareers.com/global/en/job/10165336/senior-manager-finance-transformation-ai-lead) | Burbank, CA, USA | — |
-| 2026-11-18 | OpenAI | [B2B Ecosystem Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-11-18 | Riot Games | [Director, Insights - Central Product Insights](https://www.riotgames.com/en/work-with-us/job/8394524?gh_jid=8394524) | Los Angeles, USA | — |
 | 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
 | 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
