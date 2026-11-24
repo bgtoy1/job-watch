@@ -702,8 +702,7 @@
       "host": "apply.careers.microsoft.com",
       "domain": "microsoft.com",
       "sector": "Tech / games",
-      "trial": true,
-      "note": "Trial: rate-limited (HTTP 429) on Nov 16-18 while paging to start=140+. 2026-11-18: 3 terms, first 100 results each (newest first), and a late 429 keeps what was read. Go live after two good runs.",
+      "note": "Reader confirmed 2026-11-24 after good runs Nov 19-24 (165+ real postings; one HTTP 429 on Nov 21). Earlier: rate-limited (HTTP 429) on Nov 16-18 while paging to start=140+; 2026-11-18 fix: 3 terms, first 100 results each (newest first), and a late 429 keeps what was read.",
       "terms": [
         "strategy",
         "finance",
@@ -715,8 +714,7 @@
       "name": "Apple",
       "ats": "apple",
       "sector": "Tech / media",
-      "trial": true,
-      "note": "Trial: 2026-11-17 fix removes duplicate roles with blank locations; go live after two runs whose sample_matches all show locations."
+      "note": "Reader confirmed 2026-11-24 after good runs Nov 18-24 (160+ real postings with locations). 2026-11-17 fix removes duplicate roles with blank locations."
     },
     {
       "name": "Uber",
@@ -824,15 +822,9 @@
       "name": "Wrapbook",
       "ats": "ashby",
       "id": "wrapbook",
-      "try": [
-        {
-          "ats": "ashby",
-          "id": "wrapbook-inc"
-        }
-      ],
       "sector": "Media tech (production payroll and accounting)",
-      "note": "Ashby slug not confirmed; trial until a run reads real postings",
-      "trial": true
+      "note": "Ashby board wrapbook confirmed 2026-11-24 (13 real postings on every run Nov 18-24); wrapbook-inc answers 404",
+      "verified": true
     },
     {
       "name": "Entertainment Partners",
@@ -841,8 +833,25 @@
       "site": "CX_1001",
       "site_number": "CX_1001",
       "sector": "Media tech (production payroll and accounting)",
-      "note": "Oracle Recruiting Cloud, same reader as Uber",
-      "trial": true
+      "note": "Oracle Recruiting Cloud, same reader as Uber. Reader confirmed 2026-11-24 after good runs Nov 18-24 (6-7 real postings)"
+    },
+    {
+      "name": "Cast & Crew",
+      "ats": "workday",
+      "host": "castandcrew.wd503.myworkdayjobs.com",
+      "tenant": "castandcrew",
+      "site": "CastandCrew",
+      "sector": "Media tech (production payroll and accounting)",
+      "verified": true,
+      "note": "Workday board found by the probe on 2026-11-18 (2 postings)"
+    },
+    {
+      "name": "Promise Studios",
+      "ats": "ashby",
+      "id": "promise-studios",
+      "sector": "Media / AI (studio)",
+      "verified": true,
+      "note": "Ashby board promise-studios found by the probe on 2026-11-18 (4 Los Angeles postings). The Ashby slug \"promise\" is a different company"
     },
     {
       "name": "Cosm",
@@ -875,8 +884,7 @@
       "ats": "getro",
       "board": "https://jobs.upfront.com",
       "sector": "Venture portfolio (LA digital media / consumer)",
-      "note": "Upfront Ventures (LA) portfolio job board (Getro). Company name is shown in each role title. Trial until two runs return real postings",
-      "trial": true
+      "note": "Upfront Ventures (LA) portfolio job board (Getro). Company name is shown in each role title. Reader confirmed 2026-11-24 after good runs Nov 18-24 (70+ postings)"
     },
     {
       "name": "Sony Corporation of America",
@@ -914,8 +922,6 @@
     "Meta (metacareers.com answers HTTP 400 to scripted requests; check LA/Burbank/remote roles by hand)",
     "Whatnot (no public Greenhouse or Ashby board found; check whatnot.com/careers)",
     "Superhuman / Grammarly (Greenhouse and Ashby boards return 404; check superhuman.com/careers)",
-    "Cast & Crew (job system not found yet; in probe_targets.json)",
-    "Promise Studios (job system not found yet; in probe_targets.json)",
     "Tixr (Rippling board ats.rippling.com/tixr; needs a reader once the probe finds its data feed)"
   ]
 }
