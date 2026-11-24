@@ -1,18 +1,15 @@
-# Job check 2026-11-23T22:13Z
+# Job check 2026-11-24T01:41Z
 
-## New since last run (2)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-23 | OpenAI | [Sr Structured Finance Execution Lead](https://jobs.ashbyhq.com/openai/b57d8763-c8aa-47db-b8c5-9f1807499372) | San Francisco; Remote | $325–405K |
-| 2026-11-23 | Snap | [Senior Manager, Corporate Development](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Corporate-Development_R0047576-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
-
-## Closed since last run (2)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-10-02 | Reddit | [Strategic Finance Senior Manager](https://job-boards.greenhouse.io/reddit/jobs/8244067) | Remote - United States | $180–252K |
-| 2026-10-06 | NBCUniversal | [Director, Production & Operations](https://jobs.smartrecruiters.com/NBCUniversal3/744000153826169) | Universal City, CALIFORNIA, United States | — |
+
+## Closed since last run (1)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
 
 ## Companies that failed (1)
 
@@ -24,12 +21,12 @@
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 7 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 142 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 192 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (136)
+## All open matches (135)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -145,7 +142,6 @@
 | 2026-09-15 | OpenAI | [Business Systems Transformation Lead, Procure-to-Pay](https://jobs.ashbyhq.com/openai/c0e1f65b-4731-48b3-ac60-93a269266494) | San Francisco; Remote | $240–266K |
 | 2026-09-14 | DoorDash | [Senior Manager, New Verticals - Search Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8201605) | New York, NY;  San Francisco, CA; Seattle, WA; Los Angeles,  | $170–250K |
 | 2026-09-14 | Stripe | [Strategy & Operations, Infrastructure](https://stripe.com/jobs/search?gh_jid=8171095) | Remote US | — |
-| 2026-09-04 | GoDaddy | [Senior Director Corporate Strategy](https://careers.godaddy/jobs?gh_jid=7882533003) | United States | $217–362K |
 | 2026-09-01 | Perplexity | [Strategic Finance Lead - Compute](https://jobs.ashbyhq.com/Perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f) | San Francisco; Remote | $190–240K |
 | 2026-08-31 | Notion | [GTM Compensation Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/be994bb4-c680-4f57-b3bd-7e689175317f) | San Francisco, California; New York, New York; Remote | $230–257K |
 | 2026-08-31 | OpenAI | [Cyber Operations Lead, Critical Harm Operations](https://jobs.ashbyhq.com/openai/60089c12-762c-4369-9a7c-94f8959343a3) | San Francisco; Remote | $252–335K |
