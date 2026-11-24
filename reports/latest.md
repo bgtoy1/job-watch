@@ -1,17 +1,19 @@
-# Job check 2026-11-24T19:25Z
+# Job check 2026-11-24T22:19Z
 
-## New since last run (0)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-24 | Atlassian | [Senior Principal, Engineering Strategy & Execution](https://www.atlassian.com/company/careers/details/28583) | New York - United States -   New York, New York 10003 United | — |
 
 ## Closed since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Companies that failed (1)
+## Companies that failed (2)
 
+- Microsoft: HTTP 429 for https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=strategy&location=United%20States&start=0&sort_by=timestamp
 - Moonvalley (Asteria): HTTP 404 for https://jobs.ashbyhq.com/moonvalley-ai
 
 ## Trial readers (3; roles not logged until confirmed)
@@ -20,12 +22,13 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (140)
+## All open matches (141)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-24 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-11-24 | NBCUniversal | [Director, Comms Strategy & Performance](https://jobs.smartrecruiters.com/NBCUniversal3/744000163375769) | Universal City, CALIFORNIA, United States | — |
+| 2026-11-24 | Atlassian | [Senior Principal, Engineering Strategy & Execution](https://www.atlassian.com/company/careers/details/28583) | New York - United States -   New York, New York 10003 United | — |
 | 2026-11-23 | OpenAI | [Global Events Strategy & Operations Lead](https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818) | San Francisco; Remote | $272–302K |
 | 2026-11-23 | OpenAI | [Sr Structured Finance Execution Lead](https://jobs.ashbyhq.com/openai/b57d8763-c8aa-47db-b8c5-9f1807499372) | San Francisco; Remote | $325–405K |
 | 2026-11-23 | Snap | [Senior Manager, Corporate Development](https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/San-Francisco-California/Senior-Manager--Corporate-Development_R0047576-1) | 3 Locations; San Francisco, California; New York, New York;  | $229–343K |
