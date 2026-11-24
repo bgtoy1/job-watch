@@ -1,14 +1,16 @@
-# Job check 2026-11-24T07:47Z
+# Job check 2026-11-24T10:26Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (2)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
+| 2026-11-18 | NBCUniversal | [Director, Content Finance Delivery & Portfolio Management](https://jobs.smartrecruiters.com/NBCUniversal3/744000162395579) | Universal City, CALIFORNIA, United States | — |
 
 ## Companies that failed (1)
 
@@ -20,12 +22,12 @@
 - Cosm: FAILED: dayforce api/geo search: HTTP 403 | api search: HTTP 403 | board page: no postings in 531159 bytes
 - Entertainment Partners: OK via oracle:eoko.fa.us2.oraclecloud.com, 7 postings read, 0 match
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
-- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 196 postings read, 0 match
+- Microsoft: OK via eightfold_pcsx:apply.careers.microsoft.com, 195 postings read, 0 match
 - Upfront Ventures portfolio jobs: OK via getro:, 73 postings read, 7 match. e.g. Head of Provider Growth Strategy & Operations (Rula) (United States; Remote; Remote); VP of Product and Technical Strategy (AnySignal) (Los Angeles, CA, USA); Managed Services Lead, Community & Player Operations (Pragma) (Canada; Remote; Europe; North America; R)
 - Wrapbook: OK via ashby:wrapbook, 13 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (136)
+## All open matches (134)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -42,7 +44,6 @@
 | 2026-11-18 | Riot Games | [Director, Insights - Central Product Insights](https://www.riotgames.com/en/work-with-us/job/8394524?gh_jid=8394524) | Los Angeles, USA | — |
 | 2026-11-18 | Netflix | [Manager, Operations Optimization - Experiences](https://explore.jobs.netflix.net/careers/job/790319579328) | Los Angeles,California,United States of America | — |
 | 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
-| 2026-11-18 | NBCUniversal | [Director, Content Finance Delivery & Portfolio Management](https://jobs.smartrecruiters.com/NBCUniversal3/744000162395579) | Universal City, CALIFORNIA, United States | — |
 | 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
 | 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
 | 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
@@ -104,7 +105,6 @@
 | 2026-10-19 | OpenAI | [Compensation Programs & Operations Lead](https://jobs.ashbyhq.com/openai/d1e4178d-8eb6-4727-9601-e230cb96eeee) | San Francisco; Remote | $270–320K |
 | 2026-10-19 | Scopely | [Director, Corporate Development](https://job-boards.greenhouse.io/scopely/jobs/5449450008?gh_jid=5449450008) | US - Culver City, California, United States | $164–247K |
 | 2026-10-19 | Netflix | [Manager, Finance & Strategy, Experiences](https://explore.jobs.netflix.net/careers/job/790319019747) | Los Angeles,California,United States of America | — |
-| 2026-10-19 | Netflix | [Senior Product Operations Lead & Program Manager - Content Experience Innovation](https://explore.jobs.netflix.net/careers/job/790319022497) | Remote, United States | — |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
 | 2026-10-16 | Atlassian | [Strategy and Business Operations Principal - Rovo and AI](https://www.atlassian.com/company/careers/details/27486) | San Francisco - United States -   San Francisco, California  | — |
 | 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
