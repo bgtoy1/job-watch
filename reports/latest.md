@@ -1,16 +1,9 @@
-# Job check 2026-11-24T18:50Z
+# Job check 2026-11-24T19:25Z
 
-## New since last run (7)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-17 | Upfront Ventures portfolio jobs | [VP, Strategic Finance & Planning (Reveleer)](https://reveleer.breezy.hr/p/0a14e4270d31-vp-strategic-finance-planning) | glendale, ca, usa | — |
-| 2026-11-07 | Upfront Ventures portfolio jobs | [Managed Services Lead, Community & Player Operations (Pragma)](https://ats.rippling.com/pragma/jobs/1c0c5aec-2651-4ca0-83eb-8d7bdab651e4) | Canada; Remote; Europe; North America; Remote | — |
-| 2026-11-05 | Upfront Ventures portfolio jobs | [Head of Provider Growth Strategy & Operations (Rula)](https://jobs.ashbyhq.com/rula/e8199b05-339f-4924-b545-56c6ce2d650c) | United States; Remote; Remote | $248–294K |
-| 2026-10-18 | Upfront Ventures portfolio jobs | [Director of Finance Systems (Rula)](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | United States; Remote; Remote | $189–245K |
-| 2026-10-13 | Upfront Ventures portfolio jobs | [Vice President, Finance (ChowNow)](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote; Remote | $320–415K |
-| 2026-07-02 | Upfront Ventures portfolio jobs | [VP of Product and Technical Strategy (AnySignal)](https://jobs.ashbyhq.com/anysignal/06632450-4f11-4324-8bf6-f7a8bd4f9ec2) | Los Angeles, CA, USA | $225–350K |
-| 2026-03-01 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#4lih0q38nvn50m5122bn7r4n0&:~:text=Chief%20of%20Staff) |  | — |
 
 ## Closed since last run (0)
 
@@ -46,8 +39,8 @@
 | 2026-11-18 | NBCUniversal | [Sr. Manager CityWalk Tech Services & Ops Planning](https://jobs.smartrecruiters.com/NBCUniversal3/744000162190879) | Universal City, CALIFORNIA, United States | — |
 | 2026-11-17 | Notion | [GTM Pricing & Packaging Lead, Commercial Operations](https://jobs.ashbyhq.com/notion/da9a9a45-10e3-4c6a-916f-f89ee4cf29a4) | San Francisco, California; New York, New York; Remote | $230–280K |
 | 2026-11-17 | OpenAI | [Strategy & Operations Lead, France](https://jobs.ashbyhq.com/openai/5899e8d5-132f-40b3-9ff6-37830644743f) | Paris, France; Remote | — |
-| 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
 | 2026-11-17 | Upfront Ventures portfolio jobs | [VP, Strategic Finance & Planning (Reveleer)](https://reveleer.breezy.hr/p/0a14e4270d31-vp-strategic-finance-planning) | glendale, ca, usa | — |
+| 2026-11-17 | Motive | [Director, FP&A](https://job-boards.greenhouse.io/gomotive/jobs/8941487002) | United States - Remote | $175–241K |
 | 2026-11-16 | Coinbase | [Chief of Staff, CTO](https://www.coinbase.com/careers/positions/8393768?gh_jid=8393768) | Remote - USA | $212–250K |
 | 2026-11-16 | DoorDash | [Senior Manager, Audience Insights](https://job-boards.greenhouse.io/doordashusa/jobs/8392708) | Seattle, WA; Los Angeles, CA, Chicago, IL; Austin, TX; Denve | $160–235K |
 | 2026-11-16 | Pinterest | [Sales Strategy & Operations Lead](https://www.pinterestcareers.com/jobs/?gh_jid=8209050) | San Francisco, CA, US; Los Angeles, CA, US | $156–272K |
@@ -114,11 +107,11 @@
 | 2026-10-16 | DoorDash | [Director, Merchant Experience - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8289292) | United States - Remote | $197–290K |
 | 2026-10-15 | Pinterest | [Director Corporate Strategy, Ads](https://www.pinterestcareers.com/jobs/?gh_jid=8027430) | New York, NY, US; Remote, US | $193–397K |
 | 2026-10-14 | Scopely | [Senior Director, Business Development](https://job-boards.greenhouse.io/scopely/jobs/5451210008?gh_jid=5451210008) | US - Culver City, California, United States | $193–284K |
+| 2026-10-13 | Upfront Ventures portfolio jobs | [Vice President, Finance (ChowNow)](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote; Remote | $320–415K |
 | 2026-10-13 | GitLab | [Director, FP&A](https://job-boards.greenhouse.io/gitlab/jobs/8827981002) | Remote, United States | $168–286K |
 | 2026-10-13 | Motive | [Director, Product Strategy & Monetization](https://job-boards.greenhouse.io/gomotive/jobs/8880889002) | United States - Remote | $185–255K |
 | 2026-10-13 | ChowNow | [Vice President, Finance](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote | — |
 | 2026-10-13 | Live Nation | [LN Concerts, Sr. Director of Operations – VIP Nation](https://livenation.wd503.myworkdayjobs.com/en-US/LNExternalSite/job/Beverly-Hills-CA-USA/LN-Concerts--Sr-Director-of-Operations---VIP-Nation_JR-93737) | Beverly Hills, CA, USA | $216–270K |
-| 2026-10-13 | Upfront Ventures portfolio jobs | [Vice President, Finance (ChowNow)](https://jobs.lever.co/chownow/7878033a-4368-45d2-8aec-dc87304231da) | Remote; Remote | $320–415K |
 | 2026-10-12 | Perplexity | [Strategic Finance Lead - GTM](https://jobs.ashbyhq.com/Perplexity/f3c7ce0d-026e-4b5d-b22d-8b6041746c3d) | San Francisco; New York City; Remote | $190–240K |
 | 2026-10-12 | Crunchyroll | [Vice President, Commercial Planning](https://boards.greenhouse.io/crunchyroll/jobs/8255544?gh_jid=8255544) | Los Angeles, California, United States | $259–324K |
 | 2026-10-12 | DoorDash | [Senior Manager, Strategy & Operations - Dasher Financial](https://job-boards.greenhouse.io/doordashusa/jobs/8273925) | Austin, TX; Washington D.C.; Seattle, WA; Los Angeles, CA; C | $170–250K |
@@ -163,8 +156,8 @@
 | 2026-07-23 | Affirm | [Chief of Staff Director, Product](https://job-boards.greenhouse.io/affirm/jobs/7808142003) | Remote US | $255–335K |
 | 2026-07-23 | WME / Endeavor | [Senior Manager, Finance](https://wmeimg.wd1.myworkdayjobs.com/en-US/WMEGRP/job/CA-Beverly-Hills---9601-Wilshire/Senior-Manager--Finance_JR28707-1) | CA-Beverly Hills - 9601 Wilshire | — |
 | 2026-07-20 | Netflix | [Finance Program Manager - M&A](https://explore.jobs.netflix.net/careers/job/790316790147) | Los Gatos,California,United States of America; Los Angeles,C | — |
-| 2026-07-02 | Yahoo | [Senior Manager, Corporate Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-Development_JR0027300) | United States of America | $122–255K |
 | 2026-07-02 | Upfront Ventures portfolio jobs | [VP of Product and Technical Strategy (AnySignal)](https://jobs.ashbyhq.com/anysignal/06632450-4f11-4324-8bf6-f7a8bd4f9ec2) | Los Angeles, CA, USA | $225–350K |
+| 2026-07-02 | Yahoo | [Senior Manager, Corporate Development](https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Senior-Manager--Corporate-Development_JR0027300) | United States of America | $122–255K |
 | 2026-06-09 | Coinbase | [Senior Manager, Finance & Strategy](https://www.coinbase.com/careers/positions/7948222?gh_jid=7948222) | Remote - USA | $201–237K |
 | 2026-06-08 | Sphere Entertainment | [VP Audio Technology Operations](https://www.sphereentertainmentco.com/job/5154557007?gh_jid=5154557007) | Burbank, CA; Las Vegas, NV; New York City, NY | $300–375K |
 | 2026-05-16 | OpenAI | [Tech Lead, Deployment & Operations — Custom Infrastructure](https://jobs.ashbyhq.com/openai/7b05d54f-c4ef-4677-bb05-f69288f585d8) | San Francisco; Remote | $342–445K |
