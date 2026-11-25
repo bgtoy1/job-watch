@@ -1,4 +1,4 @@
-# Job check 2026-11-25T19:21Z
+# Job check 2026-11-25T22:18Z
 
 ## New since last run (0)
 
@@ -20,7 +20,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (139)
+## All open matches (138)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -124,7 +124,6 @@
 | 2026-10-07 | Universal Music Group | [Vice President, Enterprise Data Governance and Strategy](https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Santa-Monica-California/Vice-President--Data-Strategy---Partnerships_UMG-23256) | 2 Locations; Santa Monica, California; New York, New York | $274–365K |
 | 2026-10-06 | Netflix | [Senior Portfolio Operations Manager, Games](https://explore.jobs.netflix.net/careers/job/790318808922) | Los Angeles,California,United States of America | — |
 | 2026-10-05 | OpenAI | [Strategy & Operations Lead - Japan](https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca) | Tokyo, Japan; Remote | — |
-| 2026-10-05 | Crunchyroll | [Senior Manager, Global Engagement Strategy and Analytics](https://boards.greenhouse.io/crunchyroll/jobs/8255517?gh_jid=8255517) | Los Angeles, California, United States; San Francisco, CA, U | — |
 | 2026-10-02 | Coinbase | [Corporate Development Senior Manager](https://www.coinbase.com/careers/positions/8238602?gh_jid=8238602) | Remote - USA | $230–271K |
 | 2026-10-01 | Crunchyroll | [Vice President, FP&A - GTM](https://boards.greenhouse.io/crunchyroll/jobs/8244816?gh_jid=8244816) | Los Angeles, California, United States | $236–295K |
 | 2026-10-01 | Fanatics Collectibles | [Director, Product Strategy and Operations](https://job-boards.greenhouse.io/fanaticscollectibles/jobs/4414184009) | Dallas, TX, United States; Los Angeles, CA, United States; N | $220–275K |
