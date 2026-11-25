@@ -1,14 +1,15 @@
-# Job check 2026-11-25T10:28Z
+# Job check 2026-11-25T13:45Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-10-19 | Scopely | [Director, Corporate Development](https://job-boards.greenhouse.io/scopely/jobs/5449450008?gh_jid=5449450008) | US - Culver City, California, United States | $164–247K |
 
 ## Companies that failed (1)
 
@@ -20,7 +21,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (142)
+## All open matches (141)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -101,7 +102,6 @@
 | 2026-10-19 | ElevenLabs | [Enterprise Deployment - Chief of Staff](https://jobs.ashbyhq.com/ElevenLabs/a0389dc2-77d8-439b-960b-2acb8712991e) | United States; New York; San Francisco; Remote | — |
 | 2026-10-19 | Nirvana Insurance | [Head of Operations and Strategy](https://jobs.ashbyhq.com/nirvana/f1ae5c48-c492-41e5-a2ab-0629d44f1cf7) | Remote | $280–370K |
 | 2026-10-19 | OpenAI | [Compensation Programs & Operations Lead](https://jobs.ashbyhq.com/openai/d1e4178d-8eb6-4727-9601-e230cb96eeee) | San Francisco; Remote | $270–320K |
-| 2026-10-19 | Scopely | [Director, Corporate Development](https://job-boards.greenhouse.io/scopely/jobs/5449450008?gh_jid=5449450008) | US - Culver City, California, United States | $164–247K |
 | 2026-10-19 | Netflix | [Manager, Finance & Strategy, Experiences](https://explore.jobs.netflix.net/careers/job/790319019747) | Los Angeles,California,United States of America | — |
 | 2026-10-18 | Upfront Ventures portfolio jobs | [Director of Finance Systems (Rula)](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | United States; Remote; Remote | $189–245K |
 | 2026-10-17 | Rula | [Director of Finance Systems](https://jobs.ashbyhq.com/rula/8f49abb1-6c5c-4fed-b2d3-a171dece403b) | Remote - United States | $189–245K |
