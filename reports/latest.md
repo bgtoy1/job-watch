@@ -1,4 +1,4 @@
-# Job check 2026-11-25T13:45Z
+# Job check 2026-11-25T16:30Z
 
 ## New since last run (0)
 
@@ -9,7 +9,7 @@
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-10-19 | Scopely | [Director, Corporate Development](https://job-boards.greenhouse.io/scopely/jobs/5449450008?gh_jid=5449450008) | US - Culver City, California, United States | $164–247K |
+| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 
 ## Companies that failed (1)
 
@@ -21,7 +21,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (141)
+## All open matches (140)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -51,7 +51,6 @@
 | 2026-11-16 | Stripe | [Product Manager, Finance Operations](https://stripe.com/jobs/search?gh_jid=8393939) | US-Remote | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Corporate Development (Mergers & Acquisitions)](https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions) | Burbank, CA, USA | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
-| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 | 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
