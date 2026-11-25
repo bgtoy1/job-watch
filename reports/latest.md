@@ -1,16 +1,14 @@
-# Job check 2026-11-25T04:32Z
+# Job check 2026-11-25T07:51Z
 
-## New since last run (1)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-11-25 | Disney (Disney Careers site) | [Sr Manager Franchise & Commercial Strategy](https://join.disneycareers.com/global/en/job/10164438/sr-manager-franchise-commercial-strategy) | Glendale, CA, USA | — |
-
-## Closed since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
+
+## Closed since last run (0)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
 
 ## Companies that failed (1)
 
