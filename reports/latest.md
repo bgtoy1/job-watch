@@ -1,15 +1,16 @@
-# Job check 2026-11-25T01:46Z
+# Job check 2026-11-25T04:32Z
 
 ## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-25 | Ramp | [People Strategy, M&A Lead](https://jobs.ashbyhq.com/ramp/ed41c87a-f944-447c-b1aa-7d8a2c005560) | New York, NY (HQ); Remote | $200–275K |
+| 2026-11-25 | Disney (Disney Careers site) | [Sr Manager Franchise & Commercial Strategy](https://join.disneycareers.com/global/en/job/10164438/sr-manager-franchise-commercial-strategy) | Glendale, CA, USA | — |
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 
 ## Companies that failed (1)
 
@@ -26,6 +27,7 @@
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 | 2026-11-25 | Ramp | [People Strategy, M&A Lead](https://jobs.ashbyhq.com/ramp/ed41c87a-f944-447c-b1aa-7d8a2c005560) | New York, NY (HQ); Remote | $200–275K |
+| 2026-11-25 | Disney (Disney Careers site) | [Sr Manager Franchise & Commercial Strategy](https://join.disneycareers.com/global/en/job/10164438/sr-manager-franchise-commercial-strategy) | Glendale, CA, USA | — |
 | 2026-11-24 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
 | 2026-11-24 | Atlassian | [Senior Principal, Engineering Strategy & Execution](https://www.atlassian.com/company/careers/details/28583) | New York - United States -   New York, New York 10003 United | — |
 | 2026-11-24 | NBCUniversal | [Director, Comms Strategy & Performance](https://jobs.smartrecruiters.com/NBCUniversal3/744000163375769) | Universal City, CALIFORNIA, United States | — |
@@ -51,7 +53,6 @@
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Corporate Development (Mergers & Acquisitions)](https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions) | Burbank, CA, USA | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
 | 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
-| 2026-11-13 | OpenAI | [Strategy & Operations Lead — SEA & ANZ](https://jobs.ashbyhq.com/openai/b1a5980d-1c52-4af5-8596-5951b584ca37) | Singapore; Remote | — |
 | 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
