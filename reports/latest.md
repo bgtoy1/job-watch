@@ -1,15 +1,14 @@
-# Job check 2026-11-25T16:30Z
+# Job check 2026-11-25T19:21Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (1)
+## Closed since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-16 | Salesforce | [Business Strategy Director (Financial Services, Healthcare & Life Sciences)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Remote/Business-Strategy-Director--Financial-Services--Healthcare---Life-Sciences-_JR365063) | 8 Locations; Indiana - Remote; Massachusetts - Remote; Calif | $238–345K |
 
 ## Companies that failed (1)
 
@@ -21,7 +20,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (140)
+## All open matches (139)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -55,7 +54,6 @@
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 | 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
-| 2026-11-12 | Disney (Disney Careers site) | [Product Strategy and Operations Principal, Streaming](https://join.disneycareers.com/global/en/job/10164959/product-strategy-and-operations-principal-streaming) | San Francisco, CA, USA; Burbank, CA, USA | — |
 | 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-11 | Updater | [VP, Strategic Finance & Business Operations](https://job-boards.greenhouse.io/updater/jobs/8379091) | Remote, US | $260–300K |
 | 2026-11-11 | Disney (Disney Careers site) | [Director, Partnerships Strategic Planning](https://join.disneycareers.com/global/en/job/10164962/director-partnerships-strategic-planning) | Santa Monica, CA, USA | — |
