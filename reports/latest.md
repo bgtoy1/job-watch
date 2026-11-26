@@ -1,15 +1,14 @@
-# Job check 2026-11-26T16:27Z
+# Job check 2026-11-26T19:27Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (1)
+## Closed since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-03-01 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#4lih0q38nvn50m5122bn7r4n0&:~:text=Chief%20of%20Staff) |  | — |
 
 ## Companies that failed (1)
 
