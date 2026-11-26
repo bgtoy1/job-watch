@@ -1,15 +1,15 @@
-# Job check 2026-11-26T13:45Z
+# Job check 2026-11-26T16:27Z
 
-## New since last run (1)
-
-| Posted | Company | Role | Location | Base |
-|---|---|---|---|---|
-| 2026-02-24 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#90fcgd7v45e65vzhl1rkzpqjk&:~:text=Chief%20of%20Staff) |  | — |
-
-## Closed since last run (0)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+
+## Closed since last run (1)
+
+| Posted | Company | Role | Location | Base |
+|---|---|---|---|---|
+| 2026-03-01 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#4lih0q38nvn50m5122bn7r4n0&:~:text=Chief%20of%20Staff) |  | — |
 
 ## Companies that failed (1)
 
@@ -21,7 +21,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (139)
+## All open matches (138)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -161,7 +161,6 @@
 | 2026-06-08 | Sphere Entertainment | [VP Audio Technology Operations](https://www.sphereentertainmentco.com/job/5154557007?gh_jid=5154557007) | Burbank, CA; Las Vegas, NV; New York City, NY | $300–375K |
 | 2026-05-16 | OpenAI | [Tech Lead, Deployment & Operations — Custom Infrastructure](https://jobs.ashbyhq.com/openai/7b05d54f-c4ef-4677-bb05-f69288f585d8) | San Francisco; Remote | $342–445K |
 | 2026-03-11 | Databricks | [Sr. Strategy & Operations Program Lead, Accenture Business Group](https://databricks.com/company/careers/open-positions/job?gh_jid=8439170002) | United States | $181–249K |
-| 2026-03-01 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#4lih0q38nvn50m5122bn7r4n0&:~:text=Chief%20of%20Staff) |  | — |
 | 2026-02-24 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#90fcgd7v45e65vzhl1rkzpqjk&:~:text=Chief%20of%20Staff) |  | — |
 | 2025-12-19 | Ethos | [Director, Strategy & Operations, Consumer](https://job-boards.greenhouse.io/ethoslife/jobs/8328817002) | Remote US | $169–298K |
 
