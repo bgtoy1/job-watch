@@ -1,9 +1,10 @@
-# Job check 2026-11-26T10:28Z
+# Job check 2026-11-26T13:45Z
 
-## New since last run (0)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-02-24 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#90fcgd7v45e65vzhl1rkzpqjk&:~:text=Chief%20of%20Staff) |  | — |
 
 ## Closed since last run (0)
 
@@ -20,7 +21,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (139)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -161,6 +162,7 @@
 | 2026-05-16 | OpenAI | [Tech Lead, Deployment & Operations — Custom Infrastructure](https://jobs.ashbyhq.com/openai/7b05d54f-c4ef-4677-bb05-f69288f585d8) | San Francisco; Remote | $342–445K |
 | 2026-03-11 | Databricks | [Sr. Strategy & Operations Program Lead, Accenture Business Group](https://databricks.com/company/careers/open-positions/job?gh_jid=8439170002) | United States | $181–249K |
 | 2026-03-01 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#4lih0q38nvn50m5122bn7r4n0&:~:text=Chief%20of%20Staff) |  | — |
+| 2026-02-24 | Upfront Ventures portfolio jobs | [Chief of Staff (Aimerce)](https://www.aimerce.ai/careers#90fcgd7v45e65vzhl1rkzpqjk&:~:text=Chief%20of%20Staff) |  | — |
 | 2025-12-19 | Ethos | [Director, Strategy & Operations, Consumer](https://job-boards.greenhouse.io/ethoslife/jobs/8328817002) | Remote US | $169–298K |
 
 Not covered by this script: Meta (metacareers.com answers HTTP 400 to scripted requests; check LA/Burbank/remote roles by hand), Whatnot (no public Greenhouse or Ashby board found; check whatnot.com/careers), Superhuman / Grammarly (Greenhouse and Ashby boards return 404; check superhuman.com/careers), Tixr (Rippling board ats.rippling.com/tixr; needs a reader once the probe finds its data feed)
