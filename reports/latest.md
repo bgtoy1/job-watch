@@ -1,10 +1,9 @@
-# Job check 2026-11-27T16:26Z
+# Job check 2026-11-27T19:23Z
 
-## New since last run (1)
+## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-27 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 
 ## Closed since last run (0)
 
