@@ -1,9 +1,10 @@
-# Job check 2026-11-27T07:47Z
+# Job check 2026-11-27T10:26Z
 
-## New since last run (0)
+## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-27 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/) | Los Angeles, CA, US, 90038 | $157–235K |
 
 ## Closed since last run (0)
 
@@ -20,10 +21,11 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (137)
+## All open matches (138)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-27 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/) | Los Angeles, CA, US, 90038 | $157–235K |
 | 2026-11-25 | Ramp | [People Strategy, M&A Lead](https://jobs.ashbyhq.com/ramp/ed41c87a-f944-447c-b1aa-7d8a2c005560) | New York, NY (HQ); Remote | $200–275K |
 | 2026-11-25 | Disney (Disney Careers site) | [Sr Manager Franchise & Commercial Strategy](https://join.disneycareers.com/global/en/job/10164438/sr-manager-franchise-commercial-strategy) | Glendale, CA, USA | — |
 | 2026-11-24 | OpenAI | [B2B Partnerships Lead, Business Development](https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5) | San Francisco; New York City; Remote | $333–445K |
