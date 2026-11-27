@@ -1,14 +1,15 @@
-# Job check 2026-11-27T01:46Z
+# Job check 2026-11-27T04:30Z
 
 ## New since last run (0)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 
 ## Companies that failed (1)
 
@@ -20,7 +21,7 @@
 - Legendary Entertainment: OK via paylocity:07c8d9de-9e8b-43d7-a4ac-acfdf615588a, 0 postings read, 0 match
 - a16z portfolio jobs: FAILED: consider board page: no board id | HTTP 404 for https://jobs.a16z.com/api-boards/search-jobs | getro board page: no __NEXT_DATA__
 
-## All open matches (138)
+## All open matches (137)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
@@ -52,7 +53,6 @@
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
 | 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
 | 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
-| 2026-11-12 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
 | 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-11 | Updater | [VP, Strategic Finance & Business Operations](https://job-boards.greenhouse.io/updater/jobs/8379091) | Remote, US | $260–300K |
