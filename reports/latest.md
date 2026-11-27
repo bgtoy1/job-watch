@@ -1,15 +1,16 @@
-# Job check 2026-11-27T10:26Z
+# Job check 2026-11-27T13:41Z
 
 ## New since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
-| 2026-11-27 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/) | Los Angeles, CA, US, 90038 | $157–235K |
+| 2026-11-27 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 
-## Closed since last run (0)
+## Closed since last run (1)
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 
 ## Companies that failed (1)
 
@@ -25,6 +26,7 @@
 
 | Posted | Company | Role | Location | Base |
 |---|---|---|---|---|
+| 2026-11-27 | ElevenLabs | [Company Operations Lead](https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb) | London; United States; New York; United Kingdom; Remote | — |
 | 2026-11-27 | Paramount Skydance | [Director, Finance Leadership Development Program](https://careers.paramount.com/job/Los-Angeles-Director%2C-Finance-Leadership-Development-Program-CA-90038/1435609300/) | Los Angeles, CA, US, 90038 | $157–235K |
 | 2026-11-25 | Ramp | [People Strategy, M&A Lead](https://jobs.ashbyhq.com/ramp/ed41c87a-f944-447c-b1aa-7d8a2c005560) | New York, NY (HQ); Remote | $200–275K |
 | 2026-11-25 | Disney (Disney Careers site) | [Sr Manager Franchise & Commercial Strategy](https://join.disneycareers.com/global/en/job/10164438/sr-manager-franchise-commercial-strategy) | Glendale, CA, USA | — |
@@ -53,7 +55,6 @@
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Corporate Development (Mergers & Acquisitions)](https://join.disneycareers.com/global/en/job/10163535/director-corporate-development-mergers-acquisitions) | Burbank, CA, USA | — |
 | 2026-11-16 | Disney (Disney Careers site) | [Director, Production & Planning](https://join.disneycareers.com/global/en/job/10165136/director-production-planning) | Burbank, CA, USA | — |
 | 2026-11-13 | Perplexity | [Head of Pipeline Operations](https://jobs.ashbyhq.com/Perplexity/0ddf1b9a-9875-445c-a78f-f033d023a34a) | San Francisco; Austin; New York City; Remote | $225–275K |
-| 2026-11-13 | Zillow | [Corporate Development Senior Manager](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Manager--Corporate-Development_P750773) | Remote-USA | $158–252K |
 | 2026-11-12 | Netflix | [Manager, Audience Strategy - Publishing](https://explore.jobs.netflix.net/careers/job/790319479285) | Los Angeles,California,United States of America | — |
 | 2026-11-12 | Zillow | [Director, Workforce Planning](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Director--Workforce-Planning_P751529-1) | Remote-USA | $142–228K |
 | 2026-11-11 | Updater | [VP, Strategic Finance & Business Operations](https://job-boards.greenhouse.io/updater/jobs/8379091) | Remote, US | $260–300K |
